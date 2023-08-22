@@ -1,0 +1,367 @@
+#+begin_export latex
+
+\newfontfamily\unicodefont{Doulos SIL}
+#+end_export
+
+* Datos de la Columna
+
+- Título :: Columna informática de Yo no fui.
+- Sinopsis :: Aprender qué es la informática y los conceptos necesarios para entender el día a día de lo que sucede alrededor de la computadora. Explicaciones de hechos pasados y presentes relevantes para comprender lo que sucede a nuestro alrededor.
+  
+- Tema :: Informática
+- Recorte :: Conocimiento general de la informática
+- Enfoque :: Conceptos y curiosidades de la informática. Explicaciones de noticias actuales del tema.
+  
+- Audiencia :: Mayores de ~12 años, con conocimiento mínimo de la informática.
+- Identidad Sonora :: Alegre, amena.
+- Género :: Columna narrativa. Debates o entrevistas cortas.
+- Formato :: Debate de 20'.
+- Estructura :: Columna con introducción, desarrollo y conclusión.
+  - Introducción motivada por una pregunta disparadora (P. ej. ¿qué es un algoritmo?)
+  - Desarrollo con posible intervención de la personas presentes en el piso.
+  - Conclusión que ofrezca una pregunta o moraleja para el público.
+- Alojamiento :: Vivo por radio. Internet como recorte de la columna.
+- Distribución :: Spotify, página Web personal, open.audio u otra plataforma Funkwhale. Posiblemente, redes sociales (Mastodon y privativas).
+- Identidad gráfica :: -
+- Licencia :: Creative Commons + Reconocimiento + Compartir Igual 4.0 Internacional (CC-by-SA):
+  http://creativecommons.org/licenses/by-sa/4.0/
+  Ante modificaciones, se debe especificar la obra original y sus autores.
+  
+* Temas
+1. ¿Quién fue Ada Lovelace?
+2. ¿Quién fue Turing?
+3. ¿Qué es un algoritmo?
+4. \new{} ¿Qué es el filtro burbuja?
+
+* ¿Quién fue Ada Lovelace?                                           :ATTACH:
+:PROPERTIES:
+:ID:       6f2b0c10-f143-4af7-a523-b4bcb302dd79
+:END:
+Fecha: <2023-06-30 vie>
+
+Mini-guion de prueba:
+
+1. ¿Saben quién es la primer persona que programó y qué hizo?
+2. (Optional) Si bien, los comienzos de la informática son recientes, hay muchos conceptos previos a "computación"
+   - Algoritmo, programa, instrucciones, cálculos, máquinas.
+   - /A partir de ahora, cuando digo "computación" significa calcular o una persona que hace cálculos./     
+3. En 1766 se precalculaban muchos resultados en tablas: logaritmos, trigonométricos, etc. También, tablas para distintos oficios: /Nautical Almanac/ (ver Figura [[fig:alman-nauti]]).
+   - Computadores eran personas (¡eran freelancers! ¡vaya si es nueva la idea!) que calculaban: había muchos errores.
+4. En 1820 Charles Babbage costruye la *máquina/motor Diferencial*. Calculaba funciones polinomiales. Recibió inversiones del gobierno británico.
+   - La idea era crear estas tablas con menos errores (y más barata claro).
+   - Aquí, aparece *Lady Byron* (Anne Milbanke), quien observa un prototipo en funcionamiento.
+5. En 1837 diseña la *Máquina Analítica* de Charles Babbage.
+   1. Tenía una unidad aritmética-lógica (ALU), control de flujo y memoria. Usaba tarjetas perforadas.
+   2. Nunca se completó
+6. Mientras, una joven se interesa por la máquina: *Augusta Byron*, hija de Lady Byron.
+   1. Una joven que aprendió matemática y lógica impulsada por su madre (para que no heredara de su padre la locura y el exceso romántico).
+      Conoció a Babbage y otros científicos de la época, incluso a Charles Dickens (Oliver Twist, A Christmass Carol (cuentos de navidad)).
+   2. Se casa con William King, que luego es designado en Earl of Lovelace o "conde" de Lovelace. Augusta pasó a llamarse Ada Lovelace.
+7. Consideraba que la Máquina Analítica tenía potencial por que se programaba \warning{} *confirmar con bibliografía*.
+8. ¿Qué hizo Ada? Publicó una traducción de /Sketch of the Analytical Engine invented by Charles Babbage/ por Luigi Federico Menabrea. Incluyó sus propias anotaciones.
+
+    \books{} *Mostrar la Tabla a Mete, Virgi y Bomba* (¡tengo el PDF completo!).
+    
+   1. Diseñó una tabla para calcular los números de Bernoulli.
+   2. La tabla tenía una secuencia de instrucciones, las variables utilizadas, los resultados en fórmulas matemáticas, y mostraba cómo iba cambiando las variables.
+      1. Una secuencia de instrucciones... ¡es un programa!
+      2. En la universidad, la tabla la conocemos como ¡traza! o debug para los programadores.
+9. Hubo y hay muchas mujeres en la informática: "Las chicas de ENIAC" (primera computadora), proyecto VENONA, Booth Kathleen (lenguaje ensamblador), Grace Hopper (COBOL), Margaret Hamilton (Apollo)
+   
+   En Argentina: Rebeca Guber, Cecilia Berdichevski. También la estudianta de Turing que brinda la primer clase de programación (1961): Cicely Popplewell
+   
+   1. Eran matemáticas, de personal de administración, de operadoras de telefonía, todas ellas utilizaban computadoras.
+   2. A mediados de los 70' o 80' aproximadamente, la cantidad de mujeres en la computación ha disminuido considerablemente.
+   3. En los 90' y 00' se escuchaba cada tanto que la informática era para varones.
+   4. Hoy en día, la matrícula de mujeres inscriptas sigue siendo muy reducida comparada con la de los varones. Con un poco de tendencia a revertir esto.
+10. (Opcional) Ada fue citada en un artículo de Turing
+
+    Turing se preguntaba si una computadora puede pensar, Ada ya sugería que hay limitaciones matemáticas y que no fue creada para ser original.
+11. (Opcional) Se creó un lenguaje de programación a partir de un concurso de la DoD en 1970 buscando el más robusto y entendible. Pasaron casi 7 años y 450 lenguajes para comprender que ninguno cumplía con lo solicitado por lo que se armo un concurso para uno nuevo: Al lenguaje que ganó se lo llamó Ada en honor a ella.
+    1. Un lenguaje que se basa en la legibilidad del código, la claridad del mismo y la seguridad/robusteza del mismo.
+12. Si hubo mujeres en la matemática y la informática, con grandes logros y aportes:
+    ¿no les parece que la informática es para cualquier persona que quiera aprender más allá de su género?
+
+Aproximadamente, se tarda 2' a 3' por ítem. Total: 20'30''.
+
+#+name: fig:alman-nauti
+#+caption: Almanaque nautico.
+# [[attachment:Nautical_almanac_01.png]]
+
+** Bibliografía
+- "Computer a history of the information machine". Martin Campbell-Kelly y William Aspray. Westview Press. 2004.
+  https://archive.org/embed/computerhistoryo02edcamp
+- Imágen de un Almanaque Náutico.
+  [[https://commons.wikimedia.org/wiki/File:Nautical_almanac_01.png][commons.wikimedia.org/wiki/File:Nautical_almanac_01.png]]
+
+* ¿Quién fue Alan Turing?
+Fecha: <2023-07-14 vie>
+
+1. Repaso:
+   1. ¿Qué era una computadora antes de Turing? \pointright{} Una computadora, era una persona que calculaba números: trabajo tedioso donde solo "sacaban cuentas".
+
+      ¿Se acuerdan de las tablas y el Almanaque Náutico?
+   
+   2. Máquina Analítica de Babbage:
+      1. Nunca llegó a implementarla completamente.
+      2. Primer intento de crear una máquina que *no hace una tarea*:
+         Usa instrucciones con planchuelas perforadas.
+      # 3. Nace Turing en 1912, un 23 de junio. Estudia matemáticas en la universidad.
+      #    - Obtiene una beca para trabajar en su misma universidad.
+2. Nace el 23 de junio de 1912. Estudia matemáticas.
+
+   Realiza su doctorado e introduce el concepto de *Máquina de Turing* (MT) en 1936 aprox.   
+   - Dice que la máquina computa: realiza cálculos ¡ya no es más una persona!   
+   - Usa una cinta, un cabezal lectoescritor, y estados. La define matemática o formalmente.   
+   - Alonzo Church (su director de tesis doctoral) y otros autores desarrollan otras formas de computar (calculo lambda, funciones recursivas primitivas, etc.).   
+   - Todas equivalentes a la de Turing.
+   
+3. +Determina que hay cosas que no se puede computar.+ \larr \warning{} ¡No se llegó! 
+   - +Demuestra el /Entscheidungsproblem/+
+     # #+latex: {\unicodefont [ɛntˈʃaɪ̯dʊŋspʁoˌbleːm]}
+     +problema de la detención (tesis Turing-Church):+
+     # - Gottfried Leibniz: ¿se imaginan una máquina para determinar si una sentencia lógica es verdadera?
+     # - Lógica \to{} MT: Las MT manipulan símbolos y representan funciones.
+     - +Turing: ¿se puede crear un programa para determinar si una máquina se detiene o no bajo una entrada?+
+     - +Otro día...+
+   - +Por eso, no se puede saber si hay bucle infinito: ¡se cuelga la compu!+
+4. Turing pudo romper los códigos alemanes de la máquina enigma con su invento: la máquina Bombe. Fue en Blechtley Park. 1939.
+   - Hay muchas películas de Turing: El Código Enigma...
+     - Ojo con al impresión que dejan las pelis: se rumorea que era un excelente atleta.
+5. Publica "Computing Machinery and Intelligence" en 1950... Veamos qué tiene...
+   
+   \books{} *Llevar el artículo impreso para que lo vea Mete, Virgi y Bomba*
+   
+   1. Tiene una conversación entre una máquina y una persona...
+      ¿chat con una IA?¡ni siquiera existía el término!
+   2. Se debate si las máquinas pueden pensar...
+      Su respuesta: ¿¡para qué preguntarse eso si van a simular que piensan muy bien!?
+   3. Hay un título interesante: "Learning machines"
+      ¡No me digas que ya preveía que las máquinas pueden aprender!
+6. En esa época, había mucha interdisciplina (psicología + matemáticas en Blechtley Park).
+   Hizo trabajos en biología matemática: morfogénesis.
+7. Alan Turing fue acusado por ser homosexual y condenado a un tratamiento hormonal (~1952).
+8. Alan Turing recibe el perdón... póstumo, de la Reina Elizabeth II en 2013.
+   - Existe la informalmente llamada "Alan Turing Law", ley que retroactivamente perdona a personas condenadas por las leyes de actos homosexuales.
+9. Entonces, teniendo en cuenta la historia de Turing nos deja mucho para pensar:
+   - Con tantos dichos en los medios ¿hemos podido superar esa idea de "indecencia" ante el género y orientación sexual?¿aún más allá de quién tenemos en frente?
+   - Ahora que tenemos como noticia la IA, ¿les parece que es algo reciente?
+   - ¿Creen que la computadora puede reemplazar completamente a un humano?
+     ¡hay problemas no computables!
+     Por ejemplo: ¿Creen que la computadora puede reemplazar una obra de arte? ¿significará lo mismo que si lo hace una persona? ¿una canción que la canta un cantante expresaría lo mismo?
+
+** Bibliografía
+
+- "La computación Turing - Pensando en máquinas que piensan". Rafael Lahoz-Beltra. RBA Colleccionables. 2012.
+- "Computing Machinery and Intelligence". Alan M. Turing. Mind LIX N^{\circ }236. 1950. 
+  https://academic.oup.com/mind/article/LIX/236/433/986238
+
+
+#+latex: \newpage
+* ¿Qué es un algoritmo?
+
+Fecha: <2023-07-28 vie>
+
+#+begin_quote
+/Algoritmo/
+
+/Quizá del lat. tardío *algobarismus, y este abrev. del ár. clás./
+#+latex: {\unicodefont ḥisābu lḡubār}
+/"cálculo mediante cifras arábigas"./
+
+1. /m. Conjunto ordenado y finito de operaciones que permite hallar la solución de un problema./
+2. /m. Método y notación en las distintas formas del cálculo./
+
+-- RAE
+#+end_quote
+
+1. Definición de la RAE.
+   1. Sumémosle "operaciones no ambiguas".
+   2. ¿Dice del "árabe clásico"? \to{} ¡no es un concepto nuevo!
+
+   Se piensa que el nombre se debe por el matemático Abu Abdallah Muḥammad Ibn Mūsā Al-Jwarizmī (cariñosamente como: Abu Yāffar, al-Juarismi o Algorithmi), cerca de 820 dc.
+2. ¿Qué algoritmos usamos día a día?
+   - Cuando sumamos y restamos en un papel.
+   - ¿Qué hacés todas las mañanas al levantarte?
+3. ¿Qué tiene que ver con la compu?
+   1. Las computadoras "computan": calculan: ¿cómo?
+   2. La computadora usa "programas": conjunto ordenado y finito de instrucciones para una computadora.
+4. ¿Qué es y qué no es un algoritmo?
+   1. ¿El software es un programa? ¿y los datos?
+   2. ¡Algo que guarde estados! Variables, archivos...
+   3. ¿La IA será un algoritmo? \to{} P. ej.: "Es el algoritmo de Netflix/Spotify"
+5. ¿Cuántas instrucciones ejecuta un procesador?
+   
+   \nerdface{} Una curiosidad: *Bomba, Mete, Virgi: ¡Saquen la calculadora \abacus{}!*
+   Si el procesador es de 2Ghz \to 2 000 000 000 Hz (Intel i9 con 8 núcleos, 2023).
+   Instrucción usa 1 o dos ciclos.
+   
+   Saquemos la cuenta: ¿cuántas instrucciones hace en un segundo?
+6. ¿Cuántos programas puede ejecutar una computadora?
+   1. ¿Cuántos procesadores tenés? ¿cuántos hilos?
+   2. El sistema operativo intercala el uso del procesador.
+   3. En definitiva: pueden haber muchísimos programas funcionando.q
+
+   ¡Los informáticos nos gusta saber qué hace todos los programas!
+   No nos gusta los virus.
+   
+7. +(Si hay tiempo) ¿Cómo son los programas?+
+
+  \books{} Llevar los ejemplos de un programa escrito en binario, assembler y código de alto nivel.
+   
+   1. El procesador usa electricidad: supongamos "5v es encendido, 0v es apagado".
+   2. Binario 1 y 0. Compuertas lógicas \to{} ALU
+   3. Formato de las instrucciones: supongamos 4 bits dicen la instrucción, el resto son los parámetros.
+   4. Pero, ¿alguien entiende binario? \to{} Assembler: le damos mnemotécnicos a cada instrucción.
+   5. ¿Alguien entiende assembler? \to{} Lenguajes de alto nivel: palabras se transforman en código assembler.
+
+Preguntas:
+- ¿Cómo ven a la computadora ahora que entienden un poco más que hace?
+- ¿Qué algoritmo usarán para este fin de semana?
+
+#+latex: \newpage
+* ¿Qué es el filtro burbuja?
+Fecha: <2023-08-11 vie>
+
+1. Nada de Repaso \grinning{}: "¿Se acuerdan que hablamos de Algoritmos y que la IA es un algoritmo?
+   ¿que mencionamos a los algoritmos de sugerencias?".
+2. Definición: /state of intellectual isolation that can result from personalised searchs./
+   1. ¿Qué es? Podríamos decir que es un fenómeno medio sociológico-tecnológico.
+3. \glassright{} Mostremos cómo funciona con buscar Messi y ver los resultados: Buscamos en Google "Messi", y buscamos "Messi" en Google con Tor.
+   Probemos con siglas: WP, BP...
+
+   \books{} Tener a mano el artículo E. Bozdag, "Bias in algorithmic filtering and personalization", Springer. Página 212.
+   
+   1. ¿Cómo funciona? ¿cómo recolectan la información? ¿por qué? \to{} Cómo se arman las burbujas.
+      1. Historial, páginas que visitamos, búsquedas hechas, ubicación geográfica.
+      2. Caso extremo: Facebook tracks users with like button: Web beacons (baliza/faro Web)
+         
+4. Efectos: Exposición a Echo Chamber \to{} más Fake News
+   1. No solo funciona para las ads \to{} ¡también para lo que leemos en las redes!
+   2. Dinámicas: Estás solo, es invisible (¿es neutral/unbiased? es casi imposible saberlo), no se elige entrar.
+   3. Echo Chamber: Creencias amplificadas por repetición en un sistema cerrado y aislado de refutaciones.
+   4. Se repiten noticias para autojutificarse: ¿y si agregamos Fake News?
+   5. "nos cierran a nuevas ideas"
+   6. "nuestros intereses son los únicos que existen"
+   7. No alcanzar otros recursos: una vez adentro de la Echo chamber, ¿se puede buscar otros artículos fácilmente?
+   8. Meteoro y Bomba citaron hace un tiempo a Chris Palmer de la EFF: /"You're getting a free service, and the cost is information about you. And Google and Facebook translate that pretty directly into money."/
+5. (Opcional) ¿Alguna vez intentaron usar redes sociales libres? ¿qué sucede al principio?
+
+   ¿Cómo es no estar en el filtro?
+   
+6. Alternativas:
+   1. Tecnológicas: Metabuscadores: Startpage; Otros: DDG, Yacy...
+   2. Personales: ¿Qué podemos hacer como usuarixs? \to{} ¿usar Tor?
+   3. ¿Sirve navegar en privado? \to{} Hay que saber navegar en privado con Tor.
+7. Hotel California: "You can check out any time you like/But you can never leave"
+   1. Aislamiento de los usuarios de otras redes sociales: *no proveen contenidos de otras redes*.
+   2. Afecta negativamente a la *Neutralidad en la red* (acceso equitativo de la información).
+
+Preguntas:
+- Ahora que conocen este fenómeno: ¿Consideran importante aprender de informática? ¿Y que estaría bueno conocer cómo funcionan estos algoritmos de sugerencia?
+- Cada noticia que ustedes miran en redes sociales: ¿no les parece que conviene chequearlas con varias fuentes? ¿Habitualmente se preguntan si son verdad o no?
+
+\musicalnotes{} ¿Se podrá terminar con la canción Hotel California? ~03:04
+
+** Bibliografía
+1. https://www.theguardian.com/technology/2010/nov/22/tim-berners-lee-facebook
+   1. https://www.scientificamerican.com/article/long-live-the-web/
+2. https://www.huffpost.com/entry/algorithms-and-the-filter_b_869473
+3. https://www.technologyreview.com/2015/09/16/166222/facebooks-like-buttons-will-soon-track-your-web-browsing-to-target-ads/
+4. https://www.eff.org/deeplinks/2011/10/facebook%E2%80%99s-hotel-california-cross-site-tracking-and-potential-impact-digital-privacy
+5. https://misq.umn.edu/understanding-echo-chambers-and-filter-bubbles-the-impact-of-social-media-on-diversificationi-and-partisan-shifts-in-news-consumption.html
+6. Pariser, Eli. "The Filter Bubble: What the Internet is Hiding from You". Penguin Press. 2011.
+
+
+* Licencia de esta obra
+[[https://i.creativecommons.org/l/by-sa/4.0/88x31.png]]
+
+Esta obra se encuentra bajo la licencia Creative Commons Atribución Compartir Igual 4.0 Internacional.
+
+* Meta     :noexport:
+
+# ----------------------------------------------------------------------
+#+TITLE:  Columna de Informátia - Yo no fui
+#+SUBTITLE:
+#+AUTHOR: Christian Gimenez
+# #+DATE:   13 jun 2023
+#+EMAIL:
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
+
+#+STARTUP: inlineimages hidestars content hideblocks entitiespretty
+#+STARTUP: indent fninline latexpreview
+
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t ':t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS: tex:imagemagick
+
+#+TODO: FALTA | HECHO
+
+# -- Export
+#+LANGUAGE: es
+#+LINK_UP:   
+#+LINK_HOME: 
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+export_file_name: index
+
+# -- HTML Export
+#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: index.html
+#+XSLT:
+
+# -- For ox-twbs or HTML Export
+# #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
+# -- -- LaTeX-CSS
+# #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+
+# #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
+# #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
+
+
+# -- LaTeX Export
+# #+LATEX_CLASS: article
+#+latex_compiler: lualatex
+# #+latex_class_options: [12pt, twoside]
+#+latex_header: \usepackage{emoji}
+#+latex_header: \usepackage{csquotes}
+# #+latex_header: \usepackage[spanish]{babel}
+#+latex_header: \usepackage[margin=2cm]{geometry}
+#+latex_header: \usepackage{fontspec}
+# -- biblatex
+#+latex_header: \usepackage[backend=biber, style=alphabetic, backref=true]{biblatex}
+#+latex_header: \addbibresource{tangled/biblio.bib}
+# -- -- Tikz
+# #+LATEX_HEADER: \usepackage{tikz}
+# #+LATEX_HEADER: \usetikzlibrary{arrows.meta}
+# #+LATEX_HEADER: \usetikzlibrary{decorations}
+# #+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.geometric}
+# #+LATEX_HEADER: \usetikzlibrary{shapes.symbols}
+# #+LATEX_HEADER: \usetikzlibrary{positioning}
+# #+LATEX_HEADER: \usetikzlibrary{trees}
+
+# #+LATEX_HEADER_EXTRA:
+
+# --  Info Export
+#+TEXINFO_DIR_CATEGORY: A category
+#+TEXINFO_DIR_TITLE: Columna de Informátia - Yo no fui: (Columna Meteoro)
+#+TEXINFO_DIR_DESC: One line description.
+#+TEXINFO_PRINTED_TITLE: Columna de Informátia - Yo no fui
+#+TEXINFO_FILENAME: Columna Meteoro.info
+
+
+* Footnotes
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# org-use-sub-superscripts: "{}"
+# fill-column: 80
+# visual-line-fringe-indicators: t
+# ispell-local-dictionary: "spanish"
+# org-latex-default-figure-position: "tbp"
+# End:

@@ -1,0 +1,829 @@
+<!doctype html>
+<html lang="es">
+<head>
+<title>Columna de Informátia - Yo no fui</title>
+<!-- 2023-08-22 mar 18:07 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="Org-mode">
+<meta name="author" content="Christian Gimenez">
+
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style>
+/* org mode styles on top of twbs */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-size: 18px;
+    margin-bottom: 105px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 101px;
+    background-color: #f5f5f5;
+}
+
+footer > div {
+    padding: 10px;
+}
+
+footer p {
+    margin: 0 0 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#table-of-contents {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+blockquote p {
+    font-size: 18px;
+}
+
+pre {
+    font-size: 16px;
+}
+
+.footpara {
+    display: inline-block;
+}
+
+figcaption {
+  font-size: 16px;
+  color: #666;
+  font-style: italic;
+  padding-bottom: 15px;
+}
+
+/* from twbs docs */
+
+.bs-docs-sidebar.affix {
+    position: static;
+}
+@media (min-width: 768px) {
+    .bs-docs-sidebar {
+        padding-left: 20px;
+    }
+}
+
+/* All levels of nav */
+.bs-docs-sidebar .nav > li > a {
+    display: block;
+    padding: 4px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #999;
+}
+.bs-docs-sidebar .nav > li > a:hover,
+.bs-docs-sidebar .nav > li > a:focus {
+    padding-left: 19px;
+    color: #A1283B;
+    text-decoration: none;
+    background-color: transparent;
+    border-left: 1px solid #A1283B;
+}
+.bs-docs-sidebar .nav > .active > a,
+.bs-docs-sidebar .nav > .active:hover > a,
+.bs-docs-sidebar .nav > .active:focus > a {
+    padding-left: 18px;
+    font-weight: bold;
+    color: #A1283B;
+    background-color: transparent;
+    border-left: 2px solid #A1283B;
+}
+
+/* Nav: second level (shown on .active) */
+.bs-docs-sidebar .nav .nav {
+    display: none; /* Hide by default, but at >768px, show it */
+    padding-bottom: 10px;
+}
+.bs-docs-sidebar .nav .nav > li > a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.bs-docs-sidebar .nav .nav > li > a:hover,
+.bs-docs-sidebar .nav .nav > li > a:focus {
+    padding-left: 29px;
+}
+.bs-docs-sidebar .nav .nav > .active > a,
+.bs-docs-sidebar .nav .nav > .active:hover > a,
+.bs-docs-sidebar .nav .nav > .active:focus > a {
+    padding-left: 28px;
+    font-weight: 500;
+}
+
+/* Nav: third level (shown on .active) */
+.bs-docs-sidebar .nav .nav .nav {
+    padding-bottom: 10px;
+}
+.bs-docs-sidebar .nav .nav .nav > li > a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 40px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.bs-docs-sidebar .nav .nav .nav > li > a:hover,
+.bs-docs-sidebar .nav .nav .nav > li > a:focus {
+    padding-left: 39px;
+}
+.bs-docs-sidebar .nav .nav .nav > .active > a,
+.bs-docs-sidebar .nav .nav .nav > .active:hover > a,
+.bs-docs-sidebar .nav .nav .nav > .active:focus > a {
+    padding-left: 38px;
+    font-weight: 500;
+}
+
+/* Show and affix the side nav when space allows it */
+@media (min-width: 992px) {
+    .bs-docs-sidebar .nav > .active > ul {
+        display: block;
+    }
+    /* Widen the fixed sidebar */
+    .bs-docs-sidebar.affix,
+    .bs-docs-sidebar.affix-bottom {
+        width: 213px;
+    }
+    .bs-docs-sidebar.affix {
+        position: fixed; /* Undo the static from mobile first approach */
+        top: 20px;
+    }
+    .bs-docs-sidebar.affix-bottom {
+        position: absolute; /* Undo the static from mobile first approach */
+    }
+    .bs-docs-sidebar.affix .bs-docs-sidenav,.bs-docs-sidebar.affix-bottom .bs-docs-sidenav {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+}
+@media (min-width: 1200px) {
+    /* Widen the fixed sidebar again */
+    .bs-docs-sidebar.affix-bottom,
+    .bs-docs-sidebar.affix {
+        width: 263px;
+    }
+}
+</style>
+<script>
+$(function() {
+    'use strict';
+
+    $('.bs-docs-sidebar li').first().addClass('active');
+
+    $(document.body).scrollspy({target: '.bs-docs-sidebar'});
+
+    $('.bs-docs-sidebar').affix();
+});
+</script>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href="index.html"> UP </a>
+ |
+ <a accesskey="H" href="index.html"> HOME </a>
+</div><div id="content" class="container">
+<div class="row"><div class="col-md-3 col-md-push-9"><nav id="table-of-contents">
+<div id="text-table-of-contents" class="bs-docs-sidebar">
+<ul class="nav">
+<li><a href="#sec-1">1. Datos de la Columna</a></li>
+<li><a href="#sec-2">2. Temas</a></li>
+<li><a href="#sec-3">3. ¿Quién fue Ada Lovelace?</a>
+<ul class="nav">
+<li><a href="#sec-3-1">3.1. Bibliografía</a></li>
+</ul>
+</li>
+<li><a href="#sec-4">4. ¿Quién fue Alan Turing?</a>
+<ul class="nav">
+<li><a href="#sec-4-1">4.1. Bibliografía</a></li>
+</ul>
+</li>
+<li><a href="#sec-5">5. ¿Qué es un algoritmo?</a></li>
+<li><a href="#sec-6">6. ¿Qué es el filtro burbuja?</a>
+<ul class="nav">
+<li><a href="#sec-6-1">6.1. Bibliografía</a></li>
+</ul>
+</li>
+<li><a href="#sec-7">7. Licencia de esta obra</a></li>
+</ul>
+</div>
+</nav>
+</div><div class="col-md-9 col-md-pull-3"><h1 class="title">Columna de Informátia - Yo no fui</h1>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Datos de la Columna</h2>
+<div class="outline-text-2" id="text-1">
+<dl class="org-dl">
+<dt> Título </dt><dd>Columna informática de Yo no fui.
+</dd>
+<dt> Sinopsis </dt><dd>Aprender qué es la informática y los conceptos necesarios para entender el día a día de lo que sucede alrededor de la computadora. Explicaciones de hechos pasados y presentes relevantes para comprender lo que sucede a nuestro alrededor.
+</dd>
+
+<dt> Tema </dt><dd>Informática
+</dd>
+<dt> Recorte </dt><dd>Conocimiento general de la informática
+</dd>
+<dt> Enfoque </dt><dd>Conceptos y curiosidades de la informática. Explicaciones de noticias actuales del tema.
+</dd>
+
+<dt> Audiencia </dt><dd>Mayores de ~12 años, con conocimiento mínimo de la informática.
+</dd>
+<dt> Identidad Sonora </dt><dd>Alegre, amena.
+</dd>
+<dt> Género </dt><dd>Columna narrativa. Debates o entrevistas cortas.
+</dd>
+<dt> Formato </dt><dd>Debate de 20&rsquo;.
+</dd>
+<dt> Estructura </dt><dd>Columna con introducción, desarrollo y conclusión.
+<ul class="org-ul">
+<li>Introducción motivada por una pregunta disparadora (P. ej. ¿qué es un algoritmo?)
+</li>
+<li>Desarrollo con posible intervención de la personas presentes en el piso.
+</li>
+<li>Conclusión que ofrezca una pregunta o moraleja para el público.
+</li>
+</ul>
+</dd>
+<dt> Alojamiento </dt><dd>Vivo por radio. Internet como recorte de la columna.
+</dd>
+<dt> Distribución </dt><dd>Spotify, página Web personal, open.audio u otra plataforma Funkwhale. Posiblemente, redes sociales (Mastodon y privativas).
+</dd>
+<dt> Identidad gráfica </dt><dd>-
+</dd>
+<dt> Licencia </dt><dd>Creative Commons + Reconocimiento + Compartir Igual 4.0 Internacional (CC-by-SA):
+<a href="http://creativecommons.org/licenses/by-sa/4.0/">http://creativecommons.org/licenses/by-sa/4.0/</a>
+Ante modificaciones, se debe especificar la obra original y sus autores.
+</dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Temas</h2>
+<div class="outline-text-2" id="text-2">
+<ol class="org-ol">
+<li>¿Quién fue Ada Lovelace?
+</li>
+<li>¿Quién fue Turing?
+</li>
+<li>¿Qué es un algoritmo?
+</li>
+<li> ¿Qué es el filtro burbuja?
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><a id="ID-6f2b0c10-f143-4af7-a523-b4bcb302dd79" name="ID-6f2b0c10-f143-4af7-a523-b4bcb302dd79"></a><span class="section-number-2">3</span> ¿Quién fue Ada Lovelace?&#xa0;&#xa0;&#xa0;<span class="tag"><span class="badge ATTACH">ATTACH</span></span></h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Fecha: <span class="timestamp-wrapper"><span class="timestamp">&lt;2023-06-30 vie&gt;</span></span>
+</p>
+
+<p>
+Mini-guion de prueba:
+</p>
+
+<ol class="org-ol">
+<li>¿Saben quién es la primer persona que programó y qué hizo?
+</li>
+<li>(Optional) Si bien, los comienzos de la informática son recientes, hay muchos conceptos previos a &laquo;computación&raquo;
+<ul class="org-ul">
+<li>Algoritmo, programa, instrucciones, cálculos, máquinas.
+</li>
+<li><i>A partir de ahora, cuando digo &laquo;computación&raquo; significa calcular o una persona que hace cálculos.</i>     
+</li>
+</ul>
+</li>
+<li>En 1766 se precalculaban muchos resultados en tablas: logaritmos, trigonométricos, etc. También, tablas para distintos oficios: <i>Nautical Almanac</i> (ver Figura <a href="#fig:alman-nauti">1</a>).
+<ul class="org-ul">
+<li>Computadores eran personas (¡eran freelancers! ¡vaya si es nueva la idea!) que calculaban: había muchos errores.
+</li>
+</ul>
+</li>
+<li>En 1820 Charles Babbage costruye la <b>máquina/motor Diferencial</b>. Calculaba funciones polinomiales. Recibió inversiones del gobierno británico.
+<ul class="org-ul">
+<li>La idea era crear estas tablas con menos errores (y más barata claro).
+</li>
+<li>Aquí, aparece <b>Lady Byron</b> (Anne Milbanke), quien observa un prototipo en funcionamiento.
+</li>
+</ul>
+</li>
+<li>En 1837 diseña la <b>Máquina Analítica</b> de Charles Babbage.
+<ol class="org-ol">
+<li>Tenía una unidad aritmética-lógica (ALU), control de flujo y memoria. Usaba tarjetas perforadas.
+</li>
+<li>Nunca se completó
+</li>
+</ol>
+</li>
+<li>Mientras, una joven se interesa por la máquina: <b>Augusta Byron</b>, hija de Lady Byron.
+<ol class="org-ol">
+<li>Una joven que aprendió matemática y lógica impulsada por su madre (para que no heredara de su padre la locura y el exceso romántico).
+Conoció a Babbage y otros científicos de la época, incluso a Charles Dickens (Oliver Twist, A Christmass Carol (cuentos de navidad)).
+</li>
+<li>Se casa con William King, que luego es designado en Earl of Lovelace o &laquo;conde&raquo; de Lovelace. Augusta pasó a llamarse Ada Lovelace.
+</li>
+</ol>
+</li>
+<li>Consideraba que la Máquina Analítica tenía potencial por que se programaba &#9888;&#65039; <b>confirmar con bibliografía</b>.
+</li>
+<li>¿Qué hizo Ada? Publicó una traducción de <i>Sketch of the Analytical Engine invented by Charles Babbage</i> por Luigi Federico Menabrea. Incluyó sus propias anotaciones.
+
+<p>
+&#128218; <b>Mostrar la Tabla a Mete, Virgi y Bomba</b> (¡tengo el PDF completo!).
+</p>
+
+<ol class="org-ol">
+<li>Diseñó una tabla para calcular los números de Bernoulli.
+</li>
+<li>La tabla tenía una secuencia de instrucciones, las variables utilizadas, los resultados en fórmulas matemáticas, y mostraba cómo iba cambiando las variables.
+<ol class="org-ol">
+<li>Una secuencia de instrucciones&#x2026; ¡es un programa!
+</li>
+<li>En la universidad, la tabla la conocemos como ¡traza! o debug para los programadores.
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Hubo y hay muchas mujeres en la informática: &laquo;Las chicas de ENIAC&raquo; (primera computadora), proyecto VENONA, Booth Kathleen (lenguaje ensamblador), Grace Hopper (COBOL), Margaret Hamilton (Apollo)
+
+<p>
+En Argentina: Rebeca Guber, Cecilia Berdichevski. También la estudianta de Turing que brinda la primer clase de programación (1961): Cicely Popplewell
+</p>
+
+<ol class="org-ol">
+<li>Eran matemáticas, de personal de administración, de operadoras de telefonía, todas ellas utilizaban computadoras.
+</li>
+<li>A mediados de los 70&rsquo; o 80&rsquo; aproximadamente, la cantidad de mujeres en la computación ha disminuido considerablemente.
+</li>
+<li>En los 90&rsquo; y 00&rsquo; se escuchaba cada tanto que la informática era para varones.
+</li>
+<li>Hoy en día, la matrícula de mujeres inscriptas sigue siendo muy reducida comparada con la de los varones. Con un poco de tendencia a revertir esto.
+</li>
+</ol>
+</li>
+<li>(Opcional) Ada fue citada en un artículo de Turing
+
+<p>
+Turing se preguntaba si una computadora puede pensar, Ada ya sugería que hay limitaciones matemáticas y que no fue creada para ser original.
+</p>
+</li>
+<li>(Opcional) Se creó un lenguaje de programación a partir de un concurso de la DoD en 1970 buscando el más robusto y entendible. Pasaron casi 7 años y 450 lenguajes para comprender que ninguno cumplía con lo solicitado por lo que se armo un concurso para uno nuevo: Al lenguaje que ganó se lo llamó Ada en honor a ella.
+<ol class="org-ol">
+<li>Un lenguaje que se basa en la legibilidad del código, la claridad del mismo y la seguridad/robusteza del mismo.
+</li>
+</ol>
+</li>
+<li>Si hubo mujeres en la matemática y la informática, con grandes logros y aportes:
+¿no les parece que la informática es para cualquier persona que quiera aprender más allá de su género?
+</li>
+</ol>
+
+<p>
+Aproximadamente, se tarda 2&rsquo; a 3&rsquo; por ítem. Total: 20&rsquo;30&rsquo;&rsquo;.
+</p>
+
+<p>
+# <img src="file:///home/poo/Documents/radio/control-y/data/6f/2b0c10-f143-4af7-a523-b4bcb302dd79/Nautical_almanac_01.png" class="img-responsive" alt="Nautical_almanac_01.png">
+</p>
+</div>
+
+<div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> Bibliografía</h3>
+<div class="outline-text-3" id="text-3-1">
+<ul class="org-ul">
+<li>&laquo;Computer a history of the information machine&raquo;. Martin Campbell-Kelly y William Aspray. Westview Press. 2004.
+<a href="https://archive.org/embed/computerhistoryo02edcamp">https://archive.org/embed/computerhistoryo02edcamp</a>
+</li>
+<li>Imágen de un Almanaque Náutico.
+<a href="https://commons.wikimedia.org/wiki/File:Nautical_almanac_01.png">commons.wikimedia.org/wiki/File:Nautical_almanac_01.png</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> ¿Quién fue Alan Turing?</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+Fecha: <span class="timestamp-wrapper"><span class="timestamp">&lt;2023-07-14 vie&gt;</span></span>
+</p>
+
+<ol class="org-ol">
+<li>Repaso:
+<ol class="org-ol">
+<li>¿Qué era una computadora antes de Turing? &#128073; Una computadora, era una persona que calculaba números: trabajo tedioso donde solo &laquo;sacaban cuentas&raquo;.
+
+<p>
+¿Se acuerdan de las tablas y el Almanaque Náutico?
+</p>
+</li>
+
+<li>Máquina Analítica de Babbage:
+<ol class="org-ol">
+<li>Nunca llegó a implementarla completamente.
+</li>
+<li>Primer intento de crear una máquina que <b>no hace una tarea</b>:
+Usa instrucciones con planchuelas perforadas.
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Nace el 23 de junio de 1912. Estudia matemáticas.
+
+<p>
+Realiza su doctorado e introduce el concepto de <b>Máquina de Turing</b> (MT) en 1936 aprox.   
+</p>
+<ul class="org-ul">
+<li>Dice que la máquina computa: realiza cálculos ¡ya no es más una persona!   
+</li>
+<li>Usa una cinta, un cabezal lectoescritor, y estados. La define matemática o formalmente.   
+</li>
+<li>Alonzo Church (su director de tesis doctoral) y otros autores desarrollan otras formas de computar (calculo lambda, funciones recursivas primitivas, etc.).   
+</li>
+<li>Todas equivalentes a la de Turing.
+</li>
+</ul>
+</li>
+
+<li><del>Determina que hay cosas que no se puede computar.</del> &larr; &#9888;&#65039; ¡No se llegó! 
+<ul class="org-ul">
+<li><del>Demuestra el <i>Entscheidungsproblem</i></del>
+
+<p>
+<del>problema de la detención (tesis Turing-Church):</del>
+</p>
+
+<ul class="org-ul">
+<li><del>Turing: ¿se puede crear un programa para determinar si una máquina se detiene o no bajo una entrada?</del>
+</li>
+<li><del>Otro día&#x2026;</del>
+</li>
+</ul>
+</li>
+<li><del>Por eso, no se puede saber si hay bucle infinito: ¡se cuelga la compu!</del>
+</li>
+</ul>
+</li>
+<li>Turing pudo romper los códigos alemanes de la máquina enigma con su invento: la máquina Bombe. Fue en Blechtley Park. 1939.
+<ul class="org-ul">
+<li>Hay muchas películas de Turing: El Código Enigma&#x2026;
+<ul class="org-ul">
+<li>Ojo con al impresión que dejan las pelis: se rumorea que era un excelente atleta.
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Publica &laquo;Computing Machinery and Intelligence&raquo; en 1950&#x2026; Veamos qué tiene&#x2026;
+
+<p>
+&#128218; <b>Llevar el artículo impreso para que lo vea Mete, Virgi y Bomba</b>
+</p>
+
+<ol class="org-ol">
+<li>Tiene una conversación entre una máquina y una persona&#x2026;
+¿chat con una IA?¡ni siquiera existía el término!
+</li>
+<li>Se debate si las máquinas pueden pensar&#x2026;
+Su respuesta: ¿¡para qué preguntarse eso si van a simular que piensan muy bien!?
+</li>
+<li>Hay un título interesante: &laquo;Learning machines&raquo;
+¡No me digas que ya preveía que las máquinas pueden aprender!
+</li>
+</ol>
+</li>
+<li>En esa época, había mucha interdisciplina (psicología + matemáticas en Blechtley Park).
+Hizo trabajos en biología matemática: morfogénesis.
+</li>
+<li>Alan Turing fue acusado por ser homosexual y condenado a un tratamiento hormonal (~1952).
+</li>
+<li>Alan Turing recibe el perdón&#x2026; póstumo, de la Reina Elizabeth II en 2013.
+<ul class="org-ul">
+<li>Existe la informalmente llamada &laquo;Alan Turing Law&raquo;, ley que retroactivamente perdona a personas condenadas por las leyes de actos homosexuales.
+</li>
+</ul>
+</li>
+<li>Entonces, teniendo en cuenta la historia de Turing nos deja mucho para pensar:
+<ul class="org-ul">
+<li>Con tantos dichos en los medios ¿hemos podido superar esa idea de &laquo;indecencia&raquo; ante el género y orientación sexual?¿aún más allá de quién tenemos en frente?
+</li>
+<li>Ahora que tenemos como noticia la IA, ¿les parece que es algo reciente?
+</li>
+<li>¿Creen que la computadora puede reemplazar completamente a un humano?
+¡hay problemas no computables!
+Por ejemplo: ¿Creen que la computadora puede reemplazar una obra de arte? ¿significará lo mismo que si lo hace una persona? ¿una canción que la canta un cantante expresaría lo mismo?
+</li>
+</ul>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-sec-4-1" class="outline-3">
+<h3 id="sec-4-1"><span class="section-number-3">4.1</span> Bibliografía</h3>
+<div class="outline-text-3" id="text-4-1">
+<ul class="org-ul">
+<li>&laquo;La computación Turing - Pensando en máquinas que piensan&raquo;. Rafael Lahoz-Beltra. RBA Colleccionables. 2012.
+</li>
+<li>&laquo;Computing Machinery and Intelligence&raquo;. Alan M. Turing. Mind LIX N<sup>&circ; </sup>236. 1950. 
+<a href="https://academic.oup.com/mind/article/LIX/236/433/986238">https://academic.oup.com/mind/article/LIX/236/433/986238</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> ¿Qué es un algoritmo?</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+Fecha: <span class="timestamp-wrapper"><span class="timestamp">&lt;2023-07-28 vie&gt;</span></span>
+</p>
+
+<blockquote>
+<p>
+<i>Algoritmo</i>
+</p>
+
+<p>
+<i>Quizá del lat. tardío *algobarismus, y este abrev. del ár. clás.</i>
+</p>
+<p>
+<i>&laquo;cálculo mediante cifras arábigas&raquo;.</i>
+</p>
+
+<ol class="org-ol">
+<li><i>m. Conjunto ordenado y finito de operaciones que permite hallar la solución de un problema.</i>
+</li>
+<li><i>m. Método y notación en las distintas formas del cálculo.</i>
+</li>
+</ol>
+
+<p>
+&#x2013; RAE
+</p>
+</blockquote>
+
+<ol class="org-ol">
+<li>Definición de la RAE.
+<ol class="org-ol">
+<li>Sumémosle &laquo;operaciones no ambiguas&raquo;.
+</li>
+<li>¿Dice del &laquo;árabe clásico&raquo;? &rarr; ¡no es un concepto nuevo!
+</li>
+</ol>
+
+<p>
+Se piensa que el nombre se debe por el matemático Abu Abdallah Muḥammad Ibn Mūsā Al-Jwarizmī (cariñosamente como: Abu Yāffar, al-Juarismi o Algorithmi), cerca de 820 dc.
+</p>
+</li>
+<li>¿Qué algoritmos usamos día a día?
+<ul class="org-ul">
+<li>Cuando sumamos y restamos en un papel.
+</li>
+<li>¿Qué hacés todas las mañanas al levantarte?
+</li>
+</ul>
+</li>
+<li>¿Qué tiene que ver con la compu?
+<ol class="org-ol">
+<li>Las computadoras &laquo;computan&raquo;: calculan: ¿cómo?
+</li>
+<li>La computadora usa &laquo;programas&raquo;: conjunto ordenado y finito de instrucciones para una computadora.
+</li>
+</ol>
+</li>
+<li>¿Qué es y qué no es un algoritmo?
+<ol class="org-ol">
+<li>¿El software es un programa? ¿y los datos?
+</li>
+<li>¡Algo que guarde estados! Variables, archivos&#x2026;
+</li>
+<li>¿La IA será un algoritmo? &rarr; P. ej.: &laquo;Es el algoritmo de Netflix/Spotify&raquo;
+</li>
+</ol>
+</li>
+<li>¿Cuántas instrucciones ejecuta un procesador?
+
+<p>
+ Una curiosidad: <b>Bomba, Mete, Virgi: ¡Saquen la calculadora &#129518;!</b>
+Si el procesador es de 2Ghz &rarr; 2 000 000 000 Hz (Intel i9 con 8 núcleos, 2023).
+Instrucción usa 1 o dos ciclos.
+</p>
+
+<p>
+Saquemos la cuenta: ¿cuántas instrucciones hace en un segundo?
+</p>
+</li>
+<li>¿Cuántos programas puede ejecutar una computadora?
+<ol class="org-ol">
+<li>¿Cuántos procesadores tenés? ¿cuántos hilos?
+</li>
+<li>El sistema operativo intercala el uso del procesador.
+</li>
+<li>En definitiva: pueden haber muchísimos programas funcionando.q
+</li>
+</ol>
+
+<p>
+¡Los informáticos nos gusta saber qué hace todos los programas!
+No nos gusta los virus.
+</p>
+</li>
+
+<li><del>(Si hay tiempo) ¿Cómo son los programas?</del>
+
+<p>
+&#128218; Llevar los ejemplos de un programa escrito en binario, assembler y código de alto nivel.
+</p>
+
+<ol class="org-ol">
+<li>El procesador usa electricidad: supongamos &laquo;5v es encendido, 0v es apagado&raquo;.
+</li>
+<li>Binario 1 y 0. Compuertas lógicas &rarr; ALU
+</li>
+<li>Formato de las instrucciones: supongamos 4 bits dicen la instrucción, el resto son los parámetros.
+</li>
+<li>Pero, ¿alguien entiende binario? &rarr; Assembler: le damos mnemotécnicos a cada instrucción.
+</li>
+<li>¿Alguien entiende assembler? &rarr; Lenguajes de alto nivel: palabras se transforman en código assembler.
+</li>
+</ol>
+</li>
+</ol>
+
+<p>
+Preguntas:
+</p>
+<ul class="org-ul">
+<li>¿Cómo ven a la computadora ahora que entienden un poco más que hace?
+</li>
+<li>¿Qué algoritmo usarán para este fin de semana?
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> ¿Qué es el filtro burbuja?</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+Fecha: <span class="timestamp-wrapper"><span class="timestamp">&lt;2023-08-11 vie&gt;</span></span>
+</p>
+
+<ol class="org-ol">
+<li>Nada de Repaso : &laquo;¿Se acuerdan que hablamos de Algoritmos y que la IA es un algoritmo?
+¿que mencionamos a los algoritmos de sugerencias?&raquo;.
+</li>
+<li>Definición: <i>state of intellectual isolation that can result from personalised searchs.</i>
+<ol class="org-ol">
+<li>¿Qué es? Podríamos decir que es un fenómeno medio sociológico-tecnológico.
+</li>
+</ol>
+</li>
+<li> Mostremos cómo funciona con buscar Messi y ver los resultados: Buscamos en Google &laquo;Messi&raquo;, y buscamos &laquo;Messi&raquo; en Google con Tor.
+Probemos con siglas: WP, BP&#x2026;
+
+<p>
+&#128218; Tener a mano el artículo E. Bozdag, &laquo;Bias in algorithmic filtering and personalization&raquo;, Springer. Página 212.
+</p>
+
+<ol class="org-ol">
+<li>¿Cómo funciona? ¿cómo recolectan la información? ¿por qué? &rarr; Cómo se arman las burbujas.
+<ol class="org-ol">
+<li>Historial, páginas que visitamos, búsquedas hechas, ubicación geográfica.
+</li>
+<li>Caso extremo: Facebook tracks users with like button: Web beacons (baliza/faro Web)
+</li>
+</ol>
+</li>
+</ol>
+</li>
+
+<li>Efectos: Exposición a Echo Chamber &rarr; más Fake News
+<ol class="org-ol">
+<li>No solo funciona para las ads &rarr; ¡también para lo que leemos en las redes!
+</li>
+<li>Dinámicas: Estás solo, es invisible (¿es neutral/unbiased? es casi imposible saberlo), no se elige entrar.
+</li>
+<li>Echo Chamber: Creencias amplificadas por repetición en un sistema cerrado y aislado de refutaciones.
+</li>
+<li>Se repiten noticias para autojutificarse: ¿y si agregamos Fake News?
+</li>
+<li>&laquo;nos cierran a nuevas ideas&raquo;
+</li>
+<li>&laquo;nuestros intereses son los únicos que existen&raquo;
+</li>
+<li>No alcanzar otros recursos: una vez adentro de la Echo chamber, ¿se puede buscar otros artículos fácilmente?
+</li>
+<li>Meteoro y Bomba citaron hace un tiempo a Chris Palmer de la EFF: <i>&laquo;You&rsquo;re getting a free service, and the cost is information about you. And Google and Facebook translate that pretty directly into money.&raquo;</i>
+</li>
+</ol>
+</li>
+<li>(Opcional) ¿Alguna vez intentaron usar redes sociales libres? ¿qué sucede al principio?
+
+<p>
+¿Cómo es no estar en el filtro?
+</p>
+</li>
+
+<li>Alternativas:
+<ol class="org-ol">
+<li>Tecnológicas: Metabuscadores: Startpage; Otros: DDG, Yacy&#x2026;
+</li>
+<li>Personales: ¿Qué podemos hacer como usuarixs? &rarr; ¿usar Tor?
+</li>
+<li>¿Sirve navegar en privado? &rarr; Hay que saber navegar en privado con Tor.
+</li>
+</ol>
+</li>
+<li>Hotel California: &laquo;You can check out any time you like/But you can never leave&raquo;
+<ol class="org-ol">
+<li>Aislamiento de los usuarios de otras redes sociales: <b>no proveen contenidos de otras redes</b>.
+</li>
+<li>Afecta negativamente a la <b>Neutralidad en la red</b> (acceso equitativo de la información).
+</li>
+</ol>
+</li>
+</ol>
+
+<p>
+Preguntas:
+</p>
+<ul class="org-ul">
+<li>Ahora que conocen este fenómeno: ¿Consideran importante aprender de informática? ¿Y que estaría bueno conocer cómo funcionan estos algoritmos de sugerencia?
+</li>
+<li>Cada noticia que ustedes miran en redes sociales: ¿no les parece que conviene chequearlas con varias fuentes? ¿Habitualmente se preguntan si son verdad o no?
+</li>
+</ul>
+
+<p>
+&#127926; ¿Se podrá terminar con la canción Hotel California? ~03:04
+</p>
+</div>
+
+<div id="outline-container-sec-6-1" class="outline-3">
+<h3 id="sec-6-1"><span class="section-number-3">6.1</span> Bibliografía</h3>
+<div class="outline-text-3" id="text-6-1">
+<ol class="org-ol">
+<li><a href="https://www.theguardian.com/technology/2010/nov/22/tim-berners-lee-facebook">https://www.theguardian.com/technology/2010/nov/22/tim-berners-lee-facebook</a>
+<ol class="org-ol">
+<li><a href="https://www.scientificamerican.com/article/long-live-the-web/">https://www.scientificamerican.com/article/long-live-the-web/</a>
+</li>
+</ol>
+</li>
+<li><a href="https://www.huffpost.com/entry/algorithms-and-the-filter_b_869473">https://www.huffpost.com/entry/algorithms-and-the-filter_b_869473</a>
+</li>
+<li><a href="https://www.technologyreview.com/2015/09/16/166222/facebooks-like-buttons-will-soon-track-your-web-browsing-to-target-ads/">https://www.technologyreview.com/2015/09/16/166222/facebooks-like-buttons-will-soon-track-your-web-browsing-to-target-ads/</a>
+</li>
+<li><a href="https://www.eff.org/deeplinks/2011/10/facebook’s-hotel-california-cross-site-tracking-and-potential-impact-digital-privacy">https://www.eff.org/deeplinks/2011/10/facebook’s-hotel-california-cross-site-tracking-and-potential-impact-digital-privacy</a>
+</li>
+<li><a href="https://misq.umn.edu/understanding-echo-chambers-and-filter-bubbles-the-impact-of-social-media-on-diversificationi-and-partisan-shifts-in-news-consumption.html">https://misq.umn.edu/understanding-echo-chambers-and-filter-bubbles-the-impact-of-social-media-on-diversificationi-and-partisan-shifts-in-news-consumption.html</a>
+</li>
+<li>Pariser, Eli. &laquo;The Filter Bubble: What the Internet is Hiding from You&raquo;. Penguin Press. 2011.
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-sec-7" class="outline-2">
+<h2 id="sec-7"><span class="section-number-2">7</span> Licencia de esta obra</h2>
+<div class="outline-text-2" id="text-7">
+
+<figure>
+<p><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" class="img-responsive" alt="88x31.png">
+</p>
+</figure>
+
+<p>
+Esta obra se encuentra bajo la licencia Creative Commons Atribución Compartir Igual 4.0 Internacional.
+</p>
+</div>
+</div>
+</div></div></div>
+<footer id="postamble" class="">
+<div><p class="author">Autor: Christian Gimenez</p>
+<p class="date">Created: 2023-08-22 mar 18:07</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 30.0.50 (<a href="http://orgmode.org">Org-mode</a> 9.6.2)</p>
+</div>
+</footer>
+</body>
+</html>
