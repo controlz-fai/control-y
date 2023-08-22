@@ -272,7 +272,89 @@ Preguntas:
 5. https://misq.umn.edu/understanding-echo-chambers-and-filter-bubbles-the-impact-of-social-media-on-diversificationi-and-partisan-shifts-in-news-consumption.html
 6. Pariser, Eli. "The Filter Bubble: What the Internet is Hiding from You". Penguin Press. 2011.
 
+* ¿Quién fue Sadosky?
+Emisión al aire: <2023-08-25 vie>
 
+\warning{} Alta probabilidad de ironía y sarcasmo...
+Perdonen mi ironía en esta columna...
+
+Contexto:
+
+1. Universidades desde el siglo XIX hasta 1918:
+   - Católicas mayormente (UNC), estudiantes con dificultades para ingresar.
+   - Ley de Avellaneda: el Gobierno Nacional dicta sus estatutos, designan las autoridades y profesores y dependen administrativamente del gobierno.
+2. Reforma universitaria: 1918
+   - Importante movimiento estudiantil: autonomía del poder político, gobierno representado por docentes y estudiantes, asignación por concursos públicos, libertad de pensamiento.
+3. 1957 las universidades son autónomas y autárquicas.
+   - Este contexto impulsa la designación de personas destacadas y el desarrollo de la computación.
+   - Se radican extranjeros con importantes conocimientos matemáticos.
+   - Impulsan proyectos de desarrollo de las Ciencias.
+   - La Facultad de Ciencias Exactas y Naturales de la UBA tiene como vicedecano al Dr. Manuel Sadosky en este año.
+
+4. Sadosky nace el 13 de abril de 1914, cursó primaria y secundaria en la Escuela Normal Mariano Acosta (si no entiendo mal, es una escuela pública). En 1940 se graduó como Doctor en Ciencias Fisico-Matemáticas de la UBA y ejerció la docencia en la Universidad de La Plata.
+   1. Becado para ir a Francia durante 1946-1948, investigó en Italia. Atestiguó el surgimiento de las primeras computadoras.
+   2. Publicó "Cálculo numérico y gráfico", primer texto en castellano de su tipo. 1952.
+   3. Vuelve a la docencia en 1955.
+   4. "Cálculo diferencial e integral" junto con Dra. Rebeca Guber. 1956.
+   5. Dr. Manuel Sadosky con Gonzáles Domínguez, Rey Pastor y otros profesores de la UBA *comenzaron a incluir la Computación en 1957*.
+
+5. *Se compró una Mercury Ferranti* que llegó en 1960. 152.099 libras esterlinas, (equivalen a  USD 4.500.000 en el 2011).
+   
+   ¿Vamos de compras en 1960?
+   
+   - Ultrathin (?): 18 metros y medio de largo, media tonelada de peso.
+   - Rápida (?): Tres horas para encender.
+   - Fácil de instalar (?): Red eléctrica distinta a la convencional.
+   - ¿Gigas de RAM DDR5? Nah, de válvulas mejor: 1K de palabras de 48b = 4750 Bytes = ~4Kb
+   - ¿Disco rígido sólido? ¿para qué?: Disco de tambores magnéticos, 4 tambores de 8K cada uno.
+   - ¿Monitor de 500 pulgadas? Ni ahí: Entrada/Salida con cinta de papel perforado, impresora 30 caracteres por segundo. Pero le adaptaron un lector de tarjetas perforadas *nacional*.
+   - ¿Teclado? ¿para qué? nah, no tiene.
+   - Un parlante (con musiquita de "Oh my darling, Clementine").    
+   - ¿Windows 60'? No, no... Programas: Ensamblador orientado al cálculo, Autocode.
+     - Luego, se creó el compilador y lenguaje COMIC en Argentina gracias a Liana Lew, Noemí García, Wilfred Durán, Ana Zoltran Torres, Clarisa Cortés.
+
+   - ¡Listo! ¡Terminé de contarles la compu! \bomb{} Bomba poneme Clementina \musicalnote{} (ver link en Bibliografía).
+
+6. ¿Para qué se usaba?
+   
+   Se usaba para cálculos matemáticos: pautas en el sistema de ahorro y préstamos, estudio de ríos patagónicos, cálculos astronómicos (órbita del cometa Halley), censos comerciales, análisis del funcionamiento de reactores nucleares, investigaciones cardiológicas, traducciones (ruso-español). 
+   
+   Encargada de programarla: *Cecilia Berdichevsky*.
+     
+7. ¿Quién tiene idea de cómo programar esta computadora? \to{} Fundó el Instituto del Cálculo en 1962.
+   
+   - Autocode: un sistema para la Ferranti Mercury - 1961
+     - \books{} Leer los agradecimientos de la nota preliminar del manual de Autocode de García Camarero del IC.
+   - COMIC : Lenguaje de programación creada por IC - 1965
+     
+8. La Universidad de Buenos Aires (UBA) Y la Universidad del Sur (UNS) quisieron hacer su computadora: la CEFIBA (1962).
+   - UBA: La CEFIBA (1962) a cargo del Ing. Humberto Ciancaglini.
+   - UNS: la CEUNS (1962) a cargo del Ing. Jorge Santos \to{} Procesaba con números racionales.
+
+9. ¿Qué pasó luego? La noche de los bastones largos (29 de julio de 1966, en dictadura).
+   1. Intervencion de las Universidades Nacionales.
+   2. Profesores (visitantes de otros países y locales) detenidos.
+   3. Renuncias y éxodo de investigadores: Sadosky se exilió luego en ~1974.
+   4. El IC y la carrera de Computación se destruyó.
+   5. Sucesivas protestas estudiantiles y represión.
+   6. Prohibidas reuniones en la facultad.
+   7. Clementina deja de funcionar y la computación entra en una época oscura por varios años.
+10. ¿Qué más hizo Sadosky?
+    1. Montevideo: ayudó a la creación del IC allí. Dr. Honoris Causa.
+    2. Fundó la consultora Asesores Científico Técnicos, primera empresa especializada en desarrollo de software del país.
+    3. Fue Secretario de Ciencia y Técnica en 1983 (democracia de Raúl Alfonsín). 
+    4. Promueve la Escuela Superior Latinoamericana de Informática (ESLAI), un paralelo del Balseiro en computación. Desfinanciada por Menem en 1990.
+
+
+** Bibliografía
+- "Sadosky por Sadosky vida y pensamiento del pionero de la computación argentina". Raúl Carnota, Carlos Borches. Fundación Sadosky.
+- Para qué se utilizó Clementina: https://www.lanacion.com.ar/sociedad/clementina-primera-computadora-tuvo-uba-nid2315966/
+- Oh, my darling Clementine MIDI file:
+  https://commons.wikimedia.org/wiki/File:O_My_Darling_Clementine.mid
+- Cecilia Berdichevski y las mujeres que trabajaron con Clementina y COMIC: https://www.dc.uba.ar/las-mujeres-de-clementina/
+- COMIC: Durán Salvador, Wilfred Oscar (2018). "COMIC el lenguaje de programación y compilador del Instituto de Cálculo en 1965". Ediciones del domo.
+- Panorama de la historia de la Computación Académica en la Argentina. Jorge Aguirre.
+- Nota Preliminar de García Camarero: "Autocode un sistema simplificado de codificación para la computadora Mercury" Instituto del Cálculo UBA. 1961.
 * Licencia de esta obra
 [[https://i.creativecommons.org/l/by-sa/4.0/88x31.png]]
 
