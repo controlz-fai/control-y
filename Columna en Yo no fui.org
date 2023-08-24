@@ -322,9 +322,9 @@ Perdonen mi ironía en esta columna...
    
    - Autocode: un sistema para la Ferranti Mercury - 1961
      - \books{} Leer los agradecimientos de la nota preliminar del manual de Autocode de García Camarero del IC (ver Bibliografía)
-       #+BEGIN_SRC quote
+       
        "Hemos de agradecer la paciente y minuciosa lectura de nuestra primera redacción, así como sus múltiples puntualizaciones, a la Dra. Cicely M. Popplewell. También agradecemos la valiosa colaboración de la Dra. R.Ch. de Guber. Buenos Aires, octubre de 1961" -- E. García Camarero
-       #+END_SRC
+       
 
    - COMIC : Lenguaje de programación creada por IC - 1965
      
