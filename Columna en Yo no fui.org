@@ -275,9 +275,6 @@ Preguntas:
 * ¿Quién fue Manuel Sadosky?
 Emisión al aire: <2023-08-25 vie>
 
-\warning{} Alta probabilidad de ironía y sarcasmo...
-Perdonen mi ironía en esta columna...
-
 1. Contexto: Universidades desde el siglo XIX hasta 1918:
    - Católicas mayormente (UNC), estudiantes con dificultades para ingresar.
    - Ley de Avellaneda: el Gobierno Nacional dicta sus estatutos, designan las autoridades y profesores y dependen administrativamente del gobierno.
@@ -323,7 +320,7 @@ Perdonen mi ironía en esta columna...
    - Autocode: un sistema para la Ferranti Mercury - 1961
      - \books{} Leer los agradecimientos de la nota preliminar del manual de Autocode de García Camarero del IC (ver Bibliografía)
        
-       "Hemos de agradecer la paciente y minuciosa lectura de nuestra primera redacción, así como sus múltiples puntualizaciones, a la Dra. Cicely M. Popplewell. También agradecemos la valiosa colaboración de la Dra. R.Ch. de Guber. Buenos Aires, octubre de 1961" -- E. García Camarero
+       /"Hemos de agradecer la paciente y minuciosa lectura de nuestra primera redacción, así como sus múltiples puntualizaciones, a la Dra. Cicely M. Popplewell. También agradecemos la valiosa colaboración de la Dra. R.Ch. de Guber. Buenos Aires, octubre de 1961" -- E. García Camarero/
        
 
    - COMIC : Lenguaje de programación creada por IC - 1965
