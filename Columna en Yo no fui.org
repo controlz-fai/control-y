@@ -315,25 +315,28 @@ Emisión al aire: <2023-08-25 vie>
    
    Encargada de programarla: *Cecilia Berdichevsky*.
      
-7. ¿Quién tiene idea de cómo programar esta computadora? \to{} Fundó el Instituto del Cálculo en 1962.
+7. La Universidad de Buenos Aires (UBA) Y la Universidad del Sur (UNS) quisieron hacer su computadora: la CEFIBA (1962).
+   - UBA: La CEFIBA (1962) a cargo del Ing. Humberto Ciancaglini.
+   - UNS: la CEUNS (1962) a cargo del Ing. Jorge Santos \to{} Procesaba con números racionales.
+
+8. ¿Quién tiene idea de cómo programar esta computadora? \to{} Fundó el Instituto del Cálculo en 1962.
    
    - Autocode: un sistema para la Ferranti Mercury - 1961
      - \books{} Leer los agradecimientos de la nota preliminar del manual de Autocode de García Camarero del IC (ver Bibliografía)
        
        /"Hemos de agradecer la paciente y minuciosa lectura de nuestra primera redacción, así como sus múltiples puntualizaciones, a la Dra. Cicely M. Popplewell. También agradecemos la valiosa colaboración de la Dra. R.Ch. de Guber. Buenos Aires, octubre de 1961" -- E. García Camarero/
-       
+   - COMIC : Lenguaje de programación creada por IC - 1965    
 
-   - COMIC : Lenguaje de programación creada por IC - 1965
-     
-8. La Universidad de Buenos Aires (UBA) Y la Universidad del Sur (UNS) quisieron hacer su computadora: la CEFIBA (1962).
-   - UBA: La CEFIBA (1962) a cargo del Ing. Humberto Ciancaglini.
-   - UNS: la CEUNS (1962) a cargo del Ing. Jorge Santos \to{} Procesaba con números racionales.
-
-9. ¿Qué pasó luego? La noche de los bastones largos (29 de julio de 1966, en dictadura).
+9. ¿Qué pasó luego? La noche de los bastones largos (29 de julio de 1966, en dictadura de Onganía).
    1. Intervencion de las Universidades Nacionales.
-   2. Profesores (visitantes de otros países y locales) detenidos.
-   3. Renuncias y éxodo de investigadores: Sadosky se exilió luego en ~1974.
-   4. El IC y la carrera de Computación se destruyó.
+
+      Humillados violentamente: estudiantes, docentes y graduados, los retiraron a la fuerza del edificio, y afuera, los hacían pasar uno a uno para pegarles con palos o culatas.
+
+      ¿Por qué los militares hicieron eso?
+      
+   2. Docentes, alumnos y graduados, hasta Warren Ambrose, profesor del MIT y de la UBA, fueron detenidos.
+   3. Renuncias y éxodo de investigadores - Fuga de cerebros . Sadosky se exilió más tarde, en ~1974.
+   4. El IC, Clementina y la carrera de Computador Científico se destruyó.
    5. Sucesivas protestas estudiantiles y represión.
    6. Prohibidas reuniones en la facultad.
    7. Clementina deja de funcionar y la computación entra en una época oscura por varios años.
@@ -343,11 +346,13 @@ Emisión al aire: <2023-08-25 vie>
     3. Fue Secretario de Ciencia y Técnica en 1983 (democracia de Raúl Alfonsín). 
     4. Promueve la Escuela Superior Latinoamericana de Informática (ESLAI), un paralelo del Balseiro en computación. Desfinanciada por Menem en 1990.
 
-Preguntas: ¿para qué sirve la universidad pública?
+Preguntas: ¿qué rol tuvo la universidad pública para Sadosky? ¿creen que la violencia han resuelto los problemas que tuvimos o por el contrario?
 
-¡Listo! ¡Terminé de contarles la compu! \bomb{} Bomba poneme Clementina \musicalnote{} (ver link en Bibliografía).
+¡Listo! \bomb{} Bomba poneme Clementina \musicalnote{} (ver link en Bibliografía).
 
 CONICET: Se funda en 1958
+
+Otra personalidad importante: René Favaloro: Escuela 45, Colegio Nacional Rafael Hernández, Universidad Nacional de La Plata (UNLP), Hospital Policlínico. Escuelas y universidades públicas.
 
 ** Bibliografía
 - "Sadosky por Sadosky vida y pensamiento del pionero de la computación argentina". Raúl Carnota, Carlos Borches. Fundación Sadosky.
