@@ -29,15 +29,71 @@ Las columnas están ordenadas de manera inversa. El guion más reciente está pr
   http://creativecommons.org/licenses/by-sa/4.0/
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
-* Temas
-1. ¿Quién fue Ada Lovelace?
-2. ¿Quién fue Turing?
-3. ¿Qué es un algoritmo?
-4. \new{} ¿Qué es el filtro burbuja?
-5. \new{} ¿Quién fue Manuel Sadosky?
+* Recortes y Temas
+** ¿Quién fue Ada Lovelace?
 
+#+caption: Retrato en acuarela de Ada Lovelace.
+[[https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg]]
+
+Augusta Byron, mejor conocida como Ada Lovelace, estudió matemática y se interesó mucho por el diseño de la máquina analítica de Charles Babbage. Se interesó a tal punto que publicó una traducción de un escrito que explicaba cómo funcionaba, junto con un montón de notas de su propia elaboración. Entre estas notas, se encuentra una joya: el primer programa.
+
+En esta grabación te contamos quién fue Ada Lovelace, qué hizo y por qué se la conoce como la primer progaramdora.
+
+
+\framedpicture{} Imágen: Ada Lovelace Portrait, fotografiado por la Science Museum Group. Bajo el dominio público. Obtenido desde [[https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg][Wikimedia Commons]].
+
+** ¿Quién fue Turing?
+
+#+caption: Estatua de Alan Turing en Bletchley Park, atrás su fotografía.
+[[https://upload.wikimedia.org/wikipedia/commons/2/22/Alan_Turing_cropped.jpg]]
+
+En la computación, hubo un antes y un después de que Turing publicara sus artículos. Por eso te contamos quién fue y un poquito de sus aportes. ¿Qué hizo? ¿Qué visión tenía? ¿Por qué se lo considera tan relevante en esta área? 
+
+\framedpicture{} Imágen: Alan Turing por Jon Callas - Bajo licencia Creative Commons Atribución 2.0 Genérica (CC-by 2.0). Obtenido desde [[https://commons.wikimedia.org/wiki/File:Alan_Turing_cropped.jpg][Wikimedia Commons]].
+
+** ¿Qué es un algoritmo?                                            :ATTACH:
+:PROPERTIES:
+:ID:       d366e442-9ea8-463d-81bf-77bf2b1deb08
+:END:
+
+[[file:data/d3/66e442-9ea8-463d-81bf-77bf2b1deb08/flowchart.jpg]]
+
+"El algoritmo me sugiere estas pelis", "el algoritmo sabe lo que te gusta"... Pero... ¡¿Qué es un "algoritmo"?!
+
+Revelaremos el significado de esta palabra que siempre usamos. Eso que está detrás de las páginas Webs y que nos sugiere cosas, pero que nunca la vimos. Un algoritmo, ¿qué es? ¿la IA es un algoritmo? ¿las computadoras usan algoritmos? ¿las personas usamos algoritmos?
+
+
+
+\framedpicture{} Imágen: Flowchart por Gautier Poupeau - Bajo la licencia Creative Commons Atribución (CC-by 2.0). Obtenido desde https://flic.kr/p/rt5Q1d
+
+** \new{} ¿Qué es el filtro burbuja?                                    :ATTACH:
+:PROPERTIES:
+:ID:       72e04deb-8e2b-4d72-9184-d355139b63ff
+:END:
+
+[[file:data/72/e04deb-8e2b-4d72-9184-d355139b63ff/planet-bubbles-01-scaled.jpg]]
+
+Cuando buscamos algo en Internet, ¿por qué los resultados son diferentes a los de otras personas? ¿cómo se filtran y ordenan esos resultados? ¿cómo sabe el buscador que deseo esos resultados? ¿esto puede producir algún efecto social?
+Hablamos de los Filtros Burbujas, la cámara de eco y cómo los buscadores y páginas Webs más habituales nos muestran una porción de Internet. 
+
+
+
+\framedpicture{} Imágen: Bubbles Closeup - Bajo la licencia Creative Commons 0 (Dominio Público).
+[[https://store.kde.org/p/2056567]]
+
+** \new{} ¿Quién fue Manuel Sadosky?
+
+#+caption: Manuel Sadosky de pié al lado de Clementina.
+[[https://upload.wikimedia.org/wikipedia/commons/1/12/Manuel_Sadosky_y_Clementina.jpg]]
+
+En la columna de hoy, hablaremos del doctor Manuel Sadosky. Pero antes, daremos un poco de contexto, la reforma universitaria de 1918, y cómo afectó después a las universidades. Sadosky junto con otros científicos trajeron y utilizaron la primer computadora a argentina, que cariñosamente la llamaron Clementina. ¿Quieren saber un poco de esta historia y quiénes fueron las primeras personas que programaron en Argentina? ¡Prepárense unos mates y escuchen este audio!
+
+
+
+\framedpicture{} Imágen: Manuel Sadosky y Clementina. Imágen bajo el dominio público. Obtenido desde [[https://commons.wikimedia.org/wiki/File:Manuel_Sadosky_y_Clementina.jpg][Wikimedia Commons]].
 * ¿Quién fue Manuel Sadosky?
 Emisión al aire: <2023-08-25 vie>
+
 
 1. Contexto: Universidades desde el siglo XIX hasta 1918:
    - Católicas mayormente (UNC), estudiantes con dificultades para ingresar.
@@ -412,17 +468,16 @@ Esta obra se encuentra bajo la licencia Creative Commons Atribución Compartir I
 
 # -- Export
 #+LANGUAGE: es
-#+LINK_UP:   
-#+LINK_HOME: 
+#+LINK_UP: https://controlz.fi.uncoma.edu.ar
+#+LINK_HOME: https://controlz.fi.uncoma.edu.ar
 #+EXPORT_SELECT_TAGS: export
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+export_file_name: index
 
 # -- HTML Export
 #+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
-#+HTML_LINK_UP: index.html
-#+HTML_LINK_HOME: index.html
-#+XSLT:
+#+HTML_LINK_UP: https://controlz.fi.uncoma.edu.ar
+#+HTML_LINK_HOME: https://controlz.fi.uncoma.edu.ar
 
 # -- For ox-twbs or HTML Export
 # #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
