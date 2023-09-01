@@ -3,7 +3,7 @@
 \newfontfamily\unicodefont{Doulos SIL}
 #+end_export
 
-Las columnas están ordenadas de manera inversa. El guion más reciente está primero.
+\warning{} Las columnas están ordenadas de manera inversa, la más reciente está primero.
 
 * Datos de la Columna
 
@@ -29,71 +29,18 @@ Las columnas están ordenadas de manera inversa. El guion más reciente está pr
   http://creativecommons.org/licenses/by-sa/4.0/
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
-* Recortes y Temas
-** ¿Quién fue Ada Lovelace?
-
-#+caption: Retrato en acuarela de Ada Lovelace.
-[[https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg]]
-
-Augusta Byron, mejor conocida como Ada Lovelace, estudió matemática y se interesó mucho por el diseño de la máquina analítica de Charles Babbage. Se interesó a tal punto que publicó una traducción de un escrito que explicaba cómo funcionaba, junto con un montón de notas de su propia elaboración. Entre estas notas, se encuentra una joya: el primer programa.
-
-En esta grabación te contamos quién fue Ada Lovelace, qué hizo y por qué se la conoce como la primer progaramdora.
-
-
-\framedpicture{} Imágen: Ada Lovelace Portrait, fotografiado por la Science Museum Group. Bajo el dominio público. Obtenido desde [[https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg][Wikimedia Commons]].
-
-** ¿Quién fue Turing?
-
-#+caption: Estatua de Alan Turing en Bletchley Park, atrás su fotografía.
-[[https://upload.wikimedia.org/wikipedia/commons/2/22/Alan_Turing_cropped.jpg]]
-
-En la computación, hubo un antes y un después de que Turing publicara sus artículos. Por eso te contamos quién fue y un poquito de sus aportes. ¿Qué hizo? ¿Qué visión tenía? ¿Por qué se lo considera tan relevante en esta área? 
-
-\framedpicture{} Imágen: Alan Turing por Jon Callas - Bajo licencia Creative Commons Atribución 2.0 Genérica (CC-by 2.0). Obtenido desde [[https://commons.wikimedia.org/wiki/File:Alan_Turing_cropped.jpg][Wikimedia Commons]].
-
-** ¿Qué es un algoritmo?                                            :ATTACH:
-:PROPERTIES:
-:ID:       d366e442-9ea8-463d-81bf-77bf2b1deb08
-:END:
-
-[[file:data/d3/66e442-9ea8-463d-81bf-77bf2b1deb08/flowchart.jpg]]
-
-"El algoritmo me sugiere estas pelis", "el algoritmo sabe lo que te gusta"... Pero... ¡¿Qué es un "algoritmo"?!
-
-Revelaremos el significado de esta palabra que siempre usamos. Eso que está detrás de las páginas Webs y que nos sugiere cosas, pero que nunca la vimos. Un algoritmo, ¿qué es? ¿la IA es un algoritmo? ¿las computadoras usan algoritmos? ¿las personas usamos algoritmos?
-
-
-
-\framedpicture{} Imágen: Flowchart por Gautier Poupeau - Bajo la licencia Creative Commons Atribución (CC-by 2.0). Obtenido desde https://flic.kr/p/rt5Q1d
-
-** \new{} ¿Qué es el filtro burbuja?                                    :ATTACH:
-:PROPERTIES:
-:ID:       72e04deb-8e2b-4d72-9184-d355139b63ff
-:END:
-
-[[file:data/72/e04deb-8e2b-4d72-9184-d355139b63ff/planet-bubbles-01-scaled.jpg]]
-
-Cuando buscamos algo en Internet, ¿por qué los resultados son diferentes a los de otras personas? ¿cómo se filtran y ordenan esos resultados? ¿cómo sabe el buscador que deseo esos resultados? ¿esto puede producir algún efecto social?
-Hablamos de los Filtros Burbujas, la cámara de eco y cómo los buscadores y páginas Webs más habituales nos muestran una porción de Internet. 
-
-
-
-\framedpicture{} Imágen: Bubbles Closeup - Bajo la licencia Creative Commons 0 (Dominio Público).
-[[https://store.kde.org/p/2056567]]
-
-** \new{} ¿Quién fue Manuel Sadosky?
+* Columna 5: ¿Quién fue Manuel Sadosky?
+\radio{} Emisión al aire: <2023-08-25 vie 15:00>
 
 #+caption: Manuel Sadosky de pié al lado de Clementina.
 [[https://upload.wikimedia.org/wikipedia/commons/1/12/Manuel_Sadosky_y_Clementina.jpg]]
 
-En la columna de hoy, hablaremos del doctor Manuel Sadosky. Pero antes, daremos un poco de contexto, la reforma universitaria de 1918, y cómo afectó después a las universidades. Sadosky junto con otros científicos trajeron y utilizaron la primer computadora a argentina, que cariñosamente la llamaron Clementina. ¿Quieren saber un poco de esta historia y quiénes fueron las primeras personas que programaron en Argentina? ¡Prepárense unos mates y escuchen este audio!
-
+En la columna de hoy, hablaremos del doctor Manuel Sadosky. Pero antes, daremos un poco de contexto, la reforma universitaria de 1918, y cómo afectó después a las universidades. Sadosky junto con otros científicos trajeron y utilizaron la primer computadora a argentina, que por la música que emitía, la llamaron Clementina. ¿Quieren saber un poco de esta historia y quiénes fueron las primeras personas que programaron en Argentina? ¡Prepárense unos mates y escuchen este audio!
 
 
 \framedpicture{} Imágen: Manuel Sadosky y Clementina. Imágen bajo el dominio público. Obtenido desde [[https://commons.wikimedia.org/wiki/File:Manuel_Sadosky_y_Clementina.jpg][Wikimedia Commons]].
-* ¿Quién fue Manuel Sadosky?
-Emisión al aire: <2023-08-25 vie>
 
+** Guión
 
 1. Contexto: Universidades desde el siglo XIX hasta 1918:
    - Católicas mayormente (UNC), estudiantes con dificultades para ingresar.
@@ -197,8 +144,24 @@ Algunos datos de color:
 - Nota Preliminar de García Camarero.
 
   "Autocode un sistema simplificado de codificación para la computadora Mercury" Instituto del Cálculo UBA. 1961.
-* ¿Qué es el filtro burbuja?
-Emisión al aire: <2023-08-11 vie>
+* Columna 4: ¿Qué es el filtro burbuja?                              :ATTACH:
+:PROPERTIES:
+:ID:       72e04deb-8e2b-4d72-9184-d355139b63ff
+:END:
+
+\radio{}  Emisión al aire: <2023-08-11 vie 15:00>
+
+[[file:data/72/e04deb-8e2b-4d72-9184-d355139b63ff/planet-bubbles-01-scaled.jpg]]
+
+Cuando buscamos algo en Internet, ¿por qué los resultados son diferentes a los de otras personas? ¿cómo se filtran y ordenan esos resultados? ¿cómo sabe el buscador que deseo esos resultados? ¿esto puede producir algún efecto social?
+Hablamos de los Filtros Burbujas, la cámara de eco y cómo los buscadores y páginas Webs más habituales nos muestran una porción de Internet. 
+
+
+
+\framedpicture{} Imágen: Bubbles Closeup - Bajo la licencia Creative Commons 0 (Dominio Público).
+[[https://store.kde.org/p/2056567]]
+
+** Guion
 
 1. Nada de Repaso \grinning{}: "¿Se acuerdan que hablamos de Algoritmos y que la IA es un algoritmo?
    ¿que mencionamos a los algoritmos de sugerencias?".
@@ -249,21 +212,38 @@ Emisión al aire: <2023-08-11 vie>
 5. https://misq.umn.edu/understanding-echo-chambers-and-filter-bubbles-the-impact-of-social-media-on-diversificationi-and-partisan-shifts-in-news-consumption.html
 6. Pariser, Eli. "The Filter Bubble: What the Internet is Hiding from You". Penguin Press. 2011.
 
-* ¿Qué es un algoritmo?
+* Columna 3: ¿Qué es un algoritmo?                                   :ATTACH:
+:PROPERTIES:
+:ID:       d366e442-9ea8-463d-81bf-77bf2b1deb08
+:END:
 
-Emisión al aire: <2023-07-28 vie>
+\radio{} Emisión al aire: <2023-07-28 vie 15:00>
+
+[[file:data/d3/66e442-9ea8-463d-81bf-77bf2b1deb08/flowchart.jpg]]
+
+"El algoritmo me sugiere estas pelis", "el algoritmo sabe lo que te gusta"... Pero... ¡¿Qué es un "algoritmo"?!
+
+Revelaremos el significado de esta palabra que siempre usamos. Eso que está detrás de las páginas Webs y que nos sugiere cosas, pero que nunca la vimos. Un algoritmo, ¿qué es? ¿la IA es un algoritmo? ¿las computadoras usan algoritmos? ¿las personas usamos algoritmos?
+
+
+
+\framedpicture{} Imágen: Flowchart por Gautier Poupeau - Bajo la licencia Creative Commons Atribución (CC-by 2.0). Obtenido desde https://flic.kr/p/rt5Q1d
+
+** Guion
+
 
 #+begin_quote
 /Algoritmo/
 
-/Quizá del lat. tardío *algobarismus, y este abrev. del ár. clás./
+/Quizá del lat. tardío *algobarismus, y este abrev. del ár. clás./ :
 #+latex: {\unicodefont ḥisābu lḡubār}
+#+html: ḥisābu lḡubār
 /"cálculo mediante cifras arábigas"./
 
 1. /m. Conjunto ordenado y finito de operaciones que permite hallar la solución de un problema./
 2. /m. Método y notación en las distintas formas del cálculo./
 
--- RAE
+-- RAE ([[https://dle.rae.es/algoritmo]])
 #+end_quote
 
 1. Definición de la RAE.
@@ -308,11 +288,22 @@ Emisión al aire: <2023-07-28 vie>
 
 \thinkingface{} Preguntas:
 - ¿Cómo ven a la computadora ahora que entienden un poco más que hace?
-- ¿Qué algoritmo usarán para este fin de semana?
+- ¿Qué algoritmo usarán para este fin de semana? \partyingface{}
 
 #+latex: \newpage
-* ¿Quién fue Alan Turing?
-Emisión al aire: <2023-07-14 vie>
+* Columna 2: ¿Quién fue Alan Turing?
+\radio{} Emisión al aire: <2023-07-14 vie 15:00>
+
+#+caption: Estatua de Alan Turing en Bletchley Park, atrás su fotografía.
+[[https://upload.wikimedia.org/wikipedia/commons/2/22/Alan_Turing_cropped.jpg]]
+
+En la computación, hubo un antes y un después de que Turing publicara sus artículos. Por eso te contamos quién fue y un poquito de sus aportes. ¿Qué hizo? ¿Qué visión tenía? ¿Por qué se lo considera tan relevante en esta área? 
+
+
+
+\framedpicture{} Imágen: Alan Turing por Jon Callas - Bajo licencia Creative Commons Atribución 2.0 Genérica (CC-by 2.0). Obtenido desde [[https://commons.wikimedia.org/wiki/File:Alan_Turing_cropped.jpg][Wikimedia Commons]].
+
+** Guion
 
 1. Repaso:
    1. ¿Qué era una computadora antes de Turing? \pointright{} Una computadora, era una persona que calculaba números: trabajo tedioso donde solo "sacaban cuentas".
@@ -377,11 +368,24 @@ Emisión al aire: <2023-07-14 vie>
 
 
 #+latex: \newpage
-* ¿Quién fue Ada Lovelace?                                           :ATTACH:
+* Columna 1: ¿Quién fue Ada Lovelace?
+\radio{} Emisión al aire: <2023-06-30 vie 15:00>
+
+#+caption: Retrato en acuarela de Ada Lovelace.
+[[https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg]]
+
+Augusta Byron, mejor conocida como Ada Lovelace, estudió matemática y se interesó mucho por el diseño de la máquina analítica de Charles Babbage. Se interesó a tal punto que publicó una traducción de un escrito que explicaba cómo funcionaba, junto con un montón de notas de su propia elaboración. Entre estas notas, se encuentra una joya: el primer programa.
+
+En esta grabación te contamos quién fue Ada Lovelace, qué hizo y por qué se la conoce como la primer progaramdora.
+
+
+\framedpicture{} Imágen: Ada Lovelace Portrait, fotografiado por la Science Museum Group. Bajo el dominio público. Obtenido desde [[https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg][Wikimedia Commons]].
+
+
+** Guion                                                            :ATTACH:
 :PROPERTIES:
 :ID:       6f2b0c10-f143-4af7-a523-b4bcb302dd79
 :END:
-Emisión al aire: <2023-06-30 vie>
 
 Mini-guion de prueba:
 
@@ -440,6 +444,34 @@ Aproximadamente, se tarda 2' a 3' por ítem. Total: 20'30''.
 - Imágen de un Almanaque Náutico obtenido desde WikiMedia Commons. Autor: U.S. Naval observatory. Bajo dominio público.
   [[https://commons.wikimedia.org/wiki/File:Nautical_almanac_01.png][https://commons.wikimedia.org/wiki/File:Nautical_almanac_01.png]]
 
+* Consideraciones en el desarrollo del documento
+Para el desarrollo de este documento se utiliza [[https://www.gnu.org/software/emacs/][Emacs]] con [[https://orgmode.org/][Org-mode]]. Aquí se presentan algunos tips y snippets (retazos de código fuente)  necesarios para utilizar y generar los documentos LaTeX, PDF y HTML adecuadamente.
+
+** Exportar fecha en español
+Es necesario utilizar un comando de Emacs específico para exportar las fechas en el formato correcto. En este caso, se utiliza =M-x my-org-export-dispatch= en vez del convencional =M-x org-export-dispatch= para preconfigurar el formato de la fecha.
+
+#+BEGIN_SRC emacs-lisp
+(defun my-org-export-dispatch ()
+  "Exportar un archivo Org con la fecha en español.
+Org-mode utiliza timestamps basada en la ISO 8601, y cambiarlo para el
+documento es problemático: solo afecta al overlay (visualización) y no
+al dato guardado.
+
+Esta función cambia el formato visible momentáneamente previo a
+exportar, así los documentos se exportan a LaTeX y HTML con el formato
+de fecha en español, y es más sencillo de leer."
+  (interactive)
+  (let ((org-time-stamp-custom-formats
+         '("<%A, %B %d, %Y>" . "<%A, %d de %B del %Y %H:%M>"))
+        (org-display-custom-times 't))
+    (org-export-dispatch)))
+#+END_SRC
+
+** Org-entities
+Para generar los emojis en HTML y LaTeX, se incorporan más entidades de Org-mode. Estas entidades se encuentran en mi configuración personal de Emacs, bajo la siguiente URL: [[https://gitlab.com/cnngimenez/emacs-stuff]]
+
+Actualmente, se utiliza la siguiente configuración en particular: [[https://gitlab.com/cnngimenez/emacs-stuff/-/blob/c5d680b2375d708404a686f4e28bf69671bc2cda/init.org?plain=1#L2058][Ver configuración]].
+
 * Licencia de esta obra
 [[https://i.creativecommons.org/l/by-sa/4.0/88x31.png]]
 
@@ -448,7 +480,7 @@ Esta obra se encuentra bajo la licencia Creative Commons Atribución Compartir I
 * Meta     :noexport:
 
 # ----------------------------------------------------------------------
-#+TITLE:  Columna de Informátia - Yo no fui
+#+TITLE:  Columna de Informática - Yo no fui
 #+SUBTITLE:
 #+AUTHOR: Christian Gimenez
 # #+DATE:   13 jun 2023
