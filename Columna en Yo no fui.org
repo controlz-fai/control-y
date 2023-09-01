@@ -5,6 +5,8 @@
 
 \warning{} Las columnas están ordenadas de manera inversa, la más reciente está primero.
 
+Esta columna es parte del Proyecto de Extensión "FaIComm: Charlando Sobre Informática", de la [[https://faiweb.uncoma.edu.ar][Facultad de Informática]], [[https://www.uncoma.edu.ar][Universidad Nacional del Comahue]].
+
 * Datos de la Columna
 
 - Título :: Columna informática de Yo no fui.
@@ -476,6 +478,10 @@ Actualmente, se utiliza la siguiente configuración en particular: [[https://git
 [[https://i.creativecommons.org/l/by-sa/4.0/88x31.png]]
 
 Esta obra se encuentra bajo la licencia Creative Commons Atribución Compartir Igual 4.0 Internacional.
+
+* Código fuente
+El código fuente se encuentra disponible en la siguiente URL: [[https://github.com/controlz-fai/control-y]]
+
 
 * Meta     :noexport:
 
