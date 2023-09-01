@@ -5,7 +5,8 @@
 
 \warning{} Las columnas están ordenadas de manera inversa, la más reciente está primero.
 
-Esta columna es parte del Proyecto de Extensión "FaIComm: Charlando Sobre Informática", de la [[https://faiweb.uncoma.edu.ar][Facultad de Informática]], [[https://www.uncoma.edu.ar][Universidad Nacional del Comahue]].
+Esta columna se emite por la [[https://radiouncocalf.com][Radio Universidad CALF]] (FM 103.7) de Neuquén. Parte del Proyecto de Extensión "FaIComm: Charlando Sobre Informática", de la [[https://faiweb.uncoma.edu.ar][Facultad de Informática]], [[https://www.uncoma.edu.ar][Universidad Nacional del Comahue]].
+
 
 * Datos de la Columna
 
@@ -24,8 +25,9 @@ Esta columna es parte del Proyecto de Extensión "FaIComm: Charlando Sobre Infor
   - Introducción motivada por una pregunta disparadora (P. ej. ¿qué es un algoritmo?)
   - Desarrollo con posible intervención de la personas presentes en el piso.
   - Conclusión que ofrezca una pregunta o moraleja para el público.
-- Alojamiento :: Vivo por radio. Internet como recorte de la columna.
-- Distribución :: Spotify, página Web personal, open.audio u otra plataforma Funkwhale. Posiblemente, redes sociales (Mastodon y privativas).
+- Alojamiento :: Vivo por [[https://radiouncocalf.com][radio Universidad CALF 103.7 Mhz]] (FM).
+  Internet como recorte de la columna.
+- Distribución :: Radio en vivo. Es posible distribuir por Spotify, [[https://radiocut.fm/radiostation/uncocalf/][RadioCut]], página Web personal, open.audio u otra plataforma Funkwhale. Posiblemente, redes sociales (Mastodon y privativas).
 - Identidad gráfica :: -
 - Licencia :: Creative Commons + Reconocimiento + Compartir Igual 4.0 Internacional (CC-by-SA):
   http://creativecommons.org/licenses/by-sa/4.0/
@@ -478,6 +480,8 @@ Actualmente, se utiliza la siguiente configuración en particular: [[https://git
 [[https://i.creativecommons.org/l/by-sa/4.0/88x31.png]]
 
 Esta obra se encuentra bajo la licencia Creative Commons Atribución Compartir Igual 4.0 Internacional.
+
+Ante modificaciones, se debe especificar la obra original y sus autores.
 
 * Código fuente
 El código fuente se encuentra disponible en la siguiente URL: [[https://github.com/controlz-fai/control-y]]
