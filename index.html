@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
 <head>
-<!-- 2023-09-01 vie 11:40 -->
+<!-- 2023-09-05 mar 16:31 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Columna de Informática - Yo no fui</title>
@@ -195,6 +195,7 @@
 </style>
 <link rel="stylesheet" href="https://latex.now.sh/style.css" />
 <link rel="stylesheet" href="https://latex.now.sh/lang/es.css" />
+<link rel="stylesheet" href="css/index.css" />
 
 <script src="libs/org-info.js">
 // @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
@@ -204,8 +205,8 @@
 <script>
 // @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
 org_html_manager.set("TOC_DEPTH", "3");
-org_html_manager.set("LINK_HOME", "https://controlz.fi.uncoma.edu.ar");
-org_html_manager.set("LINK_UP", "https://controlz.fi.uncoma.edu.ar");
+org_html_manager.set("LINK_HOME", "");
+org_html_manager.set("LINK_UP", "");
 org_html_manager.set("LOCAL_TOC", "1");
 org_html_manager.set("VIEW_BUTTONS", "1");
 org_html_manager.set("MOUSE_HINT", "underline");
@@ -217,68 +218,76 @@ org_html_manager.setup();  // activate after the parameters are set
 </script>
 </head>
 <body>
-<div id="org-div-home-and-up">
- <a accesskey="h" href="https://controlz.fi.uncoma.edu.ar"> UP </a>
- |
- <a accesskey="H" href="https://controlz.fi.uncoma.edu.ar"> HOME </a>
-</div><div id="content" class="content">
+<div id="content" class="content">
 <h1 class="title">Columna de Informática - Yo no fui</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>&Iacute;ndice</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org468d1c7">1. Datos de la Columna</a></li>
-<li><a href="#org8f6b6d9">2. Columna 5: ¿Quién fue Manuel Sadosky?</a>
+<li><a href="#orge70579b">1. Datos de la Columna</a></li>
+<li><a href="#orgaa846b5">2. Columna 5: ¿Quién fue Manuel Sadosky?</a>
 <ul>
-<li><a href="#org2aca874">2.1. Guión</a></li>
-<li><a href="#org6b2bba8">2.2. Bibliografía</a></li>
+<li><a href="#orgd3094e9">2.1. Guión</a></li>
+<li><a href="#orga96e7ff">2.2. Bibliografía</a></li>
 </ul>
 </li>
-<li><a href="#org0aebd55">3. Columna 4: ¿Qué es el filtro burbuja?</a>
+<li><a href="#org9b0723a">3. Columna 4: ¿Qué es el filtro burbuja?</a>
 <ul>
-<li><a href="#org3bfa12a">3.1. Guion</a></li>
-<li><a href="#orgc17603c">3.2. Bibliografía</a></li>
+<li><a href="#org3c34407">3.1. Guion</a></li>
+<li><a href="#org605a94d">3.2. Bibliografía</a></li>
 </ul>
 </li>
-<li><a href="#orge49a7ea">4. Columna 3: ¿Qué es un algoritmo?</a>
+<li><a href="#org8f7de3e">4. Columna 3: ¿Qué es un algoritmo?</a>
 <ul>
-<li><a href="#org70def17">4.1. Guion</a></li>
+<li><a href="#orgd363c2c">4.1. Guion</a></li>
 </ul>
 </li>
-<li><a href="#orgb84da09">5. Columna 2: ¿Quién fue Alan Turing?</a>
+<li><a href="#orge528eb0">5. Columna 2: ¿Quién fue Alan Turing?</a>
 <ul>
-<li><a href="#org8e96b8c">5.1. Guion</a></li>
-<li><a href="#org268520c">5.2. Bibliografía</a></li>
+<li><a href="#org6bede5e">5.1. Guion</a></li>
+<li><a href="#org2e4baa1">5.2. Bibliografía</a></li>
 </ul>
 </li>
-<li><a href="#org237986c">6. Columna 1: ¿Quién fue Ada Lovelace?</a>
+<li><a href="#org6b07e51">6. Columna 1: ¿Quién fue Ada Lovelace?</a>
 <ul>
-<li><a href="#org6dc4307">6.1. Guion</a></li>
-<li><a href="#org77c1586">6.2. Bibliografía</a></li>
+<li><a href="#org6ee6d76">6.1. Guion</a></li>
+<li><a href="#org3e7c25a">6.2. Bibliografía</a></li>
 </ul>
 </li>
-<li><a href="#orga4e41b8">7. Consideraciones en el desarrollo del documento</a>
+<li><a href="#org8ee3f03">7. Consideraciones en el desarrollo del documento</a>
 <ul>
-<li><a href="#orgde644f1">7.1. Exportar fecha en español</a></li>
-<li><a href="#orgc6d807b">7.2. Org-entities</a></li>
+<li><a href="#org65429c4">7.1. Cambios para la accesibilidad</a>
+<ul>
+<li><a href="#org7c303d4">7.1.1. Corrigiendo contraste de colores</a></li>
+<li><a href="#org7c8949b">7.1.2. Quitar justificado</a></li>
 </ul>
 </li>
-<li><a href="#orgcff5d9f">8. Licencia de esta obra</a></li>
-<li><a href="#org0f0768a">9. Código fuente</a></li>
+<li><a href="#org0a4642f">7.2. Exportar fecha en español</a></li>
+<li><a href="#org05f6732">7.3. Org-entities</a></li>
+</ul>
+</li>
+<li><a href="#orgfb2aa9c">8. Licencia de esta obra</a></li>
+<li><a href="#orgb3eedb9">9. Código fuente</a></li>
 </ul>
 </div>
 </div>
+<main>
+
+
 <p>
-&#9888;&#65039; Las columnas están ordenadas de manera inversa, la más reciente está primero.
+Control Y es una columna que se emite cada dos viernes a las 15:00 por <a href="https://radiouncocalf.com">Radio Universidad CALF</a> (FM 103.7) de Neuquén. Parte del Proyecto de Extensión &laquo;FaIComm: Charlando Sobre Informática&raquo;, de la <a href="https://faiweb.uncoma.edu.ar">Facultad de Informática</a>, <a href="https://www.uncoma.edu.ar">Universidad Nacional del Comahue</a>.
 </p>
 
 <p>
-Esta columna se emite por la <a href="https://radiouncocalf.com">Radio Universidad CALF</a> (FM 103.7) de Neuquén. Parte del Proyecto de Extensión &laquo;FaIComm: Charlando Sobre Informática&raquo;, de la <a href="https://faiweb.uncoma.edu.ar">Facultad de Informática</a>, <a href="https://www.uncoma.edu.ar">Universidad Nacional del Comahue</a>.
+En esta página se encuentran los guiones y la bibliografía utilizada en la columna. También, puede encontrar los recortes y la fecha de emisión para volver a escucharlas por <a href="https://radiocut.fm/radiostation/uncocalf/listen/">RadioCut</a>.
 </p>
 
+<p>
+&#9888;&#65039; Las columnas están ordenadas de manera inversa: la más reciente primero.
+</p>
 
-<div id="outline-container-org468d1c7" class="outline-2">
-<h2 id="org468d1c7"><span class="section-number-2">1.</span> Datos de la Columna</h2>
+<div id="outline-container-orge70579b" class="outline-2">
+<h2 id="orge70579b"><span class="section-number-2">1.</span> Datos de la Columna</h2>
 <div class="outline-text-2" id="text-1">
 <dl class="org-dl">
 <dt>Título</dt><dd>Columna informática de Yo no fui.</dd>
@@ -309,16 +318,20 @@ Ante modificaciones, se debe especificar la obra original y sus autores.</dd>
 </div>
 </div>
 
-<div id="outline-container-org8f6b6d9" class="outline-2">
-<h2 id="org8f6b6d9"><span class="section-number-2">2.</span> Columna 5: ¿Quién fue Manuel Sadosky?</h2>
+<div id="outline-container-orgaa846b5" class="outline-2">
+<h2 id="orgaa846b5"><span class="section-number-2">2.</span> Columna 5: ¿Quién fue Manuel Sadosky?</h2>
 <div class="outline-text-2" id="text-2">
 <p>
-&#128251; Emisión al aire: <span class="timestamp-wrapper"><span class="timestamp">&lt;viernes 25 de agosto del 2023 15:00&gt;</span></span>
+&#128251; Emisión al aire: <span class="timestamp-wrapper"><span class="timestamp">&lt;viernes, 25 de agosto del 2023 15:00&gt;</span></span>
+</p>
+
+<p>
+ <a href="https://ar.radiocut.fm/audiocut/columna-cristian-gimenez-quien-fue-manuel-sadosky-yo-no-fui-25-08-2023/">Escuchar recorte en RadioCut</a>.
 </p>
 
 
-<div id="orgdb1802c" class="figure">
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Manuel_Sadosky_y_Clementina.jpg" alt="Manuel_Sadosky_y_Clementina.jpg" />
+<div id="org4f520b3" class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Manuel_Sadosky_y_Clementina.jpg" alt="Foto de Manuel Sadosky junto a Clementina" align="center" />
 </p>
 <p><span class="figure-number">Figura 1: </span>Manuel Sadosky de pié al lado de Clementina.</p>
 </div>
@@ -333,8 +346,8 @@ En la columna de hoy, hablaremos del doctor Manuel Sadosky. Pero antes, daremos 
 </p>
 </div>
 
-<div id="outline-container-org2aca874" class="outline-3">
-<h3 id="org2aca874"><span class="section-number-3">2.1.</span> Guión</h3>
+<div id="outline-container-orgd3094e9" class="outline-3">
+<h3 id="orgd3094e9"><span class="section-number-3">2.1.</span> Guión</h3>
 <div class="outline-text-3" id="text-2-1">
 <ol class="org-ol">
 <li>Contexto: Universidades desde el siglo XIX hasta 1918:
@@ -470,8 +483,8 @@ Algunos datos de color:
 </div>
 </div>
 
-<div id="outline-container-org6b2bba8" class="outline-3">
-<h3 id="org6b2bba8"><span class="section-number-3">2.2.</span> Bibliografía</h3>
+<div id="outline-container-orga96e7ff" class="outline-3">
+<h3 id="orga96e7ff"><span class="section-number-3">2.2.</span> Bibliografía</h3>
 <div class="outline-text-3" id="text-2-2">
 <ul class="org-ul">
 <li>&laquo;Sadosky por Sadosky vida y pensamiento del pionero de la computación argentina&raquo;. Raúl Carnota, Carlos Borches. Fundación Sadosky.</li>
@@ -519,16 +532,16 @@ Nota Preliminar de García Camarero.
 </div>
 </div>
 </div>
-<div id="outline-container-org0aebd55" class="outline-2">
-<h2 id="org0aebd55"><span class="section-number-2">3.</span> Columna 4: ¿Qué es el filtro burbuja?&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h2>
+<div id="outline-container-org9b0723a" class="outline-2">
+<h2 id="org9b0723a"><span class="section-number-2">3.</span> Columna 4: ¿Qué es el filtro burbuja?&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h2>
 <div class="outline-text-2" id="text-3">
 <p>
-&#128251;  Emisión al aire: <span class="timestamp-wrapper"><span class="timestamp">&lt;viernes 11 de agosto del 2023 15:00&gt;</span></span>
+&#128251;  Emisión al aire: <span class="timestamp-wrapper"><span class="timestamp">&lt;viernes, 11 de agosto del 2023 15:00&gt;</span></span>
 </p>
 
 
-<div id="org0dd7264" class="figure">
-<p><img src="data/72/e04deb-8e2b-4d72-9184-d355139b63ff/planet-bubbles-01-scaled.jpg" alt="planet-bubbles-01-scaled.jpg" />
+<div id="org4444132" class="figure">
+<p><img src="data/72/e04deb-8e2b-4d72-9184-d355139b63ff/planet-bubbles-01-scaled.jpg" alt="Imágen de burbujas chocando con mucho zoom. Su superficie tiene diferentes colores." />
 </p>
 </div>
 
@@ -545,8 +558,8 @@ Hablamos de los Filtros Burbujas, la cámara de eco y cómo los buscadores y pá
 </p>
 </div>
 
-<div id="outline-container-org3bfa12a" class="outline-3">
-<h3 id="org3bfa12a"><span class="section-number-3">3.1.</span> Guion</h3>
+<div id="outline-container-org3c34407" class="outline-3">
+<h3 id="org3c34407"><span class="section-number-3">3.1.</span> Guion</h3>
 <div class="outline-text-3" id="text-3-1">
 <ol class="org-ol">
 <li>Nada de Repaso : &laquo;¿Se acuerdan que hablamos de Algoritmos y que la IA es un algoritmo?
@@ -618,8 +631,8 @@ Probemos con siglas: WP, BP&#x2026;
 </div>
 </div>
 
-<div id="outline-container-orgc17603c" class="outline-3">
-<h3 id="orgc17603c"><span class="section-number-3">3.2.</span> Bibliografía</h3>
+<div id="outline-container-org605a94d" class="outline-3">
+<h3 id="org605a94d"><span class="section-number-3">3.2.</span> Bibliografía</h3>
 <div class="outline-text-3" id="text-3-2">
 <ol class="org-ol">
 <li><a href="https://www.theguardian.com/technology/2010/nov/22/tim-berners-lee-facebook">https://www.theguardian.com/technology/2010/nov/22/tim-berners-lee-facebook</a>
@@ -636,16 +649,16 @@ Probemos con siglas: WP, BP&#x2026;
 </div>
 </div>
 
-<div id="outline-container-orge49a7ea" class="outline-2">
-<h2 id="orge49a7ea"><span class="section-number-2">4.</span> Columna 3: ¿Qué es un algoritmo?&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h2>
+<div id="outline-container-org8f7de3e" class="outline-2">
+<h2 id="org8f7de3e"><span class="section-number-2">4.</span> Columna 3: ¿Qué es un algoritmo?&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h2>
 <div class="outline-text-2" id="text-4">
 <p>
-&#128251; Emisión al aire: <span class="timestamp-wrapper"><span class="timestamp">&lt;viernes 28 de julio del 2023 15:00&gt;</span></span>
+&#128251; Emisión al aire: <span class="timestamp-wrapper"><span class="timestamp">&lt;viernes, 28 de julio del 2023 15:00&gt;</span></span>
 </p>
 
 
-<div id="org8409677" class="figure">
-<p><img src="data/d3/66e442-9ea8-463d-81bf-77bf2b1deb08/flowchart.jpg" alt="flowchart.jpg" />
+<div id="org63dee82" class="figure">
+<p><img src="data/d3/66e442-9ea8-463d-81bf-77bf2b1deb08/flowchart.jpg" alt="Foto con mucho zoom de una hoja que tiene dibujada un diagrama de flujo." />
 </p>
 </div>
 
@@ -664,8 +677,8 @@ Revelaremos el significado de esta palabra que siempre usamos. Eso que está det
 </p>
 </div>
 
-<div id="outline-container-org70def17" class="outline-3">
-<h3 id="org70def17"><span class="section-number-3">4.1.</span> Guion</h3>
+<div id="outline-container-orgd363c2c" class="outline-3">
+<h3 id="orgd363c2c"><span class="section-number-3">4.1.</span> Guion</h3>
 <div class="outline-text-3" id="text-4-1">
 <blockquote>
 <p>
@@ -772,18 +785,18 @@ No nos gusta los virus.
 </div>
 </div>
 </div>
-<div id="outline-container-orgb84da09" class="outline-2">
-<h2 id="orgb84da09"><span class="section-number-2">5.</span> Columna 2: ¿Quién fue Alan Turing?</h2>
+<div id="outline-container-orge528eb0" class="outline-2">
+<h2 id="orge528eb0"><span class="section-number-2">5.</span> Columna 2: ¿Quién fue Alan Turing?</h2>
 <div class="outline-text-2" id="text-5">
 <p>
-&#128251; Emisión al aire: <span class="timestamp-wrapper"><span class="timestamp">&lt;viernes 14 de julio del 2023 15:00&gt;</span></span>
+&#128251; Emisión al aire: <span class="timestamp-wrapper"><span class="timestamp">&lt;viernes, 14 de julio del 2023 15:00&gt;</span></span>
 </p>
 
 
-<div id="org79cc9ab" class="figure">
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Alan_Turing_cropped.jpg" alt="Alan_Turing_cropped.jpg" />
+<div id="orgeea525b" class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Alan_Turing_cropped.jpg" alt="Estatua representando Alan Turin. Atrás se observa su fotografía." />
 </p>
-<p><span class="figure-number">Figura 2: </span>Estatua de Alan Turing en Bletchley Park, atrás su fotografía.</p>
+<p><span class="figure-number">Figura 2: </span>Estatua representando a Alan Turing en Bletchley Park, atrás su fotografía.</p>
 </div>
 
 <p>
@@ -797,8 +810,8 @@ En la computación, hubo un antes y un después de que Turing publicara sus art�
 </p>
 </div>
 
-<div id="outline-container-org8e96b8c" class="outline-3">
-<h3 id="org8e96b8c"><span class="section-number-3">5.1.</span> Guion</h3>
+<div id="outline-container-org6bede5e" class="outline-3">
+<h3 id="org6bede5e"><span class="section-number-3">5.1.</span> Guion</h3>
 <div class="outline-text-3" id="text-5-1">
 <ol class="org-ol">
 <li>Repaso:
@@ -894,8 +907,8 @@ Por ejemplo: ¿Creen que la computadora puede reemplazar una obra de arte? ¿sig
 </div>
 </div>
 
-<div id="outline-container-org268520c" class="outline-3">
-<h3 id="org268520c"><span class="section-number-3">5.2.</span> Bibliografía</h3>
+<div id="outline-container-org2e4baa1" class="outline-3">
+<h3 id="org2e4baa1"><span class="section-number-3">5.2.</span> Bibliografía</h3>
 <div class="outline-text-3" id="text-5-2">
 <ul class="org-ul">
 <li>&laquo;La computación Turing - Pensando en máquinas que piensan&raquo;. Rafael Lahoz-Beltra. RBA Colleccionables. 2012.</li>
@@ -905,16 +918,16 @@ Por ejemplo: ¿Creen que la computadora puede reemplazar una obra de arte? ¿sig
 </div>
 </div>
 </div>
-<div id="outline-container-org237986c" class="outline-2">
-<h2 id="org237986c"><span class="section-number-2">6.</span> Columna 1: ¿Quién fue Ada Lovelace?</h2>
+<div id="outline-container-org6b07e51" class="outline-2">
+<h2 id="org6b07e51"><span class="section-number-2">6.</span> Columna 1: ¿Quién fue Ada Lovelace?</h2>
 <div class="outline-text-2" id="text-6">
 <p>
-&#128251; Emisión al aire: <span class="timestamp-wrapper"><span class="timestamp">&lt;viernes 30 de junio del 2023 15:00&gt;</span></span>
+&#128251; Emisión al aire: <span class="timestamp-wrapper"><span class="timestamp">&lt;viernes, 30 de junio del 2023 15:00&gt;</span></span>
 </p>
 
 
-<div id="org2a169fd" class="figure">
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg" alt="Ada_Lovelace_portrait.jpg" />
+<div id="orgb2ed648" class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg" alt="Una pintura en acuarela retratando a Ada Lovelace con un vestido violáceo." />
 </p>
 <p><span class="figure-number">Figura 3: </span>Retrato en acuarela de Ada Lovelace.</p>
 </div>
@@ -934,8 +947,8 @@ En esta grabación te contamos quién fue Ada Lovelace, qué hizo y por qué se 
 </div>
 
 
-<div id="outline-container-org6dc4307" class="outline-3">
-<h3 id="org6dc4307"><span class="section-number-3">6.1.</span> Guion&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h3>
+<div id="outline-container-org6ee6d76" class="outline-3">
+<h3 id="org6ee6d76"><span class="section-number-3">6.1.</span> Guion&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h3>
 <div class="outline-text-3" id="text-6-1">
 <p>
 Mini-guion de prueba:
@@ -948,7 +961,7 @@ Mini-guion de prueba:
 <li>Algoritmo, programa, instrucciones, cálculos, máquinas.</li>
 <li><i>A partir de ahora, cuando digo &laquo;computación&raquo; significa calcular o una persona que hace cálculos.</i></li>
 </ul></li>
-<li>En 1766 se precalculaban muchos resultados en tablas: logaritmos, trigonométricos, etc. También, tablas para distintos oficios: <i>Nautical Almanac</i> (ver Figura <a href="#org8465deb">4</a>).
+<li>En 1766 se precalculaban muchos resultados en tablas: logaritmos, trigonométricos, etc. También, tablas para distintos oficios: <i>Nautical Almanac</i> (ver Figura <a href="#orga6356cb">4</a>).
 <ul class="org-ul">
 <li>Computadores eran personas (¡eran freelancers! ¡vaya si es nueva la idea!) que calculaban: había muchos errores.</li>
 </ul></li>
@@ -1023,55 +1036,94 @@ Aproximadamente, se tarda 2&rsquo; a 3&rsquo; por ítem. Total: 20&rsquo;30&rsqu
 </p>
 
 
-<div id="org8465deb" class="figure">
-<p><img src="./data/6f/2b0c10-f143-4af7-a523-b4bcb302dd79/Nautical_almanac_01.png" alt="Nautical_almanac_01.png" />
+<div id="orga6356cb" class="figure">
+<p><img src="./data/6f/2b0c10-f143-4af7-a523-b4bcb302dd79/Nautical_almanac_01.png" alt="Un almanaque náutico de ejemplo." />
 </p>
-<p><span class="figure-number">Figura 4: </span>Almanaque nautico (fuente Wikimedia Commons).</p>
+<p><span class="figure-number">Figura 4: </span>Almanaque náutico (fuente Wikimedia Commons).</p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org77c1586" class="outline-3">
-<h3 id="org77c1586"><span class="section-number-3">6.2.</span> Bibliografía</h3>
+<div id="outline-container-org3e7c25a" class="outline-3">
+<h3 id="org3e7c25a"><span class="section-number-3">6.2.</span> Bibliografía</h3>
 <div class="outline-text-3" id="text-6-2">
 <ul class="org-ul">
 <li>&laquo;Computer a history of the information machine&raquo;. Martin Campbell-Kelly y William Aspray. Westview Press. 2004.
 <a href="https://archive.org/embed/computerhistoryo02edcamp">https://archive.org/embed/computerhistoryo02edcamp</a></li>
 <li>Imágen de un Almanaque Náutico obtenido desde WikiMedia Commons. Autor: U.S. Naval observatory. Bajo dominio público.
-<a href="https://commons.wikimedia.org/wiki/File:Nautical_almanac_01.png"><img src="https://commons.wikimedia.org/wiki/File:Nautical_almanac_01.png" alt="File:Nautical_almanac_01.png" /></a></li>
+<a href="https://commons.wikimedia.org/wiki/File:Nautical_almanac_01.png">commons.wikimedia.org/wiki/File:Nautical_almanac_01.png</a></li>
 </ul>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orga4e41b8" class="outline-2">
-<h2 id="orga4e41b8"><span class="section-number-2">7.</span> Consideraciones en el desarrollo del documento</h2>
+<div id="outline-container-org8ee3f03" class="outline-2">
+<h2 id="org8ee3f03"><span class="section-number-2">7.</span> Consideraciones en el desarrollo del documento</h2>
 <div class="outline-text-2" id="text-7">
 <p>
 Para el desarrollo de este documento se utiliza <a href="https://www.gnu.org/software/emacs/">Emacs</a> con <a href="https://orgmode.org/">Org-mode</a>. Aquí se presentan algunos tips y snippets (retazos de código fuente)  necesarios para utilizar y generar los documentos LaTeX, PDF y HTML adecuadamente.
 </p>
 </div>
 
-<div id="outline-container-orgde644f1" class="outline-3">
-<h3 id="orgde644f1"><span class="section-number-3">7.1.</span> Exportar fecha en español</h3>
+<div id="outline-container-org65429c4" class="outline-3">
+<h3 id="org65429c4"><span class="section-number-3">7.1.</span> Cambios para la accesibilidad</h3>
 <div class="outline-text-3" id="text-7-1">
+</div>
+
+<div id="outline-container-org7c303d4" class="outline-4">
+<h4 id="org7c303d4"><span class="section-number-4">7.1.1.</span> Corrigiendo contraste de colores</h4>
+<div class="outline-text-4" id="text-7-1-1">
+<p>
+El timestamp original tiene color gris, corregir al negro para dar mayor contraste.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-css"><span class="org-css-selector">.timestamp</span> {
+    <span class="org-css-property">color</span>: <span class="custom">black</span>;
+}
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org7c8949b" class="outline-4">
+<h4 id="org7c8949b"><span class="section-number-4">7.1.2.</span> Quitar justificado</h4>
+<div class="outline-text-4" id="text-7-1-2">
+<p>
+El justificado completo suele dejar espacios en blanco. Esto es contraproducente para personas con problemas para leer e interpretar el contenido.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-css"><span class="org-css-selector">p</span> {
+    <span class="org-css-property">text-align</span>: left;
+}
+</pre>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org0a4642f" class="outline-3">
+<h3 id="org0a4642f"><span class="section-number-3">7.2.</span> Exportar fecha en español</h3>
+<div class="outline-text-3" id="text-7-2">
 <p>
 Es necesario utilizar un comando de Emacs específico para exportar las fechas en el formato correcto. En este caso, se utiliza <code>M-x my-org-export-dispatch</code> en vez del convencional <code>M-x org-export-dispatch</code> para preconfigurar el formato de la fecha.
 </p>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp">(<span style="color: #81A1C1;">defun</span> <span style="color: #ECEFF4;">my-org-export-dispatch</span> ()
-  <span style="color: #677691;">"Exportar un archivo Org con la fecha en espa&#241;ol.</span>
-<span style="color: #677691;">Org-mode utiliza timestamps basada en la ISO 8601, y cambiarlo para el</span>
-<span style="color: #677691;">documento es problem&#225;tico: solo afecta al overlay (visualizaci&#243;n) y no</span>
-<span style="color: #677691;">al dato guardado.</span>
+<pre class="src src-emacs-lisp">(<span class="org-keyword">defun</span> <span class="org-function-name">my-org-export-dispatch</span> ()
+  <span class="org-doc">"Exportar un archivo Org con la fecha en espa&#241;ol.</span>
+<span class="org-doc">Org-mode utiliza timestamps basada en la ISO 8601, y cambiarlo para el</span>
+<span class="org-doc">documento es problem&#225;tico: solo afecta al overlay (visualizaci&#243;n) y no</span>
+<span class="org-doc">al dato guardado.</span>
 
-<span style="color: #677691;">Esta funci&#243;n cambia el formato visible moment&#225;neamente previo a</span>
-<span style="color: #677691;">exportar, as&#237; los documentos se exportan a LaTeX y HTML con el formato</span>
-<span style="color: #677691;">de fecha en espa&#241;ol, y es m&#225;s sencillo de leer."</span>
-  (<span style="color: #81A1C1;">interactive</span>)
-  (<span style="color: #81A1C1;">let</span> ((org-time-stamp-custom-formats
-         '(<span style="color: #D08770;">"&lt;%A, %B %d, %Y&gt;"</span> . <span style="color: #D08770;">"&lt;%A, %d de %B del %Y %H:%M&gt;"</span>))
+<span class="org-doc">Esta funci&#243;n cambia el formato visible moment&#225;neamente previo a</span>
+<span class="org-doc">exportar, as&#237; los documentos se exportan a LaTeX y HTML con el formato</span>
+<span class="org-doc">de fecha en espa&#241;ol, y es m&#225;s sencillo de leer."</span>
+  (<span class="org-keyword">interactive</span>)
+  (<span class="org-keyword">let</span> ((org-time-stamp-custom-formats
+         '(<span class="org-string">"&lt;%A, %B %d, %Y&gt;"</span> . <span class="org-string">"&lt;%A, %d de %B del %Y %H:%M&gt;"</span>))
         (org-display-custom-times 't))
     (org-export-dispatch)))
 </pre>
@@ -1079,9 +1131,9 @@ Es necesario utilizar un comando de Emacs específico para exportar las fechas e
 </div>
 </div>
 
-<div id="outline-container-orgc6d807b" class="outline-3">
-<h3 id="orgc6d807b"><span class="section-number-3">7.2.</span> Org-entities</h3>
-<div class="outline-text-3" id="text-7-2">
+<div id="outline-container-org05f6732" class="outline-3">
+<h3 id="org05f6732"><span class="section-number-3">7.3.</span> Org-entities</h3>
+<div class="outline-text-3" id="text-7-3">
 <p>
 Para generar los emojis en HTML y LaTeX, se incorporan más entidades de Org-mode. Estas entidades se encuentran en mi configuración personal de Emacs, bajo la siguiente URL: <a href="https://gitlab.com/cnngimenez/emacs-stuff">https://gitlab.com/cnngimenez/emacs-stuff</a>
 </p>
@@ -1093,12 +1145,12 @@ Actualmente, se utiliza la siguiente configuración en particular: <a href="http
 </div>
 </div>
 
-<div id="outline-container-orgcff5d9f" class="outline-2">
-<h2 id="orgcff5d9f"><span class="section-number-2">8.</span> Licencia de esta obra</h2>
+<div id="outline-container-orgfb2aa9c" class="outline-2">
+<h2 id="orgfb2aa9c"><span class="section-number-2">8.</span> Licencia de esta obra</h2>
 <div class="outline-text-2" id="text-8">
 
-<div id="org9866e6e" class="figure">
-<p><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="88x31.png" />
+<div id="orgcddb585" class="figure">
+<p><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Logo de la licencia CC-by-SA." />
 </p>
 </div>
 
@@ -1112,18 +1164,21 @@ Ante modificaciones, se debe especificar la obra original y sus autores.
 </div>
 </div>
 
-<div id="outline-container-org0f0768a" class="outline-2">
-<h2 id="org0f0768a"><span class="section-number-2">9.</span> Código fuente</h2>
+<div id="outline-container-orgb3eedb9" class="outline-2">
+<h2 id="orgb3eedb9"><span class="section-number-2">9.</span> Código fuente</h2>
 <div class="outline-text-2" id="text-9">
 <p>
 El código fuente se encuentra disponible en la siguiente URL: <a href="https://github.com/controlz-fai/control-y">https://github.com/controlz-fai/control-y</a>
 </p>
+
+
+</main>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Autor: Christian Gimenez</p>
-<p class="date">Created: 2023-09-01 vie 11:40</p>
+<p class="date">Created: 2023-09-05 mar 16:31</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

@@ -3,10 +3,14 @@
 \newfontfamily\unicodefont{Doulos SIL}
 #+end_export
 
-\warning{} Las columnas están ordenadas de manera inversa, la más reciente está primero.
+#+HTML: <main>
 
-Esta columna se emite por la [[https://radiouncocalf.com][Radio Universidad CALF]] (FM 103.7) de Neuquén. Parte del Proyecto de Extensión "FaIComm: Charlando Sobre Informática", de la [[https://faiweb.uncoma.edu.ar][Facultad de Informática]], [[https://www.uncoma.edu.ar][Universidad Nacional del Comahue]].
 
+Control Y es una columna que se emite cada dos viernes a las 15:00 por [[https://radiouncocalf.com][Radio Universidad CALF]] (FM 103.7) de Neuquén. Parte del Proyecto de Extensión "FaIComm: Charlando Sobre Informática", de la [[https://faiweb.uncoma.edu.ar][Facultad de Informática]], [[https://www.uncoma.edu.ar][Universidad Nacional del Comahue]].
+
+En esta página se encuentran los guiones y la bibliografía utilizada en la columna. También, puede encontrar los recortes y la fecha de emisión para volver a escucharlas por [[https://radiocut.fm/radiostation/uncocalf/listen/][RadioCut]].
+
+\warning{} Las columnas están ordenadas de manera inversa: la más reciente primero.
 
 * Datos de la Columna
 
@@ -36,7 +40,10 @@ Esta columna se emite por la [[https://radiouncocalf.com][Radio Universidad CALF
 * Columna 5: ¿Quién fue Manuel Sadosky?
 \radio{} Emisión al aire: <2023-08-25 vie 15:00>
 
+\play{} [[https://ar.radiocut.fm/audiocut/columna-cristian-gimenez-quien-fue-manuel-sadosky-yo-no-fui-25-08-2023/][Escuchar recorte en RadioCut]].
+
 #+caption: Manuel Sadosky de pié al lado de Clementina.
+#+attr_html: :alt Foto de Manuel Sadosky junto a Clementina :align center
 [[https://upload.wikimedia.org/wikipedia/commons/1/12/Manuel_Sadosky_y_Clementina.jpg]]
 
 En la columna de hoy, hablaremos del doctor Manuel Sadosky. Pero antes, daremos un poco de contexto, la reforma universitaria de 1918, y cómo afectó después a las universidades. Sadosky junto con otros científicos trajeron y utilizaron la primer computadora a argentina, que por la música que emitía, la llamaron Clementina. ¿Quieren saber un poco de esta historia y quiénes fueron las primeras personas que programaron en Argentina? ¡Prepárense unos mates y escuchen este audio!
@@ -155,6 +162,7 @@ Algunos datos de color:
 
 \radio{}  Emisión al aire: <2023-08-11 vie 15:00>
 
+#+attr_html: :alt Imágen de burbujas chocando con mucho zoom. Su superficie tiene diferentes colores.
 [[file:data/72/e04deb-8e2b-4d72-9184-d355139b63ff/planet-bubbles-01-scaled.jpg]]
 
 Cuando buscamos algo en Internet, ¿por qué los resultados son diferentes a los de otras personas? ¿cómo se filtran y ordenan esos resultados? ¿cómo sabe el buscador que deseo esos resultados? ¿esto puede producir algún efecto social?
@@ -223,6 +231,7 @@ Hablamos de los Filtros Burbujas, la cámara de eco y cómo los buscadores y pá
 
 \radio{} Emisión al aire: <2023-07-28 vie 15:00>
 
+#+attr_html: :alt Foto con mucho zoom de una hoja que tiene dibujada un diagrama de flujo.
 [[file:data/d3/66e442-9ea8-463d-81bf-77bf2b1deb08/flowchart.jpg]]
 
 "El algoritmo me sugiere estas pelis", "el algoritmo sabe lo que te gusta"... Pero... ¡¿Qué es un "algoritmo"?!
@@ -298,7 +307,8 @@ Revelaremos el significado de esta palabra que siempre usamos. Eso que está det
 * Columna 2: ¿Quién fue Alan Turing?
 \radio{} Emisión al aire: <2023-07-14 vie 15:00>
 
-#+caption: Estatua de Alan Turing en Bletchley Park, atrás su fotografía.
+#+caption: Estatua representando a Alan Turing en Bletchley Park, atrás su fotografía.
+#+attr_html: :alt Estatua representando Alan Turin. Atrás se observa su fotografía.
 [[https://upload.wikimedia.org/wikipedia/commons/2/22/Alan_Turing_cropped.jpg]]
 
 En la computación, hubo un antes y un después de que Turing publicara sus artículos. Por eso te contamos quién fue y un poquito de sus aportes. ¿Qué hizo? ¿Qué visión tenía? ¿Por qué se lo considera tan relevante en esta área? 
@@ -376,6 +386,7 @@ En la computación, hubo un antes y un después de que Turing publicara sus art�
 \radio{} Emisión al aire: <2023-06-30 vie 15:00>
 
 #+caption: Retrato en acuarela de Ada Lovelace.
+#+attr_html: :alt Una pintura en acuarela retratando a Ada Lovelace con un vestido violáceo.
 [[https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg]]
 
 Augusta Byron, mejor conocida como Ada Lovelace, estudió matemática y se interesó mucho por el diseño de la máquina analítica de Charles Babbage. Se interesó a tal punto que publicó una traducción de un escrito que explicaba cómo funcionaba, junto con un montón de notas de su propia elaboración. Entre estas notas, se encuentra una joya: el primer programa.
@@ -439,17 +450,42 @@ Mini-guion de prueba:
 Aproximadamente, se tarda 2' a 3' por ítem. Total: 20'30''.
 
 #+name: fig:alman-nauti
-#+caption: Almanaque nautico (fuente Wikimedia Commons).
+#+caption: Almanaque náutico (fuente Wikimedia Commons).
+#+attr_html: :alt Un almanaque náutico de ejemplo.
 [[./data/6f/2b0c10-f143-4af7-a523-b4bcb302dd79/Nautical_almanac_01.png]]
 
 ** Bibliografía
 - "Computer a history of the information machine". Martin Campbell-Kelly y William Aspray. Westview Press. 2004.
   https://archive.org/embed/computerhistoryo02edcamp
 - Imágen de un Almanaque Náutico obtenido desde WikiMedia Commons. Autor: U.S. Naval observatory. Bajo dominio público.
-  [[https://commons.wikimedia.org/wiki/File:Nautical_almanac_01.png][https://commons.wikimedia.org/wiki/File:Nautical_almanac_01.png]]
+  [[https://commons.wikimedia.org/wiki/File:Nautical_almanac_01.png][commons.wikimedia.org/wiki/File:Nautical_almanac_01.png]]
 
 * Consideraciones en el desarrollo del documento
 Para el desarrollo de este documento se utiliza [[https://www.gnu.org/software/emacs/][Emacs]] con [[https://orgmode.org/][Org-mode]]. Aquí se presentan algunos tips y snippets (retazos de código fuente)  necesarios para utilizar y generar los documentos LaTeX, PDF y HTML adecuadamente.
+
+** Cambios para la accesibilidad
+:PROPERTIES:
+:header-args:css: :tangle css/index.css :mkdirp yes
+:END:
+
+*** Corrigiendo contraste de colores
+El timestamp original tiene color gris, corregir al negro para dar mayor contraste.
+
+#+BEGIN_SRC css
+  .timestamp {
+      color: black;
+  }
+#+END_SRC
+
+*** Quitar justificado
+El justificado completo suele dejar espacios en blanco. Esto es contraproducente para personas con problemas para leer e interpretar el contenido.
+
+#+BEGIN_SRC css
+  p {
+      text-align: left;
+  }
+#+END_SRC
+
 
 ** Exportar fecha en español
 Es necesario utilizar un comando de Emacs específico para exportar las fechas en el formato correcto. En este caso, se utiliza =M-x my-org-export-dispatch= en vez del convencional =M-x org-export-dispatch= para preconfigurar el formato de la fecha.
@@ -471,12 +507,16 @@ de fecha en español, y es más sencillo de leer."
     (org-export-dispatch)))
 #+END_SRC
 
+#+RESULTS:
+: my-org-export-dispatch
+
 ** Org-entities
 Para generar los emojis en HTML y LaTeX, se incorporan más entidades de Org-mode. Estas entidades se encuentran en mi configuración personal de Emacs, bajo la siguiente URL: [[https://gitlab.com/cnngimenez/emacs-stuff]]
 
 Actualmente, se utiliza la siguiente configuración en particular: [[https://gitlab.com/cnngimenez/emacs-stuff/-/blob/c5d680b2375d708404a686f4e28bf69671bc2cda/init.org?plain=1#L2058][Ver configuración]].
 
 * Licencia de esta obra
+#+attr_html: :alt Logo de la licencia CC-by-SA.
 [[https://i.creativecommons.org/l/by-sa/4.0/88x31.png]]
 
 Esta obra se encuentra bajo la licencia Creative Commons Atribución Compartir Igual 4.0 Internacional.
@@ -486,6 +526,8 @@ Ante modificaciones, se debe especificar la obra original y sus autores.
 * Código fuente
 El código fuente se encuentra disponible en la siguiente URL: [[https://github.com/controlz-fai/control-y]]
 
+
+#+HTML: </main>
 
 * Meta     :noexport:
 
@@ -510,16 +552,16 @@ El código fuente se encuentra disponible en la siguiente URL: [[https://github.
 
 # -- Export
 #+LANGUAGE: es
-#+LINK_UP: https://controlz.fi.uncoma.edu.ar
-#+LINK_HOME: https://controlz.fi.uncoma.edu.ar
+# #+LINK_UP: https://controlz.fi.uncoma.edu.ar
+# #+LINK_HOME: https://controlz.fi.uncoma.edu.ar
 #+EXPORT_SELECT_TAGS: export
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+export_file_name: index
 
 # -- HTML Export
 #+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
-#+HTML_LINK_UP: https://controlz.fi.uncoma.edu.ar
-#+HTML_LINK_HOME: https://controlz.fi.uncoma.edu.ar
+# #+HTML_LINK_UP: https://controlz.fi.uncoma.edu.ar
+# #+HTML_LINK_HOME: https://controlz.fi.uncoma.edu.ar
 
 # -- For ox-twbs or HTML Export
 # #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
@@ -530,6 +572,7 @@ El código fuente se encuentra disponible en la siguiente URL: [[https://github.
 # #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
 #+html_head: <link rel="stylesheet" href="https://latex.now.sh/style.css" />
 #+html_head: <link rel="stylesheet" href="https://latex.now.sh/lang/es.css" />
+#+html_head: <link rel="stylesheet" href="css/index.css" />
 
 
 # -- LaTeX Export
@@ -574,4 +617,5 @@ El código fuente se encuentra disponible en la siguiente URL: [[https://github.
 # visual-line-fringe-indicators: t
 # ispell-local-dictionary: "spanish"
 # org-latex-default-figure-position: "tbp"
+# org-html-htmlize-output-type: css
 # End:
