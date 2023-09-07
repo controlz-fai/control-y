@@ -38,14 +38,17 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
-* Columna 6: Manuel Sadosky, "IBM go home" y más - 2da parte
+* Columna 6: Manuel Sadosky, "IBM go home" y más - 2da parte         :ATTACH:
+:PROPERTIES:
+:ID:       59d9d7da-7dce-46ef-8c20-b656db6ec771
+:END:
 \radio{} Emisión al aire: <2023-09-08 vie 15:00>
 
 \play{} Recorte en RadioCut aún no disponible.
 
 #+caption: Personal operando la computadora Clementina.
 #+attr_html: :alt Foto del personal operando la computadora Clementina  :align center
-[[https://cdn.educ.ar///repositorio/imagen/ver?image_id=249d8745-5ba3-400e-bb10-a2decff0a14f]]
+[[file:data/59/d9d7da-7dce-46ef-8c20-b656db6ec771/clementina.jpg]]
 
 \framedpicture{} Imágen proveniente del artículo "Clementina, la primera computadora en la Argentina" de Lucas Delgado. Artículo bajo la licencia CC-by-NC-SA. URL: https://www.educ.ar/recursos/118069/clementina-la-primera-computadora-en-la-argentina.
 
