@@ -44,7 +44,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 :END:
 \radio{} Emisión al aire: <2023-09-08 vie 15:00>
 
-\play{} Recorte en RadioCut aún no disponible.
+\headphone{} Recorte en RadioCut aún no disponible.
 
 #+caption: Personal operando la computadora Clementina.
 #+attr_html: :alt Foto del personal operando la computadora Clementina  :align center
@@ -202,7 +202,7 @@ Algunos datos de color:
 * Columna 5: ¿Quién fue Manuel Sadosky?
 \radio{} Emisión al aire: <2023-08-25 vie 15:00>
 
-\play{} [[https://ar.radiocut.fm/audiocut/columna-cristian-gimenez-quien-fue-manuel-sadosky-yo-no-fui-25-08-2023/][Escuchar recorte en RadioCut]].
+\headphone{} [[https://ar.radiocut.fm/audiocut/columna-cristian-gimenez-quien-fue-manuel-sadosky-yo-no-fui-25-08-2023/][Escuchar recorte en RadioCut]].
 
 #+caption: Manuel Sadosky de pié al lado de Clementina.
 #+attr_html: :alt Foto de Manuel Sadosky junto a Clementina :align center
@@ -678,7 +678,7 @@ de fecha en español, y es más sencillo de leer."
 ** Org-entities
 Para generar los emojis en HTML y LaTeX, se incorporan más entidades de Org-mode. Estas entidades se encuentran en mi configuración personal de Emacs, bajo la siguiente URL: [[https://gitlab.com/cnngimenez/emacs-stuff]]
 
-Actualmente, se utiliza la siguiente configuración en particular: [[https://gitlab.com/cnngimenez/emacs-stuff/-/blob/c5d680b2375d708404a686f4e28bf69671bc2cda/init.org?plain=1#L2058][Ver configuración]].
+Actualmente, se utiliza la siguiente configuración en particular: [[https://gitlab.com/cnngimenez/emacs-stuff/-/blob/fc0ae63677b37c178be44b1f45abb0510dfa76b4/init.org?plain=1#L2058][Ver configuración]].
 
 * Licencia de esta obra
 #+attr_html: :alt Logo de la licencia CC-by-SA.
