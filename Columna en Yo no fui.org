@@ -50,11 +50,15 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 #+attr_html: :alt Foto del personal operando la computadora Clementina  :align center
 [[file:data/59/d9d7da-7dce-46ef-8c20-b656db6ec771/clementina.jpg]]
 
+La vez pasada hablamos de Sadosky, la primer computadora en nuestro país y la nefasta noche de los bastones largos, pero... ¿y después? ¿qué pasó?
+
+A eso venimos hoy, a contarte qué sucedió después. Algunas cosas que valen la pena recordar que sucedieron entre los 70' y los 90'. 
+
 \framedpicture{} Imágen proveniente del artículo "Clementina, la primera computadora en la Argentina" de Lucas Delgado. Artículo bajo la licencia CC-by-NC-SA. URL: https://www.educ.ar/recursos/118069/clementina-la-primera-computadora-en-la-argentina.
 
 ** Guión
 
-1. Repaso:
+1. Repaso rápido:
    - Reforma universitaria: movimiento estudiantil del 1918 para reformar la universidad, buscan:
      - Autonomía del poder político, gobierno representado por estudiantes y docentes, asignación por concursos públicos, libertad de pensamiento.     
    - Resumen de la vida de Sadosky:
@@ -62,40 +66,51 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
      - Publicó libros
    - Hablamos de Instituto del Cálculo y Clementina, la primer computadora.
 
-2. *Se compró una Mercury Ferranti* que llegó en 1960. 152.099 libras esterlinas, (equivalen a  USD 4.500.000 en el 2011).
+   - *Se compró una Mercury Ferranti* que llegó en 1960. 152.099 libras esterlinas, (equivalen a  USD 4.500.000 en el 2011).
    
-   ¿Vamos de compras en 1960?
+     ¿Vamos de compras en 1960?
    
-   - Ultrathin (?): 18 metros y medio de largo, media tonelada de peso.
-   - Rápida (?): Tres horas para encender.
-   - Fácil de instalar (?): Red eléctrica distinta a la convencional.
-   - ¿Gigas de RAM DDR5? Nah, de válvulas mejor: 1K de palabras de 48b = 4750 Bytes = ~4Kb
-   - ¿Disco rígido sólido? ¿para qué?: Disco de tambores magnéticos, 4 tambores de 8K cada uno.
-   - ¿Monitor de 500 pulgadas? Ni ahí: Entrada/Salida con cinta de papel perforado, impresora 30 caracteres por segundo. Pero le adaptaron un lector de tarjetas perforadas *nacional*.
-   - ¿Teclado? ¿para qué? nah, no tiene.
-   - Un parlante (con musiquita de "Oh my darling, Clementine").    
-   - ¿Windows 60'? No, no... Programas: Ensamblador orientado al cálculo, Autocode.
-     - Luego, se creó el compilador y lenguaje COMIC en Argentina gracias a Liana Lew, Noemí García, Wilfred Durán, Ana Zoltran Torres, Clarisa Cortés.
+     - Ultrathin (?): 18 metros y medio de largo, media tonelada de peso.
+     - Rápida (?): Tres horas para encender.
+     - Fácil de instalar (?): Red eléctrica distinta a la convencional.
+     - ¿Gigas de RAM DDR5? Nah, de válvulas mejor: 1K de palabras de 48b = 4750 Bytes = ~4Kb
+     - ¿Disco rígido sólido? ¿para qué?: Disco de tambores magnéticos, 4 tambores de 8K cada uno.
+     - ¿Monitor de 500 pulgadas? Ni ahí: Entrada/Salida con cinta de papel perforado, impresora 30 caracteres por segundo. Pero le adaptaron un lector de tarjetas perforadas *nacional*.
+     - ¿Teclado? ¿para qué? nah, no tiene.
+     - Un parlante (con musiquita de "Oh my darling, Clementine").    
+     - ¿Windows 60'? No, no... Programas: Ensamblador orientado al cálculo, Autocode.
+       - Luego, se creó el compilador y lenguaje COMIC en Argentina gracias a Liana Lew, Noemí García, Wilfred Durán, Ana Zoltran Torres, Clarisa Cortés.
 
-3. ¿Para qué se usaba?
+2. Repaso rápido: ¿Para qué se usaba?
    
    Se usaba para cálculos matemáticos: pautas en el sistema de ahorro y préstamos, estudio de ríos patagónicos, cálculos astronómicos (órbita del cometa Halley), censos comerciales, análisis del funcionamiento de reactores nucleares, investigaciones cardiológicas, traducciones (ruso-español). 
    
-   Encargada de programarla: *Cecilia Berdichevsky*.
+   Encargada de programarla: *Cecilia Berdichevsky*, primer programadora Argentina.
      
-4. La Universidad de Buenos Aires (UBA) Y la Universidad del Sur (UNS) quisieron hacer su computadora: la CEFIBA (1962).
-   - UBA: La CEFIBA (1962) a cargo del Ing. Humberto Ciancaglini.
+3. En esa época: ¿Quién tenía idea de cómo programar esta computadora? \to{} Se fundó el *Instituto del Cálculo* en 1962.
+   
+   - Primer carrera de informática: "Computador Científico".
+   - Autocode: un sistema para la Ferranti Mercury - 1961
+     - \books{} Leer los agradecimientos de la nota preliminar del manual de Autocode de García Camarero del IC (ver Bibliografía):
+       
+       /"Hemos de agradecer la paciente y minuciosa lectura de nuestra primera redacción, así como sus múltiples puntualizaciones, a la Dra. Cicely M. Popplewell. También agradecemos la valiosa colaboración de la Dra. R.Ch. de Guber [Dra. Rebeca Guber]. Buenos Aires, octubre de 1961" -- E. García Camarero/
+
+     - *Cicely Popplewell*
+       - ¡Trabajó directamente con Alan Turing diseñando el lenguaje de la Ferranti Mark 1!
+       - Dió el primer curso de programación en Argentina.
+   - COMIC (Compilador del Instituto del Cálculo): Lenguaje de programación creada por IC - 1965
+     - Autocode podía mejorarse.
+     - Wilfred Durán realizó ingeniería inversa del Autocode.
+     - Mejoraba: nombres de variables y manejo de matrices.
+     - *Primer software de base* argentino.
+
+4. La Universidad de Buenos Aires (UBA) Y la Universidad del Sur (UNS) quisieron hacer su computadora:
+   - UBA: La Computadora Electrónica de la Facultad de Ingeniería de la Universidad de Buenos Aires (CEFIBA, 1962) a cargo del Ing. Humberto Ciancaglini.
+     - Inaugurada a poco menos de cuatro años de iniciado el proyecto.
+     - La idea era preparar a jóvenes para sistemas digitales electrónicos.
    - UNS: la CEUNS (1962) a cargo del Ing. Jorge Santos \to{} Procesaba con números racionales.
 
-5. ¿Quién tiene idea de cómo programar esta computadora? \to{} Fundó el Instituto del Cálculo en 1962.
-   
-   - Autocode: un sistema para la Ferranti Mercury - 1961
-     - \books{} Leer los agradecimientos de la nota preliminar del manual de Autocode de García Camarero del IC (ver Bibliografía)
-       
-       /"Hemos de agradecer la paciente y minuciosa lectura de nuestra primera redacción, así como sus múltiples puntualizaciones, a la Dra. Cicely M. Popplewell. También agradecemos la valiosa colaboración de la Dra. R.Ch. de Guber. Buenos Aires, octubre de 1961" -- E. García Camarero/
-   - COMIC : Lenguaje de programación creada por IC - 1965    
-
-6. ¿Qué pasó luego? La noche de los bastones largos (29 de julio de 1966, en dictadura de Onganía).
+5. ¿Qué pasó luego? *La noche de los bastones largos* (29 de julio de 1966, en dictadura de Onganía).
    1. Intervencion de las Universidades Nacionales.
 
       Humillados violentamente: estudiantes, docentes y graduados, los retiraron a la fuerza del edificio, y afuera, los hacían pasar uno a uno para pegarles con palos o culatas.
@@ -103,42 +118,52 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
       ¿Por qué los militares hicieron eso?
       
    2. Docentes, alumnos y graduados, hasta Warren Ambrose, profesor del MIT y de la UBA, fueron detenidos.
-   3. Renuncias y éxodo de investigadores - Fuga de cerebros . Sadosky se exilió más tarde, en ~1974.
-   4. El IC, Clementina y la carrera de Computador Científico se destruyó.
-   5. Sucesivas protestas estudiantiles y represión.
+   3. Renuncias y éxodo de investigadores - *Fuga de cerebros* . Sadosky se exilió más tarde, en ~1974.
+   4. El IC, Clementina y la carrera de Computador Científico se fue dejando de lado hasta su término. *Agonía de Clementina*: baja inversión para reparaciones hasta su cierre definitivo en 1970.
+   5. Sucesivas protestas estudiantiles y represión. Policías en aulas y pasillos.
    6. Prohibidas reuniones en la facultad.
    7. Clementina deja de funcionar y la computación entra en una época oscura por varios años.
-7. ¿Qué pasó luego de la noche de los bastones largos? *IBM Go Home* (1966-1971)
+      
+6. ¿Qué pasó luego de la noche de los bastones largos? *IBM Go Home* (1966-1971)
 
    Gobierno: Dictadura de Juan Carlos Onganía.
    
-   1. Vacío en las universidades \to{} plantel cubierto por profesionales de IBM.
-   2. Cambios en la carrera \to{} Apéndice de la multinacional.
+   - Vacío en las universidades \to{} plantel cubierto por profesionales de IBM.
+   - Cambios en la carrera \to{} Se hicieron apéndice de la multinacional.
       1. Antes se enseñaba a programar en Mercury e IBM \to{} Pasó a enseñarse solo IBM.
       2. No hubo una reforma curricular \to{} Fue implícito.
-      3. Clementina no pudo ejecutar los programas de los estudiantes \to{} "no hay computadora para los alumnos"
-      4. Había pocas marcas y muy diferentes entre sí.
-   3. En 1971 se produjo una huelga de estudiantes (de distintas alineaciones políticas) para cambiar la currícula. Pedían: 
+      3. Clementina no pudo ejecutar los programas de los estudiantes \to{} aparece la frase *"no hay computadora para los alumnos"*.
+      4. Cada marca proveía su propio Hardware y su Software \to{} ¡Dependecia a la marca!
+      5. Clementina deja de funcionar en 1970.
+   - En 1971 se produjo una huelga de estudiantes (de distintas alineaciones políticas) para cambiar la currícula. Pedían: 
       1. Aprender contenido más general.
       2. A utilizar equipos de varias marcas.
       3. Tener el nivel para desarrollar todo el software de base.
-      
-   
-8. ¿Qué más hizo Sadosky después?
+
+   Conclusión personal: Actualmente, la carreras informáticas son diferentes, pero siguen con la misma idea: se enseña cómo funciona una computadora en general, y después lo particular de cada cosa.
+
+7. ¿Qué más hizo Sadosky después?
    1. Montevideo: ayudó a la creación del IC allí. Dr. Honoris Causa.
    2. Fundó la consultora Asesores Científico Técnicos, primera empresa especializada en desarrollo de software del país.
    3. Fue Secretario de Ciencia y Técnica en 1983 (democracia de Raúl Alfonsín).
-9. La ESLAI
-   1. Promueve la Escuela Superior Latinoamericana de Informática (ESLAI), un paralelo del Balseiro en computación. Desfinanciada por Menem en 1990.
+8. La ESLAI (1985)
+   1. Atraso y brecha tecnológica:
+      1. Acá: Todo detenido durante la dictadura. ¿Hay carreras, licenciados, doctores, informática aplicada? \to{} muy poca.
+      2. Afuera: Avanzó sin detenerse.
+   2. ¡Se necesitan más profesionales!: ¿cómo les parece que afecta la ausencia de profesionales en la informática en los distintos sectores de argentina? ¿cómo pueden haber más profesionales si en nuestro país no hay quién los forme?
+   3. Sadosky promueve la Escuela Superior Latinoamericana de Informática (ESLAI), un paralelo del Balseiro pero en computación.
+   4. La idea: Introducir profesionales actualizados, y altamente capacitados, en los sectores académicos y productivos.
+   5. Rápido: dedicación exlusiva al estudio y la investigación.
+   6. "Blindaje político" \to{} Habracar países latinoamericanos. Directorio con funcionarios de la UNESCO, Secretaría de Ciencia y Técnica del país, empresarios informáticos y personalidades académicas.
+   7. Durante la presidencia de Menem, 1990: Las inversiones para la ESLAI no llegan, aluden a demoras burocráticas. Esto genera *la desfinanción y el posterior cierre*.
 
-\thinkingface{} Preguntas: ¿qué rol tuvo la universidad pública para Sadosky? ¿creen que la violencia han resuelto los problemas que tuvimos o por el contrario?
+\thinkingface{} Preguntas: Estas cosas que mencioné, ¿observaron el rol de la educación pública? ¿la importancia de la educación y el acceso al conocimiento?
+Si no se investiga ni se estudia con especialistas, si la inversión en esto se cae: ¿cómo afecta a los sectores industriales, académicos, etc.?
 
-¡Listo! \bomb{} Bomba poneme Clementina \musicalnote{} (ver link en Bibliografía).
 
 Algunos datos de color:
 
-- CONICET: Se funda en 1958
-- Otra personalidad importante: *René Favaloro*: Escuela 45, Colegio Nacional Rafael Hernández, Universidad Nacional de La Plata (UNLP), Hospital Policlínico. Escuelas y universidades públicas.
+- CONICET: Se funda en 1958. La inversión para la primer computadora fue realizada al CONICET en 1962.
 
 ** Bibliografía
 - "Historia de la Informática en Latinoamérica y el Caribe: investigaciones y testimonios". Jorge Aguirre y Raúl Carnota. Universidad Nacional de Río Cuarto, Argentina. 2009.
@@ -169,7 +194,7 @@ Algunos datos de color:
   "COMIC el lenguaje de programación y compilador del Instituto de Cálculo en 1965". Durán Salvador, Wilfred Oscar (2018). Ediciones del domo.
   
 - "Panorama de la historia de la Computación Académica en la Argentina. Jorge Aguirre.
-- Nota Preliminar de García Camarero.
+- Nota Preliminar de García Camarero:
 
   "Autocode un sistema simplificado de codificación para la computadora Mercury" Instituto del Cálculo UBA. 1961.
 
