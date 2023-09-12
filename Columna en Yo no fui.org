@@ -44,7 +44,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 :END:
 \radio{} Emisión al aire: <2023-09-08 vie 15:00>
 
-\headphone{} Recorte en RadioCut aún no disponible.
+\headphone{} [[https://radiocut.fm/audiocut/columna-6-cristian-gimenez-manuel-sadosky-ibm-go-home-2da-parte-yo-no-fui-08-09-2023/][Recorte en RadioCut.]]
 
 #+caption: Personal operando la computadora Clementina.
 #+attr_html: :alt Foto del personal operando la computadora Clementina  :align center
@@ -55,6 +55,7 @@ La vez pasada hablamos de Sadosky, la primer computadora en nuestro país y la n
 A eso venimos hoy, a contarte qué sucedió después. Algunas cosas que valen la pena recordar que sucedieron entre los 70' y los 90'. 
 
 \framedpicture{} Imágen proveniente del artículo "Clementina, la primera computadora en la Argentina" de Lucas Delgado. Artículo bajo la licencia CC-by-NC-SA. URL: https://www.educ.ar/recursos/118069/clementina-la-primera-computadora-en-la-argentina.
+
 
 ** Guión
 
