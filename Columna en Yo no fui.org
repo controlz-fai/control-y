@@ -38,6 +38,57 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
+* Columna 7: ¿Qué es la soberanía tecnológica? (¿y por qué es importante?)
+
+#+begin_quote
+soberanía
+
+1. f. Cualidad de soberano.
+2. f. Poder político supremo que corresponde a un Estado independiente.
+
+[[https://dle.rae.es/soberan%C3%ADa][-- Diccionario de la Real Academia Española]]
+#+end_quote
+
+
+1. Ejercicio mental: ¿se imaginan nuestro país sin informáticos pero... solo nuestro país?
+
+   ¿Cómo haríamos lo siguiente?
+   
+   - Internet \to{} comunicación, redes sociales.
+   - Compartir documentos.
+   - Satélites \to{} pronósticos meteorológicos, Internet.
+   - Servidores en las instituciones: ¿quiénes manejan las computadoras?
+   - Correos electrónicos, páginas Webs: ¿otras personas nos crean nuestros contenidos por nosotros?
+2. Ejercicio mental: ¿se imaginan si no hay hardware, servidores, satélites, etc.?
+   1. Imaginemos: para que Argentina se conecte a Internet hay un solo cable, que pasa por X país.
+   2. Imaginemos: No hay ARSAT, ¿quién ocupa esa órbita? ¿qué hacen con ella?
+3. Soberanía digital (software, datos + programas):
+   1. PRISM
+   2. Supongamos que usamos un programa que no fue hecho por ninguna entidad argentina. Además, le proveemos datos de qué hacemos todos los días.
+      1. Privacidad: ¿Quiénes tienen acceso a esa información? Administradores del sitio.
+      2. ¿Qué pasa si queremos borrar nuestra cuenta?
+4. Aprender tecnología e informática es importante \to{} ¿podemos controlar algo si no sabemos cómo se usa o cómo funciona?
+   1. A veces está bien no saber cómo funciona todo, pero ¿nunca llevaste a arreglar la compu a un técnico? ¡alguien tiene que entender cómo funciona!
+5. ¿Se preguntaron cómo funciona las cosas que usamos?
+
+   
+** Bibliografía
+- "NSA Prism program taps in to user data of Apple, Google and others", Glenn Greenwald and Ewen MacAskill, 2013.
+
+  https://www.theguardian.com/world/2013/jun/06/us-tech-giants-nsa-data
+
+- " "All your Internet are Belong to Us": On Nation States’ Claims of Sovereignty over ICT Architecture and Contents". Miguelángel Verde Garrido. Berlin Forum on Global Politics. 2016. https://bfogp.org/blog/2016-04-all-your-internet-are-belong-to-us-on-nation-states-claims-of-sovereignty-over-ict-architecture-and-contents/
+
+- "¿Por qué es importante la soberanía tecnológica?". Pablo Carrai. Artículo en Educ.Ar.
+  
+  https://www.educ.ar/recursos/155423/por-que-es-importante-la-soberania-tecnologica
+
+- "Relaciones entre soberanía y tecnología en los tiempos de Internet". Ariel Sabiguero, /et al/.  Revista de la Facultad de Derecho. ISSN 0797-8316 e ISSN 2301-0665. 2016.
+  
+  http://www.scielo.edu.uy/scielo.php?script=sci_arttext&pid=S2301-06652016000200011
+
+  https://doi.org/10.22187/rfd2016211
+
 * Columna 6: Manuel Sadosky, "IBM go home" y más - 2da parte         :ATTACH:
 :PROPERTIES:
 :ID:       59d9d7da-7dce-46ef-8c20-b656db6ec771
