@@ -40,6 +40,13 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
 * Columna 7: ¿Qué es la soberanía tecnológica? (¿y por qué es importante?)
 
+\radio{} Emisión al aire: <2023-09-22 vie 15:00>
+
+\headphone{} Recorte en RadioCut aún no disponible.
+
+# En esta columna charlamos de un concepto que es muy abstracto, pero es muy importante. ¿A qué nos referimos con "soberanía tecnológica"?
+
+** Guion
 #+begin_quote
 soberanía
 
@@ -74,20 +81,39 @@ soberanía
      - incluimos especialistas en programación
      - incluimos especialistas en electrónica.
      - incluimos especialistas en seguridad.
+       
 2. Ejercicio mental: ¿se imaginan si no hay hardware, servidores, satélites, fibra óptica y/o cable que transporten datos, etc.?
    1. Imaginemos: para que Argentina se conecte a Internet hay un solo cable, que pasa por X país.
    2. Imaginemos: No hay ARSAT, ¿quién ocupa esa órbita? ¿qué hacen con ella?
-   3. Imaginemos: No hay industria electrónica, ¿cómo conseguimos nuestras heladeras? ¿a qué precio?
-3. Palabras claves: *soberanía*, *tecnología*, *disruptivo*
+   4. Imaginemos: No hay industria electrónica, ¿cómo conseguimos nuestras heladeras? ¿a qué precio?
+      
+3. Palabras claves: soberanía, tecnología, disruptivo, dependencia tecnológica.
    1. *disruptivo*: Más palabras claves: revolución, cambios, caótico, ausencia de predictibilidad, obsolescencia de tecnologías viejas, reestructuración.
 
       ¿Se acuerdan del COVID-19 y ChatGPT? ¿nos preguntamos qué efectos tendrá?
+
+   2. *dependencia tecnológica*: ¿qué puedo hacer con esa tecnología? ¿qué hacen detrás de la tecnología que dependo? ¿qué pasa si deja de funcionar?
+
+      Pensemos... nuestros archivos en la nube: es muy útil... pero:
+
+      - ¿qué pasaría si necesito escanear mis archivos para buscar algo muy específico?
+      - ¿qué pasaría si pierdo acceso a esa cuenta o se cae ese sistema?
+      - ¿qué pasaría si hay datos muy sensibles acerca de donde trabajo?
+      - ¿qué pasaría detrás de los servidores? ¿pueden usar esos archivos?
+       
 4. Soberanía digital (software, datos + programas):
-   1. Hablar de PRISM.
-   2. Supongamos que usamos un programa que no fue hecho por ninguna entidad argentina. Además, le proveemos datos de qué hacemos todos los días.
+   1. Supongamos que usamos un programa que no fue hecho por ninguna entidad argentina. Además, le proveemos datos de qué hacemos todos los días.
       1. Privacidad: ¿Quiénes tienen acceso a esa información? Administradores del sitio, dueño de la entidad, etc.
       2. ¿Qué pasa si queremos borrar nuestra cuenta?
       3. ¿Qué pasaría si quisieramos recuperar nuestros datos? ¿y si quisieramos sabe qué hacen con ellos?
+   2. *PRISM* evidenciado por Edward Snowden generó controversia: ¿soberanía tecnológica o de la información? ¿cómo afecta a la privacidad de la ciudadanía?
+      
+      Existen un amplio debate si optar entre privacidad en la información, por ejemplo, cifrando conexiones; o la soberanía en la tecnología en sí: conexiones propias, prácticas, equipos.
+      
+   3. Más debates en varios países, por ejemplo: ¿políticas nacionales o políticas geolocalizadas referidas al uso de la tecnología?
+
+      Por ejemplo, un cable que conecta a Internet: ¿es mejor que un país use el propio o que tenga políticas geolocalizadas con países vecinos?
+      
 5. Aprender tecnología e informática es importante \to{} *¿podemos controlar algo si no sabemos cómo se usa o cómo funciona?*
    1. A veces está bien no saber cómo funciona todo, pero...
 
@@ -96,7 +122,10 @@ soberanía
       ¡alguien tiene que entender cómo funciona!
 
    2. Acceso a la información y la educación \to{} ¿qué pasaría con la soberanía tecnológica si no hay acceso a la educación?
-   3. Estado y la gente \to{} Acceso a la información y a software.
+
+      ¿se acuerdan de "IBM go home"? ¿por qué los estudiantes pedían aprender más computación y no solo a usar la IBM?
+      
+   3. Estado y la gente \to{} Acceso a la información y al software.
       - ¿Software y hardware libre? \to{} ¡Cambiar, modificar, aprender, reusar!
       - P. ej.: Imagínense que para obtener un documento "público" del estado, debemos tener una computadora y pagar una "licencia" ¿quiénes pueden acceder?
 
@@ -106,10 +135,17 @@ soberanía
    1. ¿Se preguntaron cómo funciona las cosas que usamos?
    2. ¿Cómo conseguir equipos? ¿Cómo conseguir repuestos?
    3. ¿Y qué sucede con la Obsolescencia programada...?
-7. Entonces, una computadora (mi celular) ejecuta pasos, o mejor dicho órdenes (algoritmos). Pero, ¿qué pasa si no tenemos control de dicha computadora? Si le damos una orden y no funciona...
+      
+# 7. Entonces, una computadora (mi celular) ejecuta pasos, o mejor dicho órdenes (algoritmos). Pero, ¿qué pasa si no tenemos control de dicha computadora? Si le damos una orden y no funciona...
+# 
+#    ¿hemos pensado si tenemos control de los artefactos que nos rodean? ¿sabemos qué hacen? ¿sabemos qué hacen con nuestros datos? ¿y a nivel país?
 
-   ¿hemos pensado si tenemos control de los artefactos que nos rodean? ¿sabemos qué hacen? ¿sabemos qué hacen con nuestros datos? ¿y a nivel país?
-   
+Pensemos:
+¿Qué tecnologías dependemos en nuestro día a día?
+Y de esas tecnologías: ¿Cuáles tenemos a nuestro alcance como argentinos?
+¿Conocemos las tecnologías que se desarrollan y desarrollaron en nuestro país?
+¿Qué control o gestión tiene la ciudadanía y el estado de esas tecnologías?
+
 ** Bibliografía
 - "NSA Prism program taps in to user data of Apple, Google and others", Glenn Greenwald and Ewen MacAskill, 2013.
 
