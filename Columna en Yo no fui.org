@@ -50,34 +50,76 @@ soberanía
 #+end_quote
 
 
-1. Ejercicio mental: ¿se imaginan nuestro país sin informáticos pero... solo nuestro país?
+# 1. Contar la anécdota que tuve con mi celular: mi programa para mi celular, para que se conecte automáticamente no funcionó. Esto me llevó a hablar hoy de soberanía tecnológica.
+#
+#    ¿Por qué... ? cuando terminemos, les cuento...
+    
+1. Ejercicio mental: ¿se imaginan nuestro país sin informáticos pero... solo en nuestro país?
 
    ¿Cómo haríamos lo siguiente?
    
-   - Internet \to{} comunicación, redes sociales.
-   - Compartir documentos.
+   - Comunicaciones:
+     - Internet \to{} comunicación, redes sociales.
+     - Compartir documentos.
+     - Servidores en las instituciones: ¿quiénes manejan las computadoras?
+     - Correos electrónicos, páginas Webs: ¿otras personas nos crean nuestros contenidos por nosotros?
+   - Programas y sistemas informáticos.
+   - Robótica en la industria.
+     - Industria tecnológica: elaboración de electrodomésticos, autos.
+   - Medicina, estado, industrias varias.
    - Satélites \to{} pronósticos meteorológicos, Internet.
-   - Servidores en las instituciones: ¿quiénes manejan las computadoras?
-   - Correos electrónicos, páginas Webs: ¿otras personas nos crean nuestros contenidos por nosotros?
-2. Ejercicio mental: ¿se imaginan si no hay hardware, servidores, satélites, etc.?
+   - Seguridad, defensa y soberanía territorial: Cámaras de vigilancia, comunicaciones.
+   - Imaginemos que:
+     - incluimos especialistas en administración de redes y servidores.
+     - incluimos especialistas en programación
+     - incluimos especialistas en electrónica.
+     - incluimos especialistas en seguridad.
+2. Ejercicio mental: ¿se imaginan si no hay hardware, servidores, satélites, fibra óptica y/o cable que transporten datos, etc.?
    1. Imaginemos: para que Argentina se conecte a Internet hay un solo cable, que pasa por X país.
    2. Imaginemos: No hay ARSAT, ¿quién ocupa esa órbita? ¿qué hacen con ella?
-3. Soberanía digital (software, datos + programas):
-   1. PRISM
-   2. Supongamos que usamos un programa que no fue hecho por ninguna entidad argentina. Además, le proveemos datos de qué hacemos todos los días.
-      1. Privacidad: ¿Quiénes tienen acceso a esa información? Administradores del sitio.
-      2. ¿Qué pasa si queremos borrar nuestra cuenta?
-4. Aprender tecnología e informática es importante \to{} ¿podemos controlar algo si no sabemos cómo se usa o cómo funciona?
-   1. A veces está bien no saber cómo funciona todo, pero ¿nunca llevaste a arreglar la compu a un técnico? ¡alguien tiene que entender cómo funciona!
-5. ¿Se preguntaron cómo funciona las cosas que usamos?
+   3. Imaginemos: No hay industria electrónica, ¿cómo conseguimos nuestras heladeras? ¿a qué precio?
+3. Palabras claves: *soberanía*, *tecnología*, *disruptivo*
+   1. *disruptivo*: Más palabras claves: revolución, cambios, caótico, ausencia de predictibilidad, obsolescencia de tecnologías viejas, reestructuración.
 
+      ¿Se acuerdan del COVID-19 y ChatGPT? ¿nos preguntamos qué efectos tendrá?
+4. Soberanía digital (software, datos + programas):
+   1. Hablar de PRISM.
+   2. Supongamos que usamos un programa que no fue hecho por ninguna entidad argentina. Además, le proveemos datos de qué hacemos todos los días.
+      1. Privacidad: ¿Quiénes tienen acceso a esa información? Administradores del sitio, dueño de la entidad, etc.
+      2. ¿Qué pasa si queremos borrar nuestra cuenta?
+      3. ¿Qué pasaría si quisieramos recuperar nuestros datos? ¿y si quisieramos sabe qué hacen con ellos?
+5. Aprender tecnología e informática es importante \to{} *¿podemos controlar algo si no sabemos cómo se usa o cómo funciona?*
+   1. A veces está bien no saber cómo funciona todo, pero...
+
+      ¿nunca llevaste a arreglar la compu a un técnico?
+
+      ¡alguien tiene que entender cómo funciona!
+
+   2. Acceso a la información y la educación \to{} ¿qué pasaría con la soberanía tecnológica si no hay acceso a la educación?
+   3. Estado y la gente \to{} Acceso a la información y a software.
+      - ¿Software y hardware libre? \to{} ¡Cambiar, modificar, aprender, reusar!
+      - P. ej.: Imagínense que para obtener un documento "público" del estado, debemos tener una computadora y pagar una "licencia" ¿quiénes pueden acceder?
+
+        Por cierto: ¿probaron [[https://www.libreoffice.org/][LibreOffice]]? ¿por qué pagar licencia cuando tenés una opción software libre y con todas las características de la paga?
+        
+6. Industria nacional y derecho a Reparar:
+   1. ¿Se preguntaron cómo funciona las cosas que usamos?
+   2. ¿Cómo conseguir equipos? ¿Cómo conseguir repuestos?
+   3. ¿Y qué sucede con la Obsolescencia programada...?
+7. Entonces, una computadora (mi celular) ejecuta pasos, o mejor dicho órdenes (algoritmos). Pero, ¿qué pasa si no tenemos control de dicha computadora? Si le damos una orden y no funciona...
+
+   ¿hemos pensado si tenemos control de los artefactos que nos rodean? ¿sabemos qué hacen? ¿sabemos qué hacen con nuestros datos? ¿y a nivel país?
    
 ** Bibliografía
 - "NSA Prism program taps in to user data of Apple, Google and others", Glenn Greenwald and Ewen MacAskill, 2013.
 
+  Explicación del programa PRISM.
+
   https://www.theguardian.com/world/2013/jun/06/us-tech-giants-nsa-data
 
-- " "All your Internet are Belong to Us": On Nation States’ Claims of Sovereignty over ICT Architecture and Contents". Miguelángel Verde Garrido. Berlin Forum on Global Politics. 2016. https://bfogp.org/blog/2016-04-all-your-internet-are-belong-to-us-on-nation-states-claims-of-sovereignty-over-ict-architecture-and-contents/
+- " "All your Internet are Belong to Us": On Nation States’ Claims of Sovereignty over ICT Architecture and Contents". Miguelángel Verde Garrido. Berlin Forum on Global Politics. 2016.
+
+   https://bfogp.org/blog/2016-04-all-your-internet-are-belong-to-us-on-nation-states-claims-of-sovereignty-over-ict-architecture-and-contents/
 
 - "¿Por qué es importante la soberanía tecnológica?". Pablo Carrai. Artículo en Educ.Ar.
   
