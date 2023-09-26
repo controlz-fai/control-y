@@ -44,6 +44,10 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
 \headphone{} Recorte en RadioCut aún no disponible.
 
+#+caption: Estación Terrena Benavídes, donde se operan los satélites ARSAT, la Red Federal de Fibra Óptica, entre otros servicios.
+#+attr_html: :alt ARSAT Estación terrena Benavídez :align center
+[[https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Estaci%C3%B3n_Terrena_Benav%C3%ADdez_01.jpg/800px-Estaci%C3%B3n_Terrena_Benav%C3%ADdez_01.jpg]]
+
 # En esta columna charlamos de un concepto que es muy abstracto, pero es muy importante. ¿A qué nos referimos con "soberanía tecnológica"?
 
 ** Guion
