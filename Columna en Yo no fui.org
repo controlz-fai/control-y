@@ -44,11 +44,14 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
 \headphone{} Recorte en RadioCut aún no disponible.
 
-#+caption: Estación Terrena Benavídes, donde se operan los satélites ARSAT, la Red Federal de Fibra Óptica, entre otros servicios.
+#+caption: Estación Terrena Benavídez, donde se operan los satélites ARSAT, la Red Federal de Fibra Óptica, entre otros servicios.
 #+attr_html: :alt ARSAT Estación terrena Benavídez :align center
 [[https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Estaci%C3%B3n_Terrena_Benav%C3%ADdez_01.jpg/800px-Estaci%C3%B3n_Terrena_Benav%C3%ADdez_01.jpg]]
 
-# En esta columna charlamos de un concepto que es muy abstracto, pero es muy importante. ¿A qué nos referimos con "soberanía tecnológica"?
+Encontramos tecnología alrededor nuestro: En nuestro trabajo, en nuestra casa, en nuestra vida cotidiana, en las calles, incluso en el espacio. Dispositivos electrónicos y digitales, software y hardware, todas tecnologías que están para brindarnos algún servicio o para poder usar alguna herramienta. ¿Pensamos alguna vez si estas tecnologías están bajo nuestro control? ¿bajo el control del estado o de la población que los usa?
+En esta columna charlamos un poco del concepto de *soberanía tecnológica*. Un concepto un tanto abstracto aunque muy relevante, para tomar conciencia de lo importante que es tener soberanía sobre el hardware y software que nos rodea.
+
+\framedpicture{} Imágen: Estación Terrena Benavídez por BugWarp - Bajo licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC-by-SA 4.0). Obtenido desde [[https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_Terrena_Benav%C3%ADdez_01.jpg?uselang=es][Wikimedia Commons]].
 
 ** Guion
 #+begin_quote
