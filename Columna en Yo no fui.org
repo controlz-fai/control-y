@@ -40,43 +40,49 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
 
 * Columna 8: ¿Qué es el blockchain?
+
+** Guion
 1. Creación e idea:
    1. Moneda digital: Sí, no hay nada físico excepto tu celu o la compu.
-   2. Satoshi Nakamoto propone el primer blockchain (Bitcoin) en 2009.
+   2. *Satoshi Nakamoto* propone el primer blockchain (Bitcoin) en *2009*.
    3. Objetivos:
-      - Peer-to-peer (de "persona" a "persona" o transferencia directa).
-      - Sin regulación ni centralización.
-2. ¿Cómo funcionan los bancos ahora?
+      - *Peer-to-peer* (de "persona" a "persona" o transferencia directa).
+      - *Sin instituciones financieras intermediarias*.
+2. \bank{} ¿Cómo funcionan los bancos ahora?
    - Tienen un libro contable (digital o no): toda transferencia se escribe allí.
    - Controla y regula. Busca brindar garantías y seguridad de que se cumpla la ley.
    - Balance: si se retira dinero de un lado, y se suma a otro, debe haber un equilibrio.
 3. ¿Cómo se les ocurriría implementar una moneda digital?
+   Intentemos crear una moneda digital... ¿qué hace falta? ¿firmas digitales? ¿un documento? ¿qué datos habría que almacenar?
+   
    1. *Double-spending problem* (problema del "doble-gasto").
 
       ¡No se debe poder gastar la misma moneda!
 
       ¿Pueden comprar dos cosas diferentes con un mismo billete?
-   2. Debe quedar registrada la transacción...
-4. Blockchain
-   1. Descentralizado y distribuido.
+   2. Debe quedar registrada la transacción.
+   3. Una vez registrada, no se debe poder cambiarse.
+   4. Debe poder ser validada.
+4. \coin{} Un *Blockchain* debe ser:
+   1. Descentralizado y distribuido \to{} Un programa que funciona en muchas máquinas.
    2. Actúa como un libro/registro contable.
-   3. Secuencia de bloques de datos (los datos son las transacciones).
+   3. Una *cadena de bloques* con datos (los datos son las transacciones).
    4. No deben poder ser alterados.
-   5. Cada bloque debe poder ser validado \to{} deben ser públicos
-5. Una transacción
+   5. Cada bloque debe poder ser validado \to{} deben ser públicos.
+5. ¿Cómo funciona una *transacción digital*?
    Para una persona que conoce un libro contable, es muy probable que entienda rápidamente el concepto de blockchain.
    
-   1. Supongamos que mágicamente tengo 1B (¡ojalá!), y se lo quiero dar a Virgi (primer transacción).
+   1. Supongamos que mágicamente tengo 1₿ (¡ojalá!), y se lo quiero dar a Virgi (primer transacción).
    2. En el registro se guarda: el número de Virgi, y mi firma de que se lo paso a ella.
    3. Supongamos que Virgi se lo pasa a Mete (segunda transacción).
    4. En el mismo registro se guarda: el número de Mete, la firma de Virgi de que se lo pasa a él.
    5. ¿Y la moneda? \to{}  Son las transacciones de ella. No hay token ni nada de ella, solo una cantidad.
 
-   Opcional: ¿cómo se genera la primer transacción? O sea, en el ejemplo, ¿cómo obtuve 1B?
+   Opcional: ¿cómo se genera la primer transacción? O sea, en el ejemplo, ¿cómo obtuve 1₿?
    - La persona que crea un bloque correctamente se le paga una compensación.
    - Cada bloque tiene una transacción inicial que le asigna una X cantidad de Bitcoins al creador.
    - La pregunta es: ¿cómo se gestiona la cantidad de monedas? \to{} ¡Hay que hablar de las /Proof of Work/ y /Proof of Stake/!
-6. Un bloque contiene:
+6. Un *bloque* contiene:
    - Muchas transacciones (datos).
    - Datos de su creación.
    - El número que identifica al bloque anterior.
@@ -91,17 +97,18 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
    Estos métodos se llevan a cabo por programas: ¡supongamos que todos tienen el mismo programa!
    
    1. /Proof of Work/ (PoW)
-      1. Se requiere un trabajo complejo: "difícil" de generar la solución, "fácil" de validarla.
+      1. Se requiere un *trabajo complejo*: "difícil" de generar la solución, "fácil" de validarla.
 
-         - Difícil = Mucha computación
-         - Fácil = Muy poquita computación
+         Difícil \equiv{} Mucha computación
+
+         Fácil \equiv{} Muy poquita computación
 
          En otras palabras ¡un problema de complejidad NP-hard!... ¿NP what?... ¡para la próxima columna!
       2. La computadora que encuentre la solución, distribuye el bloque nuevo: las otras validan y lo agregan.
-      3. Mineros: Computadoras que crean (minan) bloques (buscan la solución al problema complejo).
+      3. *Mineros*: Computadoras que crean (minan) bloques (buscan la solución al problema complejo).
    2. /Proof of Stake/ (PoS)
-      1. El creador del bloque (forger) se designa aleatoriamente o bajo un criterio.
-         - Debe poner un capital de riesgo: plata en la misma criptomoneda.
+      1. La computadora creadora del bloque, "*forger",* se designa aleatoriamente o bajo un criterio.
+         - Debe poner un capital de riesgo \moneybag{}: plata en la misma criptomoneda.
       2. El resto validan si el forger hace un buen trabajo (puede ser seleccionado aleatoriamente).
 
          Si el forger es deshonesto, se le quita el capital de riesgo.
@@ -116,7 +123,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
       1. Si tenés X plata en la billetera del cliente, y hay stock de cannolis para vender, entonces concretar la transacción.
       2. Caso contrario, no realizar la transacción.
 
-Bibliografía:
+** Bibliografía y otros recursos
 - "Bitcoin: A peer-to-peer electronic cash system". Satoshi Nakamoto. 2009.
   
   https://bitcoin.org/bitcoin.pdf
