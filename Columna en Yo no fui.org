@@ -41,6 +41,15 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
 * Columna 8: ¿Qué es el blockchain?
 
+#+caption: Una "granja minera" de computadoras de Islandia.
+#+attr_html: :alt ARSAT Estación terrena Benavídez :align center
+[[https://upload.wikimedia.org/wikipedia/commons/3/37/Cryptocurrency_Mining_Farm.jpg]]
+
+En estas semanas escuchamos acerca de "peso digital", "criptomonedas", "blockchain"... pero ¿qué significa? ¿cómo funciona?
+Por ello, para no hacernos más confusión y comprender todos estos temas, decidimos contarte acerca del blockchain, cómo funciona y qué relación tiene con las criptomonedas. Con estos conceptos un poco más claros, podemos comprender más la idea propuesta del peso digital.
+
+\framedpicture{} Imágen: Cryptocurrency mining farm - Bajo licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC-by-SA 4.0). Obtenido desde [[https://commons.wikimedia.org/wiki/File:Cryptocurrency_Mining_Farm.jpg][Wikimedia Commons]].
+
 ** Guion
 1. Creación e idea:
    1. Moneda digital: Sí, no hay nada físico excepto tu celu o la compu.
