@@ -105,14 +105,23 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
    5. Es muy difícil explicar: ¿entendieron algo? ¿Qt? ¿Interfaz gráfica? ¿NFC?
       1. ¿Cómo le explico a cada persona el funcionamiento? 
 
+\thinkingface{} Preguntas (¡prohibido usar ChatGPT para responderlas!):
+
+- ¿Les parece que cualquier *tecnología* ya existente dejó de servir o ya no ayuda? ¿Que siempre debemos cambiarlas por computadoras o programas?
+
+- ¿Les parece que deberíamos comprender y debatir lo que se hace con las computadoras, la informática y los dispositivos electrónicos?
+  Especialmente en procesos que nos afectan a la ciudadanía completa (IA, cámaras, celulares, redes sociales, etc.).
+
+  ¡Hablamos de *soberanía tecnológica* un una columna anterior!
+
 ** Bibliografía
 
 - "Análisis de factibilidad en la implementación de tecnología en diferentes aspectos y etapas del proceso electoral". Consejo Nacional de Investigaciones Científicas y Tecnológicas (CONICET). 2017.
   https://www.conicet.gov.ar/wp-content/uploads/Analisis_factibilidad_implementacion_tecnologia_proceso_electoral.pdf
 
-Más para leer:
+Más material interesante para leer:
 
-- Informes del Observatorio Electoral de la Universidad Nacional del Comahue.
+- \books{} Informes del Observatorio Electoral de la Universidad Nacional del Comahue.
 
   https://observatorioelectoral.uncoma.edu.ar
 
@@ -123,6 +132,9 @@ Más para leer:
 - "Vot no". Nicolás D'Ippolito. El gato y la caja.
 
    https://elgatoylacaja.com/vot-no
+
+- \books{} "Voto Electrónico. Una solución en busca de problemas". Beatriz Busaniche. Fundación Vía Libre. 2017.
+  https://www.vialibre.org.ar/divulgacion/libro-voto-electronico-una-solucion-en-busca-de-problemas/
 
 - "Alemania: urnas electrónicas anticonstitucionales". Fundación Vía Libre. 2009.
 
