@@ -64,6 +64,8 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
       ¡Aún no hablamos del escrutinio definitivo!
 
+   2. Sistemas de emisión de voto: Boleta Partidaria (BP), Boleta Única de Papel (BUP) y Voto Electrónico/Boleta Electrónica.
+
 4. ¿Qué componentes puede tener una máquina de voto electrónico?
    Pensemos... ¿qué necesita tener una máquina para poder votar?
 
@@ -93,6 +95,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
    4. ¿Sabemos qué hace el software? \to{} habría que leer todo el código... y probar cada pedazo.
       1. ¿Tendrá fallas? \shrug{}
       2. ¿Una persona puede leer el código hecho por muchas otras?
+   5. Auditorías para especialistas en seguridad de la información.
       
 6. Consecuencias de su uso.
    1. ¿Podemos decir que mantiene el secreto al voto? \to{} \shrug{}
@@ -108,6 +111,14 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   https://www.conicet.gov.ar/wp-content/uploads/Analisis_factibilidad_implementacion_tecnologia_proceso_electoral.pdf
 
 Más para leer:
+
+- Informes del Observatorio Electoral de la Universidad Nacional del Comahue.
+
+  https://observatorioelectoral.uncoma.edu.ar
+
+  Descripción de las máquinas del sistema de Boleta Única Electrónica (BUE) utilizado en Neuquén observado en la audiencias brindadas por el Juzgado Electoral:
+
+  https://observatorioelectoral.uncoma.edu.ar/?p=1216
 
 - "Vot no". Nicolás D'Ippolito. El gato y la caja.
 
