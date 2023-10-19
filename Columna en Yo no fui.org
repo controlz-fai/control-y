@@ -38,6 +38,84 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
+* Columna 9: ¿Qué es el voto electrónico?
+
+¿Es fácil un proceso de votación? A ver... veamos...
+
+1. ¿Quiénes participan?
+
+   Votantes, autoridades, partidos políticos, proveedores del proceso electoral, otros poderes del estado (legislativo, ejecutivo, provinciales...)
+
+2. Calidad o propiedades de la votación:
+   1. *Secreto del voto*: debe garantizarse... ¡y hasta ser evidente! ¿por qué?
+      1. Pueden motivarte, amenazarte, extorsionarte, etc. a votar a un candidato determinado.
+   2. *Integridad*:
+      1. Capturar la intención devoto fehacientemente y sin sesgo.
+      2. Registrar la intención de voto.
+      3. Contabilizar el voto exactamente como fue registrado.
+   3. *Capacidad de auditoría y control del proceso.*
+   4. *Igualdad de condiciones para todos los partidos*.
+   5. *Universalidad*: Permitir votar a la ciudadanía inscripta en el padrón.
+   6. *Convalidación*: Análisis de datos posterior.
+   7. *Usable* para todxs lxs participantes.
+   
+3. Proceso de votación:
+   1. Emisión del voto \to{} Escrutinio en la mesa \to{}  Generación de documentos \to{} Comunicación de resultados \to{} Procesamiento de resultados y publicación
+
+      ¡Aún no hablamos del escrutinio definitivo!
+
+4. ¿Qué componentes puede tener una máquina de voto electrónico?
+   Pensemos... ¿qué necesita tener una máquina para poder votar?
+
+   1. Pantalla.
+   2. Un CPU para generar la información.
+   3. Datos: partidos políticos, interfaz gráfica.
+   4. Programas: ¿varios lenguajes? \to{} Posiblemente: C/C++ para controlar los dispositivos.
+      1. ¡Un Sistema Operativo! \to{} ¿Linux? ¿Open/Free BSD? ¿Windows? ¿Otro?
+      2. Programas que controlan la impresora, pantalla, teclado/tactil (drivers/controladores).
+      3. Entorno para la interfaz (Web, Qt, GTK, otro).
+      4. Desarrollo backend (debajo de la interfaz) \to{} almacenamiento no sería necesario.
+   5. Impresora
+   6. Un dispositivo para escribir y otro (o el mismo) para leer el chip NFC.
+   7. Disco rígido/almacenamiento interno \to{} No es necesario.
+   8. Memoria RAM \to{}  ¡Obviamente!
+   9. Conexión y placa de Red \to{} Depende de la comunicación de resultados.
+   10. USB \to{} No es necesario.
+   11. Batería \to{} Sí, por las dudas.
+   12. Cables \to{} Sí, y lo más largo que se pueda.
+   13. Carcaza/cobertor bien aislado y protegido \to{} ¿Qué sería eso? ¿se puede?
+
+5. La pregunta que todxs nos hacemos: ¿Cómo funciona el software?
+
+   1. La respuesta que cualquier persona informática te puede decir: "ni idea" \shrug{}.
+   2. ¿Tenés ganas de hablar de Javascript, HTML y tecnología Web? jaja.
+   3. El software es muy maneable: se puede cambiar de un minuto para el otro.
+   4. ¿Sabemos qué hace el software? \to{} habría que leer todo el código... y probar cada pedazo.
+      1. ¿Tendrá fallas? \shrug{}
+      2. ¿Una persona puede leer el código hecho por muchas otras?
+      
+6. Consecuencias de su uso.
+   1. ¿Podemos decir que mantiene el secreto al voto? \to{} \shrug{}
+   2. ¿Podemos asegurar que todas las máquinas funcionan igual y no fueron alteradas? \to{} Necesitamos un técnico en cada sector para chequear las máquinas... y chequear de forma seguida.
+   3. Nos dejamos estar: la máquina hace todo, y rápido... pero ¿se controla?
+   4. ¿Todas las personas saben usarla? ¿Todas las personas pueden usarla?
+   5. Es muy difícil explicar: ¿entendieron algo? ¿Qt? ¿Interfaz gráfica? ¿NFC?
+      1. ¿Cómo le explico a cada persona el funcionamiento? 
+
+** Bibliografía
+
+- "Análisis de factibilidad en la implementación de tecnología en diferentes aspectos y etapas del proceso electoral". Consejo Nacional de Investigaciones Científicas y Tecnológicas (CONICET). 2017.
+  https://www.conicet.gov.ar/wp-content/uploads/Analisis_factibilidad_implementacion_tecnologia_proceso_electoral.pdf
+
+Más para leer:
+
+- "Vot no". Nicolás D'Ippolito. El gato y la caja.
+
+   https://elgatoylacaja.com/vot-no
+
+- "Alemania: urnas electrónicas anticonstitucionales". Fundación Vía Libre. 2009.
+
+  https://www.vialibre.org.ar/alemania-urnas-electronicas-anticonstitucionales/
 
 * Columna 8: ¿Qué es el blockchain?
 
