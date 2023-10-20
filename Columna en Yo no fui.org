@@ -56,6 +56,8 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
    3. *Capacidad de auditoría y control del proceso.*
    4. *Igualdad de condiciones para todos los partidos*.
    5. *Universalidad*: Permitir votar a la ciudadanía inscripta en el padrón.
+
+      Accesibilidad.
    6. *Convalidación*: Análisis de datos posterior.
    7. *Usable* para todxs lxs participantes.
    
@@ -86,6 +88,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
    11. Batería \to{} Sí, por las dudas.
    12. Cables \to{} Sí, y lo más largo que se pueda.
    13. Carcaza/cobertor bien aislado y protegido \to{} ¿Qué sería eso? ¿se puede?
+   14. Accesibilidad. Placa de sonido \to{} parlantes para emitir sonidos.
 
 5. La pregunta que todxs nos hacemos: ¿Cómo funciona el software?
 
