@@ -38,6 +38,206 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
+* Columna 10: ¿Qué es el voto electrónico? Parte 2
+
+1. Repaso:
+   1. Calidad o propiedades de la votación: Secreto, integridad, capacidad de auditoría y control, igualdad de condiciones para los partidos, universalidad, convalidación, usable.
+   2. Proceso de voto: Emisión de voto \to{} Escrutinio en la mesa \to{} Generación de documentos \to{} Comunicación de resultados \to{} Procesamiento de resultados y publicación.
+   3. Sistemas de voto: Boleta Partidaria, Boleta Única de Papel, Voto Electrónico.
+2. Hablemos del Software
+   1. Supongamos tres códigos fuentes de tres programas.
+   2. (Pasarle los programas impresos a Mete y Virgi)
+
+      Léanlos... ¿pueden decirme qué hacen?
+
+      Pero si los ciudadanos que votan, no pueden decirme qué hace... ¿confiarían entonces en que lo hace bien?
+
+      A ver, veamos...
+   3. ¿Les parece que hacen lo mismo? Probemos...
+
+      En mi celular tengo un intérprete de PHP (ver más abajo para instalarlo), observemos los resultados de cada programa...
+3. /Errare humanum est/ (/sed perseverare diabolicum/).
+
+   Recordar, en la jerga de la programación: Error de software = "bug"; Sacar o buscar el bug: "debuggear"; Corregir un error rápidamente = "parchar".
+   
+   1. ¿Se puede remover todos los errores del software? \to{} Es una creación humana... por lo tanto... nope.
+
+      Las técnicas de /testing/ utilizadas en desarrollo de software no eliminan todos los errores. Aún pueden haber algunos que no han sido contemplados: es difícil probar un software para absolutamente todas las posibilidades de uso.
+
+      Inclusive, puede pasar que al corregir un bug, estemos introduciendo otro.
+      
+   2. ¿Todos los bugs se detectan? Tampoco, hay errores que se encuentran mucho tiempo después. 
+   3. ¿Todos los bugs son igualmente peligrosos? No, no es lo mismo un error en una página Web, que un error en un satélite. Hay software que se prueba rigurosamente, y aún así se está alerta de cualquier inconveniente, para actualizar el software con los parches necesarios.
+
+4. Recomendaciones al votar y al hacer escrutinio
+
+   Si tenemos que votar con Voto Electrónico, entonces tomemos estas recomendaciones.
+
+   1. ¡Utilicemos todas las instancias de validación y chequeo que se nos brinden!
+   2. Votante: Chequear el voto después de seleccionar en la pantalla. Leer y comprobar lo impreso y el contenido del chip de la boleta.
+   3. Votante: Sacarse todas, absolutamente todas las dudas. Si es necesario, solicitar una máquina de prueba para aprender a utilizarla. 
+   4. Votante: Informarse de la oferta electoral y corroborar que en la pantalla se ofrezca correctamente la oferta que debe aparecer en su mesa y su escuela.
+   5. Votante: Doblar la boleta por donde está indicado. Esto oculta el voto de la vista de las personas y protege el chip que lo guarda.
+   6. Técnicos: Recordar solicitar permisos y notificar a las autoridades de mesa y del establecimiento de las tareas a realizar y las ya realizadas. Corroborar cada paso antes de hacerlo.
+   7. Presidentxs: Recordar a los votantes la validación del voto.
+   8. Presidentxs: Recordar que hay una planchuela para la pantalla y conectores para auriculares para las personas con discapacidad visual.
+
+      Informarse del procedimiento para asistencia de voto para las personas con discapacidad motriz, visual, etc.
+   9. Autoridades: Validar que la máquina funcione bien en todo momento. Si es posible, realizar controles aleatoriamente de la máquina según indique el procedimiento para ello.
+   10. Fiscales: Durante el escrutinio, solicitar la fiscalización de los votos y que se lea en voz alta la boleta.
+   11. Fiscales: Buscar la manera de evitar agolparse sobre la pantalla solicitando a la presidente la lectura y las pausas correspondientes para observar.
+   12. Fiscales: Solicitar el conteo manual de las boletas.
+
+5. Escrutinio definitivo:
+   - Debatamos: ¿se puede reproducir o recomponer de alguna manera lo que sucedió en el escrutinio provisorio? ¿qué necesitamos?
+      
+6. Entonces... La pregunta que todxs nos hacemos: ¿Cómo funciona el software?
+   1. La respuesta que cualquier persona informática te puede decir: "ni idea" \shrug{}.
+   2. ¿Tenés ganas de hablar de Javascript, HTML y tecnología Web? jaja.
+   3. El software es muy maneable: se puede cambiar de un minuto para el otro.
+   4. ¿Sabemos qué hace el software? \to{} habría que leer todo el código... y probar cada pedazo.
+      1. ¿Tendrá fallas? \shrug{}
+      2. ¿Una persona puede leer el código hecho por muchas otras?
+   5. Auditorías para especialistas en seguridad de la información.
+
+      Una auditoría de seguridad no es algo sencillo: hay de varios tipos (p. ej. test de intrusión/pentesting, auditoría Web, etc.), estándares (p. ej. ISO 27002, COBIT), hay varias personas entrenadas y dedicadas a varias tareas específicas, certificaciones que deben tener y cumplir, etc.
+
+** Programas
+Para ejecutar los programas en un celular, se requiere de una terminal y un intérprete de PHP. 
+
+1. instalar termux (ver https://termux.com/).
+2. Ejecutar en la terminal: =pkg install php= 
+
+#+caption: Programa 1
+#+BEGIN_SRC php
+<?php
+
+$partidos = ['mejor es messi', 'mejor es diego', 'mejor es mariana'];
+
+function contar_votos($lst_boletas, $partido) {
+    $conteo = 0;
+    foreach ($lst_boletas as $boleta){
+        if ($boleta['partido'] == $partido) {
+            $conteo ++;
+        }
+    }
+
+    return $conteo;
+}
+
+function mostrar_votos($lst_boletas, $partido) {
+    $total = contar_votos($lst_boletas, $partido);
+    echo "Votos $partido: $total\n";
+}
+
+# Supongamos que se realizó el conteo...
+
+$mis_boletas = [['partido' => 'mejor es messi'],
+                ['partido' => 'mejor es mariana'],
+                ['partido' => 'mejor es diego'],
+                ['partido' => 'blanco'],
+                ['partido' => 'mejor es mariana'],
+                ['partido' => 'mejor es messi'],
+                ['partido' => 'mejor es mariana'],
+                ['partido' => 'mejor es diego'],
+                ['partido' => 'mejor es mariana']];
+
+# Hora de contar votos
+
+foreach ($partidos as $partido){
+    mostrar_votos($mis_boletas, $partido);
+}
+
+mostrar_votos($mis_boletas, 'blanco');
+#+END_SRC
+
+#+caption: Programa 2
+#+BEGIN_SRC php
+<?php
+
+$partidos = ['mejor es messi', 'mejor es diego', 'mejor es mariana'];
+
+function contar_votos($lst_boletas, $partido) {
+    $conteo = 0;
+    foreach ($lst_boletas as $boleta){
+        if ($boleta['partido'] == $partido) {
+            $conteo ++;
+        }
+    }
+
+    return $conteo;
+}
+
+function mostrar_votos($lst_boletas, $partido) {
+    $total = contar_votos($lst_boletas, $partido);
+    echo "Votos $partido: $total\n";
+}
+
+# Supongamos que se realizó el conteo...
+
+$mis_boletas = [['partido' => 'mejor es messi'],
+                ['partido' => 'mejor es mariana'],
+                ['partido' => 'mejor es diego'],
+                ['partido' => 'blanco'],
+                ['partido' => 'mejor es mariana'],
+                ['partido' => 'mejor es mesi '],
+                ['partido' => 'mejor es mariana'],
+                ['partido' => 'mejor es diego'],
+                ['partido' => 'mejor es mariana']];
+
+# Hora de contar votos
+
+foreach ($partidos as $partido){
+    mostrar_votos($mis_boletas, $partido);
+}
+
+mostrar_votos($mis_boletas, 'blanco');
+#+END_SRC
+
+#+caption: Programa 3
+#+BEGIN_SRC php
+<?php
+
+$partidos = ['mejor es messi', 'mejor es diego', 'mejor es mariana'];
+
+function contar_votos($lst_boletas, $partido) {
+    $conteo = 0;
+    foreach ($lst_boletas as $boleta){
+        if ($boleta['partido'] = $partido) {
+            $conteo ++;
+        }
+    }
+
+    return $conteo;
+}
+
+function mostrar_votos($lst_boletas, $partido) {
+    $total = contar_votos($lst_boletas, $partido);
+    echo "Votos $partido: $total\n";
+}
+
+# Supongamos que se realizó el conteo...
+
+$mis_boletas = [['partido' => 'mejor es messi'],
+                ['partido' => 'mejor es mariana'],
+                ['partido' => 'mejor es diego'],
+                ['partido' => 'blanco'],
+                ['partido' => 'mejor es mariana'],
+                ['partido' => 'mejor es messi'],
+                ['partido' => 'mejor es mariana'],
+                ['partido' => 'mejor es diego'],
+                ['partido' => 'mejor es mariana']];
+
+# Hora de contar votos
+
+foreach ($partidos as $partido){
+    mostrar_votos($mis_boletas, $partido);
+}
+
+mostrar_votos($mis_boletas, 'blanco');
+#+END_SRC
+
+
 * Columna 9: ¿Qué es el voto electrónico?
 
 ¿Es fácil un proceso de votación? A ver... veamos...
@@ -89,18 +289,8 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
    12. Cables \to{} Sí, y lo más largo que se pueda.
    13. Carcaza/cobertor bien aislado y protegido \to{} ¿Qué sería eso? ¿se puede?
    14. Accesibilidad. Placa de sonido \to{} parlantes para emitir sonidos.
-
-5. La pregunta que todxs nos hacemos: ¿Cómo funciona el software?
-
-   1. La respuesta que cualquier persona informática te puede decir: "ni idea" \shrug{}.
-   2. ¿Tenés ganas de hablar de Javascript, HTML y tecnología Web? jaja.
-   3. El software es muy maneable: se puede cambiar de un minuto para el otro.
-   4. ¿Sabemos qué hace el software? \to{} habría que leer todo el código... y probar cada pedazo.
-      1. ¿Tendrá fallas? \shrug{}
-      2. ¿Una persona puede leer el código hecho por muchas otras?
-   5. Auditorías para especialistas en seguridad de la información.
       
-6. Consecuencias de su uso.
+5. Consecuencias de su uso.
    1. ¿Podemos decir que mantiene el secreto al voto? \to{} \shrug{}
    2. ¿Podemos asegurar que todas las máquinas funcionan igual y no fueron alteradas? \to{} Necesitamos un técnico en cada sector para chequear las máquinas... y chequear de forma seguida.
    3. Nos dejamos estar: la máquina hace todo, y rápido... pero ¿se controla?
