@@ -41,14 +41,14 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 * Columna 10: ¿Qué es el voto electrónico? Parte 2
 
 1. Repaso:
-   1. Calidad o propiedades de la votación: Secreto, integridad, capacidad de auditoría y control, igualdad de condiciones para los partidos, universalidad, convalidación, usable.
-   2. Proceso de voto: Emisión de voto \to{} Escrutinio en la mesa \to{} Generación de documentos \to{} Comunicación de resultados \to{} Procesamiento de resultados y publicación.
-   3. Sistemas de voto: Boleta Partidaria, Boleta Única de Papel, Voto Electrónico.
+   1. *Calidad* o propiedades de la votación: Secreto, integridad, capacidad de auditoría y control, igualdad de condiciones para los partidos, universalidad, convalidación, usable.
+   2. *Proceso de voto*: Emisión de voto \to{} Escrutinio en la mesa \to{} Generación de documentos \to{} Comunicación de resultados \to{} Procesamiento de resultados y publicación.
+   3. *Sistemas de votación*: Boleta Partidaria, Boleta Única de Papel, Voto Electrónico.
 2. Hablemos del Software
    1. Supongamos tres códigos fuentes de tres programas.
-   2. (Pasarle los programas impresos a Mete y Virgi)
+   2. \books{} (Pasarle los programas impresos a Mete y Virgi)
 
-      Léanlos... ¿pueden decirme qué hacen?
+      Léanlos... *¿pueden decirme qué hacen?*
 
       Pero si los ciudadanos que votan, no pueden decirme qué hace... ¿confiarían entonces en que lo hace bien?
 
@@ -56,6 +56,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
    3. ¿Les parece que hacen lo mismo? Probemos...
 
       En mi celular tengo un intérprete de PHP (ver más abajo para instalarlo), observemos los resultados de cada programa...
+      
 3. /Errare humanum est/ (/sed perseverare diabolicum/).
 
    Recordar, en la jerga de la programación: Error de software = "bug"; Sacar o buscar el bug: "debuggear"; Corregir un error rápidamente = "parchar".
@@ -73,23 +74,30 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
    Si tenemos que votar con Voto Electrónico, entonces tomemos estas recomendaciones.
 
-   1. ¡Utilicemos todas las instancias de validación y chequeo que se nos brinden!
-   2. Votante: Chequear el voto después de seleccionar en la pantalla. Leer y comprobar lo impreso y el contenido del chip de la boleta.
+   1. Votantes, fiscales, presidentxs, autoridades, técnicos:
+
+      *¡Utilicemos todas las instancias de validación y chequeo que se nos brinden!*
+      
+   2. Votante: *Chequear el voto* después de seleccionar en la pantalla. Leer y comprobar lo impreso y el contenido del chip de la boleta.
    3. Votante: Sacarse todas, absolutamente todas las dudas. Si es necesario, solicitar una máquina de prueba para aprender a utilizarla. 
    4. Votante: Informarse de la oferta electoral y corroborar que en la pantalla se ofrezca correctamente la oferta que debe aparecer en su mesa y su escuela.
    5. Votante: Doblar la boleta por donde está indicado. Esto oculta el voto de la vista de las personas y protege el chip que lo guarda.
-   6. Técnicos: Recordar solicitar permisos y notificar a las autoridades de mesa y del establecimiento de las tareas a realizar y las ya realizadas. Corroborar cada paso antes de hacerlo.
+   6. Técnicos: Recordar solicitar permisos y notificar a las autoridades de mesa y del establecimiento de las tareas a realizar y las ya realizadas.
+
+      Corroborar cada paso antes de hacerlo.
    7. Presidentxs: Recordar a los votantes la validación del voto.
-   8. Presidentxs: Recordar que hay una planchuela para la pantalla y conectores para auriculares para las personas con discapacidad visual.
+   8. Presidentxs: Recordar que hay una planchuela para la pantalla y conectores para auriculares para las *personas con discapacidad* visual.
 
       Informarse del procedimiento para asistencia de voto para las personas con discapacidad motriz, visual, etc.
-   9. Autoridades: Validar que la máquina funcione bien en todo momento. Si es posible, realizar controles aleatoriamente de la máquina según indique el procedimiento para ello.
-   10. Fiscales: Durante el escrutinio, solicitar la fiscalización de los votos y que se lea en voz alta la boleta.
+   9. Autoridades: Validar que la máquina funcione bien en todo momento. Si es posible, *realizar controles* aleatoriamente de la máquina según indique el procedimiento para ello.
+
+      Corroborar que está configurada correctamente asegurándose que *la oferta electoral y el número de mesa que figure en pantalla sea la correcta*.
+   10. Fiscales: Durante el escrutinio, solicitar la fiscalización de los votos y *que se lea en voz alta* la boleta.
    11. Fiscales: Buscar la manera de evitar agolparse sobre la pantalla solicitando a la presidente la lectura y las pausas correspondientes para observar.
-   12. Fiscales: Solicitar el conteo manual de las boletas.
+   12. Fiscales: Solicitar el *conteo manual* de las boletas.
 
 5. Escrutinio definitivo:
-   - Debatamos: ¿se puede reproducir o recomponer de alguna manera lo que sucedió en el escrutinio provisorio? ¿qué necesitamos?
+   - Debatamos: con el voto electrónico, ¿se puede reproducir o recomponer de alguna manera lo que sucedió en el escrutinio provisorio? ¿qué necesitamos?
       
 6. Entonces... La pregunta que todxs nos hacemos: ¿Cómo funciona el software?
    1. La respuesta que cualquier persona informática te puede decir: "ni idea" \shrug{}.
@@ -101,6 +109,11 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
    5. Auditorías para especialistas en seguridad de la información.
 
       Una auditoría de seguridad no es algo sencillo: hay de varios tipos (p. ej. test de intrusión/pentesting, auditoría Web, etc.), estándares (p. ej. ISO 27002, COBIT), hay varias personas entrenadas y dedicadas a varias tareas específicas, certificaciones que deben tener y cumplir, etc.
+
+Volviendo a las moralejas:
+- ¿no sería lo mejor debatir en qué contexto y cómo incorporar una nueva tecnología infomática?
+- ¿han pensado en los riesgos si ésta falla?
+- Con la información que les es muy importante: ¿piensan qué hacer para mitigar algún inconveniente si sucede? (p. ej.: si les falta Internet y no pueden acceder a ella, si el programa no responde como se espera o si se modifica o borra inesperadamente).
 
 ** Programas
 Para ejecutar los programas en un celular, se requiere de una terminal y un intérprete de PHP. 
