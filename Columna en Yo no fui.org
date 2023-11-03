@@ -123,133 +123,141 @@ Para ejecutar los programas en un celular, se requiere de una terminal y un int�
 
 #+caption: Programa 1
 #+BEGIN_SRC php
-<?php
+  <?php
 
-$partidos = ['mejor es messi', 'mejor es diego', 'mejor es mariana'];
+  # Licencia del programa: GNU Affero General Public License version 3 (GPLv3).
+  # Ver https://www.gnu.org/licenses/agpl-3.0.html para más información.
 
-function contar_votos($lst_boletas, $partido) {
-    $conteo = 0;
-    foreach ($lst_boletas as $boleta){
-        if ($boleta['partido'] == $partido) {
-            $conteo ++;
-        }
-    }
+  $partidos = ['mejor es messi', 'mejor es diego', 'mejor es mariana'];
 
-    return $conteo;
-}
+  function contar_votos($lst_boletas, $partido) {
+      $conteo = 0;
+      foreach ($lst_boletas as $boleta){
+          if ($boleta['partido'] == $partido) {
+              $conteo ++;
+          }
+      }
 
-function mostrar_votos($lst_boletas, $partido) {
-    $total = contar_votos($lst_boletas, $partido);
-    echo "Votos $partido: $total\n";
-}
+      return $conteo;
+  }
 
-# Supongamos que se realizó el conteo...
+  function mostrar_votos($lst_boletas, $partido) {
+      $total = contar_votos($lst_boletas, $partido);
+      echo "Votos $partido: $total\n";
+  }
 
-$mis_boletas = [['partido' => 'mejor es messi'],
-                ['partido' => 'mejor es mariana'],
-                ['partido' => 'mejor es diego'],
-                ['partido' => 'blanco'],
-                ['partido' => 'mejor es mariana'],
-                ['partido' => 'mejor es messi'],
-                ['partido' => 'mejor es mariana'],
-                ['partido' => 'mejor es diego'],
-                ['partido' => 'mejor es mariana']];
+  # Supongamos que se realizó el conteo...
 
-# Hora de contar votos
+  $mis_boletas = [['partido' => 'mejor es messi'],
+                  ['partido' => 'mejor es mariana'],
+                  ['partido' => 'mejor es diego'],
+                  ['partido' => 'blanco'],
+                  ['partido' => 'mejor es mariana'],
+                  ['partido' => 'mejor es messi'],
+                  ['partido' => 'mejor es mariana'],
+                  ['partido' => 'mejor es diego'],
+                  ['partido' => 'mejor es mariana']];
 
-foreach ($partidos as $partido){
-    mostrar_votos($mis_boletas, $partido);
-}
+  # Hora de contar votos
 
-mostrar_votos($mis_boletas, 'blanco');
+  foreach ($partidos as $partido){
+      mostrar_votos($mis_boletas, $partido);
+  }
+
+  mostrar_votos($mis_boletas, 'blanco');
 #+END_SRC
 
 #+caption: Programa 2
 #+BEGIN_SRC php
-<?php
+  <?php
 
-$partidos = ['mejor es messi', 'mejor es diego', 'mejor es mariana'];
+  # Licencia del programa: GNU Affero General Public License version 3 (GPLv3).
+  # Ver https://www.gnu.org/licenses/agpl-3.0.html para más información.
 
-function contar_votos($lst_boletas, $partido) {
-    $conteo = 0;
-    foreach ($lst_boletas as $boleta){
-        if ($boleta['partido'] == $partido) {
-            $conteo ++;
-        }
-    }
+  $partidos = ['mejor es messi', 'mejor es diego', 'mejor es mariana'];
 
-    return $conteo;
-}
+  function contar_votos($lst_boletas, $partido) {
+      $conteo = 0;
+      foreach ($lst_boletas as $boleta){
+          if ($boleta['partido'] == $partido) {
+              $conteo ++;
+          }
+      }
 
-function mostrar_votos($lst_boletas, $partido) {
-    $total = contar_votos($lst_boletas, $partido);
-    echo "Votos $partido: $total\n";
-}
+      return $conteo;
+  }
 
-# Supongamos que se realizó el conteo...
+  function mostrar_votos($lst_boletas, $partido) {
+      $total = contar_votos($lst_boletas, $partido);
+      echo "Votos $partido: $total\n";
+  }
 
-$mis_boletas = [['partido' => 'mejor es messi'],
-                ['partido' => 'mejor es mariana'],
-                ['partido' => 'mejor es diego'],
-                ['partido' => 'blanco'],
-                ['partido' => 'mejor es mariana'],
-                ['partido' => 'mejor es mesi '],
-                ['partido' => 'mejor es mariana'],
-                ['partido' => 'mejor es diego'],
-                ['partido' => 'mejor es mariana']];
+  # Supongamos que se realizó el conteo...
 
-# Hora de contar votos
+  $mis_boletas = [['partido' => 'mejor es messi'],
+                  ['partido' => 'mejor es mariana'],
+                  ['partido' => 'mejor es diego'],
+                  ['partido' => 'blanco'],
+                  ['partido' => 'mejor es mariana'],
+                  ['partido' => 'mejor es mesi '],
+                  ['partido' => 'mejor es mariana'],
+                  ['partido' => 'mejor es diego'],
+                  ['partido' => 'mejor es mariana']];
 
-foreach ($partidos as $partido){
-    mostrar_votos($mis_boletas, $partido);
-}
+  # Hora de contar votos
 
-mostrar_votos($mis_boletas, 'blanco');
+  foreach ($partidos as $partido){
+      mostrar_votos($mis_boletas, $partido);
+  }
+
+  mostrar_votos($mis_boletas, 'blanco');
 #+END_SRC
 
 #+caption: Programa 3
 #+BEGIN_SRC php
-<?php
+  <?php
 
-$partidos = ['mejor es messi', 'mejor es diego', 'mejor es mariana'];
+  # Licencia del programa: GNU Affero General Public License version 3 (GPLv3).
+  # Ver https://www.gnu.org/licenses/agpl-3.0.html para más información.
 
-function contar_votos($lst_boletas, $partido) {
-    $conteo = 0;
-    foreach ($lst_boletas as $boleta){
-        if ($boleta['partido'] = $partido) {
-            $conteo ++;
-        }
-    }
+  $partidos = ['mejor es messi', 'mejor es diego', 'mejor es mariana'];
 
-    return $conteo;
-}
+  function contar_votos($lst_boletas, $partido) {
+      $conteo = 0;
+      foreach ($lst_boletas as $boleta){
+          if ($boleta['partido'] = $partido) {
+              $conteo ++;
+          }
+      }
 
-function mostrar_votos($lst_boletas, $partido) {
-    $total = contar_votos($lst_boletas, $partido);
-    echo "Votos $partido: $total\n";
-}
+      return $conteo;
+  }
 
-# Supongamos que se realizó el conteo...
+  function mostrar_votos($lst_boletas, $partido) {
+      $total = contar_votos($lst_boletas, $partido);
+      echo "Votos $partido: $total\n";
+  }
 
-$mis_boletas = [['partido' => 'mejor es messi'],
-                ['partido' => 'mejor es mariana'],
-                ['partido' => 'mejor es diego'],
-                ['partido' => 'blanco'],
-                ['partido' => 'mejor es mariana'],
-                ['partido' => 'mejor es messi'],
-                ['partido' => 'mejor es mariana'],
-                ['partido' => 'mejor es diego'],
-                ['partido' => 'mejor es mariana']];
+  # Supongamos que se realizó el conteo...
 
-# Hora de contar votos
+  $mis_boletas = [['partido' => 'mejor es messi'],
+                  ['partido' => 'mejor es mariana'],
+                  ['partido' => 'mejor es diego'],
+                  ['partido' => 'blanco'],
+                  ['partido' => 'mejor es mariana'],
+                  ['partido' => 'mejor es messi'],
+                  ['partido' => 'mejor es mariana'],
+                  ['partido' => 'mejor es diego'],
+                  ['partido' => 'mejor es mariana']];
 
-foreach ($partidos as $partido){
-    mostrar_votos($mis_boletas, $partido);
-}
+  # Hora de contar votos
 
-mostrar_votos($mis_boletas, 'blanco');
+  foreach ($partidos as $partido){
+      mostrar_votos($mis_boletas, $partido);
+  }
+
+  mostrar_votos($mis_boletas, 'blanco');
 #+END_SRC
-
 
 * Columna 9: ¿Qué es el voto electrónico?
 
