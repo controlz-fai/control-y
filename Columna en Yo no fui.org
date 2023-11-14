@@ -44,11 +44,11 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
    1. ¡NO! No es una cajita, no es el cable, no es ninguna red social, nope nope... bueno, solo un poco...
    2. Ahora vamos a ver qué son...
 2. ¿Qué es internet?
-   1. Una red de redes... ¿en serio? bueno... internet es el concepto teórico...
-   2. Del Wi-fi de tu casa, del de tu vecina, al servidor de mensajería.
+   1. Una red de redes... ¿en serio? bueno... internet (con "i" minúscula) es el concepto teórico...
+   2. Del Wi-fi de tu casa, del de tu vecina y vecino, al servidor de mensajería.
       1. Cómo es una red: el Wi-fi de tu casa.
-      2. Cómo es una red de redes... Del Wi-fi de tu casa, al proveedor de Internet.
-      3. Cómo es una red de redes, pero más troncal... del proveedor a otro proveedor.
+      2. Cómo es una red de redes... del Wi-fi de tu casa, al proveedor de Internet.
+      3. Cómo es una red de redes, pero más troncal... del proveedor a otro proveedor mayorista.
 3. ¿E Internet?¿Qué es?
 
    Es la implementación actual: los cables que ahora se están usando.
@@ -62,11 +62,11 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
    2. ¿Vieron cuántos cables salen de Argentina a... Japón? ¿por dónde pasan?
 5. ¿Qué tiene que ver ARSAT con esto?
 
-   ARSAT tiene dos satélites y gestiona también la fibra óptica del país.
+   ARSAT es un proveedor mayorista. Tiene dos satélites y gestiona también la fibra óptica del país.
 
    Satélites:
    
-   - TDA - Televisión Digital Argentina... nada que ver con Internet, pero vale la pena decirlo.
+   - Provee TDA - Televisión Digital Argentina - sí, ¡los canales "abiertos"!... nada que ver con Internet, pero vale la pena decirlo.
    - Satélites brindan servicio conectando a Internet.
 
 ¿Quién conecta todo? ¿qué pasa en las escuelas, municipios, hospitales, hogares, trabajos de ciudades lejanas?
