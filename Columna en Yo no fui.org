@@ -39,16 +39,32 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   
 
 * Columna 11: ¿Qué es Internet?
+\radio{} Emisión al aire: <2023-11-17 vie 15:00>
+
+#+caption: Cables marítimos para enterconectar redes.
+#+attr_html: :alt  Cables martítimos de fibra óptica :align center
+http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCableHi.jpg
 
 1. ¿Es internet o Internet? ...
    1. ¡NO! No es una cajita, no es el cable, no es ninguna red social, nope nope... bueno, solo un poco...
    2. Ahora vamos a ver qué son...
 2. ¿Qué es internet?
    1. Una red de redes... ¿en serio? bueno... internet (con "i" minúscula) es el concepto teórico...
+      - Cuando en un edificio se quiere conectar con otro: dos redes, un cable, un par de máquinas que conectan a ambos extremos: ¡et violà! internet.
    2. Del Wi-fi de tu casa, del de tu vecina y vecino, al servidor de mensajería.
-      1. Cómo es una red: el Wi-fi de tu casa.
+      1. Cómo es una red local: el Wi-fi de tu casa, cables de tus compus al router/modem ADS.
+
+         Velocidad: ¿1 Mega, 10 Megas... un poco más?
+         
       2. Cómo es una red de redes... del Wi-fi de tu casa, al proveedor de Internet.
+
+         Mucha más velocidad: 10 Megas * cada cliente = ¿?
+
       3. Cómo es una red de redes, pero más troncal... del proveedor a otro proveedor mayorista.
+
+         Muuuuucha más velocidad: 10 Megas * total clientes * proveedores = ¿?
+         
+         Las transimisones de los cables marítimos se miden en Tera bits por segundo (Tb/s): ¡1.000.000.000.000 de unos y ceros por segundo!
 3. ¿E Internet?¿Qué es?
 
    Es la implementación actual: los cables que ahora se están usando.
@@ -60,7 +76,14 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
    1. ¿fibra óptica? sí, ¡como unas cuantas dentro de un cable enorme!
 
    2. ¿Vieron cuántos cables salen de Argentina a... Japón? ¿por dónde pasan?
-5. ¿Qué tiene que ver ARSAT con esto?
+
+5. ¿Y en Argetina?
+
+   REFEFO : Red Federal de Fibra Óptica
+
+   \glassright{} Ver el mapa [[https://www.argentina.gob.ar/sites/default/files/mapa_refefo_dic_2021.png][de cobertura de la red federal]].
+     
+6. ¿Qué tiene que ver ARSAT con esto?
 
    ARSAT es un proveedor mayorista. Tiene dos satélites y gestiona también la fibra óptica del país.
 
@@ -75,11 +98,21 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
 - The internet's undersea world. The Guardian.
   
-  http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCableHi.jpg
+  [[http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCableHi.jpg][http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCableHi.jpg]]
 
-  The world's undersea internet cables - interactive. The Guardian.
+- The world's undersea internet cables - interactive. The Guardian.
   https://www.theguardian.com/technology/datablog/interactive/2012/feb/28/undersea-internet-cable-map-interactive
 
+- Mapa de Cobertura de la REFEFO.
+  https://www.argentina.gob.ar/jefatura/innovacion-publica/telecomunicaciones-y-conectividad/conectar/que-es-la-red-federal-de
+
+  [[https://www.argentina.gob.ar/sites/default/files/mapa_refefo_dic_2021.png][https://www.argentina.gob.ar/sites/default/files/mapa_refefo_dic_2021.png]]
+
+- Internet vs. internet (o interred). Se explica en el Capítulo 1 de "Redes de Computadoras" de Andrew S. Tanembaum  y David J. Wetherall. Pearson. 2012. Quinta Edición.
+
+  Versión en inglés: "Computer Networks", Andrew S. Tanembaum and David J. Wetherall. Prentice Hall-Pearson. 2011. Fifth edition.
+
+  
 * Columna 10: ¿Qué es el voto electrónico? Parte 2
 \radio{} Emisión al aire: <2023-11-03 vie 15:00>
 
