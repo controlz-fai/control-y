@@ -41,7 +41,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 * Columna 11: ¿Qué es Internet?
 \radio{} Emisión al aire: <2023-11-17 vie 15:00>
 
-#+caption: Cables marítimos para enterconectar redes.
+#+caption: Cables marítimos para interconectar redes.
 #+attr_html: :alt  Cables martítimos de fibra óptica :align center
 http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCableHi.jpg
 
@@ -49,25 +49,29 @@ http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCab
    1. ¡NO! No es una cajita, no es el cable, no es ninguna red social, nope nope... bueno, solo un poco...
    2. Ahora vamos a ver qué son...
 2. ¿Qué es internet?
-   1. Una red de redes... ¿en serio? bueno... internet (con "i" minúscula) es el concepto teórico...
-      - Cuando en un edificio se quiere conectar con otro: dos redes, un cable, un par de máquinas que conectan a ambos extremos: ¡et violà! internet.
-   2. Del Wi-fi de tu casa, del de tu vecina y vecino, al servidor de mensajería.
-      1. Cómo es una red local: el Wi-fi de tu casa, cables de tus compus al router/modem ADS.
+   1. Una red de redes... ¿en serio? bueno... internet (con "i" minúscula) es el concepto teórico: tecnologías, diferentes tipos de conexiones, etc.
+      - Supongamos que en un edificio se quiere conectar con otro: dos redes (una en cada edificio), un cable, un par de máquinas que conectan a ambos extremos: ¡et violà! internet.
+   2. Del Wi-fi de tu casa, del de tu vecina y vecino, al servidor de mensajería instantánea (¡ese que usás en tu celular para chatear!).
+      1. Cómo es una red local: el Wi-fi de tu casa, celus, cables de tus compus al router/modem ADSL.
 
          Velocidad: ¿1 Mega, 10 Megas... un poco más?
          
       2. Cómo es una red de redes... del Wi-fi de tu casa, al proveedor de Internet.
 
-         Mucha más velocidad: 10 Megas * cada cliente = ¿?
+         Mucha más velocidad/capacidad: Supongamso 10 Megas \times{} cada cliente = ¿?
 
       3. Cómo es una red de redes, pero más troncal... del proveedor a otro proveedor mayorista.
 
-         Muuuuucha más velocidad: 10 Megas * total clientes * proveedores = ¿?
+         Muuuuucha más velocidad/capacidad: Supongamos 10 Megas \times{} total clientes \times{} proveedores = ¿?
          
          Las transimisones de los cables marítimos se miden en Tera bits por segundo (Tb/s): ¡1.000.000.000.000 de unos y ceros por segundo!
 3. ¿E Internet?¿Qué es?
+   1. Es la *implementación actual*: los cables y aparatos que ahora se están usando.
 
-   Es la implementación actual: los cables que ahora se están usando.
+      Tu router conectado a tu proveedor, que se conecta a otro proveedor y este a otro de otro país y así.
+   
+   2. ¿Puede haber otra internet? \to{} *Sí, claro.*
+
 
 4. ¿Cómo son los cables?
    
@@ -92,7 +96,7 @@ http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCab
    - Provee TDA - Televisión Digital Argentina - sí, ¡los canales "abiertos"!... nada que ver con Internet, pero vale la pena decirlo.
    - Satélites brindan servicio conectando a Internet.
 
-¿Quién conecta todo? ¿qué pasa en las escuelas, municipios, hospitales, hogares, trabajos de ciudades lejanas?
+\thinkingface{} Para pensar: ¿Quién conecta todo? ¿qué pasa en las escuelas, municipios, hospitales, hogares, trabajos de ciudades lejanas? ¿cómo hacemos para que llegue la fibra óptica a toda la Argentina?
 
 ** Recursos
 
