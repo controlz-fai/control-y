@@ -38,12 +38,110 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
+
+* Columna 12: ¿Qué es la Web?
+\radio{} Emisión al aire: <2023-12-01 vie 15:00>
+
+
+#+caption: Screenshot del primer explorador Web.
+[[https://www.w3.org/History/1994/WWW/Journals/CACM/screensnap2_24c.gif]]
+
+1. Ya aprendimos qué es internet (e Internet). Pero, ¿cómo lo usamos? ¿Qué contenido se encuentra allí?
+   - ¿Cuántas veces escribimos/leemos "www"? ¿qué es?
+2. ¿Qué se imaginó Tim Bernerns-Lee?
+   Tim Berners-Lee desarrolló varias tecnologías necesarias para la Web. De hecho: ¡desarrolló la primer página Web!
+   
+   1. Trabajaba en el CERN (del francés /Conseil européen pour la Recherche nucléaire/) Organización europea para la investigación nuclear.
+   2. Se encontró con mucho contenido textual.
+   3. Mucha gente que quería acceder a las investigaciones de sus compañeras/os.
+   4. Pensó en vincular los textos de forma no lineal: Hipertexto, o sea ¡una red!.
+   5. Sistemas vinculados de información, y el hipertexto (hoy en día es ese texto que hacés clics en las páginas, eso mismo).
+   6. URL, HTML, HTTP, todas tecnologías que usamos para visitar cualquier página (sí, ¡Instagram también!).
+
+   En una entrevista dijo:
+
+   #+begin_quote
+   ML: I'm interested that at what sense you began to sense the possibilities. You weren't thinking car rental, you weren't thinking blogging, I assume.
+
+   TBL: Well in some ways. The idea was that anybody who used the web would have a space where they could write and so the first browser was an editor, it was a writer as well as a reader. Every person who used the web had the ability to write something. It was very easy to make a new web page and comment on what somebody else had written, which is very much what blogging is about.
+
+   -- [[http://news.bbc.co.uk/2/hi/technology/4132752.stm][Entrevista de Mark Lawson a Tim Berners-Lee. 2005. BBC.]]  
+   #+end_quote
+
+   Traducción no oficial:
+   
+   #+begin_quote
+   ML: Estoy interesado en qué sentido comenzaste a comprender las posibilidades. Asumo que no estabas pensando en alquileres de autos, tampoco en blogging.
+
+   TBL: Bueno, en cierta forma. La idea era que cualquier persona que usara la web podría tener un espacio donde pudiera escribir y, por eso, el primer explorador era un editor, podía escribir como también leer. Cada persona que usara la web, tenía la habilidad de escribir algo. Era muy fácil hacer una nueva página web y comentar acerca de lo que otra persona ha escrito, lo que es muy parecido a lo que blogging se trata.
+
+   -- [[http://news.bbc.co.uk/2/hi/technology/4132752.stm][Entrevista de Mark Lawson a Tim Berners-Lee. 2005. BBC.]]  
+   #+end_quote
+
+3. Web 1.0
+   - Es un término nuevo, no es el que se designó.
+   - Refiere al contenido que es producido por WebMasters y consumido por una mayoría de personas: Páginas estáticas.
+   - Ejemplos: Diarios.     
+4. Web 2.0 \leftarrow{} ¡Usted está aquí!
+   - Contenido que es social: Redes sociales.
+   - Producido por WebMasters, pero también por otras personas, y consumido por personas.     
+     - El contenido de las redes, ¿quiénes lo producen mayormente?
+     - Wikipedia, Redes, contenido colaborativo.
+   - Algunas páginas exponen datos para consumo de otras aplicaciones.
+5. Web Semántica (¿Pensaban que la próxima es "3.0"? \laughing{} )
+   - Producido por WebMasters, por otras personas, y por programas/robots, y consumido por personas y programas/robots.
+   - ¿Qué significa cada dato? \to{} Se agrega semántica.
+     - Por ejemplo, una computadora recibe el dato 17, pero no sabe qué es...
+       - Podría ser la edad de Virgi...
+       - O podría ser la página actual del libro que está leyendo.
+   - ¿Cómo obtengo datos de una página? \to{} Se incluye datos en un escrito, los sistemas exponen datos para consultar.
+     - Los datos se pueden mezclar entre ellos.
+   - Lógica, ontologías, grafos de conocimiento, conceptos interesantes...
+6. Web3
+   - No es la Web Semántica solamente: descentralizada + blockchain + Web Semántica + IA + ¿?
+   - "Un ecosistema descentralizado en-línea basado en blockchain", fundador de Polkadot y Gavin Wood, co-fundador de Ethereum (criptomoneda).
+7. Buscadores... WebMails (correos electrónicos)... Redes sociales... HomeBanking...
+   - Funcionan con HTML, HTTP... ¡oh! Tecnología web.
+   - Muhos servicios funcionan con programas y una página Web para consultarlos.
+
+
+Preguntas:
+
+Pero... ¿Cuánto del Internet usamos habitualmente? ¿Qué páginas visitás día a día? ¿cuánto contenido accedemos y por dónde?
+¿cuánto contenido se imaginan que hay en Internet? ¿y en otras redes?
+
+** Bibliografía
+- "Information Management: A Proposal". Tim Berners-Lee, CERN. Marzo 1989.
+
+  https://www.w3.org/History/1989/proposal.html
+
+- "Berners-Lee on the read/write web". Entrevista de Mark Lawson a Tim Berners-Lee, BBC. 2005.
+  
+  http://news.bbc.co.uk/2/hi/technology/4132752.stm
+
+- "The Semantic Web. A new form of Web content that is meaningful to computers will unleash a revolution of new possibilities". Tim Berners-Lee, James Hendler y Ora Lassila. 2001. Scientific American. doi:10.1038/scientificamerican0501-34
+
+  https://doi.org/10.1038%2Fscientificamerican0501-34
+
+- "World-Wide Web: The information universe". Tim Berners-Lee, Robert Cailliau, Jean-Fracois Groff, Bernd Pollermann. 
+
+  https://www.w3.org/History/1992/ENRAP/Article_9202.ps
+
+- "A Little History of the World Wide Web". World Wide Web Consortium (W3C).
+
+  https://www.w3.org/History.html
+
+- "The WorldWideWeb browser". Tim Berners-Lee.
+
+  https://www.w3.org/People/Berners-Lee/WorldWideWeb.html
 * Columna 11: ¿Qué es Internet?
 \radio{} Emisión al aire: <2023-11-17 vie 15:00>
 
 #+caption: Cables marítimos para interconectar redes.
 #+attr_html: :alt  Cables martítimos de fibra óptica :align center
 http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCableHi.jpg
+
+** Guion
 
 1. ¿Es internet o Internet? ...
    1. ¡NO! No es una cajita, no es el cable, no es ninguna red social, nope nope... bueno, solo un poco...
