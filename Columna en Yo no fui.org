@@ -39,6 +39,100 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   
 
 
+* Columna 13: ¿Qué es la minería de datos? 
+\radio{} Emisión al aire: <2023-12-15 vie 15:00>
+
+1. Sistemas y Bases de datos
+   1. En nuestro trabajo, cuando hacemos algún trámite, pagamos nuestras cuentas, usamos sistemas.
+   2. Redes sociales, chats.
+   3. Cada texto, número, nombre, DNI, etc. se almacena en un lugar.
+   4. Ese lugar son usualmente programas llamados Sistemas Gestores de Base de Datos.
+   5. ¿Se imaginan cuántos datos se guarda en pocos días?
+2. ¿Qué hay oculto en los datos? ¿Qué se hace con los datos?
+   1. Una vez que tenemos muchos datos: ¿qué hacemos con ellos?
+   2. Una de las preguntas es si hay algún patrón en los datos.
+      1. Ese patrón puede cambiar con el tiempo.
+   3. Si detectamos un patrón, ¿se puede predecir algo? ¿cuál es el error?
+  
+3. ¿Qué es la minería de datos?
+
+   1. También lo llaman /Knowledge Discovery from Data/ (KDD)
+   2. En la bibliografía se encuentra un definición:
+
+      *Proceso por el cual se busca patrones en una gran cantidad de datos*.
+   3. Aprendizaje, entrenamiento, son palabras muy utilizadas en este contexto.
+            
+4. El proceso KDD es:
+
+   - Preprocesamiento, "limpieza" e integración de datos
+
+     Se selecciona y se junta los datos necesarios. Se remueven datos mal ingresados o se cambian al formato que sea apropiado para los programas.
+        
+   - Procesamiento o minería de datos.
+
+     Se utilizan métodos (posiblemente se ejecutan programas) para extraer patrones de los datos.
+
+   - Evaluación y presentación.
+
+     Identificar los patrones que se consideren interesantes.
+
+   - Presentación del conocimiento.
+
+     Se muestran visualizaciones y representación del conocimiento encontrado en el minado para los usuarios.
+      
+5. (Opcional) Técnicas
+
+   1. Clasificación
+      - Patrones frecuentes
+      - Entre los datos, intentar deducir una de sus columnas.
+      - Por ejemplo, si se guardaron todas las compras, se preguntó la edad, si es estudiante, si su crédito es bueno o no y si esa persona compró una computadora. 
+   2. Detectar anomalías (otuliers)
+      - Detectar datos que no siguen un patrón.
+   3. Clustering
+      - Agrupar datos. Crear grupos o clases.
+   4. Otras técnicas...
+6. ¿En dónde se utiliza?
+
+   Las ramas de la informáticas y estadisticas usan KDD para investigar y extraer mucho conocimiento. También, profesionales en las empresas y la industria utilizan KDD.
+
+   Algunos usos son:
+   
+   1. Algoritmos de sugerencias:
+      1. ¿Qué clase de cliente es? Según su clase, ¿qué le gustaría?
+      2. Evaluación de conformidad de productos y servicios
+   2. Marketing:         
+      1. Si se detecta que la mayoría de la gente cuando compra yerba mate y una bombilla, compra un mate...
+
+         Un cliente compró yerba mate y una bombilla, entonces: ¡seguro quiere comprar un mate!
+
+         Si mañana cambia, ¡sería genial que se adapte!
+   3. Patrones en imágenes.
+      1. Detectar rostros (/Face recognition/), paredes, números y letras (/Optical Character Recognition/, OCR).
+      2. Detectar elementos interesantes en mapas: ríos, calles, etc.
+   4. Patrones en la industria.
+      1. Comportamientos de clientes: detectar temporadas baja/media/alta.
+      2. Comportamientos de objetos: pozos petrolíferos
+   5. Medicina
+      1. Detectar posibles enfermedades según análisis de sangre, imágenes, historial médico, etc.
+      2. Predecir posible evolución de un paciente, para que el médico determine posibles tratamientos.
+   6. Investigación
+
+
+
+
+   
+Preguntas:
+
+- ¿Piensan habitualmente en los datos que entregan? ¿en redes sociales? ¿en otros sistemas?
+- ¿Se imaginan qué están haciendo con sus datos? 
+
+
+** Bibliografía
+- /"Introduction to Data Mining"/. Tan Steinbach Kumar. Pearson. Primera edición. 2014.
+- /"Data Mining Concepts and Techniques"/. Jiawei Han, Micheline Kamber y Jian Pei. Morgan Kaufmann/Elsevier. Tercera edición. 2012.
+
+
+
 * Columna 12: ¿Qué es la Web?
 \radio{} Emisión al aire: <2023-12-01 vie 15:00>
 
@@ -49,6 +143,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 1. Ya aprendimos qué es internet (e Internet). Pero, ¿cómo lo usamos? ¿Qué contenido se encuentra allí?
    - ¿Cuántas veces escribimos/leemos "www"? ¿qué es?
 2. ¿Qué se imaginó Tim Bernerns-Lee?
+   
    Tim Berners-Lee desarrolló varias tecnologías necesarias para la Web. De hecho: ¡desarrolló la primer página Web!
    
    1. Trabajaba en el CERN (del francés /Conseil européen pour la Recherche nucléaire/) Organización europea para la investigación nuclear.
