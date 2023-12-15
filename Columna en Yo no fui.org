@@ -42,6 +42,14 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 * Columna 13: ¿Qué es la minería de datos? 
 \radio{} Emisión al aire: <2023-12-15 vie 15:00>
 
+\warning{} Advertencia: La persona que conoce a en gran medida acerca de la correcta utilización de la minería de datos y KDD es lx estadísticx. Si bien, en carreras informáticas puede estudiarse ciertos contenidos, no necesariamente se focalizan en la investigación y ejecución de una gran cantidad de métodos existentes.
+
+También, profesionales de diversas ramas pueden realizar especialidades, posgrados, maestrías y doctorados en varias universidades de nuestro país (Ejemplos: [[https://faeaweb.uncoma.edu.ar/posgrado/oferta-academica-posgrado/][en la FaEA de nuestra universidad]], [[https://www.ic.fcen.uba.ar/actividades-academicas/formacion/posgrados][en la UBA]], [[https://graduados.eco.unc.edu.ar/es/formacion/maestrias/mea-maestria-en-estadistica-aplicada][en la UNC]], [[https://face.unt.edu.ar/web/posgrados/posgrados/doctorado-en-estadistica/][en la UNT]]). Se puede buscar en el listado completo de carreras acreditadas en la página de [[https://global.coneau.gob.ar/coneauglobal/publico/buscadores/acreditacion/][CONEAU Global]].
+
+Dichos profesionales son quienes debemos dirigirnos ante cualquier duda o inquietud acerca de este tema. Esta columna es solo una introducción para comprender de qué se trata a grandes rasgos, sin pretender ser exhaustivo ni formal.
+
+(Y sí, a veces nos confundimos, pero la palabra "estadista" se refiere a la persona que conoce acerca del estado. La palabra adecuada para referirse a la persona que es especialista en estadística, se denomina: "estadísticx")
+
 1. Sistemas y Bases de datos
    1. En nuestro trabajo, cuando hacemos algún trámite, pagamos nuestras cuentas, usamos sistemas.
    2. Redes sociales, chats.
@@ -126,7 +134,7 @@ Preguntas:
 - ¿Piensan habitualmente en los datos que entregan? ¿en redes sociales? ¿en otros sistemas?
 - ¿Se imaginan qué están haciendo con sus datos? 
 
-
+  
 ** Bibliografía
 - /"Introduction to Data Mining"/. Tan Steinbach Kumar. Pearson. Primera edición. 2014.
 - /"Data Mining Concepts and Techniques"/. Jiawei Han, Micheline Kamber y Jian Pei. Morgan Kaufmann/Elsevier. Tercera edición. 2012.
