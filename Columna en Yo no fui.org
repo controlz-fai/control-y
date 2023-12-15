@@ -117,23 +117,18 @@ Dichos profesionales son quienes debemos dirigirnos ante cualquier duda o inquie
    3. Patrones en imágenes.
       1. Detectar rostros (/Face recognition/), paredes, números y letras (/Optical Character Recognition/, OCR).
       2. Detectar elementos interesantes en mapas: ríos, calles, etc.
-   4. Patrones en la industria.
+   4. Patrones en la industria y el comercio.
       1. Comportamientos de clientes: detectar temporadas baja/media/alta.
-      2. Comportamientos de objetos: pozos petrolíferos
-   5. Medicina
+      2. Comportamientos de fenómenos naturales: pozos petrolíferos, caudal de ríos, deshielos, clima, etc.
+   5. Medicina.
       1. Detectar posibles enfermedades según análisis de sangre, imágenes, historial médico, etc.
       2. Predecir posible evolución de un paciente, para que el médico determine posibles tratamientos.
-   6. Investigación
-
-
-
-
+   6. Investigación.
    
 Preguntas:
 
-- ¿Piensan habitualmente en los datos que entregan? ¿en redes sociales? ¿en otros sistemas?
-- ¿Se imaginan qué están haciendo con sus datos? 
-
+- ¿Piensan habitualmente en los datos que ingresan en los sistemas? ¿en redes sociales? ¿en correos y chats?
+- ¿Se imaginan qué se puede hacer con sus datos? ¿qué clase de patrones se podrían encontrar entre sus datos y los demás?
   
 ** Bibliografía
 - /"Introduction to Data Mining"/. Tan Steinbach Kumar. Pearson. Primera edición. 2014.
