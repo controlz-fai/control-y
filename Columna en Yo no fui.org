@@ -39,7 +39,134 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   
 
 
-* Columna 13: ¿Qué es la minería de datos? 
+* Columna 14: ¿Qué es el DeepFake?
+
+** Guion
+1. Ayer estuve escuchando la entrevista que realizaron en el programa La Banda Ancha a Fabio Tarasow de FLACSO. Al final menciona justamente que debemos tener más cuidado al ver fotos, videos y audios... ¿por qué?  
+
+   [[https://radiocut.fm/radiostation/uncocalf/listen/2024/02/22/10/30/00/][Se puede escuchar en RadioCut (UNCo-CALF 22/02/2024 a las 10:30).]]
+   
+2. Repaso: ¿se acuerdan que hablamos de *minería de datos, /machine learning/ y un poquito de IA*?
+   - KDD/Minería de datos \to{} lo resumimos en "Búsqueda de patrones".
+   - ¿Se podrán reproducir esos patrones? \to{} IA en acción.
+   - Por ejemplo: si Bomba nos presta los discos de Jazz
+     1. ¿se podría encontrar algún patrón en esos discos?
+     2. Y de ese patrón... ¿se podría generar alguna canción que lo utilice?
+   - Aquí, se utilizan técnicas de aprendizaje automático: el programa aprende que hay un patrón y responde acorde a lo que encontró.
+3. ¿Qué es DeepFake?
+
+   ¡Ejemplos más abajo!
+     
+   - Hace tiempo se realizan *ediciones* en fotografía, audios y videos.
+     - Para retocar artísticamente o eliminar pequeños errores en la fotografía. En el audio, la mezcla de instrumentos, la generación de nuevos sonidos. En el cine, para efectos especiales.
+     - Algunas para realizar engaños, embustes, bulos, infundios ([[https://dle.rae.es/bulo][entre otros sinónimos]])... o mejor conocido hoy como /fake news/, /hoax/...
+   - Existen técnicas de *aprendizaje automático* pueden aprender un estilo musical, el timbre de una voz, la forma de un rostro bajo distintas expresiones, el patrón de movimiento de una persona, etc.
+
+     De esta forma, si aprendió un patrón... ¿podría generarlo?
+     
+   - DeepFake se lo puede definir como la *creación y manipulación de la apariencia facial a través de técnicas denominadas /deep generative/.*
+   - Proviene de las palabras /deep learning/ (aprendizaje profundo), una técnica de aprendizaje automático, y /fake/, que significa "falso".
+
+4. Usos legales \thumbsup{}
+   - Artístico: podemos hacer fotos, textos, audios para elaborar obras. Incluso pueden hacerse caricaturas, pinturas u otras obras de arte con IA.
+
+     - Aunque... hay *artistas debatiendo autoría y calidad artística* de las obras completamente realizadas con IA. Porque, por ejemplo, el proceso de producción utiliza un texto de entrada (/prompt/) para generar la obra, o sea, es necesario expresar la idea en texto, actividad que no se suele realizar al dibujar, pintar, etc.
+
+     - En segunda instancia, hay un debate acerca del entrenamiento de la IA. En esta fase, la IA se entrena con obras existentes: estas obras utilizadas para entrenar, ¿tienen el permiso del autor para usarse para dicha tarea?
+     
+     (Abajo dejo un ejemplo de un artista debatiendo en cuanto a su uso y si se debe indicar a dichas obras como generadas con IA.)
+       
+   - En el cine ya se ha utilizado en películas. Los actores se clonan digitalmente.
+     - Se dice que se utilizó DeepFake en el actor Harrison Ford en la película "Solo: A Star Wars Story". Pablo Frizán seguro sabe más.
+     - ¿Recuerdan la huelga de actores y guionistas de hollywood?
+
+       Solicitaban que regulen la IA y su uso.
+   - Proteger la identidad de una persona adrede cambiando el rostro y/o el audio.
+   - Películas y audios de sátiras y parodias al reemplazar los rostros de las personas por celebridades.
+
+5. Usos... no tan legales \nogood{}
+
+   - Fraudes, chantajes y suplantación de identidad.
+   - Alimentar noticias falsas.
+
+     Por ejemplo, la famosa foto falsa de Trump siendo arrestado. Ésta fue re-compartida sin el contexto original, por lo que muchas personas pensaron que era una foto real.
+     
+   - Pornografía DeepFake (el caso DeepNude). 
+     
+6. Antes de irnos...
+
+   - ¿Estamos expuestos a los engaños con DeepFake?
+     - No es necesario hacer DeepFake para estar expuestos a engaños con tecnologías: Por ejemplo, podemos recibir llamadas o mensajes de WhatsApp con algún engaño.
+       
+     - Repasemos algunos consejos: desconfiemos de llamadas de desconocidos; siempre confirmemos la información; si algún contacto solicita algo de valor o que hagamos algo que conlleve algún riesgo, confirmar con alguien de confianza; si perdemos el celular, notificar.
+   - ¿Estamos expuestos a que nos usen para DeepFake?
+     - Es necesario entrenar a un programa para que usen nuestra voz o nuestro rostro
+
+       ¿Tenés muchos audios, fotos u otra información publicada y accesible por cualquiera?
+        
+     - Mmm... \thinkingface{} tus perfiles de redes sociales... ¿están públicos o privados?
+
+   - ¿Qué otras tecnologías piensan que puede usarse con fines "buenos" y... no tan "buenos"?
+
+     Dejo algunas: Reconocimiento facial, ChatGPT, mensajes instantáneos (Whatsappp, SMS), Internet, celular, cámara de foto, grabación de audios... pero no todo debe ser digital.. ¿y un martillo?
+
+   - ¿Se debaten si las tecnologías actuales se usan adecuada y/o éticamente? ¿cómo deben ser reguladas y por quiénes?
+
+** Ejemplos de DeepFake                                     :ATTACH:
+:PROPERTIES:
+:ID:       b359d6e2-72f5-421e-82cb-d99084686ba6
+:END:
+
+Las siguientes imágenes no son reales. Fueron generadas completamente con programas de computadoras.
+
+Fotos generadas completamente con IA de Trump siendo arrestado. [[https://twitter.com/EliotHiggins/status/1637927681734987777/photo/2][Publicados por Eliot Higgins en Twitter junto a otras.]] Abajo dos ejemplos de las más viralizadas en esta red:
+
+#+caption: Imágen generada por IA de Trump siendo arrestado, evento que no sucedió en la realidad.
+#+attr_html: :alt Imagen 1 generada de Trump  :align center
+[[file:data/b3/59d6e2-72f5-421e-82cb-d99084686ba6/trump_arrested2_by_eliot_higgins.jpg]]
+
+#+caption: Imágen generada por IA de Trump siendo arrestado, evento que no sucedió en la realidad.
+#+attr_html: :alt  Imágen 2 generada de Trump  :align center
+[[file:data/b3/59d6e2-72f5-421e-82cb-d99084686ba6/trump_arrested_by_eliot_huggins.jpg]]
+
+La persona en la imágen no existe. La foto fue generada completamente por una IA. Generada con StyleGAN por [[https://commons.wikimedia.org/wiki/User:Owlsmcgee][Owlsmcgee]] y publicada bajo dominio público.
+
+#+caption: Imágen de una persona que no existe generada con StyleGAN.
+#+attr_html: :alt Imágen generada de una persona inexistente :align center
+[[file:data/b3/59d6e2-72f5-421e-82cb-d99084686ba6/Woman_1.jpg]]
+
+
+
+Las siguientes imágenes fueron generadas en [[https://www.midjourney.com][www.midjourney.com]]. Ambas fueron completamente generadas por la IA utilizando una entrada textual específica (/prompt/) , ni el gato ni la joven existen.
+
+#+caption: Imágen generada por Midjourney de una joven con cuernos entre arbustos.
+#+attr_html: :alt Imágen 1 generada por midjourney :align center
+[[file:data/b3/59d6e2-72f5-421e-82cb-d99084686ba6/midjourney_ejemplo1.webp]]
+
+[[https://www.midjourney.com/jobs/83e4c2c5-89f8-4d82-b757-04b657123209?index=0][Por Midjourney bajo la entrada de dendendenver. Ver descripción y la entrada utilizada]].
+
+#+caption: Imágen generada por Midjourney de un gato vistiendo lentes de sol y ropa.
+#+attr_html: :alt  Imágen 2 generada por midjourney :align center
+[[file:data/b3/59d6e2-72f5-421e-82cb-d99084686ba6/midjourney_ejemplo2.webp]]
+
+[[https://www.midjourney.com/jobs/4434e3b9-3af1-4bf6-ad24-990496d9be56?index=0][Por Midjourney bajo la entrada de rani76. Ver descripción y la entrada utilizada.]]
+
+** Bibliografía
+- Acerca de la huelga de actores y guionistas.
+
+  [[https://es.wired.com/articulos/opositores-a-la-inteligencia-artificial-en-la-huelga-de-guionistas-de-ee-uu]["Lo que los opositores a la IA están haciendo bien en la huelga de guionistas de EE UU" por Angela Watercutter. Adaptado por Andrei Osornio. Wired. 5 de mayo del 2023.]]  
+
+- Un artista debatiendo acerca del uso de IA y si se debe indicar el uso de estas herramientas.
+
+  [[https://www.davidrevoy.com/article977/artificial-inteligence-why-i-ll-not-hashtag-my-art-humanart-humanmade-or-noai]["Artificial Inteligence: why I'll not hashtag my art #HumanArt, #HumanMade or #NoAI" por David Revoy]]
+
+- Artículo de Vice detallando la aplicación DeepNude.
+
+  [[https://www.vice.com/en/article/kzm59x/deepnude-app-creates-fake-nudes-of-any-woman]["This Horrifying App Undresses a Photo of Any Woman With a Single Click", por Samantha Cole. Vice. 26 de junio del 2019.]]
+
+  
+
+* Columna 13: ¿Qué es la minería de datos?
 \radio{} Emisión al aire: <2023-12-15 vie 15:00>
 
 \warning{} Advertencia: La persona que conoce a en gran medida acerca de la correcta utilización de la minería de datos y KDD es lx estadísticx. Si bien, en carreras informáticas puede estudiarse ciertos contenidos, no necesariamente se focalizan en la investigación y ejecución de una gran cantidad de métodos existentes.
@@ -139,8 +266,8 @@ Preguntas:
 * Columna 12: ¿Qué es la Web?
 \radio{} Emisión al aire: <2023-12-01 vie 15:00>
 
-
-#+caption: Screenshot del primer explorador Web.
+#+caption: Captura de pantalla del primer explorador Web.
+#+attr_html: :alt Screenshot del primer explorador Web :align center
 [[https://www.w3.org/History/1994/WWW/Journals/CACM/screensnap2_24c.gif]]
 
 1. Ya aprendimos qué es internet (e Internet). Pero, ¿cómo lo usamos? ¿Qué contenido se encuentra allí?
@@ -173,7 +300,7 @@ Preguntas:
 
    TBL: Bueno, en cierta forma. La idea era que cualquier persona que usara la web podría tener un espacio donde pudiera escribir y, por eso, el primer explorador era un editor, podía escribir como también leer. Cada persona que usara la web, tenía la habilidad de escribir algo. Era muy fácil hacer una nueva página web y comentar acerca de lo que otra persona ha escrito, lo que es muy parecido a lo que blogging se trata.
 
-   -- [[http://news.bbc.co.uk/2/hi/technology/4132752.stm][Entrevista de Mark Lawson a Tim Berners-Lee. 2005. BBC.]]  
+   -- Entrevista de Mark Lawson a Tim Berners-Lee. 2005. BBC.
    #+end_quote
 
 3. Web 1.0
@@ -236,7 +363,7 @@ Pero... ¿Cuánto del Internet usamos habitualmente? ¿Qué páginas visitás d�
 \radio{} Emisión al aire: <2023-11-17 vie 15:00>
 
 #+caption: Cables marítimos para interconectar redes.
-#+attr_html: :alt  Cables martítimos de fibra óptica :align center
+#+attr_html: :alt Cables martítimos de fibra óptica :align center
 http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCableHi.jpg
 
 ** Guion
@@ -298,6 +425,7 @@ http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCab
 
 - The internet's undersea world. The Guardian.
   
+  #+attr_html: :alt Thumbnail cables martítimos de fibra óptica :align center 
   [[http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCableHi.jpg][http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCableHi.jpg]]
 
 - The world's undersea internet cables - interactive. The Guardian.
@@ -306,6 +434,7 @@ http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCab
 - Mapa de Cobertura de la REFEFO.
   https://www.argentina.gob.ar/jefatura/innovacion-publica/telecomunicaciones-y-conectividad/conectar/que-es-la-red-federal-de
 
+  #+attr_html: :alt Mapa REFEFO :align center
   [[https://www.argentina.gob.ar/sites/default/files/mapa_refefo_dic_2021.png][https://www.argentina.gob.ar/sites/default/files/mapa_refefo_dic_2021.png]]
 
 - Internet vs. internet (o interred). Se explica en el Capítulo 1 de "Redes de Computadoras" de Andrew S. Tanembaum  y David J. Wetherall. Pearson. 2012. Quinta Edición.
@@ -638,7 +767,7 @@ Más material interesante para leer:
 \radio{} Emisión al aire: <2023-10-06 vie 15:00>
 
 #+caption: Una "granja minera" de computadoras de Islandia.
-#+attr_html: :alt ARSAT Estación terrena Benavídez :align center
+#+attr_html: :alt Granja minera de computadoras :align center
 [[https://upload.wikimedia.org/wikipedia/commons/3/37/Cryptocurrency_Mining_Farm.jpg]]
 
 En estas semanas escuchamos acerca de "peso digital", "criptomonedas", "blockchain"... pero ¿qué significa? ¿cómo funciona?
