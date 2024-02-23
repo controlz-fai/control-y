@@ -39,7 +39,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   
 
 
-* Columna 14: ¿Qué es el DeepFake?
+* Columna 14: ¿Qué es el Digital Cloning y el DeepFake?
 
 ** Guion
 1. Ayer estuve escuchando la entrevista que realizaron en el programa La Banda Ancha a Fabio Tarasow de FLACSO. Al final menciona justamente que debemos tener más cuidado al ver fotos, videos y audios... ¿por qué?  
@@ -49,7 +49,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 2. Repaso: ¿se acuerdan que hablamos de *minería de datos, /machine learning/ y un poquito de IA*?
    - KDD/Minería de datos \to{} lo resumimos en "Búsqueda de patrones".
    - ¿Se podrán reproducir esos patrones? \to{} IA en acción.
-   - Por ejemplo: si Bomba nos presta los discos de Jazz
+   - Por ejemplo: *si Bomba nos presta los discos de Jazz*
      1. ¿se podría encontrar algún patrón en esos discos?
      2. Y de ese patrón... ¿se podría generar alguna canción que lo utilice?
    - Aquí, se utilizan técnicas de aprendizaje automático: el programa aprende que hay un patrón y responde acorde a lo que encontró.
@@ -72,7 +72,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
      - Aunque... hay *artistas debatiendo autoría y calidad artística* de las obras completamente realizadas con IA. Porque, por ejemplo, el proceso de producción utiliza un texto de entrada (/prompt/) para generar la obra, o sea, es necesario expresar la idea en texto, actividad que no se suele realizar al dibujar, pintar, etc.
 
-     - En segunda instancia, hay un debate acerca del entrenamiento de la IA. En esta fase, la IA se entrena con obras existentes: estas obras utilizadas para entrenar, ¿tienen el permiso del autor para usarse para dicha tarea?
+     - En segunda instancia, hay un debate acerca del entrenamiento de la IA. En esta fase, la IA se entrena con obras existentes: estas obras utilizadas para entrenar, *¿tienen el permiso del autor para usarse para dicha tarea?*
      
      (Abajo dejo un ejemplo de un artista debatiendo en cuanto a su uso y si se debe indicar a dichas obras como generadas con IA.)
        
@@ -96,9 +96,9 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 6. Antes de irnos...
 
    - ¿Estamos expuestos a los engaños con DeepFake?
-     - No es necesario hacer DeepFake para estar expuestos a engaños con tecnologías: Por ejemplo, podemos recibir llamadas o mensajes de WhatsApp con algún engaño.
+     - *No es necesario hacer DeepFake* para estar expuestos a engaños con tecnologías: Por ejemplo, podemos recibir llamadas o mensajes de WhatsApp con algún engaño.
        
-     - Repasemos algunos consejos: desconfiemos de llamadas de desconocidos; siempre confirmemos la información; si algún contacto solicita algo de valor o que hagamos algo que conlleve algún riesgo, confirmar con alguien de confianza; si perdemos el celular, notificar.
+     - Repasemos algunos *consejos*: desconfiemos de llamadas de desconocidos; siempre confirmemos la información; si algún contacto solicita algo de valor o que hagamos algo que conlleve algún riesgo, confirmar con alguien de confianza; si perdemos el celular, notificar.
    - ¿Estamos expuestos a que nos usen para DeepFake?
      - Es necesario entrenar a un programa para que usen nuestra voz o nuestro rostro
 
