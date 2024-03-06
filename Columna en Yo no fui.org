@@ -39,6 +39,90 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   
 
 
+* Columna 15: ¿Qué son las redes sociales?
+
+1. Introducción.
+
+   1. ¿Se cayó Whatsapp e Instagram antes de ayer?
+
+      De paso, vemos alternativas para pensar y charlar de sus diferencias.
+
+   2. ¿Se acuerdan que hablamos del *filtro burbuja* y los algoritmos de selección de contenido?
+
+   3. Veamos la definición de redes sociales:
+
+      #+begin_quote
+      Plataforma digital de comunicación global que pone en contacto a gran número de usuarios.
+      -- RAE.
+      #+end_quote
+
+    Existen estudios de sociología acerca de red sociales, no necesariamente digital, temas desde mucho antes que naciera Facebook.
+    
+2. Algunos ejemplos de plataformas digitales:
+   - Correos electrónicos.
+   - Mensajes instantáneos: IRC, Whatsapp, Telegram, Signal, etc.
+     - Con recursos multimediales: Slack, Mattermost, Gitter, Discord.
+   - Voz over IP (videollamadas con/sin salas)
+   - Aulas virtuales.
+   - Blogs/Flogs (Fotologs).
+   - Plataforma para compartir videos/microvideos(reels/shorts).
+   - Microblogging.
+   - Wikis.
+   - Pads.
+   - ¿Documentos colaborativos?
+   - Plataforma para compartir códigos fuentes: Github, Gitlab, etc.
+
+   Muchos de estos ejemplos se conoce como *software colaborativo*.
+   
+3. Hay una clasificación informal de los tipos de redes:
+
+   - Centralizadas :: Poseen un servidor.
+
+     Ejemplos de servicios que usan habitualmente redes centralizadas: diarios, blogs, etc. Facebook, Instagram...
+
+   - Descentralizadas ::
+
+     - Distribuídas / Federadas ::
+
+     - Peer-to-Peer ::
+
+4. Otras categoría:
+
+   1. libre vs. privativas.
+
+   2. por su uso u orientación: Tinder, LinkedIn, researchgate.net, Flickr, Jamendo, Vimeo, Soundcloud, OpenClipArt, Thingiverse, YouTube, Sketchfab, Nappy, Wikimedia Commons.
+
+
+4. ¿Qué tiene de importante esta clasificación?
+
+   1. Organización y transferencia de la información
+
+   2. Disponibilidad del servicio y la información
+
+   3. Privacidad y cifrado
+
+      Para pensar: dilema privado vs. social con privado vs. público.
+    
+5. 
+
+
+- ¿Conocían todos estos software colaborativos?
+  - ¿Piensan cada tanto qué sucede si se cae las redes más usadas?
+- ¿Qué les parece que sucede si hay personas con acceso restringido a las redes sociales?
+- ¿Qué les parece que sucede si alguien decide no estar en una red social?
+  
+** Bibliografía
+
+- [[https://www.ambito.com/tecnologia/se-cayeron-instagram-y-facebook-cuales-son-las-fallas-n5960068][Artículo "Se cayeron Instagram y Facebook: cuáles son las fallas". Ámbito. 5 de marzo del 2024.]]
+  - También sucedió antes: [[https://ipnoticias.ar/actualidad/14716-se-cayeron-los-servicios-de-facebook-instagram-whatsapp-y-messenger-no-funcionan][Artículo "Se cayeron los servicios de Facebook: Instagram, WhatsApp y Messenger no funcionan" de IP Noticias. 4 de octubre del 2021.]]
+
+- [[https://blogs.20minutos.es/codigo-abierto/2012/04/07/de-las-redes-verticales-a-las-redes-distribuidas/]["De las redes verticales a las redes distribuidas"]]
+
+  \warning{} No es bibliografía con referato:
+
+- [[https://www.xataka.com/basics/que-mastodon-como-funciona-como-te-puedes-registrar]["Qué es Mastodon, cómo funciona y cómo te puedes registrar"]]
+
+  También cuenta cómo funciona Mastodon y la diferencia con las otras redes sociales.
 * Columna 14: ¿Qué es el Digital Cloning y el DeepFake?
 
 ** Guion
