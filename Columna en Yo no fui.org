@@ -194,9 +194,9 @@ Preguntas:
   
 ** Recursos
 
-- Topologías de la red. Una imágen actualizada de la que se muestra en "Where wizards stay up late".
+- Topologías de la red. Una imágen basada en la que se muestra en "Where wizards stay up late".
 
-  Obtenido desde https://lasindias.net/indianopedia/Archivo:Topolog%C3%ADas_de_red.gif
+  Obtenido desde [[https://lasindias.net/indianopedia/Archivo:Topolog%C3%ADas_de_red.gif][Indianopedia]].
   
   #+attr_html: :alt Thumbnail topologías de la red :align center 
   [[file:data/ba/e196a9-0723-4c41-abf0-256ef276df5e/Topologías_de_red.gif]]
