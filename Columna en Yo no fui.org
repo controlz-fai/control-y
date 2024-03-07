@@ -41,6 +41,59 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
 * Columna 15: ¿Qué son las redes sociales?
 
+** Primero algo para el 8M
+
+Es importante destacar a las mujeres en la computación. Visibilizarlas ayuda a que sean vistas como rol y ejemplos a seguir, además de dar confianza a más mujeres para estudiar esta disciplina, y contrarrestar la visión de que la computación es para un género específico.
+
+En Argentina, trabajaron con Clementina y COMIC (1961):
+
+- Rebeca Cherep de Guber
+
+  Colaboró en la creación de la primer carrera argentina y latinoamericana de computación: Computador Científico.
+  
+- Cecilia Berdichevsky
+
+  Primer programadora de Argentina, encargada de programar Clementina.
+  
+- Liana Lew
+
+  Primera computadora científica del país.
+  
+- Noemí García
+
+  Conocida como Mimí, colaboró en la creacińo del primer programa compilador argentino para el lenguaje COMIC, también diseñado en Argentina.
+  
+- Victoria Bajar
+- Gladys Rizzo
+- Ida Bianchi
+- Ida Holz
+- Cicely Popplewell
+
+  Vino de Inglaterra para dar el primer curso a Argentina, trabajó junto a Alan Turing.
+
+En el mundo:
+
+- Augusta Ada King Countess of Lovelace
+- Patricia Barbeau
+- Grace Hopper (programadora y conocida como la madre de COBOL)
+- Margaret Hamilton (Directora de Software Engineering Division, desarrollaron el software de Apollo 11)
+- Katherine Johnson
+- Kathleen Booth (crea el lenguaje ensamblador)
+- Adele Goldberg (ex-presidenta de ACM y desarrolladora del lenguaje Smalltalk)
+- Elizabeth Feinler (diseñó las bases del DNS, lo que se utiliza para convertir nombres de dominio a número de máquinas)
+- Carla Meninsky (diseñadora de videojuegos para la Atari 2600)
+- Sally Floyd (trabajo en el diseño del TCP, protocolo utilizado en Internet)
+
+Más:
+
+[[https://www.dc.uba.ar/las-mujeres-de-clementina/]["Las Mujeres de Clementina". Departamento de Computación. Universidad de Buenos Aires.]]
+
+** Guion                                                            :ATTACH:
+:PROPERTIES:
+:ID:       bae196a9-0723-4c41-abf0-256ef276df5e
+:END:
+
+
 1. Introducción.
 
    1. ¿Se cayó Whatsapp e Instagram antes de ayer?
@@ -74,38 +127,49 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
    Muchos de estos ejemplos se conoce como *software colaborativo*.
    
-3. Hay una clasificación informal de los tipos de redes:
+3. Hay una clasificación informal de los tipos de redes, según cómo los sistemas informáticos están implementados:
 
-   - Centralizadas :: Poseen un servidor.
+   #+caption: Topologías de red en general, también aplicable a redes sociales.
+   #+attr_html: :alt Topologías de red  :align center
+   [[file:data/ba/e196a9-0723-4c41-abf0-256ef276df5e/Topologías_de_red.gif]]
+
+   - Centralizadas :: Poseen un nodo/máquina central, y el resto se conecta a ella. 
 
      Ejemplos de servicios que usan habitualmente redes centralizadas: diarios, blogs, etc. Facebook, Instagram...
 
-   - Descentralizadas ::
+   - Descentralizadas :: Varios nodos centrales se interconectan, y la mayoría se conectan a estos nodos.
 
-     - Distribuídas / Federadas ::
+     Ejemplos: Correos electrónicos. Telefonía y telégrafos mundial.
 
-     - Peer-to-Peer ::
-
-4. Otras categoría:
-
-   1. libre vs. privativas.
-
-   2. por su uso u orientación: Tinder, LinkedIn, researchgate.net, Flickr, Jamendo, Vimeo, Soundcloud, OpenClipArt, Thingiverse, YouTube, Sketchfab, Nappy, Wikimedia Commons.
-
+   - Distribuídas :: No hay un nodo central. Básicamente, los nodos se conectan a otros nodos que tengan alcance compartiendo y replicando información.
 
 4. ¿Qué tiene de importante esta clasificación?
 
-   1. Organización y transferencia de la información
+   1. Organización y transferencia de la información.
 
-   2. Disponibilidad del servicio y la información
+      ¿Por dónde pasa la información? ¿Es preciso replicarla?
+
+   2. Disponibilidad del servicio y la información.
+
+      ¿Qué pasa si un nodo central se cae? ¿Es suceptible a filtros y censuras?
 
    3. Privacidad y cifrado
 
+      Si la red social es pública o privada: ¿Es necesario cifrar la información?
+
       Para pensar: dilema privado vs. social con privado vs. público.
+
+5. Otras categoría:
+
+   1. libres vs. privativas: ¿usan software libre? ¿podemos replicar la red o ser parte de sus nodos centrales?
+
+   2. por su uso u orientación: Para investigación, entretenimiento, música y arte, videos, etc.
+
+      Ejemplos de redes sociales con orientación específica: Tinder, LinkedIn, researchgate.net, Flickr, Jamendo, Vimeo, Soundcloud, OpenClipArt, Thingiverse, YouTube, Sketchfab, Nappy, Wikimedia Commons.
     
-5. 
+Preguntas:
 
-
+- Ahora que conocen más o menos cómo funcionan.
 - ¿Conocían todos estos software colaborativos?
   - ¿Piensan cada tanto qué sucede si se cae las redes más usadas?
 - ¿Qué les parece que sucede si hay personas con acceso restringido a las redes sociales?
