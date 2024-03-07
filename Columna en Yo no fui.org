@@ -118,11 +118,15 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
 - [[https://blogs.20minutos.es/codigo-abierto/2012/04/07/de-las-redes-verticales-a-las-redes-distribuidas/]["De las redes verticales a las redes distribuidas"]]
 
-  \warning{} No es bibliografía con referato:
+  \warning{} No es bibliografía con referato.
 
 - [[https://www.xataka.com/basics/que-mastodon-como-funciona-como-te-puedes-registrar]["Qué es Mastodon, cómo funciona y cómo te puedes registrar"]]
 
-  También cuenta cómo funciona Mastodon y la diferencia con las otras redes sociales.
+  También cuenta cómo funciona Mastodon y la diferencia con las otras redes sociales.  
+
+- "Where wizards stay up late (the origin of the internet)". Katie Hafner y Matthew Iyon. Touchstone. Primera edición. 1998.
+
+  Describe las tres topologías de red.
 * Columna 14: ¿Qué es el Digital Cloning y el DeepFake?
 
 ** Guion
