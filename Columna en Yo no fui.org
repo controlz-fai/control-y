@@ -191,6 +191,16 @@ Preguntas:
 - "Where wizards stay up late (the origin of the internet)". Katie Hafner y Matthew Iyon. Touchstone. Primera edición. 1998.
 
   Describe las tres topologías de red.
+  
+** Recursos
+
+- Topologías de la red. Una imágen actualizada de la que se muestra en "Where wizards stay up late".
+
+  Obtenido desde https://lasindias.net/indianopedia/Archivo:Topolog%C3%ADas_de_red.gif
+  
+  #+attr_html: :alt Thumbnail topologías de la red :align center 
+  [[file:data/ba/e196a9-0723-4c41-abf0-256ef276df5e/Topologías_de_red.gif]]
+
 * Columna 14: ¿Qué es el Digital Cloning y el DeepFake?
 
 ** Guion
