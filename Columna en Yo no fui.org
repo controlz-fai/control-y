@@ -112,18 +112,18 @@ Más:
     Existen estudios de sociología acerca de red sociales, no necesariamente digital, temas desde mucho antes que naciera Facebook.
     
 2. Algunos ejemplos de plataformas digitales:
-   - Correos electrónicos.
+   - Correos electrónicos
    - Mensajes instantáneos: IRC, Whatsapp, Telegram, Signal, etc.
-     - Con recursos multimediales: Slack, Mattermost, Gitter, Discord.
-   - Voz over IP (videollamadas con/sin salas)
-   - Aulas virtuales.
-   - Blogs/Flogs (Fotologs).
-   - Plataforma para compartir videos/microvideos(reels/shorts).
-   - Microblogging.
-   - Wikis.
-   - Pads.
+     - Con recursos multimediales: Slack, Mattermost, Gitter, Discord
+   - Voice over IP (videollamadas con/sin salas)
+   - Aulas virtuales
+   - Blogs/Flogs (Fotologs)
+   - Plataforma para compartir videos/microvideos(reels/shorts)
+   - Microblogging
+   - Wikis
+   - Pads
    - ¿Documentos colaborativos?
-   - Plataforma para compartir códigos fuentes: Github, Gitlab, etc.
+   - Plataforma para compartir códigos fuentes: Github, Gitlab, etc
 
    Muchos de estos ejemplos se conoce como *software colaborativo*.
    
@@ -135,25 +135,31 @@ Más:
 
    - Centralizadas :: Poseen un nodo/máquina central, y el resto se conecta a ella. 
 
+     Usualmente, las computadoras clientes/usuarias se conectan a un servidor, una computadora central.
+
      Ejemplos de servicios que usan habitualmente redes centralizadas: diarios, blogs, etc. Facebook, Instagram...
 
    - Descentralizadas :: Varios nodos centrales se interconectan, y la mayoría se conectan a estos nodos.
 
+     Existen varios servidores que se interconectan entre ellos. Varios clientes se conectan a sus respectivos servidores.
+     
      Ejemplos: Correos electrónicos. Telefonía y telégrafos mundial.
 
    - Distribuídas :: No hay un nodo central. Básicamente, los nodos se conectan a otros nodos que tengan alcance compartiendo y replicando información.
 
+     Una computadora se conecta a otra. No hay servidores centrales. 
+
 4. ¿Qué tiene de importante esta clasificación?
 
-   1. Organización y transferencia de la información.
+   1. Organización y *transferencia de la información*.
 
       ¿Por dónde pasa la información? ¿Es preciso replicarla?
 
-   2. Disponibilidad del servicio y la información.
+   2. *Disponibilidad* del servicio y la información.
 
       ¿Qué pasa si un nodo central se cae? ¿Es suceptible a filtros y censuras?
 
-   3. Privacidad y cifrado
+   3. *Privacidad* y cifrado
 
       Si la red social es pública o privada: ¿Es necesario cifrar la información?
 
@@ -169,9 +175,11 @@ Más:
     
 Preguntas:
 
-- Ahora que conocen más o menos cómo funcionan.
+Ahora que conocen más o menos cómo funcionan...
+
 - ¿Conocían todos estos software colaborativos?
   - ¿Piensan cada tanto qué sucede si se cae las redes más usadas?
+- ¿Qué puede suceder en una red centralizada? ¿conocen redes centralizadas?
 - ¿Qué les parece que sucede si hay personas con acceso restringido a las redes sociales?
 - ¿Qué les parece que sucede si alguien decide no estar en una red social?
   
