@@ -38,6 +38,128 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
+* Columna 16: ¿Qué es el Software Libre?                             :ATTACH:
+:PROPERTIES:
+:ID:       0be8ff50-f91b-4714-a5a5-8c126c6aa466
+:END:
+
+#+attr_html: :alt Spring corto animado libre :align center
+#+caption: Captura de "Spring", un corto animado libre.
+[[file:data/0b/e8ff50-f91b-4714-a5a5-8c126c6aa466/Spring.jpg]]
+
+** Guion
+1. Objetivo principal: *Respeto al usuario y sus libertades*.
+
+   Vamos por partes...
+   
+2. ¿Quiénes son usuarias/os?
+   Aquellas personas que:
+   
+   - usan el programa
+   - solo lo poseen y comparten
+   - desarrollan programas
+   - desarrollan contenido con el programa
+   - traducen el programa
+   - aportan imágenes, sonidos y recursos al desarrollo del programa
+
+   Entonces, ¿qué les parece que es un programa?
+
+   Ideas:
+   
+   - Una obra que puede modificarse fácilmente.
+   - Contiene imágenes, sonidos, textos y otros contenidos.
+   - Una herramienta.
+   - Y puede evolucionar con el tiempo si los desarrolladores lo desean.
+     
+3. ¿Qué se refiere con "libertades"?
+   Se busca que un usuario pueda realizar las siguientes actividades con un programa:
+
+   1. Usar el programa... ¿qué sería usar?
+   2. Desarrollar: o sea, que pueda estudiar y cambiarlo
+   3. Tener y compartir
+
+   No se pierden los nombres de los autores ni colaboradores.
+
+4. ¿Se puede cobrar?
+   Que sea libre, no significa que sea gratuito.
+
+   Se puede cobrar
+   - por hacerlo
+   - por distribuirlo
+   - por arreglarlo, modificarlo
+
+   Los cuatro principios (y contraejemplos):
+
+   - Libertad 0 :: Ejecutar
+
+     Trialware, crippleware, nag/beg/annoyware.
+
+   - Libertad 1 :: Estudiar y hacer cambios
+
+     Software que no se puede hacer ingeniería inversa.
+
+     ¿Qué sucede con el software que generan los sitios Webs en PHP/.NET/Java/etc.?
+
+   - Libertad 2 :: Distribuir copias
+
+     Videojuegos distribuidos por en plataformas físicas o digitales.
+
+   - Libertad 3 :: Distribuir copias con modificaciones
+
+     Shareware
+     
+5. (Opcional) Open Source
+   - El principio del Open Source era diferente: poder leer el código fuente.
+   - Hoy en día es diferente, debe cumplir 9 criterios... mencionaremos 3:
+     1. poder distribuirlo gratuitamente
+     2. otorgar el código fuente
+     3. permitir trabajos derivados
+     4. el autor puede restringir la distribución modificada, excepto para parches
+   - Open Source, es diferente de Software Libre.
+
+     *Todo* Software Libre califica como Open Source.
+
+     Sin embargo, *mucho* software que es Open Source, es Software Libre. Algunos suelen ser muy restrictivos.
+     
+   - Free/Open Source Software (FOSS): es una sigla para indicar a todo el Software Libre o Open Source.
+
+   [[https://opensource.org/osd][Los 9 criterios se encuentran en opensource.org.]]
+
+6. ¿Dónde se encuentra?
+   - La mayoría de las páginas Webs utilizan FOSS.
+
+     (es muy extraño y poco recomendable empezar a desarrollar una Web sin un software de base).
+   - Android está basado en FOSS.
+   - Firefox, LibreOffice, VLC, Chromium, etc.
+   - Mucho software utiliza FOSS a pesar de que no sea ni Software Libre ni Open Source.
+
+7. ¿Y qué se hace con lo que se produce con un programa libre?
+   - Fotos, imágenes, escritos, música, etc: *Contenido libre*
+     - Se pueden usar, compartir, estudiar, etc.
+     - Se preserva la autoría.
+
+   Ejemplos:
+   
+   - Wikipedia: una enciclopedia libre.
+   - Wikimedia: fotos y videos.
+   - Blender: Animaciones 3D.
+   - Jamendo, Libre.fm, Mutopia project: Música
+
+Preguntas:
+- ¿Nunca les pasó que quisieran cambiar algo que les molesta de algún programa?
+- En su trabajo y su vida cotidiana, ¿se beneficiarían con un Software Libre? ¿cómo les parece?
+- ¿Qué software utilizan que no les respeta? ¿que justamente no les permite hacer alguna de las libertades?
+- Si supieran programar, ¿no les gustaría hacer un programa para automatizar una tarea que siempre hacen? ¿y les gustaría compartirlo a los demás?
+
+  Por ejemplo: Un documento que siempre tienen que hacer a fin de mes, calcular los gastos, un programa que les avise que tienen que pagar el agua/luz, que les calcule cuanto gastaron, etc. 
+
+** Recursos
+
+"Spring" creado por Blender Foundation. Se encuentra bajo la licencia Cretive Commons Attribution 4.0 license.
+
+La película y su descripción se encuentra en:
+
+https://cloud.blender.org/films/spring/pages/about
 
 * Columna 15: ¿Qué son las redes sociales?
 
