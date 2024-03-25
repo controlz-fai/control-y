@@ -51,7 +51,13 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 #+caption: Captura de "Spring", un corto animado libre.
 [[file:data/0b/e8ff50-f91b-4714-a5a5-8c126c6aa466/Spring.jpg]]
 
-En la entrega de hoy, comentaremos qué es el Software Libre. Te explicaremos que no solo es software que se puede conseguir gratis, sino que también es una idea y forma de hacer, disfrutar y compartir programas y recursos digitales. Esta forma de ver el mundo digital, en el que la colaboración lleva a construir software, que a su vez ayuda a compartir más contenido y soluciones. Esto, genera una comunidad que brinda compañía, conocimientos y experiencias a quienes lo necesitan. Entonces, el objetivo del Software Libre es: respetar al usuario y sus libertades.
+En la entrega de hoy, comentaremos qué es el Software Libre. Te explicaremos que no solo es software que se puede conseguir gratis, sino que también es una idea y forma de hacer, disfrutar y compartir programas y recursos digitales. Es una forma de ver el mundo digital en el que la colaboración lleva a construir programas, y que a su vez, este ayuda a compartir más contenido y soluciones. A largo plazo, se genera una comunidad alrededor del software que brinda compañía, conocimientos y experiencias a quienes lo necesitan.
+
+\framedpicture{} Captura del corto "Spring" creado por Blender Foundation. Se encuentra bajo la licencia Cretive Commons Attribution 4.0 license.
+
+La película y su descripción se encuentra en:
+
+https://cloud.blender.org/films/spring/pages/about
 
 ** Guion
 1. Objetivo principal: *Respeto al usuario y sus libertades*.
@@ -157,13 +163,7 @@ Preguntas:
 
   Por ejemplo: Un documento que siempre tienen que hacer a fin de mes, calcular los gastos, un programa que les avise que tienen que pagar el agua/luz, que les calcule cuanto gastaron, etc. 
 
-** Recursos
 
-"Spring" creado por Blender Foundation. Se encuentra bajo la licencia Cretive Commons Attribution 4.0 license.
-
-La película y su descripción se encuentra en:
-
-https://cloud.blender.org/films/spring/pages/about
 
 * Columna 15: ¿Qué son las redes sociales?
 #+html: <a id="columna-15"/>
