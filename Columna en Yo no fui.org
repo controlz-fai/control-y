@@ -42,10 +42,16 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 :PROPERTIES:
 :ID:       0be8ff50-f91b-4714-a5a5-8c126c6aa466
 :END:
+#+html: <a id="columna-16"/>
+\radio{} Emisión al aire: <2024-03-15 vie 15:00>
+
+\headphone{} [[https://radiocut.fm/radiostation/uncocalf/listen/2024/03/15/15/09/00/][Escuchar en RadioCut]]
 
 #+attr_html: :alt Spring corto animado libre :align center
 #+caption: Captura de "Spring", un corto animado libre.
 [[file:data/0b/e8ff50-f91b-4714-a5a5-8c126c6aa466/Spring.jpg]]
+
+En la entrega de hoy, comentaremos qué es el Software Libre. Te explicaremos que no solo es software que se puede conseguir gratis, sino que también es una idea y forma de hacer, disfrutar y compartir programas y recursos digitales. Esta forma de ver el mundo digital, en el que la colaboración lleva a construir software, que a su vez ayuda a compartir más contenido y soluciones. Esto, genera una comunidad que brinda compañía, conocimientos y experiencias a quienes lo necesitan. Entonces, el objetivo del Software Libre es: respetar al usuario y sus libertades.
 
 ** Guion
 1. Objetivo principal: *Respeto al usuario y sus libertades*.
@@ -160,6 +166,10 @@ La película y su descripción se encuentra en:
 https://cloud.blender.org/films/spring/pages/about
 
 * Columna 15: ¿Qué son las redes sociales?
+#+html: <a id="columna-15"/>
+\radio{} Emisión al aire: <2024-03-08 vie 15:00>
+
+\headphone{} [[https://radiocut.fm/radiostation/uncocalf/listen/2024/03/08/15/20/00/][Escuchar en RadioCut]]
 
 ** Primero algo para el 8M
 
@@ -330,6 +340,8 @@ Ahora que conocen más o menos cómo funcionan...
   [[file:data/ba/e196a9-0723-4c41-abf0-256ef276df5e/Topologías_de_red.gif]]
 
 * Columna 14: ¿Qué es el Digital Cloning y el DeepFake?
+#+html: <a id="columna-14"/>
+\radio{} Emisión al aire: <2024-02-23 vie>
 
 ** Guion
 1. Ayer estuve escuchando la entrevista que realizaron en el programa La Banda Ancha a Fabio Tarasow de FLACSO. Al final menciona justamente que debemos tener más cuidado al ver fotos, videos y audios... ¿por qué?  
@@ -457,6 +469,7 @@ Las siguientes imágenes fueron generadas en [[https://www.midjourney.com][www.m
   
 
 * Columna 13: ¿Qué es la minería de datos?
+#+html: <a id="columna-13"/>
 \radio{} Emisión al aire: <2023-12-15 vie 15:00>
 
 \warning{} Advertencia: La persona que conoce a en gran medida acerca de la correcta utilización de la minería de datos y KDD es lx estadísticx. Si bien, en carreras informáticas puede estudiarse ciertos contenidos, no necesariamente se focalizan en la investigación y ejecución de una gran cantidad de métodos existentes.
@@ -554,6 +567,7 @@ Preguntas:
 
 
 * Columna 12: ¿Qué es la Web?
+#+html: <a id="columna-12"/>
 \radio{} Emisión al aire: <2023-12-01 vie 15:00>
 
 #+caption: Captura de pantalla del primer explorador Web.
@@ -650,6 +664,7 @@ Pero... ¿Cuánto del Internet usamos habitualmente? ¿Qué páginas visitás d�
 
   https://www.w3.org/People/Berners-Lee/WorldWideWeb.html
 * Columna 11: ¿Qué es Internet?
+#+html: <a id="columna-11"/>
 \radio{} Emisión al aire: <2023-11-17 vie 15:00>
 
 #+caption: Cables marítimos para interconectar redes.
@@ -733,6 +748,7 @@ http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCab
 
   
 * Columna 10: ¿Qué es el voto electrónico? Parte 2
+#+html: <a id="columna-10"/>
 \radio{} Emisión al aire: <2023-11-03 vie 15:00>
 
 ** Guion
@@ -957,6 +973,7 @@ Para ejecutar los programas en un celular, se requiere de una terminal y un int�
 #+END_SRC
 
 * Columna 9: ¿Qué es el voto electrónico?
+#+html: <a id="columna-9"/>
 \radio{} Emisión al aire: <2023-10-20 vie 15:00>
 
 ** Guion
@@ -1054,6 +1071,7 @@ Más material interesante para leer:
   https://www.vialibre.org.ar/alemania-urnas-electronicas-anticonstitucionales/
 
 * Columna 8: ¿Qué es el blockchain?
+#+html: <a id="columna-8"/>
 \radio{} Emisión al aire: <2023-10-06 vie 15:00>
 
 #+caption: Una "granja minera" de computadoras de Islandia.
@@ -1168,6 +1186,7 @@ Curiosidades:
 - https://txstreet.com
 - https://developers.eos.io/welcome/latest/getting-started-guide/local-development-environment/index
 * Columna 7: ¿Qué es la soberanía tecnológica? (¿y por qué es importante?)
+#+html: <a id="columna-7"/>
 \radio{} Emisión al aire: <2023-09-22 vie 15:00>
 
 \headphone{} Recorte en RadioCut aún no disponible.
@@ -1306,6 +1325,7 @@ Y de esas tecnologías: ¿Cuáles tenemos a nuestro alcance como argentinos?
 :PROPERTIES:
 :ID:       59d9d7da-7dce-46ef-8c20-b656db6ec771
 :END:
+#+html: <a id="columna-6"/>
 \radio{} Emisión al aire: <2023-09-08 vie 15:00>
 
 \headphone{} [[https://radiocut.fm/audiocut/columna-6-cristian-gimenez-manuel-sadosky-ibm-go-home-2da-parte-yo-no-fui-08-09-2023/][Recorte en RadioCut.]]
@@ -1465,6 +1485,7 @@ Algunos datos de color:
 
 
 * Columna 5: ¿Quién fue Manuel Sadosky?
+#+html: <a id="columna-5"/>
 \radio{} Emisión al aire: <2023-08-25 vie 15:00>
 
 \headphone{} [[https://ar.radiocut.fm/audiocut/columna-cristian-gimenez-quien-fue-manuel-sadosky-yo-no-fui-25-08-2023/][Escuchar recorte en RadioCut]].
@@ -1589,7 +1610,7 @@ Algunos datos de color:
 :PROPERTIES:
 :ID:       72e04deb-8e2b-4d72-9184-d355139b63ff
 :END:
-
+#+html: <a id="columna-4"/>
 \radio{}  Emisión al aire: <2023-08-11 vie 15:00>
 
 #+attr_html: :alt Imágen de burbujas chocando con mucho zoom. Su superficie tiene diferentes colores.
@@ -1658,7 +1679,7 @@ Hablamos de los Filtros Burbujas, la cámara de eco y cómo los buscadores y pá
 :PROPERTIES:
 :ID:       d366e442-9ea8-463d-81bf-77bf2b1deb08
 :END:
-
+#+html: <a id="columna-3"/>
 \radio{} Emisión al aire: <2023-07-28 vie 15:00>
 
 #+attr_html: :alt Foto con mucho zoom de una hoja que tiene dibujada un diagrama de flujo.
@@ -1735,6 +1756,7 @@ Revelaremos el significado de esta palabra que siempre usamos. Eso que está det
 
 #+latex: \newpage
 * Columna 2: ¿Quién fue Alan Turing?
+#+html: <a id="columna-2"/>
 \radio{} Emisión al aire: <2023-07-14 vie 15:00>
 
 #+caption: Estatua representando a Alan Turing en Bletchley Park, atrás su fotografía.
@@ -1813,6 +1835,7 @@ En la computación, hubo un antes y un después de que Turing publicara sus art�
 
 #+latex: \newpage
 * Columna 1: ¿Quién fue Ada Lovelace?
+#+html: <a id="columna-1"/>
 \radio{} Emisión al aire: <2023-06-30 vie 15:00>
 
 #+caption: Retrato en acuarela de Ada Lovelace.
