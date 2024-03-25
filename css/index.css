@@ -5,3 +5,8 @@
 p {
     text-align: left;
 }
+
+body {
+    font-size: 14pt;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
