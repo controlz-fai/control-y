@@ -39,7 +39,9 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   
 
 * Columna 17: ¿Qué es el hacking?
+#+html: <a id="columna-17"></a>
 
+** Guion
 1. Hacking. Palabra muy usada para referirse a: ciberdelincuentes... pero... *¿se usa correctamente?*
    
 2. Primero, antes que nada... es una palabra que está en el diccionario, pero que nació y mutó previo a establecer su definición de hoy.
