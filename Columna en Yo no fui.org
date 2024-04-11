@@ -40,11 +40,15 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
 * Columna 17: ¿Qué es el hacking?
 
-1. Hacking. Palabra muy usada para referirse a: ciberdelincuentes... pero... ¿se usa correctamente?
+1. Hacking. Palabra muy usada para referirse a: ciberdelincuentes... pero... *¿se usa correctamente?*
    
 2. Primero, antes que nada... es una palabra que está en el diccionario, pero que nació y mutó previo a establecer su definición de hoy.
    
-3. Veamos las distintas definiciones... un poquito de Inglés...
+3. Veamos las distintas definiciones...
+
+   1. RAE (ver más abajo \backpointdown{}).
+
+   2. Y otras... Un poquito de Inglés... (ver más abajo \backpointdown{}).
    
 4. Entonces, tenemos que: "Hack" es un verbo, y representa "hacer algo a partir de cortes crudos o violentos". Si lo trasladamos a otros contextos, sería: *hacer alguna acción a partir de métodos robustos*, no adecuados o poco ortodoxos.
 
