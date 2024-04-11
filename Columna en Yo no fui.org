@@ -14,7 +14,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
 * Datos de la Columna
 
-- Título :: Columna informática de Yo no fui.
+- Título :: Columna infogrmática de Yo no fui.
 - Sinopsis :: Aprender qué es la informática y los conceptos necesarios para entender el día a día de lo que sucede alrededor de la computadora. Explicaciones de hechos pasados y presentes relevantes para comprender lo que sucede a nuestro alrededor.
   
 - Tema :: Informática
@@ -37,6 +37,173 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   http://creativecommons.org/licenses/by-sa/4.0/
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
+
+* Columna 17: ¿Qué es el hacking?
+
+1. Hacking. Palabra muy usada para referirse a: ciberdelincuentes... pero... ¿se usa correctamente?
+   
+2. Primero, antes que nada... es una palabra que está en el diccionario, pero que nació y mutó previo a establecer su definición de hoy.
+   
+3. Veamos las distintas definiciones... un poquito de Inglés...
+   
+4. Entonces, tenemos que: "Hack" es un verbo, y representa "hacer algo a partir de cortes crudos o violentos". Si lo trasladamos a otros contextos, sería: *hacer alguna acción a partir de métodos robustos*, no adecuados o poco ortodoxos.
+
+   En la informática, sería hacer o cambiar los programas, o utilizar programas, de forma poco ortodoxa. Lo cual requiere de ingenio...
+   
+5. Tipos de hackers
+   1. Blancos - Con intenciones de proteger datos. Buscan vulnerabilidades y mitigan. Normalmente, realizan el trabajo bajo el consentimiento de los dueños de los sistemas con la intención de incrementar su seguridad.
+   2. Negros - Con intenciones de romper sistemas. Puede ser para sabotear o vandalizar, sea con o sin fin de lucro.
+   3. Gris - Hackers que usualmente no tiene inteciones malicionas, pero que a veces viola leyes o estándar éticos.
+   4. Crackers - Cuando se rompe un código, acceso, etc. Usualmente se usa para diferencias los hackers (blancos) de los 
+   5. Phreaks - Cuando se realiza sobre teléfonos.
+
+6. Creación de sus propios términos.
+
+   1. Por ejemplo: "Flame" To post an email message intended to insult and provoke. Y "flamer" la persona que hace eso... ¿se imaginan hoy un término similar?
+
+   2. ¿Reconocen algunos términos que usan las personas que nos rodean? ¿de dónde salen?
+
+7. En la seguridad informática...
+
+   1. La idea es prevenir un ataque... y cuando no se pueda... mitigar el efecto del ataque.
+
+   2. Los hackers blancos buscan vulnerabilidades para estudiar: ¿qué puede hacer un atacante? ¿cómo evitar posibles ataques? ¿cómo mitigar sus efectos si sucediesen?
+
+
+\thinkingface{} Algunas preguntitas:
+
+- ¿Les parece importante usar las palabras adecuadas?
+- ¿consideran que influencian nuestra forma de expresarnos?
+- ¿Ustedes son hackers? ¿qué han hackeado?
+- ¿Han escuchado palabras que provengan de otros ámbitos? ¿pelis? ¿video juegos? ¿animé?
+- ¿Se animarían a usarlas? ¿por qué?
+
+** Definiciones de Hacker
+
+*** Real Academia Española
+#+begin_quote
+*hacker*
+
+Voz ingl.
+
+1. m. y f. Inform. jáquer.
+
+Sin.: jáquer, pirata.
+
+*cracker*
+
+Voz ingl.
+
+1. m. y f. Inform. pirata informático.
+Sin.: jáquer, hacker.
+    
+*jáquer*
+
+Del ingl. hacker.
+
+1. m. y f. Inform. pirata informático.
+Sin.: hacker, cracker.
+
+2. m. y f. Inform. Persona con grandes habilidades en el manejo de computadoras que investiga un sistema informático para avisar de los fallos y desarrollar técnicas de mejora.
+
+*pirata informático, ca*
+
+1. m. y f. Persona que accede ilegalmente a sistemas informáticos ajenos para apropiárselos u obtener información secreta.
+#+end_quote
+
+*** Diccionarios de Inglés
+#+begin_quote
+*hack*
+
+v. hacked, hack·ing, hacks
+   
+v.tr.
+
+1. To cut or chop with repeated and irregular blows: hacked down the saplings.
+2. To make or shape by hitting or chopping with a sharp implement: hacked a trail through the forest.
+3. To break up the surface of (soil).
+4.
+a. To alter (a computer program): hacked her text editor to read HTML.
+b. To gain access to (a computer file or network) illegally or without authorization: hacked the firm's personnel database.
+#+end_quote
+
+Obtenido desde [[https://www.thefreedictionary.com/hack][The Free Dictionary]]
+
+#+begin_quote
+*hack* verb
+
+1 [intransitive, transitive] to cut something roughly or violentlyhack (away) at something  She hacked away at the ice, trying to make a hole.hack something off/down etc  Whole forests have been hacked down.hack your way through/into something  He hacked his way through the undergrowth.  Both men had been hacked to death (=killed using large knives).
+
+2 [intransitive, transitive] to secretly find a way of getting information from someone else’s computer or changing information on ithack into  Somebody hacked into the company’s central database.  He managed to hack the code. → hacker
+
+3 \to{} can’t hack something
+
+4 [intransitive always + adverb/preposition] British English to ride a horse along roads or through the country
+
+5 [intransitive] to cough in a loud unpleasant way
+
+#+end_quote
+
+Obtenido desde [[https://www.ldoceonline.com/dictionary/hack][Longman Dictionary]]
+
+*** Urbano - Informales
+
+The Urban Dictionary:
+
+#+begin_quote
+*hacker*
+
+A person skilled with the use of computers that uses his talents to gain knowledge. Tere are three classifications of hackers:
+
+White-hat (hacking for the enjoyment of exploration)
+
+Black-hat (hacking to find exploits and system weaknesses, see cracker)
+
+and Grey-hat (someone who is a little of both)
+#+end_quote
+
+Obtenido desde [[https://www.urbandictionary.com/define.php?term=hacker][Urban Dictionary]]
+
+#+begin_quote
+*hacker*
+
+An individual capable of solving complex non-intuitive problems in a seemingly intuitive manner. The processes and techniques used are not necessarily methodical to the observer, but yet achieve results significantly and consistently faster than known experience would predict. A hacker is not defined in terms of intention or purpose, but rather by the talented single-mindedness of method. A hacker is not a hack.
+
+Hackers are not limited to computer hacking.
+#+end_quote
+
+Obtenido desde [[https://www.urbandictionary.com/define.php?term=hacker][Urban Dictionary]]
+
+#+begin_quote
+   *hacker*: n.
+
+    [originally, someone who makes furniture with an axe] 
+
+    1. A person who enjoys exploring the details of programmable systems and how to stretch their capabilities, as opposed to most users, who prefer to learn only the minimum necessary. RFC1392, the Internet Users' Glossary, usefully amplifies this as: A person who delights in having an intimate understanding of the internal workings of a system, computers and computer networks in particular.
+
+    2. One who programs enthusiastically (even obsessively) or who enjoys programming rather than just theorizing about programming. 
+
+    3. A person capable of appreciating hack value. 
+
+    4. A person who is good at programming quickly. 
+
+    5. An expert at a particular program, or one who frequently does work using it or on it; as in ‘a Unix hacker’. (Definitions 1 through 5 are correlated, and people who fit them congregate.) 
+
+    6. An expert or enthusiast of any kind. One might be an astronomy hacker, for example. 
+
+    7. One who enjoys the intellectual challenge of creatively overcoming or circumventing limitations. 
+
+    8. [deprecated] A malicious meddler who tries to discover sensitive information by poking around. Hence password hacker, network hacker. The correct term for this sense is cracker.
+
+    The term ‘hacker’ also tends to connote membership in the global community defined by the net (see the network. For discussion of some of the basics of this culture, see the How To Become A Hacker FAQ. It also implies that the person described is seen to subscribe to some version of the hacker ethic (see hacker ethic).
+
+    It is better to be described as a hacker by others than to describe oneself that way. Hackers consider themselves something of an elite (a meritocracy based on ability), though one to which new members are gladly welcome. There is thus a certain ego satisfaction to be had in identifying yourself as a hacker (but if you claim to be one and are not, you'll quickly be labeled bogus). See also geek, wannabee.
+
+    This term seems to have been first adopted as a badge in the 1960s by the hacker culture surrounding TMRC and the MIT AI Lab. We have a report that it was used in a sense close to this entry's by teenage radio hams and electronics tinkerers in the mid-1950s.
+#+end_quote
+
+Obtenido desde [[http://www.catb.org/jargon/html/H/hacker.html][Jargon File]]
+    
 
 * Columna 16: ¿Qué es el Software Libre?                             :ATTACH:
 :PROPERTIES:
