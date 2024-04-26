@@ -109,7 +109,12 @@ No todo es negativo: El anonimato y la seguridad a veces es necesario para ciert
 
   - Se aprovecha su anonimato y su cifrado para transmisones de información para el periodismo de investigación con alto riesgo: Wikileaks, Snowden.
   - Acceso a contenido de investigación que usualmente no está disponible en el Internet habitual.
-     
+
+
+Preguntas:
+- Entonces, las tecnologías y herramientas, ¿son todas buenas? ¿todas nos sirven? ¿o hay un debate más profundo que hacer?
+
+  
 ** Bibliografía
 - "Hands-On Dark Web Analysis". Sion Retzkin. Packt Publishing. 2018. [[https://www.google.com.ar/books/edition/Hands_On_Dark_Web_Analysis/352BDwAAQBAJ?hl=en&gbpv=0][Muestra en Google Books.]]
 - "Casting Light on the Dark Web". Matthew Beckstrom, Brady Lund. Rowman & Littlefield Publishers. 2019. [[https://www.google.com.ar/books/edition/Casting_Light_on_the_Dark_Web/pAacDwAAQBAJ?hl=en&gbpv=0][Muestra en Google Books.]]
