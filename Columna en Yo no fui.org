@@ -38,6 +38,82 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
+* Columna 18: ¿Qué es la dark net y la dark Web?
+
+** Guion
+
+Disclaimer: No se recomienda el uso de ningún software, el acceso a la dark net y dark Web, sin previo comprender claramente lo que se está haciendo. 
+
+1. Repaso: ¿qué es la Web?
+   - Idea: Contenido vinculado entre ellos: hipervínculo.
+   - Se desarrollaron tecnologías para la Web:
+     - HTML, CSS y JavaScript para armar las páginas
+     - Uniform Resource Locator (URL) establece cómo son las direcciones de las páginas.
+     - Se utiliza exploradores Webs: Firefox, Chrome, Chromium, etc.
+   - Aparece la World Wide Web Consortium (W3C) para establecer estándares y lenguajes.
+2. *Deep Web*... ¿qué es?
+   - Hay sistemas Webs que se acceden con un login.
+   - Acceso restringido: No puede ser indexado.
+   - Es todo lo que no se puede acceder directamente.
+3. *Dark nets*, ¿qué es?
+
+   Dark net: "Dark" ("oscura") porque *no se puede ver fácilmente*.
+
+   - Se conocía como: *Infraestructura* que no se puede acceder desde Internet/ARPANET.
+   - Ahora: La mayoría utilizan infraestructura del Internet actual: los cables, conexiones, protocolos...
+   - Pero... Requiere de software o configuraciones especiales:
+     - No se puede acceder con el software que usamos habitualmente.
+     - Requiere cifrado y/o autorización específica.
+   - *Objetivo* de una dark net: depende de la que se utilice.
+
+     Algunos objetivos que mencionan varias de ellas son: comunicación anónima, altamente cifrada, evitar la censura u otras.
+     - Anonimato: que la computadora y el usuario no se identifique fácilmente.
+   - En este contexto: "*Clear net*" se dice a la red que usamos habitualmente fuera de la dark net.
+
+     (Que no necesita autorización o cifrado especial o ningún software particular para acceder).
+     - Algunas dark nets permiten acceder al contenido de la clear net, aprovechando el anonimato, el cifrado u otra característica de la dark net en uso.
+   - Existen varios dark net: Tor, I2P, FreeNet, etc.
+     
+4. ¿Entonces? ¿Qué es *Dark Web*?
+   - Contenido Web únicamente accesible en la dark net.
+   - Por ejemplo: Páginas Webs, imágenes, videos, documentos, noticias, contactos, chats, correos electrónicos, etc.
+   - En otras palabras: Páginas Webs que se pueden acceder solo con software específico.
+     
+5. ¿Qué contenido se puede encontrar en la dark net/Dark Web?
+   - Redes privadas, personales, contenido interno de instituciones, empresas, etc.
+
+     ¿No usan sistemas en donde trabajan? ¿en sus casas no tienen acceso a Internet?
+     
+   - Acceso a material que puede no ser legal...
+
+   - Ciberdelincuentes utilizan la dark Web para publicar y vender lo que consiguen.
+     - Por ejemplo: Ransomware, programas que cifran la información de la víctima y solicita un rescate.
+
+6. ¿Cualquiera puede usarlo?
+   Aunque, en algunos casos parezca fácil, es mejor no entrar y dejarlo para quien estudia seguridad informática...
+
+   O sea, mejor no lo usés si no sabés claramente qué hacer.
+
+   - Algunos casos, se puede descargar el software y usar... perooooo...
+   - Es necesario aprender a usarlo correctamente: ¿qué datos uso? ¿qué conviene (o se puede) ver y qué no?
+   - Se debe prestar atención a las noticias acerca de fallos del software y fallos de seguridad que tenga.
+   - Hay contenido que no es legal y de dudosa veracidad.
+   - Conviene repetir esto y que quede claro: hay contenido de dudosa veracidad, procedencia, autoría, legalidad, etc.
+
+No todo es negativo: El anonimato y la seguridad a veces es necesario para ciertas tareas.
+
+  - Se utiliza para evadir la censura extrema de un país.
+  - Evitar los cortes de comunicación en momentos de protesta y manifestación.
+
+    Por ejemplo, acceder a páginas que en la clear net que se encuentran bloqueadas en el país.
+
+  - Se aprovecha su anonimato y su cifrado para transmisones de información para el periodismo de investigación con alto riesgo: Wikileaks, Snowden.
+  - Acceso a contenido de investigación que usualmente no está disponible en el Internet habitual.
+     
+** Bibliografía
+- "Hands-On Dark Web Analysis". Sion Retzkin. Packt Publishing. 2018. [[https://www.google.com.ar/books/edition/Hands_On_Dark_Web_Analysis/352BDwAAQBAJ?hl=en&gbpv=0][Muestra en Google Books.]]
+- "Casting Light on the Dark Web". Matthew Beckstrom, Brady Lund. Rowman & Littlefield Publishers. 2019. [[https://www.google.com.ar/books/edition/Casting_Light_on_the_Dark_Web/pAacDwAAQBAJ?hl=en&gbpv=0][Muestra en Google Books.]]
+
 * Columna 17: ¿Qué es el hacking?
 #+html: <a id="columna-17"></a>
 
