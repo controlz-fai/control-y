@@ -38,6 +38,109 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
+* Columna 19: ¿Qué son los virus?
+1. Algo importante, un modelo de seguridad, la triada: Confidencialidad, Integridad y Disponibilidad (conocida como CIA por sus siglas en inglés).
+   - Confidencialidad :: Privacidad, protección, autorización para acceder, ejecutar, modificar y ver.
+   - Integridad :: Prevenir cambios no deseados y no autorizados. Asegurar datos y programas.  Revertir o reparar problemas.
+   - Disponibilidad :: Acceder al software cuando se necesite.
+     
+2. ¿Qué es malware?
+
+   Software creado con la intención de hacer daño.
+   
+   - ¿Qué es hacer daño en la informática?
+
+     ¡Romper la CIA! Romper la autorización y los permisos, quebrar la integridad, quitar disponibilidad.
+
+     Ejemplos: software que accede y roba información privada, que la secuestra, que la elimina, que permite el acceso no autorizado a terceros, que no permite o molesta al ejecutar un software, que miente al usuario para que tome una acción en su perjuicio, etc.
+   
+3. ¿Qué es un virus?
+
+   - Un programa de computadora.
+   - Usualmente se camufla en el sistema o se inserta en otro programa.
+   - Usualmente se replica a sí mismo.
+   - Dañan el sistema o molestan al uso habitual del mismo.
+   
+4. ¿Qué puede hacer un virus?
+
+   - Solo el desarrollador lo sabe...
+   - Usualmente molestan, borran, cambian o prohiben el uso de software. Hasta incluso puede ocupar espacio en grandes cantidades.
+   - Pueden dejar inutilizado el sistema entero.
+   - Pueden afectar otros sistemas y otras computadoras.
+   - Pueden recopilar información y enviarla a los autores.
+   - Pueden permitir el acceso de terceros y controlar remotamente la computadora...
+   - O puede pasar... ¿nada?
+   - Algunos virus incluso pueden "dormirse" (no hacer nada), pasando desapercibidos, hasta cumplir cierto tiempo o cierto criterio (p. ej. hasta conectarse a Internet).
+
+5. Tipos de Malware... una clasificación ni exhaustiva y que puede cambiar... útil para ejemplificar.
+   
+   1. Trojanos
+
+      Malware que se camufla como software útil o benigno.
+      
+   2. Worms
+
+      Software que se replica.
+      
+   3. Ransomware
+
+      Un software que secuestra información, datos o programas de una computadora. Luego, solicita un rescate por ellos.
+
+   4. Spyware
+
+      Espía a la víctima. Keyloggers, Web beacons pueden entrar dentro de esta categoría.
+      
+   5. Adware
+
+      Software que muestra promociones o propagandas por la cual el desarrollador puede beneficiarse. Si bien puede no ser todos malware, puede considerarse como tal si no permite el uso habitual del dispositivo.
+      
+   6. Rogueware/Scareware
+
+      Software que miente a la victima haciéndola creer que posee malware. La intención es que contrate un anti-malware posiblemente falso.
+   
+   7. Wiper
+
+      Malware cuyo objetivo es borrar información del disco duro o la memoria del sistema.
+   
+6. ¿Cómo se instalan?
+
+   Hay varias formas:
+
+   1. El usuario ejecuta el programa.
+      1. El dueño de la computadora.
+
+         Por medio de engaños puede ejecutar el programa. P. ej. puede pensar que está abriendo un documento cuando en realidad es un programa.
+         
+      2. Un tercero (con o sin autorización) que tuvo acceso a la computadora (física o remotamente).         
+   2. Otro programa lo ejecuta.
+      1. Un programa instalado.
+      2. El mismo sistema operativo (¿se acuerdan del autorun?).
+   3. Instalación de un programa modificado que ya contenía el virus.
+
+7. ¿Cómo se evita/remueven?
+   1. Pensemos cómo removerlos manualmente...
+
+      ¿Qué virus es? Estaría bueno tener un listado de virus...
+      ¿sabemos qué hace?      
+      ¿ya se copió? ¿dónde se encuentra? ¿qué hay que reestablecer?
+   2. ¿Y lo que nos borró/modificó? ¿se puede recuperar? \sad{} Posiblemente... no siempre.
+   3. Eso ya está automatizado: los antivirus.
+      1. Lo mejor: pueden chequear cualquier documento o programa apenas intentemos abrirlos.
+   4. Buenas costumbres...
+      1. No bajar cosas de cualquier página.
+      2. Escanear con un antivirus los archivos, pendrives y discos de procedencia dudosa.
+      3. Mirar siempre que el antivirus esté actualizado y en funcionamiento.
+
+Preguntas:
+
+- De nuevo, ¿por qué ciertos programas los consideramos virus/malware y otros no?
+
+  Retomando la pregunta de la columna previa: entonces, ¿las tecnologías y herramientas (programas) son todas buenas? ¿todas nos sirven?
+
+- ¿Conocían el modelo CIA? ¿Qué programas usan cotidianamente que no les permite usar sus teléfonos o compus como debería ser? ¿qué programas/apps del celu les figura con propaganda o tiene algún desperfecto? ¿afecta la disponibilidad/confidencialidad/integridad? ¿por qué no los consideramos virus?
+
+- ¿Qué sería un uso habitual/correcto de un dispositivo? 
+
 * Columna 18: ¿Qué es la dark net y la dark Web?
 
 ** Guion
