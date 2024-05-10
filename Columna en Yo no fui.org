@@ -39,6 +39,8 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   
 
 * Columna 19: ¿Qué son los virus?
+
+** Guion
 1. Algo importante, un modelo de seguridad, la triada: Confidencialidad, Integridad y Disponibilidad (conocida como CIA por sus siglas en inglés).
    - Confidencialidad :: Privacidad, protección, autorización para acceder, ejecutar, modificar y ver.
    - Integridad :: Prevenir cambios no deseados y no autorizados. Asegurar datos y programas.  Revertir o reparar problemas.
@@ -140,6 +142,10 @@ Preguntas:
 - ¿Conocían el modelo CIA? ¿Qué programas usan cotidianamente que no les permite usar sus teléfonos o compus como debería ser? ¿qué programas/apps del celu les figura con propaganda o tiene algún desperfecto? ¿afecta la disponibilidad/confidencialidad/integridad? ¿por qué no los consideramos virus?
 
 - ¿Qué sería un uso habitual/correcto de un dispositivo? 
+
+** Bibliografía
+- "The Basics of Information Security". Jason Andress. Elsevier/Syngress press (Libro).
+- The Jargon File. Version 4.4.7. [[http://www.catb.org/jargon/html/V/virus.html][The Jargon File, Virus word in glossary]] (Web Informal).
 
 * Columna 18: ¿Qué es la dark net y la dark Web?
 
