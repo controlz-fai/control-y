@@ -145,7 +145,16 @@ Preguntas:
 
 ** Bibliografía
 - "The Basics of Information Security". Jason Andress. Elsevier/Syngress press (Libro).
+
+  Describe el modelo CIA.
+  
 - The Jargon File. Version 4.4.7. [[http://www.catb.org/jargon/html/V/virus.html][The Jargon File, Virus word in glossary]] (Web Informal).
+
+  Describe la definición de virus, trojan y otras pablaras.
+  
+- "Cybersecurity Threats, Malware, Trends, and Strategies". Tim Rains. Packt (Libro).
+
+  Explica por qué se distribuye más malware en los sistemas Windows. También, describe la definición de los distintos tipos de malware.
 
 * Columna 18: ¿Qué es la dark net y la dark Web?
 
