@@ -38,6 +38,63 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
+* Columna 20: ¿Qué son los anti-virus?
+
+** Guion
+1. Repaso:
+   1. Modelo de seguridad: la triada CIA.
+   2. ¿Qué es un virus?
+   3. ¿Cómo se instalan en nuestra compu?
+      1. El usuario los ejecuta
+      2. Otro programa los ejecuta
+      3. Ya se encontraba instalado, camuflado en otro programa
+2. ¿Sabían que los documentos pueden tener camuflarse malware?
+
+   1. En Office: macros (ahora hay muchas medidas de seguridad).
+3. ¿Cómo se remueven el malware?
+   1. Pensemos cómo removerlos manualmente...
+      
+      ¿Qué virus es? Estaría bueno tener un listado de virus...
+
+      ¿Sabemos qué hace?      
+
+      ¿Ya se copió? ¿dónde se encuentra? ¿qué hay que reestablecer?
+   2. ¿Y lo que nos borró/modificó? ¿se puede recuperar? \sad{} Posiblemente... no siempre.
+            
+4. ¿Se puede automatizar?
+
+   1. ¿Cómo detectamos que un programa es un virus?
+
+      - Si conocemos un contenido específico de cada archivo de virus podemos detectarlo \pointright{} listado de virus.
+
+        - P. ej.: el virus "A" tienen en una sección de su código binario el valor "01011110101011101".
+
+      - ¿Qué acciones suelen hacer los virus? ¿borrar archivos? ¿escanear y mover documentos? ¿cuánto se parece a otros virus conocidos? \pointright{} búsqueda heurística
+
+   2. ¿En qué momento detectarlos?
+
+      - Troyanos o virus que el usuario ejecuta: estaría bueno ver si el contenido se parece al de un malware conocido antes de abrir el archivo.
+
+      - Cuando otros programas lo ejecutan: estaría bueno chequear antes de que se ejecuten.
+
+      - Si ya viene incluído en otro archivo: chequear apenas se mueva, copie, abra, o se haga una acción con el archivo.
+
+   Antivirus:
+   
+   1. Escaneo solicitado.
+
+   2. Al inicio del sistema.
+
+   3. En tiempo real: pueden chequear cualquier documento o programa apenas intentemos abrirlos, copiarlos, etc.
+      
+5. ¿Cómo se evita el malware?
+
+   Buenas costumbres...
+
+   1. No bajar cosas de cualquier página.
+   2. Escanear con un antivirus los archivos, pendrives y discos de procedencia dudosa.
+   3. Mirar siempre que el antivirus esté actualizado y en funcionamiento.
+
 * Columna 19: ¿Qué son los virus?
 
 ** Guion
@@ -119,19 +176,6 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
       2. El mismo sistema operativo (¿se acuerdan del autorun?).
    3. Instalación de un programa modificado que ya contenía el virus.
 
-7. ¿Cómo se evita/remueven?
-   1. Pensemos cómo removerlos manualmente...
-
-      ¿Qué virus es? Estaría bueno tener un listado de virus...
-      ¿sabemos qué hace?      
-      ¿ya se copió? ¿dónde se encuentra? ¿qué hay que reestablecer?
-   2. ¿Y lo que nos borró/modificó? ¿se puede recuperar? \sad{} Posiblemente... no siempre.
-   3. Eso ya está automatizado: los antivirus.
-      1. Lo mejor: pueden chequear cualquier documento o programa apenas intentemos abrirlos.
-   4. Buenas costumbres...
-      1. No bajar cosas de cualquier página.
-      2. Escanear con un antivirus los archivos, pendrives y discos de procedencia dudosa.
-      3. Mirar siempre que el antivirus esté actualizado y en funcionamiento.
 
 Preguntas:
 
