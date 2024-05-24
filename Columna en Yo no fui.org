@@ -43,13 +43,13 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 ** Guion
 1. Repaso:
    1. Modelo de seguridad: la triada CIA.
-   2. ¿Qué es un virus?
-   3. ¿Cómo se instalan en nuestra compu?
+   2. Malware, existen distintos tipos de malware.
+   3. ¿Qué es un virus?
+   4. ¿Cómo se instalan en nuestra compu?
       1. El usuario los ejecuta
       2. Otro programa los ejecuta
       3. Ya se encontraba instalado, camuflado en otro programa
-2. ¿Sabían que los documentos pueden tener camuflarse malware?
-
+2. ¿Sabían que los documentos pueden tener camuflado malware?
    1. En Office: macros (ahora hay muchas medidas de seguridad).
 3. ¿Cómo se remueven el malware?
    1. Pensemos cómo removerlos manualmente...
@@ -69,7 +69,9 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
         - P. ej.: el virus "A" tienen en una sección de su código binario el valor "01011110101011101".
 
-      - ¿Qué acciones suelen hacer los virus? ¿borrar archivos? ¿escanear y mover documentos? ¿cuánto se parece a otros virus conocidos? \pointright{} búsqueda heurística
+      - ¿Qué acciones suelen hacer los virus? ¿borrar archivos? ¿escanear y mover documentos? ¿cuánto se parece a otros virus conocidos? \pointright{} *búsqueda heurística*
+
+        - P. ej.: el virus "B" siempre busca en Internet una página específica antes de borrar archivos.
 
    2. ¿En qué momento detectarlos?
 
@@ -79,13 +81,13 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
       - Si ya viene incluído en otro archivo: chequear apenas se mueva, copie, abra, o se haga una acción con el archivo.
 
-   Antivirus:
+   Entonces un Antivirus es un programa que automatiza la detección y eliminación de virus, y puede realizar:
    
    1. Escaneo solicitado.
 
-   2. Al inicio del sistema.
+   2. Escanear al inicio del sistema.
 
-   3. En tiempo real: pueden chequear cualquier documento o programa apenas intentemos abrirlos, copiarlos, etc.
+   3. Escanear en tiempo real: pueden chequear cualquier documento o programa apenas intentemos abrirlos, copiarlos, etc.
       
 5. ¿Cómo se evita el malware?
 
@@ -94,6 +96,16 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
    1. No bajar cosas de cualquier página.
    2. Escanear con un antivirus los archivos, pendrives y discos de procedencia dudosa.
    3. Mirar siempre que el antivirus esté actualizado y en funcionamiento.
+
+
+Entonces...
+
+- ¿Tenés en cuenta la seguridad de tu información? ¿pensás en formas de prevenir los problemas informáticos o no te precupan tanto y lo dejás para después?
+- ¿Por qué sucede que es tan difícil detectar o remover un malware?
+  - ¿Tendré suficiente control de mi máquina para detectarlos o removerlos?
+  - En software libre, ¿sucederá lo mismo cuando se nos instala un virus? ¿nos podremos dar cuenta?
+  - En software libre, ¿podremos encontrar y quitar malware más fácil?
+- ¿Por qué existirá el malware? ¿por qué crean esos programas?
 
 * Columna 19: ¿Qué son los virus?
 
