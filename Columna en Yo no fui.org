@@ -48,8 +48,13 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
    - No se tiene que apagar: UPS, ¿estabilizador?, varias locaciones...
    - No se tiene que caer: Internet... 
    - Seguridad: RAID
+3. ¿Y las páginas Webs? ¿cómo funcionan?
+
+   -- Explicar cómo es un Hoster --
+
 
 * Columna 21: ¿Qué es la nube?
+#+html: <a id="columna-21"></a>
 
 \radio{} Emisión al aire: [2024-06-07 vie 15:00]
 
@@ -73,10 +78,11 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
    En otras palabras:
 
    1. Proveer un servicio.
-      - Simplemente, solicitar y liberar el servicio por alguna interfaz o Web.
+      - Simplemente, solicitar y liberar el servicio por medio de alguna interfaz o Web.
    2. No nos interesa gestionar la infraestructura por debajo, solo queremos el servicio.
-      - Red, sistema operativo, almacenamiento (discos rígidos) \to{} ¡no nos queremos gestionarlo!
-   3. Queremos accederlo en cualquier parte del mundo.   
+      - Red, sistema operativo, almacenamiento (discos rígidos) \to{} ¡no queremos gestionarlo!
+      - Quisiera no instalar ni comprar una compu entera para eso.      
+   3. Queremos accederlo en cualquier parte del mundo.
    
 3. ¿Qué servicios ofrece?
 
