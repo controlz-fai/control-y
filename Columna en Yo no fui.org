@@ -38,6 +38,153 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
+* Columna 22: ¿Qué es la nube? (cont.)
+
+\radio{} Emisión al aire: No, aún no... ¡esta columna es un borrador!
+
+1. ¿Cómo hago mi propio server?
+   - Necesito una máquina...
+2. Entonces... ¿Cómo puedo hacer mi nube?
+   - No se tiene que apagar: UPS, ¿estabilizador?, varias locaciones...
+   - No se tiene que caer: Internet... 
+   - Seguridad: RAID
+
+* Columna 21: ¿Qué es la nube?
+
+\radio{} Emisión al aire: [2024-06-07 vie 15:00]
+
+** Guion
+1. Repaso
+   - ¿Se acuerdan de lo que charlamos de Internet?
+   - ¿Usan correos habitualmente?
+   - Pero, ¿dónde están tus correos? ¿desde dónde podés accederlos?
+
+2. ¿Qué es la nube?
+
+   Pensemos en el correo electrónico, en los documentos que usan en la nube... ¿qué tiene?
+
+   - ¿Qué necesitan para acceder? ¿Internet?
+   - ¿Dónde guardan sus correos? ¿Y para verlos, qué hacen?
+   - Pero, ¿hay computadoras donde se guardan? ¿dónde están?
+   - ¿Pueden acceder a sus correos en cualquier parte? ¿qué les hace falta?
+   - ¿Tuvieron que instalar algo? ¿algún servidor de correos o algún programa para filtrar SPAM?
+     ¿Quién se encargó de eso? ¿configurar la red, los discos rígidos, etc.?
+
+   En otras palabras:
+
+   1. Proveer un servicio.
+      - Simplemente, solicitar y liberar el servicio por alguna interfaz o Web.
+   2. No nos interesa gestionar la infraestructura por debajo, solo queremos el servicio.
+      - Red, sistema operativo, almacenamiento (discos rígidos) \to{} ¡no nos queremos gestionarlo!
+   3. Queremos accederlo en cualquier parte del mundo.   
+   
+3. ¿Qué servicios ofrece?
+
+   Mientras vemos cada uno, ¡piensen en ejemplos!
+   
+   - *Infraestructure as a Service* (IaaS)
+
+     Quiero usar un Linux, pero no deseo comprar una compu...
+
+     - Ejemplos: Virtual Private Servers (VPS).
+     
+   - *Platform as a Service* (PaaS)
+
+     Quiero usar varias aplicaciones posibles... pero no quiero manejar un sistema entero!
+
+     - Ejemplos: hosters.
+
+   - *Software as a Service* (SaaS)
+
+     Solo necesito un blog! Hacer una llamada virtual! No quiero instalar ni solicitar nada más!
+
+     - Ejemplos: Mails, almacenamiento en la nube, videollamadas...
+
+4. ¿Pros y cons?
+
+   ¿Se acuerdan del CIA (Confidencialidad, Integridad, Disponibilidad)?
+     
+   - Confidencialidad: ¿Quiénes pueden ver los datos? ¿se pueden cifrar? ¿podemos prohibir el acceso/modificación?
+     - ¿Pueden usar mis archivos para algo más?
+   - Integridad: ¿sabemos si alguen cambia nuestros datos? ¿es posible que un tercero los cambie? ¿qué sucede ante borrados o cambios accidentales?
+   - Disponibilidad: ¿podemos acceder al software/plataforma/infraestructura y al servicio? ¿qué pasa si hay un error o está "en mantenimiento"? ¿si se actualiza y no nos gusta?
+     
+   - ¿Qué pasa si el servicio nos ofrece soluciones que no nos interesa? ¿qué pasa si de las soluciones, no nos satisfacen todas nuestras necesidades?
+   - ¿podremos cambiar el software para mejorarlo o para agregar más funciones?
+   - Seguridad: ¿quién gestiona la seguridad del sistema completo? ¿cómo lo gestiona? ¿qué hace con todo el software?
+   - *Pertenencia*: ¿dónde están nuestros datos? ¿quién los tiene?
+   - Varias copias: local y en Internet...
+     - ¡Sincronización automática de archivos!... pero...
+     - Si tengo un virus: ¿se sube a la nube?
+     - Si borro un archivo en mi compu... ¿lo pierdo en la nube?
+
+5. ¿Y con mis archivos?
+     
+   - Accedemos manualmente y los subimos nosotros:
+     - ¡Control total! Pero es tedioso...
+     - Accedemos a una página y le indicamos cuál archivo subir y dónde.
+     - Usamo un programa para hacer eso.
+   - Automáticamente: Le digo informalmente *sincronización de archivos*.
+     - Un programa utiliza una carpeta determinada y la mantiene actualizada con "la nube".
+
+   - Windows y algunos Androids
+     - Piden correo electrónico para identificar a la usuaria.
+     - ¿Para qué? para registrar sus datos... su máquina... ¡sus archivos!
+     - Con el correo viene incluido almacenamiento en la nube.
+     - Bloatware: Traen un programa que copia los archivos y los transmiten.
+     - Los Windows nuevos sincroniza todo el sistema por defecto: ¡debemos configurarlo!
+     - ¿Qué pasa si se llena la nube? \to{} ¡Molesta al usar nuestra compu!
+
+       ¡Molesta al usar nuestros correos con adjuntos!
+       
+6. ¿Qué cuidados debo tener?
+   Aquí, no tengo la respuesta universal... depende de cada persona y cómo usa sus archivos.
+
+   Por ahí, el mejor tip que puedo dar es: *mantén ordenado el sistema desde el comienzo*...
+   
+   Esto es muy simple de entender: mover el archivo a su carpeta correcta apenas nos llega por correo es muy fácil, pero clasificar y ordenar 500 fotos de Whatsapp es... uggggg... \facepalm{}
+
+   Igual, pensemos un poco...
+
+   1. ¿Qué archivos subimos?
+      1. Configurar los programas de sincronización para que solo use una carpeta que designemos.
+      2. ¿Los archivos son muy privados? Mejor no lo subamos...
+
+         En la nube, es más fácil equivocarnos y dar permisos para que otros lo vean.
+      3. ¿Los archivos son muy importantes? Mejor lo copiamos...
+
+         Está bueno tenerlo en la nube... pero igual... ¡hacer copias!
+
+         ¡Y siempre revisar quién puede accederlos!
+         
+   2. ¿Quiénes acceden a esos archivos/datos?
+      1. Tratemos de no dar permisos de lectura y escritura a todo el mundo.
+      2. Pensemos en *prohibir el acceso a menos que sea necesario*: siempre el mínimo acceso y necesario.
+      3. ¿Sabemos cómo recuperar un archivo borrado/modificado? ¿hacemos copias?
+   3. ¿Nos molesta que la empresa de la nube nos escanee los datos que subimos?
+
+      Normalmente, no... pero bueno, hay personas que se preocupan por esto.
+
+   4. Las fotos de familia... ¿las subimos a la nube?
+      1. No es mala idea... pero igual: hacer copias en discos portátiles.
+      2. Si nos parecen importantes, ordenarlas con carpetas por fecha, evento, ocasión, etc.
+      3. Son muy privadas: ¿y si las cuidamos con algún cifrado? ¿y si mejor hacés copia en tus discos portátiles? 
+      4. Hay niñas y niños: por favor, nada de redes sociales, evitemos el sharetening...
+   5. ¿En la nube es más fácil gestionar tus archivos?
+      1. Puede ser más lento dependiendo de tu Internet...
+      2. Buscar y mover archivos desde la página Web puede ser un tanto... bueno... depende.
+      3. Y algo interesante: *¿Qué pasa si no tengo Internet?* \shrug{}
+
+Por último:
+
+- ¿Está bueno quedarse con una sola tecnología?
+- ¿Les parece que con la nube se solucionan todos los problemas de archivos?
+- ¿Qué pasa si mañana Google/Microsoft/etc. dejaran de funcionar?
+- Están haciendo copia de sus archivos más importantes y que quieren preservar, ¿verdad?
+      
+** Bibliografía y recursos
+- [[https://www.fsf.org/bulletin/2011/spring/spotlight-merlin-cloud]["Spotlight: Merlin Cloud" por Matt Lee. Free Software Foundation. 2011.]]
+  
 * Columna 20: ¿Qué son los anti-virus?
 
 ** Guion
