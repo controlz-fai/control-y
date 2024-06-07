@@ -59,12 +59,13 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 \radio{} Emisión al aire: [2024-06-07 vie 15:00]
 
 ** Guion
-1. Repaso
+
+***  Repaso
    - ¿Se acuerdan de lo que charlamos de Internet?
    - ¿Usan correos habitualmente?
    - Pero, ¿dónde están tus correos? ¿desde dónde podés accederlos?
 
-2. ¿Qué es la nube?
+*** ¿Qué es la nube?
 
    Pensemos en el correo electrónico, en los documentos que usan en la nube... ¿qué tiene?
 
@@ -84,7 +85,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
       - Quisiera no instalar ni comprar una compu entera para eso.      
    3. Queremos accederlo en cualquier parte del mundo.
    
-3. ¿Qué servicios ofrece?
+***  ¿Qué servicios ofrece?
 
    Mientras vemos cada uno, ¡piensen en ejemplos!
    
@@ -106,7 +107,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
      - Ejemplos: Mails, almacenamiento en la nube, videollamadas...
 
-4. ¿Pros y cons?
+***  ¿Pros y cons?
 
    ¿Se acuerdan del CIA (Confidencialidad, Integridad, Disponibilidad)?
      
@@ -124,7 +125,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
      - Si tengo un virus: ¿se sube a la nube?
      - Si borro un archivo en mi compu... ¿lo pierdo en la nube?
 
-5. ¿Y con mis archivos?
+***  ¿Y con mis archivos?
      
    - Accedemos manualmente y los subimos nosotros:
      - ¡Control total! Pero es tedioso...
@@ -143,7 +144,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
        ¡Molesta al usar nuestros correos con adjuntos!
        
-6. ¿Qué cuidados debo tener?
+***  ¿Qué cuidados debo tener?
    Aquí, no tengo la respuesta universal... depende de cada persona y cómo usa sus archivos.
 
    Por ahí, el mejor tip que puedo dar es: *mantén ordenado el sistema desde el comienzo*...
@@ -181,7 +182,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
       2. Buscar y mover archivos desde la página Web puede ser un tanto... bueno... depende.
       3. Y algo interesante: *¿Qué pasa si no tengo Internet?* \shrug{}
 
-Por último:
+*** Por último...
 
 - ¿Está bueno quedarse con una sola tecnología?
 - ¿Les parece que con la nube se solucionan todos los problemas de archivos?
@@ -190,6 +191,8 @@ Por último:
       
 ** Bibliografía y recursos
 - [[https://www.fsf.org/bulletin/2011/spring/spotlight-merlin-cloud]["Spotlight: Merlin Cloud" por Matt Lee. Free Software Foundation. 2011.]]
+- "A Taxonomy, Survey, and Issues of Cloud Computing Ecosystems". Bhaskar Rimal, Eunmi Choi, Ian Lumb. Cloud Computing. Springer-Verlag. 2010.
+- "Everything as a Service (XaaS) on the Cloud: Origins, Current and Future Trends". Yucong Duan, Guohua Fu, Nianjun Zhou, Xiaobing Sun, Nanjangud C. Narendra, Bo Hu. IEEE 8th International Conference on Cloud Computing. 2015.
   
 * Columna 20: ¿Qué son los anti-virus?
 
