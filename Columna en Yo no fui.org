@@ -40,17 +40,101 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
 * Columna 22: ¿Qué es la nube? (cont.)
 
-\radio{} Emisión al aire: No, aún no... ¡esta columna es un borrador!
+\radio{} Emisión al aire: <2024-06-28 vie>
 
-1. ¿Cómo hago mi propio server?
-   - Necesito una máquina...
-2. Entonces... ¿Cómo puedo hacer mi nube?
-   - No se tiene que apagar: UPS, ¿estabilizador?, varias locaciones...
-   - No se tiene que caer: Internet... 
-   - Seguridad: RAID
-3. ¿Y las páginas Webs? ¿cómo funcionan?
+** Repaso
+1. ¿Qué es la nube?
+   1. Proveer un servicio.
+      - Simplemente, solicitar y liberar el servicio por medio de alguna interfaz o Web.
+   2. No nos interesa gestionar la infraestructura por debajo, solo queremos el servicio.
+      - Red, sistema operativo, almacenamiento (discos rígidos) \to{} ¡no queremos gestionarlo!
+      - Quisiera no instalar ni comprar una compu entera para eso.      
+   3. Queremos accederlo en cualquier parte del mundo.
+2. Servicios \to{} Iaas, Paas, SaaS   
+3. ¿Qué debemos tener en cuenta?
 
-   -- Explicar cómo es un Hoster --
+   - *¡Mantener ordenado el sistema desde el comienzo!*
+     - Debo guardar un archivo: \prohibited{} +¡Todo al escritorio!+ \nogood{}
+
+       ¡Ordenemos con carpetas!
+
+   - *¡Prohibir el acceso a menos que sea necesario!*
+     - Mínimo acceso: lo justo y necesario.
+
+
+Pero, aún es todo muy abstracto... ¿Qué onda la nube? 
+
+Vamos con algo más gráfico...
+
+** Mi servidor de archivos: DIY
+(DIY significa /Do it yourself/, "hazlo tú mismo").
+
+- Quiero hacer mi propio servidor de archivos...
+- ¿Qué necesito? Hagamos la lista...  
+  - Necesito una máquina.
+  - Si mucha gente lo va a usar: mucho disco rígido.
+  - Internet... ¡por supuesto!
+  - Saber instalar y usar programas: FTP, servidor Web... \explodinghead{}
+  - Saber configurar la red: ¡queremos acceder desde afuera de nuestra casa!
+
+Si bien, parece mucho, pero es posible. Aunque debemos aceptar:
+
+- Ser tolerante a cortes de luz.
+- Paciencia si son archivos grandes (depende de la conexión).
+- Existe Software Libre que nos facilita la instalación de software: ¡no tenemos que programar nada!
+ 
+** Vamos más allá: ¡quiero hacer mi nube!
+Ahora, seamos un poquito más exigentes...
+
+  - No se tiene que apagar aún ante un corte de luz: UPS
+  - No se tiene que desconectar: varias conexiones a Internet
+  - No se tiene que romper la compu: ¡varias compus conectadas en espejo!
+  - No se tiene que trabar el sistema operativo: ¿en serio... están pensando en W...?
+  - Los ataques deben evitarse/mitigarse: ¿¡Alguien sabe seguridad informática!?
+  - ¿Qué pasa si hay un problema con alguna cuenta? \to{} ¡Alguien tiene que responder!
+  - 24 horas de funcionamiento... ¡la factura de luz! \facepalm{}
+  - En verano, con 50\deg{} de calor... y mejor bajemos la temperatura un poco...
+  - ¿Qué software usamos?
+
+    Bueno, ¡es lo único que podemos ahorrar! ¡Hay muchos que son Open Source/Software Libre!
+    
+** Mi nube vs Esa Nube
+
+Pro y contras de mi nube DIY:
+
+- ¿Qué les parece la privacidad? \to{} ¿Quién podría mirar tus datos?
+- ¿Qué les parece la respuesta ante un problema? \to{} "¡no puedo entrar a mi cuenta! ¿me la reseteás?"
+- ¿Qué opinan los términos de uso?
+- ¿Qué les parece el uso de sus datos? ¿por ejemplo para minería o IA?
+- ¿A quién le pertenece los datos?
+
+Perooooo...
+
+- ¿Quién instala y mantiene todo?
+- ¿Cuánto sale?
+- ¿Y la seguridad informática?
+- ¿Qué pasa si se corta la luz, el Internet...?
+- ¿Qué pasa si la compu se rompe?
+
+#  - ¿Y las páginas Webs? ¿cómo funcionan?
+#
+#   -- Explicar cómo es un Hoster --
+
+** Entonces...
+
+- ¿Qué les parece que es la nube?
+- ¿Escucharon la frase: "la nube es la computadora de otro"? ¿qué les parece?
+- Y sus datos, ¿saben dónde están? ¿quién los tiene? ¿qué les parece que estén en esa computadora?
+  
+** Algunos tips
+- Las nubes usualmente usan un software para sincronizar.
+  - Configurarlos para que usen una carpeta específica, y no todo el sistema.
+  - Ojo con el de Windows: sube todo a la nube, si se acaba el espacio, también te quedás sin espacio para adjuntar archivos a los correos.
+- En el correo institucional o la cuenta del trabajo: mejor evitemos subir cosas personales.
+- ¿Qué pasa con Whatsapp? \to{} Las copias de seguridad van a la nube... asegurarse que sea en un correo personal.
+- Me imagino que tienen configurado una cuenta de correo de respaldo/recuperación... ¿verdad?
+- ¡Me imagino que tienen la contraseña del correo bien guardada y no es "12345"!
+- *Si un archivo es muy importante: ¡siempre hacer muchas copias en distintos lugares!*
 
 
 * Columna 21: ¿Qué es la nube?
