@@ -39,6 +39,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   
 
 * Columna 22: ¿Qué es la nube? (cont.)
+#+html: <a id="columna-22"></a>
 
 \radio{} Emisión al aire: <2024-06-28 vie>
 
