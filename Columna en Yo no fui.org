@@ -131,6 +131,10 @@ Algo más general: Con toda la digitalización, en ocasiones centralizada y úni
 
   Allí cuenta una filtración del RENAPER donde están los datos de nuestros DNI. Entre ellos, cosas que no se deben compartir: la foto y el número de trámite. Dejo para otro momento el debate de si el DNI debe tener un chip NFC.
 
+- "The Basics of Information Security". Jason Andress. Elsevier/Syngress press (Libro).
+
+  Describe identificación, verificación de la identidad y autenticación y sus factores.
+
 * Columna 22: ¿Qué es la nube? (cont.)
 #+html: <a id="columna-22"></a>
 
