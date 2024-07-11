@@ -38,6 +38,99 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
+* Columna 23: Reconocimiento facial
+#+html: <a id="columna-23"></a>
+
+\radio{} Emisión al aire: [2024-07-12 vie 15:00]
+
+#+caption: Eigenfaces utilizadas para reconocimiento facial. De AT&T Laboratories Cambridge.
+[[https://upload.wikimedia.org/wikipedia/commons/6/67/Eigenfaces.png]]
+
+Las Eigenfaces son "características que resaltan" de la foto de un rostro. Se obtienen luego de escanearlo múltiples de veces y aplicar una serie de ecuaciones y algoritmos sobre estas.
+
+[[https://commons.wikimedia.org/wiki/File:Eigenfaces.png][Foto obtenida desde WikiMedia]]
+
+** Guion
+¡Empecemos!
+
+1. ¿Qué es el reconocimiento facial?
+   1. Un programa o sistema informático (a veces sumado hardware)
+   2. Reconoce un rostro \to{} Dice de quién es
+2. ¿Cómo funciona?
+   1. Alinear el rostro: ¿dónde está la nariz, los ojos?
+      1. Debe situarse como los rostros guardados en la base de datos
+   2. Obtener una foto
+   3. Detectar los límites del rostro
+   4. Comparar si el rostro dentro de los límites coincide con el guardado
+   5. ¿Qué pixeles o puntos son similares? ¿cuánta diferencia toleramos?
+3. Mostrar el reconocimiento facial en el celu.
+   1. Siempre me molestó tener que escribir la clave para desbloquear el celular
+   2. Pero por suerte, ¡tengo una solución mágica! \mage{} \magicwand{}
+   3. Miren qué bueno, \partypopper{} ¡puedo desbloquear mi celu con mi rostro!
+   4. Solucioné un problema: ¡recordar una contraseña molesta para desbloquear el celular!
+   5. Pero... ¿qué pasa si le acerco una foto? \cammerawithflash{}
+4. ¿Puede tener errores?
+   - Falsos positivos: ¡Reconoce a alguien que no soy yo!
+   - Falsos negativos: ¡No me reconoce mi rostro a pesar de que soy yo!
+   - Debería ser calibrado para reducir los errores al mínimo... ¡especialmente los falsos positivos!
+5. ¿Para qué se usa?
+   - Identificación
+     - ¿Quién eres?/¿quién es el autor/creador?
+       Ejemplos:
+       
+       - Alguien nos dice que es "Juana"
+       - Un correo dice que proviene de "Juana"
+       - Un sistema nos dice que es "la computadora de Juana"
+
+       Pero: ¿realmente es Juana o no es cierto?
+
+     - Verificación de la identidad: ¿entendimos bien su nombre y sus datos?
+
+       ¡No es autenticación! ¡Aún no nos aseguramos que es cierto!
+
+   - Autenticación
+     - ¿Es cierto que la persona es quién dice ser?
+     - Factores: algo que sabes, algo que eres, algo que tienes, algo que haces, dónde estás
+       - algo que eres: la biometría y el reconocimiento facial.
+       
+   - Otras: camaras de vigilancia, validación de estados de ánimo (triste, alegre, etc.).
+
+6. Aún se debate si la biometría es un factor feasible de autenticación...
+   1. Vieron que tiene errores y que con una foto sirve para engañar.
+
+7. Preguntas...
+   - ¿Les parece que incluir esta tecnología soluciona el problema que tengo con mi celular?
+   - ¿Les parece que el reconocimiento facial soluciona muchos problemas? ¿cuáles les parece que sí y cúales no? ¿cómo solucionan esos problemas?
+   - ¿Se acuerdan de alguna App que utilice reconocimiento facial? ¿qué les pide que hagan? ¿tuvieron que girar el rostro? ¿contra qué piensan que compara?
+   - El Registro Nacional de las Personas (RENAPER) tiene nuestros datos, entre ellos, una imágen para el DNI con nuestro rostro. El [[https://www.argentina.gob.ar/interior/renaper/sid-sistema-de-identidad-digital][Sistema de Identidad Digital (SID)]] es el que posee los datos necesarios para permitir la validación del reconocimiento facial.
+
+     Hubo una filtración de datos del RENAPER hace un tiempo (ver artículo del 9 de abril, más abajo).
+     
+   - ¿Dónde les parece que debería usarse el reconocimiento facial? ¿les parece en los aeropuertos? ¿en las redes sociales? ¿en sus casas? ¿en las cámaras de vigilancia de espacios públicos?
+     - ¿Cómo les parece que debería usarse en cada caso?
+   - ¿Debería usarse para identificar y/o autenticar? ¿Qué pasa si se equivoca?
+     ¿Hay situaciones en la que debería haber alguien que corrobore el resultado? 
+   - ¿Quién les parece que debería regular y controlar su uso?
+
+
+Unas noticias a tener en cuenta:
+
+- [[https://www.rionegro.com.ar/sociedad/recetas-electronicas-que-cambia-en-neuquen-y-rio-negro-3537979/]["Recetas electrónicas: qué cambia en Neuquén y Río Negro"]] por Lorena Roncarolo, publicado en el diario Río Negro. 24 de abril del 2024.
+  
+- [[https://www.ambito.com/economia/gobierno-anuncio-que-eliminara-el-40-los-registros-del-automotor-n5992546]["Gobierno anunció que eliminará el 40% de los Registros del Automotor"]] de Ámbito.com. 3 de mayo del 2024.
+
+  Observar que se habla de la digitalización de los legajos de los vehículos y de la cédula verde en formato digital.
+
+Algo más general: Con toda la digitalización, en ocasiones centralizada y única. 
+     
+- ¡Estaría bueno hacernos las mismas preguntas que antes!
+- ¿No deberíamos preguntarnos acerca de la ética y la seguridad del sistema y de los datos almacenados?
+
+** Más recursos
+- [[https://www.lanacion.com.ar/tecnologia/nueva-filtracion-de-renaper-que-paso-esta-vez-con-la-publicacion-de-datos-de-ciudadanos-argentinos-y-nid09042024/]["Nueva filtración de Renaper: qué pasó esta vez con la publicación de datos de ciudadanos argentinos, y qué hay que hacer"]] por Julieta Schulkin, publicado en La Nación. 9 de abril del 2024.
+
+  Allí cuenta una filtración del RENAPER donde están los datos de nuestros DNI. Entre ellos, cosas que no se deben compartir: la foto y el número de trámite. Dejo para otro momento el debate de si el DNI debe tener un chip NFC.
+
 * Columna 22: ¿Qué es la nube? (cont.)
 #+html: <a id="columna-22"></a>
 
