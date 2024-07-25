@@ -38,6 +38,33 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
+* Columna 24: Obsolescencia programada
+
+1. ¿Qué es la obsolescencia programada?
+   - ¿Cuánto te dura un celular?
+   - ¿Qué pasa cuando se rompe el control remoto del tele?
+   - Fecha de vencimiento a lo que se compra, pero:
+     - Se diseña el producto para que dure poco tiempo
+     - Se rompe, se inutiliza o se torna difícil de utilizar
+     - Es necesario repararlo o comprar uno nuevo
+     - Puede suceder que los repuestos tampoco estén disponibles
+   
+2. En Hardware
+   
+3. En Software (y hardware \shrug{})
+   
+4. Digital Restriction Management (DRM)
+   Imponer restricciones que controla que se puede hacer con el software.
+   
+5. El "derecho a reparar"
+6. ¿Qué se está haciendo al respecto?
+   1. Cibercirujeo
+   2. Escuelas, universidades y personas con interés en recuperar y reciclar
+
+** Recursos
+- https://www.defectivebydesign.org/what_is_drm
+- https://www.fsf.org/campaigns/fight-to-repair
+
 * Columna 23: Reconocimiento facial
 #+html: <a id="columna-23"></a>
 
@@ -49,7 +76,6 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 Las Eigenfaces son "características que resaltan" de la foto de un rostro. Se obtienen luego de escanearlo múltiples de veces y aplicar una serie de ecuaciones y algoritmos sobre estas.
 
 [[https://commons.wikimedia.org/wiki/File:Eigenfaces.png][Foto obtenida desde WikiMedia]]
-
 ** Guion
 ¡Empecemos!
 
