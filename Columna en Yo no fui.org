@@ -50,16 +50,76 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
      - Puede suceder que los repuestos tampoco estén disponibles
    
 2. En Hardware
+
+   1. Un aparto resulta en desuso porque:
+
+      1. Se rompe,
+
+      2. No posee la misma funcionalidad,
+
+      3. Deja de estar "de moda"
+
+   2. Componentes de baja calidad o incorrectos.
+
+      Sin protecciones donde más se esfuerza (fusibles, aislantes de calor/electricidad, ventiladores, disipadores de calor, pasta térmicas, etc.)
    
 3. En Software (y hardware \shrug{})
+
+   1. El programa deja de funcionar porque:
+      1. El servidor no responde más (p. ej.: en juegos, servicios)
+      2. La empresa no brinda más soporte (p. ej.: Adobe Flash, Java Applets)
+   2. No se ofrece compatibilidad hacia atrás:
+
+      ¡me exige que deba comprar la última version del programa!
+
+   3. El mismo software se degrada:
+
+      1. Su diseño es complejo adrede (p. ej.: un programa que se rompe a sí mismo, o tarda más debido a una mala elección del algoritmo o estructura de almacenamiento).
+
+   4. Avances tecnológicos:
+
+      1. Nuevos sistemas no poseen lo necesario para ejecutar programas viejos
+
+      2. Limitado a funcionar en nuevo hardware, no ofrece opciones para desactivar características avanzadas.
+
+         Por ejemplo: una nueva versión de un videojuego que requiere cierta computadora con una placa de video determinada para emular el movimiento del agua, blur y texturas de mejor calidad.      
    
 4. Digital Restriction Management (DRM)
-   Imponer restricciones que controla que se puede hacer con el software.
+   
+   Imponer restricciones que controla que se puede hacer con el software (programa, medios digitales).
+
+   1. ¿Qué pasa si el software está diseñado para cierto hardware únicamente?
+
+      ¿No es una restricción que necesitemos cierta computadora para usar el último sistema operativo?
+      
+   2. ¿Qué pasa si el hardware solo funciona con cierto formato únicamente?
+
+      ¿Se puede usar otros formatos de audio en el auto?
    
 5. El "derecho a reparar"
+
+   Que legal y técnicamente podamos reparar los dispositivos que compramos. 
+   
+   1. ¿Qué es lo primero que genera la obsolescencia programada? \to{} ¡Basura!
+   2. ¿Qué pasaría si pudieramos reparar?
+      1. Se alarga el tiempo de uso... ¡menos basura!
+      2. ¡Se puede reutilizar componentes de dispotivos a descartar!
+   3. ¿Qué necesitamos para reparar?
+      1. Aprender, diseños, tecnología (soldadoras, etc.)
+      2. ¡Repuestos!
+      
 6. ¿Qué se está haciendo al respecto?
-   1. Cibercirujeo
+   1. [[https://cybercirujas.rebelion.digital/][Cibercirujeo]]
    2. Escuelas, universidades y personas con interés en recuperar y reciclar
+7. Preguntas
+   1. Cuando pasa cierto tiempo, y se actualiza la compu: ¿no la notás más lenta? ¿y con respecto a otras?
+   2. ¿Cuántas veces cambiaste de celular? ¿cuáles fueron las razones por que lo cambiaste?
+
+      1. Si se rompió el cristal, ¿por qué no lo cambiaste?
+      2. Si fue la batería...
+      3. Si fue porque andaba lento... ¿por qué se tornó así?
+      
+   3. ¿Has llevado a reparar tu compu? ¿tu celu? pero si ambas son computadoras, ¿por qué se diferencian tanto?
 
 ** Recursos
 - https://www.defectivebydesign.org/what_is_drm
@@ -2735,7 +2795,7 @@ El justificado completo suele dejar espacios en blanco. Esto es contraproducente
 ** Exportar fecha en español
 Es necesario utilizar un comando de Emacs específico para exportar las fechas en el formato correcto. En este caso, se utiliza =M-x my-org-export-dispatch= en vez del convencional =M-x org-export-dispatch= para preconfigurar el formato de la fecha.
 
-#+BEGIN_SRC emacs-lisp
+#+BEGIN_SRC emacs-lisp :results silent
 (defun my-org-export-dispatch ()
   "Exportar un archivo Org con la fecha en español.
 Org-mode utiliza timestamps basada en la ISO 8601, y cambiarlo para el
@@ -2751,9 +2811,6 @@ de fecha en español, y es más sencillo de leer."
         (org-display-custom-times 't))
     (org-export-dispatch)))
 #+END_SRC
-
-#+RESULTS:
-: my-org-export-dispatch
 
 ** Org-entities
 Para generar los emojis en HTML y LaTeX, se incorporan más entidades de Org-mode. Estas entidades se encuentran en mi configuración personal de Emacs, bajo la siguiente URL: [[https://gitlab.com/cnngimenez/emacs-stuff]]
