@@ -46,45 +46,66 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
    - Fecha de vencimiento a lo que se compra, pero:
      - Se diseña el producto para que dure poco tiempo
      - Se rompe, se inutiliza o se torna difícil de utilizar
+     - Deja de estar "de moda"
      - Es necesario repararlo o comprar uno nuevo
      - Puede suceder que los repuestos tampoco estén disponibles
    
-2. En Hardware
+2. ¿Cómo se presenta la obsolescencia *en Hardware*?
 
    1. Un aparto resulta en desuso porque:
 
-      1. Se rompe,
+      1. Se rompe y su reparación es costosa.
 
-      2. No posee la misma funcionalidad,
+      2. Su funcionalidad inicial se va reduciendo con el tiempo.
 
-      3. Deja de estar "de moda"
+         Por ejemplo: Botones que dejan de responder porque se gastan.
 
-   2. Componentes de baja calidad o incorrectos.
+      3. la durabilidad inicial se reduce 
+
+         Por ejemplo: La batería se carga cada vez menos en poco tiempo.
+
+      4. Deja de estar "de moda".
+
+         Por ejemplo: Salió un nuevo celular.
+
+   2. Componentes de baja calidad.
 
       Sin protecciones donde más se esfuerza (fusibles, aislantes de calor/electricidad, ventiladores, disipadores de calor, pasta térmicas, etc.)
-   
-3. En Software (y hardware \shrug{})
 
-   1. El programa deja de funcionar porque:
-      1. El servidor no responde más (p. ej.: en juegos, servicios)
-      2. La empresa no brinda más soporte (p. ej.: Adobe Flash, Java Applets)
-   2. No se ofrece compatibilidad hacia atrás:
+   3. Diseño del hardware incorrecto.
+
+      Por ejemplo: Utilizar componentes electrónicos de menor calidad, para tensión o corriente menores, cables de menor calidad, no incluir protecciones contra tensiones inesperadas, calor u otros inconvenientes.
+   
+3. ¿y *en el Software*?
+
+   Viene acompañado del hardware.
+
+   1. Un programa deja de funcionar porque:
+      
+      1. El servidor no responde más (p. ej.: en juegos, servicios).
+      2. La empresa no brinda más soporte (p. ej.: Adobe Flash, Java Applets).
+      3. Programado para dejar de funcionar o remover funcionalidad a cierto tiempo.
+         
+   2. No se ofrece *compatibilidad hacia atrás*:
 
       ¡me exige que deba comprar la última version del programa!
 
-   3. El mismo software se degrada:
+   3. Diseñado para que se degrade:
 
-      1. Su diseño es complejo adrede (p. ej.: un programa que se rompe a sí mismo, o tarda más debido a una mala elección del algoritmo o estructura de almacenamiento).
+      1. Su diseño es complejo adrede (p. ej.: un programa que posee errores o se rompe a sí mismo)
+      2. Su diseño no está pensado para la eficiencia que debe funcionar (p. ej.: tarda más debido a una elección del algoritmo o estructura de almacenamiento incorrecta).
 
-   4. Avances tecnológicos:
+   4. Avances tecnológicos
 
-      1. Nuevos sistemas no poseen lo necesario para ejecutar programas viejos
+      Empujan al usuario a adquirir un nuevo software o hardware.
+
+      1. Nuevos sistemas no poseen lo necesario (bibliotecas, hardware) para ejecutar programas viejos
 
       2. Limitado a funcionar en nuevo hardware, no ofrece opciones para desactivar características avanzadas.
 
          Por ejemplo: una nueva versión de un videojuego que requiere cierta computadora con una placa de video determinada para emular el movimiento del agua, blur y texturas de mejor calidad.      
    
-4. Digital Restriction Management (DRM)
+4. *Digital Restriction Management* (DRM)
    
    Imponer restricciones que controla que se puede hacer con el software (programa, medios digitales).
 
@@ -96,9 +117,9 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
       ¿Se puede usar otros formatos de audio en el auto?
    
-5. El "derecho a reparar"
+5. El *derecho a reparar*
 
-   Que legal y técnicamente podamos reparar los dispositivos que compramos. 
+   Que permitan legal y técnicamente reparar los dispositivos que compramos. 
    
    1. ¿Qué es lo primero que genera la obsolescencia programada? \to{} ¡Basura!
    2. ¿Qué pasaría si pudieramos reparar?
@@ -111,6 +132,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 6. ¿Qué se está haciendo al respecto?
    1. [[https://cybercirujas.rebelion.digital/][Cibercirujeo]]
    2. Escuelas, universidades y personas con interés en recuperar y reciclar
+      
 7. Preguntas
    1. Cuando pasa cierto tiempo, y se actualiza la compu: ¿no la notás más lenta? ¿y con respecto a otras?
    2. ¿Cuántas veces cambiaste de celular? ¿cuáles fueron las razones por que lo cambiaste?
@@ -121,9 +143,15 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
       
    3. ¿Has llevado a reparar tu compu? ¿tu celu? pero si ambas son computadoras, ¿por qué se diferencian tanto?
 
+      Por las dudas... ¿hacen back-up cada tanto de sus documentos importantes?
 ** Recursos
 - https://www.defectivebydesign.org/what_is_drm
 - https://www.fsf.org/campaigns/fight-to-repair
+- https://www.sciencedirect.com/topics/computer-science/planned-obsolescence
+
+  Algunos artículos que hablan de obsolescencia programada.
+  
+- https://www.bbc.com/future/article/20160612-heres-the-truth-about-the-planned-obsolescence-of-tech
 
 * Columna 23: Reconocimiento facial
 #+html: <a id="columna-23"></a>
