@@ -37,6 +37,66 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   http://creativecommons.org/licenses/by-sa/4.0/
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
+* Columna 25
+Desarrollemos un poco más [[https://radiocut.fm/radiostation/uncocalf/listen/2024/08/07/14/50/50/][de la entrevista a Beatríz Busaniche]]. Charlemos un poco algunas cosas de lo que se dijo.
+
+1. No digamos "¡Esto a mí no me va a pasar!" porque... ¡La burbuja ya usa IA!
+   1. Hoy en día, ¿el "algoritmo" no nos sugiere posts, música y videos personalizados?
+   2. Para armar la burbuja, se está usando algún programa con nuestra información \to{} ¿se estará usando IA? \shrug{}
+
+2. ¿Cómo haría el software para escanear perfiles?
+   1. Pensemos nosotros cómo haríamos para escanear perfiles manualmente \to{} ¡Stalking mode on! \facepalm{}
+   2. (Típica pregunta de informático:) ¿Se puede automatizar?
+   3. ¿Pero qué información podemos acceder?
+      1. ¿La información pública de...?
+      2. ¿Y la información privada?
+      3. Pero... ¿dimos consentimiento para todo esto?
+   4. Pero, ¿si nos darían un mayor acceso?
+      
+   Vemos que está relacionado con: *Propiedad Intelectual, Ley de datos personales y privacidad*.
+     
+3. ¿Qué pasa con las fotos? ¿se escanean también? ¿cómo?
+   1. Buscar patrones en las fotos
+   2. Una computadora, ¿piensa? ¿comprende lo que ve?
+   3. Ejemplos ejemplo...
+      
+4. 2 + 2 = 4 ... e  IP + Fotos que publicás = ¡Ya sé quien sos!
+   1. A veces un dato solo no alcanza para identificar las personas.
+   2. Pero, ¿y si juntamos dos datos? ¿alcanza?
+   3. Ver el [[https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm][Artículo 21 de la Ley 25.326]]: por eso es importante que informen cómo se asocian esos datos.
+   4. Ver [[https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32024R1689#d1e3146-1-1][Capítulo III, Artículo 5, inciso d y e]] de la Reglamento UE 2024/1686 (12/7/2024).
+      
+5. ¿Por qué no importa hacer un perfil falso?
+   Otra cosa que me dejó pensando, fue algo que dijo Beatríz, que no importa realizar perfiles falsos...
+   
+   - ¿Qué sería hacer un perfil falso?
+   - Hacer una cuenta con publicaciones propias pero con un nombre falso...
+   - Hacer una cuenta con publicaciones diversas pero con nombre falso...
+   - De cualquier modo, entrarías en una clasificación.
+6. ¿A qué se refiere que es estadístico?
+   1. Que tiene un margen de error: ¿qué pasa si se equivoca? ¿quién valida los resultados?
+   2. ¡Son solo números! ¿Quién interpreta los resultados?
+7. ¿Cómo sería utilizar la IA correctamente?
+   1. Se entrena... ¿qué información utiliza? ¿a qué datos se le indica que son correctos y cuáles no?
+   2. Se evalúa... ¿responde adecuadamente? ¿cuál es su margen de error?
+   3. Se interpreta... ¿por qué responde de tal forma? ¿por qué de otra?
+   4. ¿Dónde se usa? ¿conlleva un riesgo? ¿qué riesgo hay si responde mal?
+
+Preguntas:
+
+1. ¿Qué cosas publican? Cuando decimos "publican", ¿comprenden qué tan público es?
+2. ¿Tienen sus perfiles en privados?
+3. Me pregunto si pidieron permiso para publicar la foto donde aparece otra persona... \thinkingface{}
+
+Recursos:
+
+- [[https://www.vialibre.org.ar/][Fundación Vía Libre]] posee varios artículos y proyectos.
+- [[https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm][Ley 25.326 "Habeas Data" (Protección de datos personales)]]
+- [[https://www.argentina.gob.ar/justicia/derechofacil/leysimple/datos-personales]["Datos Personales" de Argentina.gob.ar]] ([[https://web.archive.org/web/20231206075756/https://www.argentina.gob.ar/justicia/derechofacil/leysimple/datos-personales][Versión archivada del 6 de diciembre del 2023]], no se encuentra otra reciente en The Wayback Machine).
+- Europa: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+  - Alto riesgo: párrafo 46.
+  - Ver [[https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32024R1689#d1e3146-1-1][Capítulo III, Artículo 5, inciso d y e]].
+
 
 * Columna 24: Obsolescencia programada
 
@@ -143,7 +203,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
       
    3. ¿Has llevado a reparar tu compu? ¿tu celu? pero si ambas son computadoras, ¿por qué se diferencian tanto?
 
-      Por las dudas... ¿hacen back-up cada tanto de sus documentos importantes?
+      \warning{} Por las dudas... ¿hacen back-up cada tanto de sus documentos importantes?
 ** Recursos
 - https://www.defectivebydesign.org/what_is_drm
 - https://www.fsf.org/campaigns/fight-to-repair
