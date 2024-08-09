@@ -61,10 +61,15 @@ Desarrollemos un poco más [[https://radiocut.fm/radiostation/uncocalf/listen/20
    3. Ejemplos ejemplo...
       
 4. 2 + 2 = 4 ... e  IP + Fotos que publicás = ¡Ya sé quien sos!
-   1. A veces un dato solo no alcanza para identificar las personas.
-   2. Pero, ¿y si juntamos dos datos? ¿alcanza?
-   3. Ver el [[https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm][Artículo 21 de la Ley 25.326]]: por eso es importante que informen cómo se asocian esos datos.
-   4. Ver [[https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32024R1689#d1e3146-1-1][Capítulo III, Artículo 5, inciso d y e]] de la Reglamento UE 2024/1686 (12/7/2024).
+   a. A veces un dato solo no alcanza para identificar las personas.
+   b. Pero, ¿y si juntamos dos datos? ¿alcanza?
+   c. Ver el [[https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm][Artículo 21, inciso f de la Ley 25.326]]: por eso es importante que informen cómo se asocian esos datos.
+   d. Ver [[https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32024R1689#d1e38-127-1][Reglamento UE 2024/1686 (12/7/2024)]].
+     
+      - Capítulo II, Artículo 5, inciso d (perfil y delitos), e (reconocimiento facial) y f (emociones)
+
+      - Anexo III: Biometría, Infraestructuras críticas (incluye el gas, agua y luz), educación y distribución de personas.
+
       
 5. ¿Por qué no importa hacer un perfil falso?
    Otra cosa que me dejó pensando, fue algo que dijo Beatríz, que no importa realizar perfiles falsos...
