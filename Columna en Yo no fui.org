@@ -37,6 +37,95 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   http://creativecommons.org/licenses/by-sa/4.0/
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
+* Columna 26 - Firmas Digitales
+1. ¿Cómo harían para hacer un vale por una docena facturas en un papel?
+   1. Primero escribimos el texto "A quién corresponda. Por la presente, quien posea este vale le corresponde una docena de facturas."
+   2. Ahora, fecha de validez y quién lo emite. "El presente vale, solo puede ser canjeado desde el 6 de septiembre del 2024 hasta 6 de octubre del 2024 inclusive. Atte. Meteoro, Virginia y Bomba."
+   3. Y ahora, ¿qué hacemos? ¿lo entregamos?
+2. ¿Pero y en la compu? \to hacemos un archivo, escribimos lo mismo y...
+   1. Y ahora, ¿enviamos el archivo?
+   2. ¿Qué pasa si se copia? ¿se puede cambiar la fecha o una docena por dos?
+   3. ¿Cómo evitamos que se modifique? 
+3. Le incluimos una foto de una firma
+   1. Ahora, ¿se puede copiar? ¿evitamos que se modifique?
+   2. ¿Qué pasa si se edita la imágen?
+4. ¿Y si usamos una Firma Digital?
+   1. ¿Qué es una firma digital?
+   2. Informal: es un dato agregado que permite verificar la autenticidad del documento.      
+5. ¿Cómo hacemos para saber si el vale cambió?
+   1. Esto se llama *integridad*
+   2. Hay dos fórmulas matemáticas:
+      1. Una que recibe un mensaje y nos retorna un valor "único" para ese mensaje.
+      2. Otra que dado un valor y un mensaje, nos retorna si es correcto o no.
+6. ¿Cómo hacemos para saber que la firma es realmente de quien dice ser?
+
+   Básicamente, que otra persona haya firmado el vale por Mete.
+   
+   1. Esto se llama *autenticidad*.
+         
+   2. Se suma una clave secreta y una clave pública. La clave secreta solo lo tiene una persona y la pública puede verla todo el mundo. Así, las dos fórmulas serían:
+      1. mensaje + clave secreta \to valor "único" para ese menasje
+      2. mensaje + clave pública + valor \to si es correcta o no.
+
+   3. En otro momento hablaremos de las claves públicas y privadas (cifrado asimétrico) y la revolución que esto generó.
+
+7. ¿Cómo hacemos para que Mete no me diga "yo no fui, yo no lo firmé"?
+
+   1. la clave secreta y la clave pública están relacionadas.
+
+   2. Si puedo autenticar que mensaje + clave pública + valor es correcta, ya es suficiente para indicar que en algún momento se utilizó la clave secreta... ¿y quién tiene la clave secreta?
+      
+8. En resumen.. ¿Para qué sirve una firma digital?
+   1. Integridad
+   2. Autenticidad
+   3. No repudio
+
+9. Consejos:
+   1. Por las dudas, aclaramos de nuevo: no, la firma digital *no es tu firma en papel escaneada*.
+   2. Las firmas digitales se tramitan en entidades registradas (en Argentina, se llaman "Autoridad de Registro", puede ser un banco, correo, universidad, municipio, etc.). [[https://firmar.gob.ar/RA/info][Listado aquí.]]
+   3. Si no estamos seguras/os *cómo se utiliza y se preserva* la firma digital, ¡consultemos antes de tramitarla!
+      1. Hay varias etapas: primero para tramitar y obtener la firma, segundo usar la firma para firmar documentos, tres validar tus documentos firmados y de los otros.
+   4. Al *tramitar una firma digital*, pueden darnos una contraseña, un archivo con la clave privada o un dispositivo (parecido a un pendrive).
+      1. En Argentina hay dos opciones: por hardware con token o remota sin token.
+      2. Por "hardware con token", se puede firmar cualquier archivos. Pero, para usarla, requiere un programa de terceros y un dispositivo (por lo que indica la página, debemos comprarlo).
+      3. Por "remota sin token", solo se puede firmar PDF. Debemos entrar a una página, iniciar sesión y subir el PDF a firmar.
+   5. Nunca, jamás, damos nuestra contraseña para firmar digitalmente, compartimos la clave secreta, token o el dispositivo que nos entregan con la firma digital.
+
+      Una vez que nos entregan la contraseña o el hardware token, somos completamente responsables de su uso y cuidado. 
+      
+   6. Si perdemos la contraseña, cambiemos por una nueva inmediatamente. Si perdemos el dispositivo, ¡es muy importante denunciarlo cuanto antes! Cualquier eventual, es importante consultar y denunciar cualquier irregularidad.
+
+Bibliografía
+
+- [[https://www.argentina.gob.ar/servicio/solicitar-certificado-de-firma-digital-por-hardware-token][Solicitar firma digital por hardware con token]]
+- [[https://www.argentina.gob.ar/servicio/solicitar-firma-digital-remota-sin-token][Solicitar firma digital remota sin token]]
+
+
+# 4. ¿Y si lo Firmamos Digitalmente?
+
+#    ¿Pero qué es?
+   
+#    Un poco informal: Una secuencia de letras y números que es "única" para un mensaje determinado.
+
+# 5. ¿Secuencia de letras y números "única"?
+   
+#    Hablemos de qué es un hash:
+   
+#    1. Una fórmula matemática que recibe un mensaje y devuelve una  secuencia de letras y números que aparenta ser "única" para ese mensaje.
+#    2. Más otra fórmula matemática que recibe esa secuencia de letras y números y el mensaje, y te indica que es correcta o no.
+
+#    Un hash, para que sea útil, debe cumplir algunas propiedades que no voy a mencionar.
+
+# 6. Entonces, ¡utilizamos un hash para el vale!
+
+#    1. Ahora sí, puedo chequear si se cambió...
+#    2. Pero... Qué pasa si cuando lo quiero canjear, ¿Mete me dice que él no lo firmó?
+
+# 7. Entonces, necesitamos una fórmula matemática que:
+
+#    Un número secreto 
+
+
 * Columna 25
 Desarrollemos un poco más [[https://radiocut.fm/radiostation/uncocalf/listen/2024/08/07/14/50/50/][de la entrevista a Beatríz Busaniche]]. Charlemos un poco algunas cosas de lo que se dijo.
 
