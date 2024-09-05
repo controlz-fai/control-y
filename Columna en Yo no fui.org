@@ -38,6 +38,8 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 * Columna 26 - Firmas Digitales
+#+html: <a id="columna-26"></a>
+
 1. ¿Cómo harían para hacer un vale por una docena facturas en un papel?
    1. Primero escribimos el texto "A quién corresponda. Por la presente, quien posea este vale le corresponde una docena de facturas."
    2. Ahora, fecha de validez y quién lo emite. "El presente vale, solo puede ser canjeado desde el 6 de septiembre del 2024 hasta 6 de octubre del 2024 inclusive. Atte. Meteoro, Virginia y Bomba."
@@ -52,7 +54,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 4. ¿Y si usamos una Firma Digital?
    1. ¿Qué es una firma digital?
    2. Informal: es un dato agregado que permite verificar la autenticidad del documento.      
-5. ¿Cómo hacemos para saber si el vale cambió?
+5. ¿Cómo hacemos para saber si el vale cambió? (*integridad*)
    1. Esto se llama *integridad*
    2. Hay dos fórmulas matemáticas:
       1. Una que recibe un mensaje y nos retorna un valor "único" para ese mensaje.
@@ -69,31 +71,39 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
    3. En otro momento hablaremos de las claves públicas y privadas (cifrado asimétrico) y la revolución que esto generó.
 
-7. ¿Cómo hacemos para que Mete no me diga "yo no fui, yo no lo firmé"?
+7. ¿Cómo hacemos para que Mete no me diga "yo no fui, yo no lo firmé"? (*no repudio*)
 
    1. la clave secreta y la clave pública están relacionadas.
 
    2. Si puedo autenticar que mensaje + clave pública + valor es correcta, ya es suficiente para indicar que en algún momento se utilizó la clave secreta... ¿y quién tiene la clave secreta?
+
+8. ¿Qué pasa si se *copia*? (double-spending problem)
+
+   Ops... \facepalm... ¡lamentablemente no podemos evitar que lo copien!
+
+   Se podría usar un mecanismo diferente: Incluir en el texto un número por cada vale, y cuando se canjea, Mete guarda el número en una planilla propia.
+
+   ¿Y si pensamos en un contrato o un documento público? \partypopper{} ¡No nos molesta que se copie! \partypopper{}  
       
-8. En resumen.. ¿Para qué sirve una firma digital?
+9. En resumen.. ¿Para qué sirve una firma digital?
    1. Integridad
    2. Autenticidad
    3. No repudio
 
-9. Consejos:
-   1. Por las dudas, aclaramos de nuevo: no, la firma digital *no es tu firma en papel escaneada*.
-   2. Las firmas digitales se tramitan en entidades registradas (en Argentina, se llaman "Autoridad de Registro", puede ser un banco, correo, universidad, municipio, etc.). [[https://firmar.gob.ar/RA/info][Listado aquí.]]
-   3. Si no estamos seguras/os *cómo se utiliza y se preserva* la firma digital, ¡consultemos antes de tramitarla!
-      1. Hay varias etapas: primero para tramitar y obtener la firma, segundo usar la firma para firmar documentos, tres validar tus documentos firmados y de los otros.
-   4. Al *tramitar una firma digital*, pueden darnos una contraseña, un archivo con la clave privada o un dispositivo (parecido a un pendrive).
-      1. En Argentina hay dos opciones: por hardware con token o remota sin token.
-      2. Por "hardware con token", se puede firmar cualquier archivos. Pero, para usarla, requiere un programa de terceros y un dispositivo (por lo que indica la página, debemos comprarlo).
-      3. Por "remota sin token", solo se puede firmar PDF. Debemos entrar a una página, iniciar sesión y subir el PDF a firmar.
-   5. Nunca, jamás, damos nuestra contraseña para firmar digitalmente, compartimos la clave secreta, token o el dispositivo que nos entregan con la firma digital.
+10. Consejos:
+    1. Por las dudas, aclaramos de nuevo: no, la firma digital *no es tu firma en papel escaneada*.
+    2. Las firmas digitales se tramitan en entidades registradas (en Argentina, se llaman "Autoridad de Registro", puede ser un banco, correo, universidad, municipio, etc.). [[https://firmar.gob.ar/RA/info][Listado aquí.]]
+    3. Si no estamos seguras/os *cómo se utiliza y se preserva* la firma digital, ¡consultemos antes de tramitarla!
+       1. Hay varias etapas: primero para tramitar y obtener la firma, segundo usar la firma para firmar documentos, tres validar tus documentos firmados y de los otros.
+    4. Al *tramitar una firma digital*, pueden darnos una contraseña, un archivo con la clave privada o un dispositivo (parecido a un pendrive).
+       1. En Argentina hay dos opciones: por hardware con token o remota sin token.
+       2. Por "hardware con token", se puede firmar cualquier archivos. Pero, para usarla, requiere un programa de terceros y un dispositivo (por lo que indica la página, debemos comprarlo).
+       3. Por "remota sin token", solo se puede firmar PDF. Debemos entrar a una página, iniciar sesión y subir el PDF a firmar.
+    5. Nunca, jamás, damos nuestra contraseña para firmar digitalmente, compartimos la clave secreta, token o el dispositivo que nos entregan con la firma digital.
 
-      Una vez que nos entregan la contraseña o el hardware token, somos completamente responsables de su uso y cuidado. 
+       Una vez que nos entregan la contraseña o el hardware token, somos completamente responsables de su uso y cuidado. 
       
-   6. Si perdemos la contraseña, cambiemos por una nueva inmediatamente. Si perdemos el dispositivo, ¡es muy importante denunciarlo cuanto antes! Cualquier eventual, es importante consultar y denunciar cualquier irregularidad.
+    6. Si perdemos la contraseña, cambiemos por una nueva inmediatamente. Si perdemos el dispositivo, ¡es muy importante denunciarlo cuanto antes! Cualquier eventual, es importante consultar y denunciar cualquier irregularidad.
 
 Bibliografía
 
