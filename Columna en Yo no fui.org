@@ -37,8 +37,10 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   http://creativecommons.org/licenses/by-sa/4.0/
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
-* Columna 26 - Firmas Digitales
+* Columna 26: Firmas Digitales
 #+html: <a id="columna-26"></a>
+
+\radio{} Emisión al aire: [2024-09-06 vie]
 
 1. ¿Cómo harían para hacer un vale por una docena facturas en un papel?
    1. Primero escribimos el texto "A quién corresponda. Por la presente, quien posea este vale le corresponde una docena de facturas."
@@ -136,7 +138,13 @@ Bibliografía
 #    Un número secreto 
 
 
-* Columna 25
+* Columna 25: IA y entrevista de Beatriz
+#+html: <a id="columna-25"></a>
+
+\radio Emisión al aire: [2024-08-09 vie 16:00]
+
+\headphone{} [[https://radiocut.fm/radiostation/uncocalf/listen/2024/08/09/16/00/00/][Escuchar en RadioCut]]
+
 Desarrollemos un poco más [[https://radiocut.fm/radiostation/uncocalf/listen/2024/08/07/14/50/50/][de la entrevista a Beatríz Busaniche]]. Charlemos un poco algunas cosas de lo que se dijo.
 
 1. No digamos "¡Esto a mí no me va a pasar!" porque... ¡La burbuja ya usa IA!
@@ -203,6 +211,11 @@ Recursos:
 
 
 * Columna 24: Obsolescencia programada
+#+html: <a id="columna-24"></a>
+
+\radio Emisión al aire: [2024-07-26 vie]
+
+\headphone{} [[https://radiocut.fm/radiostation/uncocalf/listen/2024/07/26/15/45/15/][Escuchar en RadioCut]]
 
 1. ¿Qué es la obsolescencia programada?
    - ¿Cuánto te dura un celular?
