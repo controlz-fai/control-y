@@ -37,6 +37,91 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   http://creativecommons.org/licenses/by-sa/4.0/
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
+* Columna 27: Charlemos de informática
+#+html: <a id="columna-27"></a>
+
+\radio{} Emisión al aire: <2024-09-20 vie>
+
+Hoy hacemos un repaso de la columna, y también de algunas noticias que se me vienen escapando...
+
+- [[https://www.bbc.com/mundo/articles/cx20l70yrn2o][""Un ataque sin precedentes": cómo ocurrieron las explosiones de beepers y walkie-talkies que han dejado decenas de muertos y miles de heridos en Líbano"]] artículo de la BBC News del 18 de septiembre del 2024.
+  
+- [[https://elpais.com/america/2024-08-30/un-juez-del-supremo-de-brasil-ordena-el-cierre-inmediato-de-x-por-negarse-a-bloquear-varias-cuentas.html]["Brasil ordena cerrar X ante la negativa de Elon Musk a bloquear perfiles por orden del juez"]] artículo de El País del 30 de agosto del 2024.
+
+  No es el primer intento de Brasil de bloquear una plataforma digital. Hay otro:
+  
+- [[https://elpais.com/internacional/2023-04-26/la-justicia-brasilena-ordena-la-suspension-temporal-de-telegram-en-el-pais.html]["Un juez ordena bloquear Telegram en Brasil por no colaborar en una investigación contra grupos neonazis"]] artículo de El País del 26 de abril del 2023.  
+
+- [[https://www.cronista.com/espana/pc-movil/espana-le-prohibe-a-meta-su-nueva-actualizacion-con-funciones-electorales-esto-respondio-la-empresa/]["España le prohíbe a Meta su nueva actualización con funciones electorales y esta fue la sorpresiva respuesta de la empresa"]] artículo de El Cronista del 31 de mayo del 2024. 
+  
+- [[https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai][AI Act]]. Comisión Europea.
+
+  ¿Se acuerdan de un episodio anterior, donde hablamos de IA?
+
+¡Se viene la evaluación! ¡A hacer memoria de los programas anteriores! jaja.
+
+1. Cuando leyeron el titular, ¿qué impresiones tuvieron al comienzo? ¿por qué? ¿qué significan?
+
+   Opciones:
+   
+   1. "Uff, computadoras... no me interesa/es muy difícil"
+   2. "¿qué es un... biiii-per?"
+   3. "¡Sabía que Telegram/X/el juez son unos ambiciosos sin escrúpulos!" (o una expresión similar pero dicha muy vulgarmente...)
+   4. "¡Qué avanzada la gente de Europa!" o "¡Qué atrasados estamos!"
+   5. Nunca leí esas noticias o artículos.
+
+2. ¿Qué tiene de relación entre estos artículos?
+   1. ¿Qué conocimiento se requieren para comprenderlos a fondo?
+      - El artículo menciona que los beepers y walkie-talkies tuvieron que ser alterados accediendo al dispositivo.
+
+        ¿Cuándo se dieron cuenta de esa observación? ¿dedujeron la justificación?
+
+      - Para armar un reglamento para IA, ¿qué conocimientos les parece que hace falta? ¿alcanza con haberla usado un par de veces? ¿a quiénes consultarían para que les asesore?
+
+      - Para aplicar lo que dice el juez, ¿qué hace falta? ¿quiénes deben llevarlo a cabo?
+        
+      - Palabras claves: *dependencia tecnológica*.
+        
+   2. ¿Pudieron determinar responsabilidades?
+
+      - Vieron que tuvieron que bloquear Telegram y X en Brasil, "culpa de las redes sociales"... ¿o no?
+      - La red social X funciona gracias a programas. Esos programas fueron construidos por personas... Entonces, ¿los programas son neutrales?
+      - Palabras claves: *"Neutralidad" tecnológica*.
+        
+   3. ¿Es necesario gente especializada para tomar esas decisiones o llevar a cabo los hechos que indican en las noticias? ¿es necesario personas especializadas para evitar y contrarrestar los riesgos y problemas?
+   4. ¿Es necesario cierto nivel de tecnología y herramientas? ¿cómo se utilizaron las tecnologías para llegar a estas noticias/leyes?
+   5. ¿Contemplamos algo de estas cosas en nuestras leyes? ¿tenemos conocimiento y personal trabajando en leyes y convenios internacionales?
+      - ¿Hay entidades que se dedican a planificar estándares y normas?
+      - ¿Hay personas o organismos que toman decisiones? ¿cuáles? ¿y en el exterior?
+      - Palabras claves: *Gobernanza digital*.
+3. De las cosas que hemos charlado en la columna, ¿recordaron algunas cosas mientras debatíamos de los artículos?
+   # - Gobernanza digital
+   # - "Neutralidad" tecnológica
+   # - Dependencia tecnológica / soberanía digital
+   # - Necesidad de conocer y aprender => universidades, escuelas, talleres => control y manipulación de la tecnología => especialización => desarrollar más tecnología => enseñar nueva tecnología
+   - Dependencia tecnológica :: Hablamos de la nube, ARSAT, ¿se acuerdan de "IBM go home"?
+   - "Neutralidad" tecnológica :: Hablamos de la dark net y dark Web, virus y antivirus, redes sociales, filtro burbuja y cámara de eco, etc.
+   - Gobernanza digital :: No hablamos mucho de los estándares, organizaciones internacionales que gestionan el Intenet, cómo se deciden los nombres de dominio, entre otros... ¿verdad?
+
+     [[https://www.intgovforum.org/en/tags/about][Internet Gobernance Forum (IGF)]], [[https://www.ietf.org/][Internet Engineering Task Force (IETF)]], [[https://www.w3.org/][World Wide Web Consortium (W3C)]], [[https://www.iana.org/][Internet Assigned Numbers Authority (IANA)]], [[https://icann.org/][Internet Corporation for Assigned Names and Numbers (ICANN)]]. 
+
+     Nacional: [[https://nic.ar/es/nic-argentina/acerca_de_nosotros][Dirección Nacional del Registro de Dominios de Internet (NIC Argentina)]]
+
+   - Seguro hay más palabras y conceptos claves... Pero por hoy, con estos alcanzan.
+
+4. ¿Qué podemos hacer?
+   1. La tecnología se mueve a velocidades muy rápidas...
+      1. Entonces... ¿vale la pena ponernos al día?
+      2. ¡Pero las terminamos usando!
+      3. ¡¡¡Jóvenes utilizan las tecnologías!!! \to{} ¡Debemos aprender de forma obligada!
+   2. ¿Aprender informática? \to{} ¡Informarse!
+   3. ¡Pero es difícil!... en realidad, es conocimiento que se acumula para más conocimiento...
+5. Algunas preguntitas... \thinkingface{}
+   1. ¿Solo alcanza con tener y usar las tecnologías?
+      1. ¿Serviría una inversión en comprar una tecnología solamente?
+   2. ¿Quiénes participan en facilitarnos las tecnologías? ¿el vendedor? ¿quién nos enseña a usarlas? ¿quién controla su buen uso? ¿quién las repara y las mantiene en funcionamiento?
+   3. ¿Son preguntones? ¿Se han hecho preguntas como las que hicimos en esta columna? Si no... ¡vamos! ¡háganse preguntas!
+   
 * Columna 26: Firmas Digitales
 #+html: <a id="columna-26"></a>
 
