@@ -44,7 +44,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
 Hoy hacemos un repaso de la columna, y también de algunas noticias que se me vienen escapando...
 
-- [[https://www.bbc.com/mundo/articles/cx20l70yrn2o][""Un ataque sin precedentes": cómo ocurrieron las explosiones de beepers y walkie-talkies que han dejado decenas de muertos y miles de heridos en Líbano"]] artículo de la BBC News del 18 de septiembre del 2024.
+- [[https://www.bbc.com/mundo/articles/cx20l70yrn2o][" 'Un ataque sin precedentes': cómo ocurrieron las explosiones de beepers y walkie-talkies que han dejado decenas de muertos y miles de heridos en Líbano"]] artículo de la BBC News del 18 de septiembre del 2024.
   
 - [[https://elpais.com/america/2024-08-30/un-juez-del-supremo-de-brasil-ordena-el-cierre-inmediato-de-x-por-negarse-a-bloquear-varias-cuentas.html]["Brasil ordena cerrar X ante la negativa de Elon Musk a bloquear perfiles por orden del juez"]] artículo de El País del 30 de agosto del 2024.
 
@@ -62,7 +62,7 @@ Hoy hacemos un repaso de la columna, y también de algunas noticias que se me vi
 
 1. Cuando leyeron el titular, ¿qué impresiones tuvieron al comienzo? ¿por qué? ¿qué significan?
 
-   Opciones:
+   Unas posibles opciones:
    
    1. "Uff, computadoras... no me interesa/es muy difícil"
    2. "¿qué es un... biiii-per?"
@@ -86,26 +86,30 @@ Hoy hacemos un repaso de la columna, y también de algunas noticias que se me vi
 
       - Vieron que tuvieron que bloquear Telegram y X en Brasil, "culpa de las redes sociales"... ¿o no?
       - La red social X funciona gracias a programas. Esos programas fueron construidos por personas... Entonces, ¿los programas son neutrales?
-      - Palabras claves: *"Neutralidad" tecnológica*.
+      - Palabras claves: *"neutralidad" tecnológica*.
         
    3. ¿Es necesario gente especializada para tomar esas decisiones o llevar a cabo los hechos que indican en las noticias? ¿es necesario personas especializadas para evitar y contrarrestar los riesgos y problemas?
    4. ¿Es necesario cierto nivel de tecnología y herramientas? ¿cómo se utilizaron las tecnologías para llegar a estas noticias/leyes?
    5. ¿Contemplamos algo de estas cosas en nuestras leyes? ¿tenemos conocimiento y personal trabajando en leyes y convenios internacionales?
       - ¿Hay entidades que se dedican a planificar estándares y normas?
       - ¿Hay personas o organismos que toman decisiones? ¿cuáles? ¿y en el exterior?
-      - Palabras claves: *Gobernanza digital*.
+      - Palabras claves: *gobernanza digital*.
 3. De las cosas que hemos charlado en la columna, ¿recordaron algunas cosas mientras debatíamos de los artículos?
    # - Gobernanza digital
    # - "Neutralidad" tecnológica
    # - Dependencia tecnológica / soberanía digital
    # - Necesidad de conocer y aprender => universidades, escuelas, talleres => control y manipulación de la tecnología => especialización => desarrollar más tecnología => enseñar nueva tecnología
-   - Dependencia tecnológica :: Hablamos de la nube, ARSAT, ¿se acuerdan de "IBM go home"?
-   - "Neutralidad" tecnológica :: Hablamos de la dark net y dark Web, virus y antivirus, redes sociales, filtro burbuja y cámara de eco, etc.
-   - Gobernanza digital :: No hablamos mucho de los estándares, organizaciones internacionales que gestionan el Intenet, cómo se deciden los nombres de dominio, entre otros... ¿verdad?
+   - Dependencia tecnológica: hablamos de la nube, ARSAT, ¿se acuerdan de "IBM go home"?
+   - "Neutralidad" tecnológica: hablamos de la dark net y dark Web, virus y antivirus, redes sociales, filtro burbuja y cámara de eco, etc.
+   - Gobernanza digital: no hablamos mucho de los estándares, organizaciones internacionales que gestionan el Intenet, cómo se deciden los nombres de dominio, entre otros... ¿verdad?
+
+     ¿Conocen algunos de estas organizaciones?
 
      [[https://www.intgovforum.org/en/tags/about][Internet Gobernance Forum (IGF)]], [[https://www.ietf.org/][Internet Engineering Task Force (IETF)]], [[https://www.w3.org/][World Wide Web Consortium (W3C)]], [[https://www.iana.org/][Internet Assigned Numbers Authority (IANA)]], [[https://icann.org/][Internet Corporation for Assigned Names and Numbers (ICANN)]]. 
 
-     Nacional: [[https://nic.ar/es/nic-argentina/acerca_de_nosotros][Dirección Nacional del Registro de Dominios de Internet (NIC Argentina)]]
+     Nacional:
+     
+     [[https://nic.ar/es/nic-argentina/acerca_de_nosotros][Dirección Nacional del Registro de Dominios de Internet (NIC Argentina)]]
 
    - Seguro hay más palabras y conceptos claves... Pero por hoy, con estos alcanzan.
 
