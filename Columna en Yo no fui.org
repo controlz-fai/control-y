@@ -37,6 +37,80 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   http://creativecommons.org/licenses/by-sa/4.0/
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
+* Columna 28: Gobernanza informática y mitos de la informática
+
+
+
+1. Me quedó pendiente de la columna anterior: Gobernanza digital. ¿Un repaso?
+   
+   1. Hablamos de la importancia de aprender informática para entender las noticias y lo que nos sucede.
+   2. Palabras claves que dijimos: "*dependencia tecnológica*", "*neutralidad tecnológica*".
+   3. La importancia de aprender y de que la sociedad pueda generar profesiones.
+   4. Aclaramos que la adiquisición de tecnologías no es suficiente: necesitamos el conocimiento de usarla como se debe y para debatir su uso.
+      
+2. Hablemos un poquito de de *Gobernanza Digital*. ¿Conocen alguna de estas organizaciones?
+
+   [[https://www.intgovforum.org/en/tags/about][Internet Gobernance Forum (IGF)]], [[https://www.ietf.org/][Internet Engineering Task Force (IETF)]], [[https://www.w3.org/][World Wide Web Consortium (W3C)]], [[https://www.iana.org/][Internet Assigned Numbers Authority (IANA)]], [[https://icann.org/][Internet Corporation for Assigned Names and Numbers (ICANN)]]. 
+
+   Nacional:
+     
+   [[https://nic.ar/es/nic-argentina/acerca_de_nosotros][Dirección Nacional del Registro de Dominios de Internet (NIC Argentina)]]
+
+   1. ¿Qué hacen? ¿son importantes?
+
+      La IETF y W3C toman decisiones en cuanto a cómo se implementa y cuál es el objetivo del Internet. Si se utiliza alguna tecnología, si se puede incluir algún material en una página, de qué formato, accesible o no, etc.
+
+      Ej.: dicidieron cómo es el formato y cómo funciona el correo electrónico.
+
+   2. ¿Argentina participa? ¿tenemos representantes o participantes de nuestro país?
+
+      https://datatracker.ietf.org/stats/meeting/105/country/
+
+      Sí, 3 en la IETF \shrug{} vs 5 de Brasil, 91 Canada, 94 China, 227 UE, 55 Japón, 511 Estados Unidos...
+
+   # 3. Un ejemplo sencillo: el emoji del mate.
+
+   #    https://emojipedia.org/unicode-12.0
+
+   #    Unicode 1.0 es del 2015... Unicode 12 es del 2019...
+
+3. ¿Qué sucede más acá?: decisiones decisiones...
+
+   1. ¿Se acuerdan de la [[https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai][AI Act]] de la comisión Europea? ¿quiénes armaron la IA Act?
+
+      Si acá en latinoamérica decidieran hacer una IA Act, o si en Argentina lo hicieran, ¿quiénes participarían? ¿qué clase de formación necesitarían?
+
+      [[https://www.ciecti.org.ar/declaracion-de-montevideo-sobre-inteligencia-artificial-y-su-impacto-en-america-latina%EF%BF%BC/][Declaración de Montevideo]]
+
+4. ¿Cómo nos afecta si no tenemos representantes formados?
+
+   - Dependencia tecnológica
+   - "Neutralidad" tecnológica y de la red
+   
+
+Mitos y verdades:
+
+- "Adiós Meta AI. Tenga en cuenta que un abogado nos ha aconsejado poner esto en nuestro perfil si no lo hacemos, puede tener consecuencias legales. Como Meta es ahora una entidad pública, todos los miembros deben publicar una declaración similar. Si no publicas al menos una vez, se asumirá que eres okay con ellos usando tu información y fotos. No doy permiso a Meta ni a nadie más para usar ninguno de mis datos personales, información de perfil o fotos.
+
+  NO DOY PERMISO"
+- "Si no reenviás a 10 contactos tendrás [inserte algo malo aquí]"... corten las cadenas, son bromas, falsedades y desinforman.
+
+  [[https://chequeado.com/search/cadena?select-year%5B%5D=2024&hidden-s=cadena&hidden-current-page=1][Muchas cadenas en chequeado.com]].
+   
+- "Un buen hackers entra a tu computadora de afuera, desde su casa o desde la calle, cuando tiene gana y sin preparación alguna."... ¡No vivimos en una película de Holliwood!
+  
+- Todos los que estudian o estudiaron algo de computadoras saben reparar impresoras...
+
+  Si desean evitar la ira de los desarrolladores, administradores e informáticas/os en general, mejor pregúntenle si conocen a una persona que repare impresoras, ¡antes de pedirles directamente que las reparen!
+
+  Existen varias carreras de pregrado, grado y posgrado, si bien tienen muchos conocimientos en común, no siempre es la reparación el fin de esos conocimientos. También, tienen orientaciones específicas. licenciaturas en ciencias de la computación, licenciaturas en sistemas informáticos, ingenierías en sistemas, analistas de sistemas, etc.
+
+  También, existen muchas especialidades en la informática y la computación: desarrolladores de software, administradores de servidores, diseñadores gráficos, gestores que se especializan en cierto tipo de software, reparadores de PC, reparadores de celulares, desarrolladores de videojuegos (y sus muchas sub-especialidades), analistas y diseñadores de software, desarroladores Web de frontend y de backend (y full-stack), diseñadores de bases de datos, y muchas otras más...
+  
+- El modo incógnito de los exploradores Webs... no, ¡no te convierte en anónimo!
+- "Tu compu está lenta... entonces tiene virus"
+
+
 * Columna 27: Charlemos de informática
 #+html: <a id="columna-27"></a>
 
@@ -3087,7 +3161,7 @@ El justificado completo suele dejar espacios en blanco. Esto es contraproducente
 
 
 ** Exportar fecha en español
-Es necesario utilizar un comando de Emacs específico para exportar las fechas en el formato correcto. En este caso, se utiliza =M-x my-org-export-dispatch= en vez del convencional =M-x org-export-dispatch= para preconfigurar el formato de la fecha.
+Es necesario utilizar un comando de Emacs específico para exportar las fechas en el formato correcto. En este caso, se utilpreconfigurar el formato de la fecha.
 
 #+BEGIN_SRC emacs-lisp :results silent
 (defun my-org-export-dispatch ()
