@@ -38,6 +38,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 * Columna 29: Más mitos de la informática
+#+html: <a id="columna-29"></a>
 
 - /Cualquier hacker puede decir: "Dame un minuto para entrar en la NASA y te muevo el telescopio Hubble para... [inserte su justificación aquí]"/
 
@@ -112,8 +113,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
 
 * Columna 28: Gobernanza informática y mitos de la informática
-
-
+#+html: <a id="columna-28"></a>
 
 1. Me quedó pendiente de la columna anterior: Gobernanza digital. ¿Un repaso?
    
