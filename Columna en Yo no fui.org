@@ -37,6 +37,80 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   http://creativecommons.org/licenses/by-sa/4.0/
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
+* Columna 29: Más mitos de la informática
+
+- /Cualquier hacker puede decir: "Dame un minuto para entrar en la NASA y te muevo el telescopio Hubble para... [inserte su justificación aquí]"/
+
+  - Primero: no se llaman "hackers". Ver [[http://www.catb.org/jargon/html/meaning-of-hack.html][The meaning of "hack" - The Jargon File.]]
+  - Segundo: no es fácil de acceder remotamente a una computadora sin la autenticación ni la autorización adecuada.
+    
+- /Para arreglar la compu tenés que reinstalar el sistema operativo./
+  
+  - No es necesariamente así, pero a veces, si es el software falla, es la solución más sencilla y efectiva.
+  - Lleva muchísimo tiempo buscar la causa del problema y arreglarla
+
+    Cuando decimos "muchísimo", nos referimos desde horas a días... 
+    
+    - Es necesario conocer el sistema completo y cada componente para hacerlo.
+    - Debemos contestar si: ¿habrá sido un programa o fue algo que el/la usuaria hizo para causar el problema?
+      - Recordemos que es normal que las cuentas sean administradoras en compus personales.
+  - La persona que se dedica a reparar, tiene conocimientos de hardware y software, más su propia experiencia.
+    - A veces, sus vivencias le ayuda a detectar el problema y repararlo.
+      
+  - Recomendamos:
+
+    - Llevar la compu y el celular a una persona de confianza, porque nuestros datos y nuestra vida privada están en ese dispositivo.
+    - Hacer copias de seguridad cada tanto (¿una semana? ¿un mes?) para mitigar la pérdida de información.
+    - Comentar a quien repara qué es lo que pasa con el mayor detalle posible. Sirve sacar una foto o una captura de pantalla cuando sucede el problema. 
+    - Preguntar sin miedo y consultar cualquier duda que se tenga.
+
+    
+- /¿Me arreglás la impresora?/ / /¿Me arreglás la compu?/
+
+  Ojo con pedirle a una persona que sabe de informática esto... ¡no necesariamente sabe arreglarlas!
+
+  Hay ocupaciones que se especializan en algo más tendiente al software (programación, diseño gráfico, desarrollo Web, desarrollo de bases de datos), y no tanto al hardware.
+
+- /En Linux y Mac no hay virus./
+  
+  Sí hay virus. Pero se encuentran mucho menos que en Windows.
+  
+  - La diferencia es en Windows, hay una mezcla de justificaciones de por qué hay más virus:
+    - ¿Cuánta gente utiliza Windows?
+    - ¿Configuraron alguna vez el usuario y la clave o son administradores?
+    - Decisiones de diseño diferentes:
+      - Deberían utilizar una cuenta no administradora.
+      - ¿Se acuerdan del autorun?
+      - ¿Swap en el sistema?
+    - El control total del sistema es más difícil:
+      - Hay que hacer ingeniería inversa para conocer cómo está hecho efectivamente: ¿estará permitido hacer eso?
+      - No podemos modificar el sistema para que se adecúe a lo que queremos.
+      - Entonces, es más difícil que gente interesada ayude colaborativamente a mejorar el sistema o crear herramientas para controlarlo.
+
+- /El modo incógnito de los exploradores Webs te hacen invisible en Internet./
+  
+  - No, solo borra el historial, las cookies (y las sesiones), la caché (imágenes, fuentes, videos y páginas descargadas para ahorrar tiempo). No anonimiza la visita al sitio Web.
+  
+- /Sacar el pendrive sin expulsarlo desde el sistema operativo borra su contenido./
+  - No necesariamente.
+  - 
+- /Es necesario desfragmentar el disco duro cada tanto./
+  
+  - Un archivo muy grande se fragmenta para guardarse: se separa en pedazos y se guarda en el primer espacio en blanco más cercano.
+  - En discos rígidos magnéticos lleva tiempo buscar un fragmento: son discos que giran a gran velocidad, un cabezal lecto/escritor que debe llegar hasta el lugar, etc. ¡Mucho movimiento mecánico!
+  - Pero, en discos sólidos, esto no es así: simplemente darle la dirección y obtenemos el fragmento... ¡no hay movimiento mecánico!
+
+- /Programar es para iluminados./
+  - Programar utiliza ingenio y creatividad.
+- /El mejor lenguaje de programación es el más nuevo./
+  - No es tan así. Es más una moda.
+
+  - C se sigue utilizando mucho y es un lenguaje con gran performance, pero apareció en 1972.
+  - Ada es un lenguaje altamente robusto, y
+    
+  - Los lenguajes se actualizan: C11, C17 y C23; del año 2011, 2018 y 2024 respectivamente.
+
+
 * Columna 28: Gobernanza informática y mitos de la informática
 
 
