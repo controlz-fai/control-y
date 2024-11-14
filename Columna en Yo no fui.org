@@ -37,6 +37,61 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   http://creativecommons.org/licenses/by-sa/4.0/
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
+* Columna 30: Visita Verónica Dahl: IA inferencial generativa vs. IA basadas en big data
+
+- Contar el resultado de ChatGPT ante la pregunta de Pablo Frizán si existe el tango "Papafritas con mostaza".
+
+  Se me vino a la cabeza la visita de Verónica Dahl a Neuquén.
+ 
+- Hemos visto qué era la IA como el ChatGPT, pero, ¿hay otras IA? ¿qué alternativas hay?
+- Charla de Dra. Verónica Dahl en nuestra facu: ¿quién es?
+  - Informática y teórica argentina-canadiense.
+  - Co-fundadora de la disciplina de programación lógica junto con otras 14 personas.
+  - Nos visitó y nos brindó dos charlas el lunes 27/10 y martes 28/10.
+
+- IA basada en big data
+  - ChatGPT y Large Language Models (LLM).
+  - Se basan en patrones mayormente
+  - Requieren ser entrenados para buscar esos patrones.
+- IA inferencial
+  - Utiliza lógica y razonamiento formal.
+  - Su entrenamiento es brindado por el programador.
+
+¿Diferencias?
+- IA basada en big data
+  - Contra: son cajas cerradas
+    - No sabemos cómo obtiene el resultado.
+    - Reemplaza inferencia por consenso.
+  - Contra: se entrena con fuentes de... ¿quiénes?
+    - ¿De dónde obtiene la información? ¿Tendrá permiso?
+    - Necesita grandes volúmenes de datos
+      - ¿Afecta al ecosistema? ¿habrá sesgo en los datos?
+      - Solo quienes tengan grandes computadoras pueden procesarlas.
+  - Contra: lo que genera, ¿será de buena calidad? ¿será correcto?
+    - Se requiere de alguien que corrija ante errores graves \to{} ¿se le pagará bien?
+    - Remueve mano de obra que realiza trabajo de buena calidad por una IA cuyo trabajo puede equivocarse.
+      - Una operadora puede contestar ante cualquier pregunta si es humana, una IA puede no contestar lo que se desea.
+- IA Inferencial:
+  - Pros: utiliza lógica para generar un resultado.
+    - ¡Se puede explicar todo el proceso!
+    - Es deducción pura y se puede comprender cada paso.
+    - Es altamente confiable en la respuesta.
+  - Pros: funciona con diversos volúmenes de datos, no necesariamente grandes (aunque también puede ser utilizada en big data).
+  - Contra: \thinkingface{}... será... ¿aprender Prolog? ¿estudiar IA o Ciencias de la Computación? \shrug{}
+
+Preguntas:
+
+- Después de practicar con ChatGPT: ¿Quiénes hacen un mejor trabajo las IA de big data o una persona?
+- ¿Quiénes utilizan a quién? ¿La IA nos utiliza para entrenarse o los humanos utilizamos la IA?
+- En cada tarea que puedan pensar: ¿Se imaginan si se reemplaza al ser humanos por una IA en esa tarea? ¿sería mejor o peor? ¿y si dejamos un ser humano que chequée el resultado? ¿y si no? ¿cuál es el riesgo de que falle o no responda como queremos?
+- ¿No les pasó hasta el momento que un robotito o una IA no les responde como hubieran querido?
+
+** Recursos
+
+- [[https://youtu.be/M6PeGvNRGiA?si=eIv27zHfo_75GK1W][Primera charla de Dra. Verónica Dahl en la FaI]] (YouTube)
+- [[https://www.youtube.com/live/C5m67z-6FvM?si=4x_dRwcBNenw4Say][Segunda charla de Dra. Verónica Dahl en la FaI]] (YouTube)
+- http://www.sfu.ca/people/veronica.html
+
 * Columna 29: Más mitos de la informática
 #+html: <a id="columna-29"></a>
 
@@ -1638,6 +1693,9 @@ Ahora que conocen más o menos cómo funcionan...
 \radio{} Emisión al aire: <2024-02-23 vie>
 
 ** Guion
+:PROPERTIES:
+:ID:       ded1e463-c87e-494c-aa92-645b3501851d
+:END:
 1. Ayer estuve escuchando la entrevista que realizaron en el programa La Banda Ancha a Fabio Tarasow de FLACSO. Al final menciona justamente que debemos tener más cuidado al ver fotos, videos y audios... ¿por qué?  
 
    [[https://radiocut.fm/radiostation/uncocalf/listen/2024/02/22/10/30/00/][Se puede escuchar en RadioCut (UNCo-CALF 22/02/2024 a las 10:30).]]
