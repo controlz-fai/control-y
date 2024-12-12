@@ -37,6 +37,48 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   http://creativecommons.org/licenses/by-sa/4.0/
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
+* Columna 31: Tetris
+#+caption: Primera versión del Tetris (1985).
+[[https://upload.wikimedia.org/wikipedia/en/7/7c/Tetris-VeryFirstVersion.png]]
+
+#+caption: Versión DOS del Tetris (1986).
+[[https://upload.wikimedia.org/wikipedia/en/e/e4/Tetris_DOS_1986.png]]
+
+1. Los videosjuegos nacen cerca de los 50'. Nace Spacewar! en 1962, Pong por Atari en 1972 como arcade y luego como consola hogareña.
+2. Desarrollado por Alexey Pajitnov, ingeniero en computación en el Centro de Cómputos de la Academia de Ciencias de la Unión Soviética.
+3. El tetris nació en la USSR en el 1985 (desarrollado durante el 1984). Aparentemente el nombre surge de una mezcla entre "tetra" y "tennis" (el deporte favorito de Alexey).  
+4. La idea surgió por un juego favorito llamado Pentominó ("penta" + "dominó), básicamente como un "tangram" pero con figuras armadas con 5 cuadrados.
+
+   Alexey le gustaba hacer rompecabezas matemáticos [BBC].
+    
+5. Se dice que lo escribió en el lenguaje Pascal en la computadora Eletronika 60, elaboradas en la Unión Soviética en Voronezh desde 1978.
+
+   #+caption: Elektronika 60M
+   [[https://upload.wikimedia.org/wikipedia/commons/0/00/E60M.JPG]]
+  
+6. Básicamente, Alexey jugaba al tetris en el trabajo, lo que le llevó a pensar que era un gran juego [NPR]
+
+   #+begin_quote
+   La razón por la que "hipnotizó al mundo", según su creador Alexey Pajitnov, es porque apela al lado de la psique humana empeñado en la construcción en lugar de la destrucción. "Cuando juegas Tetris tienes la impresión de que estás construyendo algo. Tienes el caos que viene como piezas aleatorias, tu labor es ponerlas en orden. Pero apenas construyes la línea perfecta, desaparece. Sólo quedan tus errores, esos agujeros horribles, y eso te lleva a querer corregirlos", le dijo a la BBC.
+  
+   -- [BBC]
+   #+end_quote
+7. Luego, se adaptó el juego a Turbo Pascal para IBM PC por un chico de 16 años Vadim Gerasimov (trabajó en Google y obtuvo un PhD en MIT).
+
+   #+caption: La IBM PC.
+   [[https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/IBM_PC-IMG_7271_%28transparent%29.png/640px-IBM_PC-IMG_7271_%28transparent%29.png]]
+
+8. El juego se empezó a copiar por todo el Centro de Cómputo, y luego de portarlo a IBM, por la URSS. Se copiaba de disquete en disquete pues *la noción de propiedad intelectual no existía*. 
+
+9. Un empresario húngaro, Robert Stein descubrió el juego y quiso obtener los derechos para su compañía. Cuando se contactó con Pajitnov, le propuso U$S 12.000, y aceptaron negociar.
+  
+   Desgraciadamente, utilizaron Fax, el cual se podía considerarse como un acuerdo legal en occidente, con lo que Stein entendió aceptado y comenzó a buscar companías para producir.
+
+
+** Referencias
+- [BBC] [[https://www.bbc.com/mundo/noticias-65126692]["Tetris: la dramática historia de cómo se creó y salió de la Unión Soviética "el mejor videojuego de la historia" - BBC.com 22/04/2023.]]
+- [NPR] [[https://www.npr.org/2019/06/06/730408514/happy-birthday-tetris-35-years-later-youre-as-addictive-and-tetromino-y-as-ever]["Happy Birthday, Tetris. 35 Years Later You're As Addictive And Tetromino-y As Ever" por Vanessa Romo, 6/6/2019. NPR.org.]]
+
 * Columna 30: Visita Verónica Dahl: IA inferencial generativa vs. IA basadas en big data
 
 - Contar el resultado de ChatGPT ante la pregunta de Pablo Frizán si existe el tango "Papafritas con mostaza".
