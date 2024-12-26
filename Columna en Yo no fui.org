@@ -37,6 +37,69 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   http://creativecommons.org/licenses/by-sa/4.0/
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
+* Columna 32: Tetris (2da parte)
+- Quedamos en que el Tetris fue descubierto por un empresarió húngaro, Robert Stein y quiso obtener los derechos por medio de un fax a su creador Alexey Pajitnov.
+
+  Pero el juego nació detrás de la cortina de hierro, por lo que toda investigación y producción hecha en el instituto de investigación donde trabajaba Pajitnov no debía ser vendida.
+  
+- Aún así, *Stein logró negociar con Mirrorsoft (UK) y Spectrum Hollobyte (USA)*, y comenzó su venta en Estados Unidos y Europa en 1988.
+
+  Pero Stein no firmó con la Unión Soviética, y solo tenía un fax como documento que certificaba la licencia.
+  
+- Al final, *Stein tuvo que negociar con Elorg* (Elektronorgtechnica) en 1988, mientras que *Pajitnov ignoraba las ventas* en el exterior que ya comenzaron y no recibió ningún porcentaje por ellas.
+
+  El negocio con Elorg fue conceder la licencia por 10 años para *sistemas de computadoras*.
+
+- Al mismo tiempo, Henk Rogers buscaba juegos para el mercado japonés. Consiguió obtener el de Tetris para Famicom desde Atari, junto con otras empresas.
+
+  Nota de color: Famicom es conocido como "Family Game" acá (sí, "el family") o Nintendo Entertainment System (NES) en ciertos lugares.
+  
+  - Pero Stein retenía la licencia para computadoras, y Elorg aún no sabía de las negociaciones y no recibía su porcentaje. Y Tetris *ya era un éxito en Norteamérica, Europa y Asia*.
+    
+  - Nintendo estaba por lanzar la Game Boy y Rogers, que era cercano a Hiroshi Yamauchi, presidente de esa empresa, quería conseguir los derechos.
+    
+    Intentó negociar con Stein pero solo recibió una respuesta negativa y evasivas.
+    
+  - Por lo que se dirigió a las oficinas de Elorg sin invitación, y logró un acuerdo con su presidente de la entidad Nikolai Belikov.
+
+    Pero Belikov quedó asombrado al observar que tenía un cartucho de tetris de Famicom cuando él había pensado que la licencia estaba firmada solo para computadoras.
+
+    Rogers argumentó que adquirió los derechos para la Famicom por Atari.
+    
+    - En el mismo momento, Stein y Kevin Maxwell, hijo del dueño de Mirrorsoft, estaban negociando también
+    - Pajitnov se amigó con Rogers durante su estadía, y lo defendió ante sus contrincantes en Elorg. Así, *Belikov decidió brindarle los derechos a Rogers para las consolas.*
+
+      Pero, también envió a Stein una actualización del contrato con una cláusula indicando la definición de *computadora como una máquina con teclado y pantalla*, haciendo que no pudiera utilizar el juego para consolas.
+
+      De esta manera, diversificaba las ventas de distintas máquinas a distintas empresas.
+    
+- Robert Maxwell, al recibir la noticia de que su hijo volvió sin los derechos del tetris, contactó a ministros de alto rango en el Kremlin para presionar a Belikov.
+
+  Belikov insistió en no cancelar con Nintendo *argumentando que Elorg es beneficiaría más* con Nintendo, que con Stein y Mirrorsoft.
+  
+  - Comenzaba el juicio en San Francisco por los derechos del Tetris entre Atari y Nintendo: Atari debía demostrar que la consola Famicom era una computadora.
+       
+  - Belikov recibió presiones y amenazas para pedir disculpas a Maxwell, pero en 1989, "tuvo la historia de su lado" [BBC], se caía la cortina de hierro con protestas y conflictos y el poder decaía en el este.
+    
+- En el juicio en San Francisco, se falló a favor de Nintendo y en contra de Atari, Stein perdió la batalla y Atari tuvo que guardar miles de cartuchos.
+  
+- Conclusión de la historia:
+
+  Game Boy fue un éxito y Tetris fue clave [BBC].
+
+  Un hecho intrigante, en 1991 aparece el cuerpo de Robet Maxwell en el Océano Atlántico, aparentemente se cayó de su yate. Dejó a Mirrorsoft endeudada.
+
+  Recién en 1996, Pajitnov pudo ganar dinero ya que el estado revirtió los derechos del juego. También, es co-propietario de The Tetris Company junto a Rogers.
+
+  Elorg fue vendida a The Tetris Company en 2005.
+
+
+
+Con esto entra en debate:
+
+- ¿Cuál es la importancia de que el software posea propiedad intelectual?
+- ¿Es importante conocer un poco el concepto de propiedad intelectual y patentes?
+
 * Columna 31: Tetris
 #+caption: Primera versión del Tetris (1985).
 [[https://upload.wikimedia.org/wikipedia/en/7/7c/Tetris-VeryFirstVersion.png]]
