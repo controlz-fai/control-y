@@ -37,6 +37,37 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   http://creativecommons.org/licenses/by-sa/4.0/
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
+* Columna 33: Pac-Man
+
+- Estamos en 1974, Namco adquiere Atari Japan, la división japonesa de Atari. Nakamura, presidente de Namco (de ahí el nombre de la compañía) crea video juegos y los distribuye por japón. Entre el pequeño equipo de desarrollo se encuentra Toru Iwatani, que en 1978 desarrolla varios juegos de gran venta.
+- Pongamos en contexto: *épocas de arcade* y monedas, había que acercarse a locales con grandes máquinas de juegos. Los juegos disponibles eran Asteroids, Galaxian, Lunar Lander, Atari Football, Space invaders, Sprint 2, Sea Wolf. Todos juegos de guerra o deportes. Está más que claro cuál era el público que mayormente iba a los arcades.
+- Iwatani siente que los arcades se convierten en un ambiente no tanto agradable para la familia, y los gráficos crudos y los juegos un tanto violentos no colaboran a cambiarlo. Por eso decide crear un videojuego sin violencia, alegre, que se incentive a las mujeres y parejas a jugar.
+- Piensa en fashion y en comidas, recuerda bien que a las chicas les gusta los postres, entonces trata de llevar todo el concepto del juego alrededor de comidas: un personaje, con forma de pizza, comiendo a su paso.
+  - El personaje principal Pac-man, es rendondo como una pizza sin un pedazo. Aunque, también Iwatani dice que se parece al kanji "kuchi" (口) que significa "boca", pero redondeado.
+  - Agrega unos fantasmas con colores brillantes pasteles y ojos expresivos, para que sean más atractivos. Se inspira en Casper y un manga, aunque los utiliza como los rivales porque se acostumbraba así para las animaciones.
+  - Los fantasmas son:
+    - Blinky, el rojo que persigue al personaje principal.
+    - Pinky, el rosado.
+    - Inky, de cian.
+    - Clyde, de naranja.
+  - Suma también cerezas y otras frutas como bonus, que también son atractivas: sus figuras son similares a las de las máquinas tragamonedas. Además, marcan el nivel actual.
+  - En cuanto al sonido, Iwatani demuestra cómo le gustaría que fuera a Toshio Kai, su compositor, comiendo y haciendo ruidos de tragar
+  - El tablero es un laberinto. Ya existían de este tipo de juegos de perseguir en laberintos en el 79'.
+- El nombre del juego fue "Puck man", por la forma a disco de hockey. Aunque, Iwatari dice que es por "paku paku taberu" ("puck puck"), que es la expresión de tragar o masticar. Al liberarse el juego en inglés, se decidió cambiar por Pac-man para evitar que vandalicen la P de Puck convirtiéndola en una palabra "obscena".
+
+
+** Recursos
+- "This Is What Pac-Man‘s Creator Thinks 35 Years Later". Por Matt Peckham. Times. 2015.
+
+  https://time.com/3892662/pac-mans-35-years/
+- "Q&A: Pac-Man Creator Reflects on 30 Years of Dot-Eating". Por Chris Kohler. Wired. 2010.
+
+  https://web.archive.org/web/20190712174728/https://www.wired.com/2010/05/pac-man-30-years/
+- "Five Things You Never Knew About Pac-Man". Por Chris Morris. CNBC.com. 2011.
+
+  https://www.cnbc.com/2011/03/03/five-things-you-never-knew-about-pacman.html
+- Pac-Man Arcade (1980) emulador para jugar: https://archive.org/details/pacman_mame_2
+
 * Columna 32: Tetris (2da parte)
 - Quedamos en que el Tetris fue descubierto por un empresarió húngaro, Robert Stein y quiso obtener los derechos por medio de un fax a su creador Alexey Pajitnov.
 
