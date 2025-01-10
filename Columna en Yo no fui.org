@@ -42,6 +42,11 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 Algunas noticias:
 
 - Mark Zuckerber anuncia que el sistema anti-fake de facebook será desmantelado y utilizará el mismo sistema que X de "notas de comunidad".
+
+- \play{} Entrevista en Yo No Fui a Olivia Sohr ([[https://chequeado.com/staff/olivia-sohr/][directora de impacto y nuevas iniciativas de chequeado.com]]) acerca del fact-checking en Meta. Jueves 9/1/2025.
+
+  [[https://radiocut.fm/radiostation/uncocalf/listen/2025/01/09/14/45/30/][Escuchar en RadioCut]].
+  
 - Elon Musk critica al "consejo editorial" Wikipedia de no ser neutrales (cuando el contenido es editado por usuarios convencionales) y que por ello, incentiva a que dejen de donar hasta que se reequilibre.
 - Si se piensan mudar o empezar a probar, recomiendo Mastodon que es muy similar a Threads y Bluesky. De hecho usan el protocolo ActivityPub que es el que utiliza Mastodon para intercomunicarse.
 
