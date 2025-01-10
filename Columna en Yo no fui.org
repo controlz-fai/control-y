@@ -38,6 +38,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 * Columna 33: Pac-Man
+#+html: <a id="columna-33"></a>
 
 Algunas noticias:
 
@@ -51,6 +52,9 @@ Algunas noticias:
 - Si se piensan mudar o empezar a probar, recomiendo Mastodon que es muy similar a Threads y Bluesky. De hecho usan el protocolo ActivityPub que es el que utiliza Mastodon para intercomunicarse.
 
 Pac-man:
+
+#+caption: Arcade en Guildford, Reino Unido (2016).
+[[https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Guildford%2C_UK%2C_Aug-2016_%2828811832961%29.jpg/800px-Guildford%2C_UK%2C_Aug-2016_%2828811832961%29.jpg]]
 
 - Estamos en *1974*, Namco adquiere Atari Japan, la división japonesa de Atari. Nakamura, presidente de Namco (de ahí el nombre de la compañía) crea video juegos y los distribuye por japón. Entre el pequeño equipo de desarrollo se encuentra Toru Iwatani, que en 1978 desarrolla varios juegos de gran venta.
 - Pongamos en contexto: *épocas de arcade* y monedas, había que acercarse a locales con grandes máquinas de juegos. Los juegos disponibles eran Asteroids, Galaxian, Lunar Lander, Atari Football, Space invaders, Sprint 2, Sea Wolf. Todos juegos de guerra o deportes. Está más que claro cuál era el público que mayormente iba a los arcades.
@@ -103,7 +107,13 @@ Preguntas:
 - "Wikimedia España, asociación de editores de Wikipedia, responde a los ataques de Elon Musk: “Demuestra ser un total ignorante sobre cómo funcionamos" por Jordi Sabaté. Eldiario.es. 31 de diciembre del 2024 y actualizado el 2 de enero del 2025.
   https://www.eldiario.es/cultura/wikipedia-espana-responde-ataques-elon-musk-demuestra-total-ignorante-funcionamos_1_11933755.html
 
+#+attr_html: :width 25%
+[[https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Guildford%2C_UK%2C_Aug-2016_%2828811832961%29.jpg/800px-Guildford%2C_UK%2C_Aug-2016_%2828811832961%29.jpg]]
+Foto de Mitch Altman obtenido desde Wikimedia Commons bajo licencia Creative Commons Genérica de Atribución/Compartir-Igual 2.0. [[https://commons.wikimedia.org/wiki/File:Guildford,_UK,_Aug-2016_(28811832961).jpg][Ir a la página original.]]
+
 * Columna 32: Tetris (2da parte)
+#+html: <a id="columna-32"></a>
+
 - Quedamos en que el Tetris fue descubierto por un empresarió húngaro, Robert Stein y quiso obtener los derechos por medio de un fax a su creador Alexey Pajitnov.
 
   Pero el juego nació detrás de la cortina de hierro, por lo que toda investigación y producción hecha en el instituto de investigación donde trabajaba Pajitnov no debía ser vendida.
@@ -167,6 +177,8 @@ Con esto entra en debate:
 - ¿Es importante conocer un poco el concepto de propiedad intelectual y patentes?
 
 * Columna 31: Tetris
+#+html: <a id="columna-31"></a>
+
 #+caption: Primera versión del Tetris (1985).
 [[https://upload.wikimedia.org/wikipedia/en/7/7c/Tetris-VeryFirstVersion.png]]
 
@@ -209,6 +221,7 @@ Con esto entra en debate:
 - [NPR] [[https://www.npr.org/2019/06/06/730408514/happy-birthday-tetris-35-years-later-youre-as-addictive-and-tetromino-y-as-ever]["Happy Birthday, Tetris. 35 Years Later You're As Addictive And Tetromino-y As Ever" por Vanessa Romo, 6/6/2019. NPR.org.]]
 
 * Columna 30: Visita Verónica Dahl: IA inferencial generativa vs. IA basadas en big data
+#+html: <a id="columna-30"></a>
 
 - Contar el resultado de ChatGPT ante la pregunta de Pablo Frizán si existe el tango "Papafritas con mostaza".
 
