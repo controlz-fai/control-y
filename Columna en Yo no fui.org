@@ -1,19 +1,31 @@
+#+macro: maintag (eval (if (equal org-export-current-backend 'html) "#+HTML: <main>" ""))
+#+macro: mainendtag (eval (if (equal org-export-current-backend 'html) "#+HTML: </main>" ""))
+#+macro: toc (eval (if (equal org-export-current-backend 'rss) "#+options: toc:nil" "#+options: toc:t"))
+#+macro: tag (eval (if (equal org-export-current-backend 'rss) "" "#+html: <a id=\"$1\"></a>"))
+#+macro: norss (eval (if (equal org-export-current-backend 'rss) "* NO RSS :noexport:" ""))
+#+macro: norsstag (eval (if (equal org-export-current-backend 'rss) ":noexport:" ""))
+
 #+begin_export latex
 
 \newfontfamily\unicodefont{Doulos SIL}
 #+end_export
 
-#+HTML: <main>
+{{{maintag}}}
 
-
+{{{norss}}}
 Control Y es una columna que se emite cada dos viernes a las 15:00 por [[https://radiouncocalf.com][Radio Universidad CALF]] (FM 103.7) de Neuquén. Parte del Proyecto de Extensión "FaIComm: Charlando Sobre Informática", de la [[https://faiweb.uncoma.edu.ar][Facultad de Informática]], [[https://www.uncoma.edu.ar][Universidad Nacional del Comahue]].
 
 En esta página se encuentran los guiones y la bibliografía utilizada en la columna. También, puede encontrar los recortes y la fecha de emisión para volver a escucharlas por [[https://radiocut.fm/radiostation/uncocalf/listen/][RadioCut]].
 
 \warning{} Las columnas están ordenadas de manera inversa: la más reciente primero.
 
-* Datos de la Columna
+#+html: <a href="http://validator.w3.org/feed/check.cgi?url="><img src="valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
 
+* Datos de la Columna {{{norsstag}}}
+:PROPERTIES:
+:ID:       7e5c157a-6f4a-426a-929e-f40617e8098d
+:PUBDATE:  2025-01-18 sáb 18:17
+:END:
 - Título :: Columna infogrmática de Yo no fui.
 - Sinopsis :: Aprender qué es la informática y los conceptos necesarios para entender el día a día de lo que sucede alrededor de la computadora. Explicaciones de hechos pasados y presentes relevantes para comprender lo que sucede a nuestro alrededor.
   
@@ -37,8 +49,16 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   http://creativecommons.org/licenses/by-sa/4.0/
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
+
 * Columna 33: Pac-Man
-#+html: <a id="columna-33"></a>
+:PROPERTIES:
+:ID:       c807785d-4a17-4a4c-ac6e-1b2ac597e1e3
+:PUBDATE:  2025-01-10 vie 15:30
+:RSS_PERMALINK: #columna-33
+:END:
+{{{tag(columna-33)}}}
+
+\radio{} Emisión al aire: <2025-01-10 vie 15:30>
 
 Algunas noticias:
 
@@ -81,6 +101,9 @@ Preguntas:
 
 
 ** Recursos
+:PROPERTIES:
+:ID:       3c22ca3b-5379-4a6d-886b-c3ed75e67973
+:END:
 - "This Is What Pac-Man‘s Creator Thinks 35 Years Later". Por Matt Peckham. Times. 2015.
 
   https://time.com/3892662/pac-mans-35-years/
@@ -112,7 +135,14 @@ Preguntas:
 Foto de Mitch Altman obtenido desde Wikimedia Commons bajo licencia Creative Commons Genérica de Atribución/Compartir-Igual 2.0. [[https://commons.wikimedia.org/wiki/File:Guildford,_UK,_Aug-2016_(28811832961).jpg][Ir a la página original.]]
 
 * Columna 32: Tetris (2da parte)
-#+html: <a id="columna-32"></a>
+:PROPERTIES:
+:ID:       2d3fe454-f964-4ce8-808d-ec69b0c7a1a8
+:PUBDATE:  2024-12-27 vie 15:35
+:RSS_PERMALINK: #columna-32
+:END:
+{{{tag(columna-32)}}}
+
+\radio{} Emisión al aire:  <2024-12-27 vie 15:35>
 
 - Quedamos en que el Tetris fue descubierto por un empresarió húngaro, Robert Stein y quiso obtener los derechos por medio de un fax a su creador Alexey Pajitnov.
 
@@ -177,7 +207,14 @@ Con esto entra en debate:
 - ¿Es importante conocer un poco el concepto de propiedad intelectual y patentes?
 
 * Columna 31: Tetris
-#+html: <a id="columna-31"></a>
+:PROPERTIES:
+:ID:       d4defbfd-a8bb-4388-9fef-1c00d41d00c2
+:PUBDATE:  2024-12-13 vie 15:00
+:RSS_PERMALINK: #columna-31
+:END:
+{{{tag(columna-31)}}}
+
+\radio{} Emisión al aire:  <2024-12-13 vie 15:00>
 
 #+caption: Primera versión del Tetris (1985).
 [[https://upload.wikimedia.org/wikipedia/en/7/7c/Tetris-VeryFirstVersion.png]]
@@ -217,11 +254,20 @@ Con esto entra en debate:
 
 
 ** Referencias
+:PROPERTIES:
+:ID:       c6e95115-afb3-414c-afa9-b7f7ee716876
+:END:
 - [BBC] [[https://www.bbc.com/mundo/noticias-65126692]["Tetris: la dramática historia de cómo se creó y salió de la Unión Soviética "el mejor videojuego de la historia" - BBC.com 22/04/2023.]]
 - [NPR] [[https://www.npr.org/2019/06/06/730408514/happy-birthday-tetris-35-years-later-youre-as-addictive-and-tetromino-y-as-ever]["Happy Birthday, Tetris. 35 Years Later You're As Addictive And Tetromino-y As Ever" por Vanessa Romo, 6/6/2019. NPR.org.]]
 
 * Columna 30: Visita Verónica Dahl: IA inferencial generativa vs. IA basadas en big data
-#+html: <a id="columna-30"></a>
+:PROPERTIES:
+:ID:       cdf3927c-2547-44fc-aaa4-df387d8e3bb5
+:PUBDATE:  2024-11-15 vie 15:00
+:RSS_PERMALINK: #columna-30
+:END:
+{{{tag(columna-30)}}}
+\radio{} Emisión al aire: <2024-11-15 vie 15:00>
 
 - Contar el resultado de ChatGPT ante la pregunta de Pablo Frizán si existe el tango "Papafritas con mostaza".
 
@@ -271,13 +317,22 @@ Preguntas:
 - ¿No les pasó hasta el momento que un robotito o una IA no les responde como hubieran querido?
 
 ** Recursos
+:PROPERTIES:
+:ID:       2bfdb1e1-5ec4-4a5a-aac8-3de8c3bb5400
+:END:
 
 - [[https://youtu.be/M6PeGvNRGiA?si=eIv27zHfo_75GK1W][Primera charla de Dra. Verónica Dahl en la FaI]] (YouTube)
 - [[https://www.youtube.com/live/C5m67z-6FvM?si=4x_dRwcBNenw4Say][Segunda charla de Dra. Verónica Dahl en la FaI]] (YouTube)
 - http://www.sfu.ca/people/veronica.html
 
 * Columna 29: Más mitos de la informática
-#+html: <a id="columna-29"></a>
+:PROPERTIES:
+:ID:       99108c85-88c7-4b86-b8c4-312c75740f5a
+:PUBDATE:  2024-11-01 vie 15:00
+:RSS_PERMALINK: #columna-29
+:END:
+{{{tag(columna-29)}}}
+\radio{} Emisión al aire: <2024-11-01 vie 15:00>
 
 - /Cualquier hacker puede decir: "Dame un minuto para entrar en la NASA y te muevo el telescopio Hubble para... [inserte su justificación aquí]"/
 
@@ -352,7 +407,13 @@ Preguntas:
 
 
 * Columna 28: Gobernanza informática y mitos de la informática
-#+html: <a id="columna-28"></a>
+:PROPERTIES:
+:ID:       02516469-4448-4fb0-a060-746f78cbf18c
+:PUBDATE:  2024-10-18 vie 19:22
+:RSS_PERMALINK: #columna-28
+:END:
+{{{tag(columna-28)}}}
+\radio{} Emisión al aire: <2024-10-18 vie 15:00>
 
 1. Me quedó pendiente de la columna anterior: Gobernanza digital. ¿Un repaso?
    
@@ -425,7 +486,12 @@ Mitos y verdades:
 
 
 * Columna 27: Charlemos de informática
-#+html: <a id="columna-27"></a>
+:PROPERTIES:
+:ID:       674e3bef-cccc-4524-9463-0eb26a460840
+:PUBDATE:  2024-09-20 vie 15:00
+:RSS_PERMALINK: #columna-27
+:END:
+{{{tag(columna-27)}}}
 
 \radio{} Emisión al aire: <2024-09-20 vie>
 
@@ -514,9 +580,14 @@ Hoy hacemos un repaso de la columna, y también de algunas noticias que se me vi
    3. ¿Son preguntones? ¿Se han hecho preguntas como las que hicimos en esta columna? Si no... ¡vamos! ¡háganse preguntas!
    
 * Columna 26: Firmas Digitales
-#+html: <a id="columna-26"></a>
+:PROPERTIES:
+:ID:       5fe721f1-a31f-4e41-ac79-67ae5aefff2e
+:PUBDATE:  2024-09-06 vie 15:00
+:RSS_PERMALINK: #columna-26
+:END:
+{{{tag(columna-26)}}}
 
-\radio{} Emisión al aire: [2024-09-06 vie]
+\radio{} Emisión al aire: <2024-09-06 vie>
 
 1. ¿Cómo harían para hacer un vale por una docena facturas en un papel?
    1. Primero escribimos el texto "A quién corresponda. Por la presente, quien posea este vale le corresponde una docena de facturas."
@@ -615,9 +686,14 @@ Bibliografía
 
 
 * Columna 25: IA y entrevista de Beatriz
-#+html: <a id="columna-25"></a>
+:PROPERTIES:
+:ID:       fa5de8d2-584c-46ae-9bd1-8ed6b5bd8a82
+:PUBDATE:  2024-08-09 vie 16:00
+:RSS_PERMALINK: #columna-25
+:END:
+{{{tag(columna-25)}}}
 
-\radio Emisión al aire: [2024-08-09 vie 16:00]
+\radio Emisión al aire: <2024-08-09 vie 16:00>
 
 \headphone{} [[https://radiocut.fm/radiostation/uncocalf/listen/2024/08/09/16/00/00/][Escuchar en RadioCut]]
 
@@ -687,9 +763,14 @@ Recursos:
 
 
 * Columna 24: Obsolescencia programada
-#+html: <a id="columna-24"></a>
+:PROPERTIES:
+:ID:       6618e3be-2b55-428a-a83f-507fa4b59035
+:PUBDATE:  2024-07-26 vie 15:00
+:RSS_PERMALINK: #columna-24
+:END:
+{{{tag(columna-24)}}}
 
-\radio Emisión al aire: [2024-07-26 vie]
+\radio Emisión al aire: <2024-07-26 vie>
 
 \headphone{} [[https://radiocut.fm/radiostation/uncocalf/listen/2024/07/26/15/45/15/][Escuchar en RadioCut]]
 
@@ -798,6 +879,9 @@ Recursos:
 
       \warning{} Por las dudas... ¿hacen back-up cada tanto de sus documentos importantes?
 ** Recursos
+:PROPERTIES:
+:ID:       c0b21941-8093-453d-a84f-ea81a7478750
+:END:
 - https://www.defectivebydesign.org/what_is_drm
 - https://www.fsf.org/campaigns/fight-to-repair
 - https://www.sciencedirect.com/topics/computer-science/planned-obsolescence
@@ -807,9 +891,14 @@ Recursos:
 - https://www.bbc.com/future/article/20160612-heres-the-truth-about-the-planned-obsolescence-of-tech
 
 * Columna 23: Reconocimiento facial
-#+html: <a id="columna-23"></a>
+:PROPERTIES:
+:ID:       2874b4e8-7bb7-4300-896c-da713971b289
+:PUBDATE:  2024-07-12 vie 19:22
+:RSS_PERMALINK: #columna-23
+:END:
+{{{tag(columna-23)}}}
 
-\radio{} Emisión al aire: [2024-07-12 vie 15:00]
+\radio{} Emisión al aire: <2024-07-12 vie 15:00>
 
 #+caption: Eigenfaces utilizadas para reconocimiento facial. De AT&T Laboratories Cambridge.
 [[https://upload.wikimedia.org/wikipedia/commons/6/67/Eigenfaces.png]]
@@ -818,6 +907,9 @@ Las Eigenfaces son "características que resaltan" de la foto de un rostro. Se o
 
 [[https://commons.wikimedia.org/wiki/File:Eigenfaces.png][Foto obtenida desde WikiMedia]]
 ** Guion
+:PROPERTIES:
+:ID:       7db9cba4-8785-4a3c-91c2-92f1f4654d17
+:END:
 ¡Empecemos!
 
 1. ¿Qué es el reconocimiento facial?
@@ -894,6 +986,9 @@ Algo más general: Con toda la digitalización, en ocasiones centralizada y úni
 - ¿No deberíamos preguntarnos acerca de la ética y la seguridad del sistema y de los datos almacenados?
 
 ** Más recursos
+:PROPERTIES:
+:ID:       bfb0c182-fe92-4790-82e2-bc01d680b13d
+:END:
 - [[https://www.lanacion.com.ar/tecnologia/nueva-filtracion-de-renaper-que-paso-esta-vez-con-la-publicacion-de-datos-de-ciudadanos-argentinos-y-nid09042024/]["Nueva filtración de Renaper: qué pasó esta vez con la publicación de datos de ciudadanos argentinos, y qué hay que hacer"]] por Julieta Schulkin, publicado en La Nación. 9 de abril del 2024.
 
   Allí cuenta una filtración del RENAPER donde están los datos de nuestros DNI. Entre ellos, cosas que no se deben compartir: la foto y el número de trámite. Dejo para otro momento el debate de si el DNI debe tener un chip NFC.
@@ -903,11 +998,18 @@ Algo más general: Con toda la digitalización, en ocasiones centralizada y úni
   Describe identificación, verificación de la identidad y autenticación y sus factores.
 
 * Columna 22: ¿Qué es la nube? (cont.)
-#+html: <a id="columna-22"></a>
-
+:PROPERTIES:
+:ID:       b4696961-2461-4f94-a737-a27eb6215cf5
+:PUBDATE:  2024-06-28 vie 15:00
+:RSS_PERMALINK: #columna-22
+:END:
+{{{tag(columna-22)}}}
 \radio{} Emisión al aire: <2024-06-28 vie>
 
 ** Repaso
+:PROPERTIES:
+:ID:       055b3699-c410-4468-a9de-a6c25627047e
+:END:
 1. ¿Qué es la nube?
    1. Proveer un servicio.
       - Simplemente, solicitar y liberar el servicio por medio de alguna interfaz o Web.
@@ -932,6 +1034,9 @@ Pero, aún es todo muy abstracto... ¿Qué onda la nube?
 Vamos con algo más gráfico...
 
 ** Mi servidor de archivos: DIY
+:PROPERTIES:
+:ID:       4caebde3-3d47-469d-9428-5c309a7d467e
+:END:
 (DIY significa /Do it yourself/, "hazlo tú mismo").
 
 - Quiero hacer mi propio servidor de archivos...
@@ -949,6 +1054,9 @@ Si bien, parece mucho, pero es posible. Aunque debemos aceptar:
 - Existe Software Libre que nos facilita la instalación de software: ¡no tenemos que programar nada!
  
 ** Vamos más allá: ¡quiero hacer mi nube!
+:PROPERTIES:
+:ID:       1f90f1fd-6e25-443a-80e9-5772493731be
+:END:
 Ahora, seamos un poquito más exigentes...
 
   - No se tiene que apagar aún ante un corte de luz: UPS
@@ -964,6 +1072,9 @@ Ahora, seamos un poquito más exigentes...
     Bueno, ¡es lo único que podemos ahorrar! ¡Hay muchos que son Open Source/Software Libre!
     
 ** Mi nube vs Esa Nube
+:PROPERTIES:
+:ID:       9a8275e1-2ec1-4e1b-8702-ec0e618c4cea
+:END:
 
 Pro y contras de mi nube DIY:
 
@@ -986,12 +1097,18 @@ Perooooo...
 #   -- Explicar cómo es un Hoster --
 
 ** Entonces...
+:PROPERTIES:
+:ID:       4ef173e9-2829-4502-ab35-6d0dcd291d49
+:END:
 
 - ¿Qué les parece que es la nube?
 - ¿Escucharon la frase: "la nube es la computadora de otro"? ¿qué les parece?
 - Y sus datos, ¿saben dónde están? ¿quién los tiene? ¿qué les parece que estén en esa computadora?
   
 ** Algunos tips
+:PROPERTIES:
+:ID:       e9da44b8-ad7b-4f6a-8e0f-e56631f08e5f
+:END:
 - Las nubes usualmente usan un software para sincronizar.
   - Configurarlos para que usen una carpeta específica, y no todo el sistema.
   - Ojo con el de Windows: sube todo a la nube, si se acaba el espacio, también te quedás sin espacio para adjuntar archivos a los correos.
@@ -1003,18 +1120,31 @@ Perooooo...
 
 
 * Columna 21: ¿Qué es la nube?
-#+html: <a id="columna-21"></a>
-
-\radio{} Emisión al aire: [2024-06-07 vie 15:00]
+:PROPERTIES:
+:ID:       83076b2a-c5dd-41c4-bb1f-206080964fb1
+:PUBDATE:  2024-06-07 vie 15:00
+:RSS_PERMALINK: #columna-21
+:END:
+{{{tag(columna-21)}}}
+\radio{} Emisión al aire: <2024-06-07 vie 15:00>
 
 ** Guion
+:PROPERTIES:
+:ID:       0cfa1b9c-fc3c-42fd-a1a5-e0419677fa65
+:END:
 
 ***  Repaso
+:PROPERTIES:
+:ID:       deedaf1f-6f7e-43d9-b64d-8d2f28ed7c7f
+:END:
    - ¿Se acuerdan de lo que charlamos de Internet?
    - ¿Usan correos habitualmente?
    - Pero, ¿dónde están tus correos? ¿desde dónde podés accederlos?
 
 *** ¿Qué es la nube?
+:PROPERTIES:
+:ID:       b3cea101-7f72-4666-bc30-831080682f66
+:END:
 
    Pensemos en el correo electrónico, en los documentos que usan en la nube... ¿qué tiene?
 
@@ -1035,6 +1165,9 @@ Perooooo...
    3. Queremos accederlo en cualquier parte del mundo.
    
 ***  ¿Qué servicios ofrece?
+:PROPERTIES:
+:ID:       480d06f9-ca46-4ff8-8f89-e3a017eb1799
+:END:
 
    Mientras vemos cada uno, ¡piensen en ejemplos!
    
@@ -1057,6 +1190,9 @@ Perooooo...
      - Ejemplos: Mails, almacenamiento en la nube, videollamadas...
 
 ***  ¿Pros y cons?
+:PROPERTIES:
+:ID:       8375d182-c0f6-4e5c-89e6-4095d26f2339
+:END:
 
    ¿Se acuerdan del CIA (Confidencialidad, Integridad, Disponibilidad)?
      
@@ -1075,6 +1211,9 @@ Perooooo...
      - Si borro un archivo en mi compu... ¿lo pierdo en la nube?
 
 ***  ¿Y con mis archivos?
+:PROPERTIES:
+:ID:       28a07479-77dd-449e-8a78-d6443d20fda1
+:END:
      
    - Accedemos manualmente y los subimos nosotros:
      - ¡Control total! Pero es tedioso...
@@ -1094,6 +1233,9 @@ Perooooo...
        ¡Molesta al usar nuestros correos con adjuntos!
        
 ***  ¿Qué cuidados debo tener?
+:PROPERTIES:
+:ID:       7cb589cb-feb4-43bd-8852-16351361e0ba
+:END:
    Aquí, no tengo la respuesta universal... depende de cada persona y cómo usa sus archivos.
 
    Por ahí, el mejor tip que puedo dar es: *mantén ordenado el sistema desde el comienzo*...
@@ -1132,6 +1274,9 @@ Perooooo...
       3. Y algo interesante: *¿Qué pasa si no tengo Internet?* \shrug{}
 
 *** Por último...
+:PROPERTIES:
+:ID:       8be01116-d788-4b72-8265-cc5850f9d849
+:END:
 
 - ¿Está bueno quedarse con una sola tecnología?
 - ¿Les parece que con la nube se solucionan todos los problemas de archivos?
@@ -1139,13 +1284,26 @@ Perooooo...
 - Están haciendo copia de sus archivos más importantes y que quieren preservar, ¿verdad?
       
 ** Bibliografía y recursos
+:PROPERTIES:
+:ID:       528b6985-fe87-487a-8d00-cf0b6ea997ef
+:END:
 - [[https://www.fsf.org/bulletin/2011/spring/spotlight-merlin-cloud]["Spotlight: Merlin Cloud" por Matt Lee. Free Software Foundation. 2011.]]
 - "A Taxonomy, Survey, and Issues of Cloud Computing Ecosystems". Bhaskar Rimal, Eunmi Choi, Ian Lumb. Cloud Computing. Springer-Verlag. 2010.
 - "Everything as a Service (XaaS) on the Cloud: Origins, Current and Future Trends". Yucong Duan, Guohua Fu, Nianjun Zhou, Xiaobing Sun, Nanjangud C. Narendra, Bo Hu. IEEE 8th International Conference on Cloud Computing. 2015.
   
 * Columna 20: ¿Qué son los anti-virus?
+:PROPERTIES:
+:ID:       09dee0a7-1776-4436-99b9-551e18a6b9f1
+:PUBDATE:  2024-05-24 vie 15:00
+:RSS_PERMALINK: #columna-20
+:END:
+{{{tag(columna-20)}}}
+\radio{} Emisión al aire: <2024-05-24 vie 15:00>
 
 ** Guion
+:PROPERTIES:
+:ID:       f5fd4912-3c07-4891-943c-5551075f2ab3
+:END:
 1. Repaso:
    1. Modelo de seguridad: la triada CIA.
    2. Malware, existen distintos tipos de malware.
@@ -1213,8 +1371,18 @@ Entonces...
 - ¿Por qué existirá el malware? ¿por qué crean esos programas?
 
 * Columna 19: ¿Qué son los virus?
+:PROPERTIES:
+:ID:       cd3a7986-941d-4efb-8357-fd7f398ef036
+:PUBDATE:  2024-05-10 vie 15:00
+:RSS_PERMALINK: #columna-19
+:END:
+{{{tag(columna-19)}}}
+\radio{} Emisión al aire: <2024-05-10 vie 15:00>
 
 ** Guion
+:PROPERTIES:
+:ID:       bfcf1b4e-0f3e-4e8c-b555-2b1ff3e40d09
+:END:
 1. Algo importante, un modelo de seguridad, la triada: Confidencialidad, Integridad y Disponibilidad (conocida como CIA por sus siglas en inglés).
    - Confidencialidad :: Privacidad, protección, autorización para acceder, ejecutar, modificar y ver.
    - Integridad :: Prevenir cambios no deseados y no autorizados. Asegurar datos y programas.  Revertir o reparar problemas.
@@ -1305,6 +1473,9 @@ Preguntas:
 - ¿Qué sería un uso habitual/correcto de un dispositivo? 
 
 ** Bibliografía
+:PROPERTIES:
+:ID:       d933acc0-7017-4807-8bae-9a7ef4ebcd18
+:END:
 - "The Basics of Information Security". Jason Andress. Elsevier/Syngress press (Libro).
 
   Describe el modelo CIA.
@@ -1318,8 +1489,19 @@ Preguntas:
   Explica por qué se distribuye más malware en los sistemas Windows. También, describe la definición de los distintos tipos de malware.
 
 * Columna 18: ¿Qué es la dark net y la dark Web?
+:PROPERTIES:
+:ID:       45de45aa-df5d-401a-a123-e1b3114efff3
+:PUBDATE:  2024-04-26 vie 15:00
+:RSS_PERMALINK: #columna-18
+:END:
+{{{tag(columna-18)}}}
+
+\radio{} Emisión al aire: <2024-04-26 vie 15:00>
 
 ** Guion
+:PROPERTIES:
+:ID:       e9afd0f1-e633-45d7-ab00-4842850bc3b8
+:END:
 
 Disclaimer: No se recomienda el uso de ningún software, el acceso a la dark net y dark Web, sin previo comprender claramente lo que se está haciendo. 
 
@@ -1395,13 +1577,25 @@ Preguntas:
 
   
 ** Bibliografía
+:PROPERTIES:
+:ID:       63ce530d-c77a-4b7a-95a9-a202a1d7d641
+:END:
 - "Hands-On Dark Web Analysis". Sion Retzkin. Packt Publishing. 2018. [[https://www.google.com.ar/books/edition/Hands_On_Dark_Web_Analysis/352BDwAAQBAJ?hl=en&gbpv=0][Muestra en Google Books.]]
 - "Casting Light on the Dark Web". Matthew Beckstrom, Brady Lund. Rowman & Littlefield Publishers. 2019. [[https://www.google.com.ar/books/edition/Casting_Light_on_the_Dark_Web/pAacDwAAQBAJ?hl=en&gbpv=0][Muestra en Google Books.]]
 
 * Columna 17: ¿Qué es el hacking?
-#+html: <a id="columna-17"></a>
+:PROPERTIES:
+:ID:       1b0ad09c-8dc1-424b-9396-eda3fa998a8b
+:PUBDATE:  2024-04-12 vie 19:22
+:RSS_PERMALINK: #columna-17
+:END:
+{{{tag(columna-17)}}}
+\radio{} Emisión al aire: <2024-04-12 vie 15:00>
 
 ** Guion
+:PROPERTIES:
+:ID:       a257878d-514d-4870-a830-5463c4e4d994
+:END:
 1. Hacking. Palabra muy usada para referirse a: ciberdelincuentes... pero... *¿se usa correctamente?*
    
 2. Primero, antes que nada... es una palabra que está en el diccionario, pero que nació y mutó previo a establecer su definición de hoy.
@@ -1445,8 +1639,14 @@ Preguntas:
 - ¿Se animarían a usarlas? ¿por qué?
 
 ** Definiciones de Hacker
+:PROPERTIES:
+:ID:       0297bef5-7b58-44f2-8774-8d7867781373
+:END:
 
 *** Real Academia Española
+:PROPERTIES:
+:ID:       b1721e2a-87b8-46d6-9854-065fff9c658d
+:END:
 #+begin_quote
 *hacker*
 
@@ -1478,6 +1678,9 @@ Sin.: hacker, cracker.
 #+end_quote
 
 *** Diccionarios de Inglés
+:PROPERTIES:
+:ID:       51ddab9a-adf7-4851-80af-cfc8af3a6134
+:END:
 #+begin_quote
 *hack*
 
@@ -1513,6 +1716,9 @@ Obtenido desde [[https://www.thefreedictionary.com/hack][The Free Dictionary]]
 Obtenido desde [[https://www.ldoceonline.com/dictionary/hack][Longman Dictionary]]
 
 *** Urbano - Informales
+:PROPERTIES:
+:ID:       3cef0a7e-0a4a-4d03-a485-510b01e547f0
+:END:
 
 The Urban Dictionary:
 
@@ -1574,8 +1780,10 @@ Obtenido desde [[http://www.catb.org/jargon/html/H/hacker.html][Jargon File]]
 * Columna 16: ¿Qué es el Software Libre?                             :ATTACH:
 :PROPERTIES:
 :ID:       0be8ff50-f91b-4714-a5a5-8c126c6aa466
+:PUBDATE:  2024-03-15 vie 15:00
+:RSS_PERMALINK: #columna-16
 :END:
-#+html: <a id="columna-16"></a>
+{{{tag(columna-16)}}}
 \radio{} Emisión al aire: <2024-03-15 vie 15:00>
 
 \headphone{} [[https://radiocut.fm/radiostation/uncocalf/listen/2024/03/15/15/09/00/][Escuchar en RadioCut]]
@@ -1593,6 +1801,9 @@ La película y su descripción se encuentra en:
 https://cloud.blender.org/films/spring/pages/about
 
 ** Guion
+:PROPERTIES:
+:ID:       9a152298-9095-4c49-994e-2bbf88b1bf17
+:END:
 1. Objetivo principal: *Respeto al usuario y sus libertades*.
 
    Vamos por partes...
@@ -1699,12 +1910,20 @@ Preguntas:
 
 
 * Columna 15: ¿Qué son las redes sociales?
-#+html: <a id="columna-15"></a>
+:PROPERTIES:
+:ID:       8b0ebc53-5870-48c9-8949-28a122795d16
+:PUBDATE:  2024-03-08 vie 15:00
+:RSS_PERMALINK: #columna-15
+:END:
+{{{tag(columna-15)}}}
 \radio{} Emisión al aire: <2024-03-08 vie 15:00>
 
 \headphone{} [[https://radiocut.fm/radiostation/uncocalf/listen/2024/03/08/15/20/00/][Escuchar en RadioCut]]
 
 ** Primero algo para el 8M
+:PROPERTIES:
+:ID:       4e2ab11e-0720-4082-92fb-79b7b7359bb1
+:END:
 
 Es importante destacar a las mujeres en la computación. Visibilizarlas ayuda a que sean vistas como rol y ejemplos a seguir, además de dar confianza a más mujeres para estudiar esta disciplina, y contrarrestar la visión de que la computación es para un género específico.
 
@@ -1847,6 +2066,9 @@ Ahora que conocen más o menos cómo funcionan...
 - ¿Qué les parece que sucede si alguien decide no estar en una red social?
   
 ** Bibliografía
+:PROPERTIES:
+:ID:       a4102ece-58fa-45b5-9694-9c56d3c5d32e
+:END:
 
 - [[https://www.ambito.com/tecnologia/se-cayeron-instagram-y-facebook-cuales-son-las-fallas-n5960068][Artículo "Se cayeron Instagram y Facebook: cuáles son las fallas". Ámbito. 5 de marzo del 2024.]]
   - También sucedió antes: [[https://ipnoticias.ar/actualidad/14716-se-cayeron-los-servicios-de-facebook-instagram-whatsapp-y-messenger-no-funcionan][Artículo "Se cayeron los servicios de Facebook: Instagram, WhatsApp y Messenger no funcionan" de IP Noticias. 4 de octubre del 2021.]]
@@ -1864,6 +2086,9 @@ Ahora que conocen más o menos cómo funcionan...
   Describe las tres topologías de red.
   
 ** Recursos
+:PROPERTIES:
+:ID:       5b71142a-dd9c-4c2c-9ed0-9763708ba07c
+:END:
 
 - Topologías de la red. Una imágen basada en la que se muestra en "Where wizards stay up late".
 
@@ -1873,7 +2098,12 @@ Ahora que conocen más o menos cómo funcionan...
   [[file:data/ba/e196a9-0723-4c41-abf0-256ef276df5e/Topologías_de_red.gif]]
 
 * Columna 14: ¿Qué es el Digital Cloning y el DeepFake?
-#+html: <a id="columna-14"></a>
+:PROPERTIES:
+:ID:       39b527f3-b142-4a60-b523-bacf0e81c52b
+:PUBDATE:  2024-02-23 vie 15:00
+:RSS_PERMALINK: #columna-14
+:END:
+{{{tag(columna-14)}}}
 \radio{} Emisión al aire: <2024-02-23 vie>
 
 ** Guion
@@ -1990,6 +2220,9 @@ Las siguientes imágenes fueron generadas en [[https://www.midjourney.com][www.m
 [[https://www.midjourney.com/jobs/4434e3b9-3af1-4bf6-ad24-990496d9be56?index=0][Por Midjourney bajo la entrada de rani76. Ver descripción y la entrada utilizada.]]
 
 ** Bibliografía
+:PROPERTIES:
+:ID:       ffd55cc9-5ccf-4873-adf5-19ff7f84fbdd
+:END:
 - Acerca de la huelga de actores y guionistas.
 
   [[https://es.wired.com/articulos/opositores-a-la-inteligencia-artificial-en-la-huelga-de-guionistas-de-ee-uu]["Lo que los opositores a la IA están haciendo bien en la huelga de guionistas de EE UU" por Angela Watercutter. Adaptado por Andrei Osornio. Wired. 5 de mayo del 2023.]]  
@@ -2005,7 +2238,12 @@ Las siguientes imágenes fueron generadas en [[https://www.midjourney.com][www.m
   
 
 * Columna 13: ¿Qué es la minería de datos?
-#+html: <a id="columna-13"></a>
+:PROPERTIES:
+:ID:       26e7bee0-7e5b-40ec-9fb7-4e50a1b47307
+:PUBDATE:  2023-12-15 vie 15:00
+:RSS_PERMALINK: #columna-13
+:END:
+{{{tag(columna-13)}}}
 \radio{} Emisión al aire: <2023-12-15 vie 15:00>
 
 \warning{} Advertencia: La persona que conoce a en gran medida acerca de la correcta utilización de la minería de datos y KDD es lx estadísticx. Si bien, en carreras informáticas puede estudiarse ciertos contenidos, no necesariamente se focalizan en la investigación y ejecución de una gran cantidad de métodos existentes.
@@ -2097,13 +2335,21 @@ Preguntas:
 - ¿Se imaginan qué se puede hacer con sus datos? ¿qué clase de patrones se podrían encontrar entre sus datos y los demás?
   
 ** Bibliografía
+:PROPERTIES:
+:ID:       10e921c6-1a7f-4c83-8c93-3342be6a2028
+:END:
 - /"Introduction to Data Mining"/. Tan Steinbach Kumar. Pearson. Primera edición. 2014.
 - /"Data Mining Concepts and Techniques"/. Jiawei Han, Micheline Kamber y Jian Pei. Morgan Kaufmann/Elsevier. Tercera edición. 2012.
 
 
 
 * Columna 12: ¿Qué es la Web?
-#+html: <a id="columna-12"></a>
+:PROPERTIES:
+:ID:       a2250223-2aa8-4c2d-ad37-200deda5ca7c
+:PUBDATE:  2023-12-01 vie 15:00
+:RSS_PERMALINK: #columna-12
+:END:
+{{{tag(columna-12)}}}
 \radio{} Emisión al aire: <2023-12-01 vie 15:00>
 
 #+caption: Captura de pantalla del primer explorador Web.
@@ -2176,6 +2422,9 @@ Pero... ¿Cuánto del Internet usamos habitualmente? ¿Qué páginas visitás d�
 ¿cuánto contenido se imaginan que hay en Internet? ¿y en otras redes?
 
 ** Bibliografía
+:PROPERTIES:
+:ID:       cead3d8f-f7ef-4873-af17-7e51b19d1f0f
+:END:
 - "Information Management: A Proposal". Tim Berners-Lee, CERN. Marzo 1989.
 
   https://www.w3.org/History/1989/proposal.html
@@ -2200,7 +2449,12 @@ Pero... ¿Cuánto del Internet usamos habitualmente? ¿Qué páginas visitás d�
 
   https://www.w3.org/People/Berners-Lee/WorldWideWeb.html
 * Columna 11: ¿Qué es Internet?
-#+html: <a id="columna-11"></a>
+:PROPERTIES:
+:ID:       05aa59bc-5ff5-493c-9708-109fb670fa1a
+:PUBDATE:  2023-11-17 vie 15:00
+:RSS_PERMALINK: #columna-11
+:END:
+{{{tag(columna-11)}}}
 \radio{} Emisión al aire: <2023-11-17 vie 15:00>
 
 #+caption: Cables marítimos para interconectar redes.
@@ -2208,6 +2462,9 @@ Pero... ¿Cuánto del Internet usamos habitualmente? ¿Qué páginas visitás d�
 http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCableHi.jpg
 
 ** Guion
+:PROPERTIES:
+:ID:       a0cb4f4d-da5d-4ab6-a13f-3f591c2ed7a1
+:END:
 
 1. ¿Es internet o Internet? ...
    1. ¡NO! No es una cajita, no es el cable, no es ninguna red social, nope nope... bueno, solo un poco...
@@ -2263,6 +2520,9 @@ http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCab
 \thinkingface{} Para pensar: ¿Quién conecta todo? ¿qué pasa en las escuelas, municipios, hospitales, hogares, trabajos de ciudades lejanas? ¿cómo hacemos para que llegue la fibra óptica a toda la Argentina?
 
 ** Recursos
+:PROPERTIES:
+:ID:       ca593594-8d2e-442f-9941-e05010051296
+:END:
 
 - The internet's undersea world. The Guardian.
   
@@ -2284,10 +2544,18 @@ http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCab
 
   
 * Columna 10: ¿Qué es el voto electrónico? Parte 2
-#+html: <a id="columna-10"></a>
+:PROPERTIES:
+:ID:       5f64f3d7-4746-442f-b563-37b3a181e690
+:PUBDATE:  2023-11-03 vie 15:00
+:RSS_PERMALINK: #columna-10
+:END:
+{{{tag(columna-10)}}}
 \radio{} Emisión al aire: <2023-11-03 vie 15:00>
 
 ** Guion
+:PROPERTIES:
+:ID:       1b0810ed-ec77-4e8f-bfb5-865d4d9c541e
+:END:
 
 1. Repaso:
    1. *Calidad* o propiedades de la votación: Secreto, integridad, capacidad de auditoría y control, igualdad de condiciones para los partidos, universalidad, convalidación, usable.
@@ -2365,6 +2633,9 @@ Volviendo a las moralejas:
 - Con la información que les es muy importante: ¿piensan qué hacer para mitigar algún inconveniente si sucede? (p. ej.: si les falta Internet y no pueden acceder a ella, si el programa no responde como se espera o si se modifica o borra inesperadamente).
 
 ** Programas
+:PROPERTIES:
+:ID:       ee38f220-efa7-4334-8dfa-5cfe9a6273cf
+:END:
 Para ejecutar los programas en un celular, se requiere de una terminal y un intérprete de PHP. 
 
 1. instalar termux (ver https://termux.com/).
@@ -2509,10 +2780,18 @@ Para ejecutar los programas en un celular, se requiere de una terminal y un int�
 #+END_SRC
 
 * Columna 9: ¿Qué es el voto electrónico?
-#+html: <a id="columna-9"></a>
+:PROPERTIES:
+:ID:       b26e46f5-dc78-42e6-ae12-c07dbb47a0d5
+:PUBDATE:  2023-10-20 vie 15:00
+:RSS_PERMALINK: #columna-9
+:END:
+{{{tag(columna-9)}}}
 \radio{} Emisión al aire: <2023-10-20 vie 15:00>
 
 ** Guion
+:PROPERTIES:
+:ID:       9cba2d13-7fb0-496f-810c-a6ed12e15d69
+:END:
 ¿Es fácil un proceso de votación? A ver... veamos...
 
 1. ¿Quiénes participan?
@@ -2581,6 +2860,9 @@ Para ejecutar los programas en un celular, se requiere de una terminal y un int�
   ¡Hablamos de *soberanía tecnológica* un una columna anterior!
 
 ** Bibliografía
+:PROPERTIES:
+:ID:       052f2a9c-54c3-4447-b4a4-9a799d98321f
+:END:
 
 - "Análisis de factibilidad en la implementación de tecnología en diferentes aspectos y etapas del proceso electoral". Consejo Nacional de Investigaciones Científicas y Tecnológicas (CONICET). 2017.
   https://www.conicet.gov.ar/wp-content/uploads/Analisis_factibilidad_implementacion_tecnologia_proceso_electoral.pdf
@@ -2607,7 +2889,12 @@ Más material interesante para leer:
   https://www.vialibre.org.ar/alemania-urnas-electronicas-anticonstitucionales/
 
 * Columna 8: ¿Qué es el blockchain?
-#+html: <a id="columna-8"></a>
+:PROPERTIES:
+:ID:       8485a7b9-94dc-4130-8ce3-de3e09666f2a
+:PUBDATE:  2023-10-06 vie 15:00
+:RSS_PERMALINK: #columna-8
+:END:
+{{{tag(columna-8)}}}
 \radio{} Emisión al aire: <2023-10-06 vie 15:00>
 
 #+caption: Una "granja minera" de computadoras de Islandia.
@@ -2620,6 +2907,9 @@ Por ello, para no hacernos más confusión y comprender todos estos temas, decid
 \framedpicture{} Imágen: Cryptocurrency mining farm - Bajo licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC-by-SA 4.0). Obtenido desde [[https://commons.wikimedia.org/wiki/File:Cryptocurrency_Mining_Farm.jpg][Wikimedia Commons]].
 
 ** Guion
+:PROPERTIES:
+:ID:       c6bead83-156f-442d-9972-5cd30ed8c865
+:END:
 1. Creación e idea:
    1. Moneda digital: Sí, no hay nada físico excepto tu celu o la compu.
    2. *Satoshi Nakamoto* propone el primer blockchain (Bitcoin) en *2009*.
@@ -2702,6 +2992,9 @@ Por ello, para no hacernos más confusión y comprender todos estos temas, decid
       2. Caso contrario, no realizar la transacción.
 
 ** Bibliografía y otros recursos
+:PROPERTIES:
+:ID:       c8887d01-0872-4926-b1f6-5d80de8b14a1
+:END:
 - "Bitcoin: A peer-to-peer electronic cash system". Satoshi Nakamoto. 2009.
   
   https://bitcoin.org/bitcoin.pdf
@@ -2722,7 +3015,12 @@ Curiosidades:
 - https://txstreet.com
 - https://developers.eos.io/welcome/latest/getting-started-guide/local-development-environment/index
 * Columna 7: ¿Qué es la soberanía tecnológica? (¿y por qué es importante?)
-#+html: <a id="columna-7"></a>
+:PROPERTIES:
+:ID:       621d699c-91ec-4ca0-a5d9-24354ce59b86
+:PUBDATE:  2023-09-22 vie 15:00
+:RSS_PERMALINK: #columna-7
+:END:
+{{{tag(columna-7)}}}
 \radio{} Emisión al aire: <2023-09-22 vie 15:00>
 
 \headphone{} Recorte en RadioCut aún no disponible.
@@ -2737,6 +3035,9 @@ En esta columna charlamos un poco del concepto de *soberanía tecnológica*. Un 
 \framedpicture{} Imágen: Estación Terrena Benavídez por BugWarp - Bajo licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC-by-SA 4.0). Obtenido desde [[https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_Terrena_Benav%C3%ADdez_01.jpg?uselang=es][Wikimedia Commons]].
 
 ** Guion
+:PROPERTIES:
+:ID:       f625e27c-8b91-42f4-b510-af668a7c2d6c
+:END:
 #+begin_quote
 soberanía
 
@@ -2837,6 +3138,9 @@ Y de esas tecnologías: ¿Cuáles tenemos a nuestro alcance como argentinos?
 ¿Qué control o gestión tiene la ciudadanía y el estado de esas tecnologías?
 
 ** Bibliografía
+:PROPERTIES:
+:ID:       74f14f21-d146-43c6-bafa-d71af89821e6
+:END:
 - "NSA Prism program taps in to user data of Apple, Google and others", Glenn Greenwald and Ewen MacAskill, 2013.
 
   Explicación del programa PRISM.
@@ -2860,8 +3164,10 @@ Y de esas tecnologías: ¿Cuáles tenemos a nuestro alcance como argentinos?
 * Columna 6: Manuel Sadosky, "IBM go home" y más - 2da parte         :ATTACH:
 :PROPERTIES:
 :ID:       59d9d7da-7dce-46ef-8c20-b656db6ec771
+:PUBDATE:  2023-09-08 vie 15:00
+:RSS_PERMALINK: #columna-6
 :END:
-#+html: <a id="columna-6"></a>
+{{{tag(columna-6)}}}
 \radio{} Emisión al aire: <2023-09-08 vie 15:00>
 
 \headphone{} [[https://radiocut.fm/audiocut/columna-6-cristian-gimenez-manuel-sadosky-ibm-go-home-2da-parte-yo-no-fui-08-09-2023/][Recorte en RadioCut.]]
@@ -2878,6 +3184,9 @@ A eso venimos hoy, a contarte qué sucedió después. Algunas cosas que valen la
 
 
 ** Guión
+:PROPERTIES:
+:ID:       a446d51d-d167-4be9-abb3-a4f2aaf23597
+:END:
 
 1. Repaso rápido:
    - Reforma universitaria: movimiento estudiantil del 1918 para reformar la universidad, buscan:
@@ -2987,6 +3296,9 @@ Algunos datos de color:
 - CONICET: Se funda en 1958. La inversión para la primer computadora fue realizada al CONICET en 1962.
 
 ** Bibliografía
+:PROPERTIES:
+:ID:       ed551472-4c8c-4a57-b903-819a2a9ed727
+:END:
 - "Historia de la Informática en Latinoamérica y el Caribe: investigaciones y testimonios". Jorge Aguirre y Raúl Carnota. Universidad Nacional de Río Cuarto, Argentina. 2009.
   
   \glasses{} PDF disponible en: https://www.researchgate.net/publication/310625262_Historia_de_la_informatica_en_Latinoamerica_y_el_Caribe_investigaciones_y_testimonios
@@ -3021,7 +3333,12 @@ Algunos datos de color:
 
 
 * Columna 5: ¿Quién fue Manuel Sadosky?
-#+html: <a id="columna-5"></a>
+:PROPERTIES:
+:ID:       bac227a7-42fb-405c-a381-c04932b38c8d
+:PUBDATE:  2023-08-25 vie 15:00
+:RSS_PERMALINK: #columna-5
+:END:
+{{{tag(columna-5)}}}
 \radio{} Emisión al aire: <2023-08-25 vie 15:00>
 
 \headphone{} [[https://ar.radiocut.fm/audiocut/columna-cristian-gimenez-quien-fue-manuel-sadosky-yo-no-fui-25-08-2023/][Escuchar recorte en RadioCut]].
@@ -3036,6 +3353,9 @@ En la columna de hoy, hablaremos del doctor Manuel Sadosky. Pero antes, daremos 
 \framedpicture{} Imágen: Manuel Sadosky y Clementina. Imágen bajo el dominio público. Obtenido desde [[https://commons.wikimedia.org/wiki/File:Manuel_Sadosky_y_Clementina.jpg][Wikimedia Commons]].
 
 ** Guión
+:PROPERTIES:
+:ID:       31ea090d-4c3f-4930-94ff-302e37abc4cb
+:END:
 
 1. Contexto: Universidades desde el siglo XIX hasta 1918:
    - Católicas mayormente (UNC), estudiantes con dificultades para ingresar.
@@ -3118,6 +3438,9 @@ Algunos datos de color:
 - Otra personalidad importante: *René Favaloro*: Escuela 45, Colegio Nacional Rafael Hernández, Universidad Nacional de La Plata (UNLP), Hospital Policlínico. Escuelas y universidades públicas.
 
 ** Bibliografía
+:PROPERTIES:
+:ID:       f77d3e31-60e1-4666-9c4a-0af5a3d37f8d
+:END:
 - "Sadosky por Sadosky vida y pensamiento del pionero de la computación argentina". Raúl Carnota, Carlos Borches. Fundación Sadosky.
 
   PDF disponible en: https://www.dc.uba.ar/clementina50/sadosky-por-sadosky-2/
@@ -3145,8 +3468,10 @@ Algunos datos de color:
 * Columna 4: ¿Qué es el filtro burbuja?                              :ATTACH:
 :PROPERTIES:
 :ID:       72e04deb-8e2b-4d72-9184-d355139b63ff
+:PUBDATE:  2023-08-11 vie 15:00
+:RSS_PERMALINK: #columna-4
 :END:
-#+html: <a id="columna-4"></a>
+{{{tag(columna-4)}}}
 \radio{}  Emisión al aire: <2023-08-11 vie 15:00>
 
 #+attr_html: :alt Imágen de burbujas chocando con mucho zoom. Su superficie tiene diferentes colores.
@@ -3161,6 +3486,9 @@ Hablamos de los Filtros Burbujas, la cámara de eco y cómo los buscadores y pá
 [[https://store.kde.org/p/2056567]]
 
 ** Guion
+:PROPERTIES:
+:ID:       eb4dc755-0bd7-4cf0-a5ed-b3beb390829d
+:END:
 
 1. Nada de Repaso \grinning{}: "¿Se acuerdan que hablamos de Algoritmos y que la IA es un algoritmo?
    ¿que mencionamos a los algoritmos de sugerencias?".
@@ -3203,6 +3531,9 @@ Hablamos de los Filtros Burbujas, la cámara de eco y cómo los buscadores y pá
 \musicalnotes{} ¿Se podrá terminar con la canción Hotel California? ~03:04
 
 ** Bibliografía
+:PROPERTIES:
+:ID:       0cb2e5a7-9000-4bdd-94c2-ea3a2b52a8f6
+:END:
 1. https://www.theguardian.com/technology/2010/nov/22/tim-berners-lee-facebook
    1. https://www.scientificamerican.com/article/long-live-the-web/
 2. https://www.huffpost.com/entry/algorithms-and-the-filter_b_869473
@@ -3214,8 +3545,10 @@ Hablamos de los Filtros Burbujas, la cámara de eco y cómo los buscadores y pá
 * Columna 3: ¿Qué es un algoritmo?                                   :ATTACH:
 :PROPERTIES:
 :ID:       d366e442-9ea8-463d-81bf-77bf2b1deb08
+:PUBDATE:  2023-07-28 vie 15:00
+:RSS_PERMALINK: #columna-3
 :END:
-#+html: <a id="columna-3"></a>
+{{{tag(columna-3)}}}
 \radio{} Emisión al aire: <2023-07-28 vie 15:00>
 
 #+attr_html: :alt Foto con mucho zoom de una hoja que tiene dibujada un diagrama de flujo.
@@ -3230,6 +3563,9 @@ Revelaremos el significado de esta palabra que siempre usamos. Eso que está det
 \framedpicture{} Imágen: Flowchart por Gautier Poupeau - Bajo la licencia Creative Commons Atribución (CC-by 2.0). Obtenido desde https://flic.kr/p/rt5Q1d
 
 ** Guion
+:PROPERTIES:
+:ID:       1ce81ebb-01a8-465f-9afb-dab7d9c23180
+:END:
 
 
 #+begin_quote
@@ -3292,7 +3628,12 @@ Revelaremos el significado de esta palabra que siempre usamos. Eso que está det
 
 #+latex: \newpage
 * Columna 2: ¿Quién fue Alan Turing?
-#+html: <a id="columna-2"></a>
+:PROPERTIES:
+:ID:       72d2eb1a-c972-40ec-8b0e-3401b65675c8
+:PUBDATE:  2023-07-14 vie 15:00
+:RSS_PERMALINK: #columna-2
+:END:
+{{{tag(columna-2)}}}
 \radio{} Emisión al aire: <2023-07-14 vie 15:00>
 
 #+caption: Estatua representando a Alan Turing en Bletchley Park, atrás su fotografía.
@@ -3306,6 +3647,9 @@ En la computación, hubo un antes y un después de que Turing publicara sus art�
 \framedpicture{} Imágen: Alan Turing por Jon Callas - Bajo licencia Creative Commons Atribución 2.0 Genérica (CC-by 2.0). Obtenido desde [[https://commons.wikimedia.org/wiki/File:Alan_Turing_cropped.jpg][Wikimedia Commons]].
 
 ** Guion
+:PROPERTIES:
+:ID:       fdc28262-ec63-40a2-9d81-03fc8123badd
+:END:
 
 1. Repaso:
    1. ¿Qué era una computadora antes de Turing? \pointright{} Una computadora, era una persona que calculaba números: trabajo tedioso donde solo "sacaban cuentas".
@@ -3363,6 +3707,9 @@ En la computación, hubo un antes y un después de que Turing publicara sus art�
      Por ejemplo: ¿Creen que la computadora puede reemplazar una obra de arte? ¿significará lo mismo que si lo hace una persona? ¿una canción que la canta un cantante expresaría lo mismo?
 
 ** Bibliografía
+:PROPERTIES:
+:ID:       6a51b4e4-b47d-4902-ade5-4ed0bb756f76
+:END:
 
 - "La computación Turing - Pensando en máquinas que piensan". Rafael Lahoz-Beltra. RBA Colleccionables. 2012.
 - "Computing Machinery and Intelligence". Alan M. Turing. Mind LIX N^{\circ }236. 1950. 
@@ -3371,7 +3718,12 @@ En la computación, hubo un antes y un después de que Turing publicara sus art�
 
 #+latex: \newpage
 * Columna 1: ¿Quién fue Ada Lovelace?
-#+html: <a id="columna-1"></a>
+:PROPERTIES:
+:ID:       4e4400b7-b9a9-4f87-aa6c-6e2097a6c08c
+:PUBDATE:  2023-06-30 vie 15:00
+:RSS_PERMALINK: #columna-1
+:END:
+{{{tag(columna-1)}}}
 \radio{} Emisión al aire: <2023-06-30 vie 15:00>
 
 #+caption: Retrato en acuarela de Ada Lovelace.
@@ -3444,20 +3796,34 @@ Aproximadamente, se tarda 2' a 3' por ítem. Total: 20'30''.
 [[./data/6f/2b0c10-f143-4af7-a523-b4bcb302dd79/Nautical_almanac_01.png]]
 
 ** Bibliografía
+:PROPERTIES:
+:ID:       2a565ac7-39ae-4728-a9a6-ea4ef5cefdca
+:END:
 - "Computer a history of the information machine". Martin Campbell-Kelly y William Aspray. Westview Press. 2004.
   https://archive.org/embed/computerhistoryo02edcamp
 - Imágen de un Almanaque Náutico obtenido desde WikiMedia Commons. Autor: U.S. Naval observatory. Bajo dominio público.
   [[https://commons.wikimedia.org/wiki/File:Nautical_almanac_01.png][commons.wikimedia.org/wiki/File:Nautical_almanac_01.png]]
 
 * Consideraciones en el desarrollo del documento
+:PROPERTIES:
+:ID:       2e65d61b-16a5-4954-9be5-e76354f83730
+:PUBDATE:  2023-01-17 vie 19:22
+:RSS_PERMALINK: #consideraciones
+:END:
+{{{tag(consideraciones)}}}
+
 Para el desarrollo de este documento se utiliza [[https://www.gnu.org/software/emacs/][Emacs]] con [[https://orgmode.org/][Org-mode]]. Aquí se presentan algunos tips y snippets (retazos de código fuente)  necesarios para utilizar y generar los documentos LaTeX, PDF y HTML adecuadamente.
 
 ** Cambios para la accesibilidad
 :PROPERTIES:
 :header-args:css: :tangle css/index.css :mkdirp yes
+:ID:       39c3c934-bb17-44b2-8e12-7d44010a9ebb
 :END:
 
 *** Corrigiendo contraste de colores
+:PROPERTIES:
+:ID:       1c1022c6-8cda-4392-a224-0cca762b1534
+:END:
 El timestamp original tiene color gris, corregir al negro para dar mayor contraste.
 
 #+BEGIN_SRC css
@@ -3467,6 +3833,9 @@ El timestamp original tiene color gris, corregir al negro para dar mayor contras
 #+END_SRC
 
 *** Quitar justificado
+:PROPERTIES:
+:ID:       a2a1495b-fa89-4410-93a2-59feb418aedf
+:END:
 El justificado completo suele dejar espacios en blanco. Esto es contraproducente para personas con problemas para leer e interpretar el contenido.
 
 #+BEGIN_SRC css
@@ -3477,6 +3846,9 @@ El justificado completo suele dejar espacios en blanco. Esto es contraproducente
 
 
 ** Exportar fecha en español
+:PROPERTIES:
+:ID:       13705463-f87f-4e50-bf9a-89568f7bf594
+:END:
 Es necesario utilizar un comando de Emacs específico para exportar las fechas en el formato correcto. En este caso, se utilpreconfigurar el formato de la fecha.
 
 #+BEGIN_SRC emacs-lisp :results silent
@@ -3497,11 +3869,21 @@ de fecha en español, y es más sencillo de leer."
 #+END_SRC
 
 ** Org-entities
+:PROPERTIES:
+:ID:       48fbe7ea-d5e1-4d22-bf96-0d4396ef9c37
+:END:
 Para generar los emojis en HTML y LaTeX, se incorporan más entidades de Org-mode. Estas entidades se encuentran en mi configuración personal de Emacs, bajo la siguiente URL: [[https://gitlab.com/cnngimenez/emacs-stuff]]
 
 Actualmente, se utiliza la siguiente configuración en particular: [[https://gitlab.com/cnngimenez/emacs-stuff/-/blob/fc0ae63677b37c178be44b1f45abb0510dfa76b4/init.org?plain=1#L2058][Ver configuración]].
 
 * Licencia de esta obra
+:PROPERTIES:
+:ID:       46124cc5-f462-42bf-af04-2487d733eb34
+:PUBDATE:  2024-01-17 vie 19:22
+:RSS_PERMALINK: #licencia
+:END:
+{{{tag(licencia)}}}
+
 #+attr_html: :alt Logo de la licencia CC-by-SA.
 [[https://i.creativecommons.org/l/by-sa/4.0/88x31.png]]
 
@@ -3510,18 +3892,29 @@ Esta obra se encuentra bajo la licencia Creative Commons Atribución Compartir I
 Ante modificaciones, se debe especificar la obra original y sus autores.
 
 * Código fuente
+:PROPERTIES:
+:ID:       079e33d6-bc84-4d10-be15-1775249f0ada
+:PUBDATE:  2024-01-17 vie 19:22
+:RSS_PERMALINK: #fuentes
+:END:
+{{{tag(fuentes)}}}
+
 El código fuente se encuentra disponible en la siguiente URL: [[https://github.com/controlz-fai/control-y]]
 
-#+HTML: </main>
+{{{mainendtag}}}
 
 * Meta     :noexport:
+:PROPERTIES:
+:ID:       d58b1c99-e3e8-4c44-b3d7-7763dca4a93f
+:PUBDATE:  2024-01-17 vie 19:22
+:END:
 
 # ----------------------------------------------------------------------
 #+TITLE:  Columna de Informática - Yo no fui
 #+SUBTITLE:
 #+AUTHOR: Christian Gimenez
 # #+DATE:   13 jun 2023
-#+EMAIL:
+#+EMAIL: christian.gimenez@fi.uncoma.edu.ar
 #+DESCRIPTION: 
 #+KEYWORDS: 
 #+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
@@ -3529,7 +3922,8 @@ El código fuente se encuentra disponible en la siguiente URL: [[https://github.
 #+STARTUP: inlineimages hidestars content hideblocks entitiespretty
 #+STARTUP: indent fninline latexpreview
 
-#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t ':t
+{{{toc}}}
+#+OPTIONS: H:3 num:t \n:nil @:t ::t |:t ^:{} -:t f:t *:t <:t ':t
 #+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
 #+OPTIONS: tex:imagemagick
 
@@ -3544,14 +3938,16 @@ El código fuente se encuentra disponible en la siguiente URL: [[https://github.
 #+export_file_name: index
 
 # -- HTML Export
-#+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
+# #+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
 # #+HTML_LINK_UP: https://controlz.fi.uncoma.edu.ar
 # #+HTML_LINK_HOME: https://controlz.fi.uncoma.edu.ar
+#+HTML_LINK_HOME: https://controlz.fi.uncoma.edu.ar/control-y
 
 # -- For ox-twbs or HTML Export
 # #+HTML_HEAD: <link href="libs/bootstrap.min.css" rel="stylesheet">
 # -- -- LaTeX-CSS
 # #+HTML_HEAD: <link href="css/style-org.css" rel="stylesheet">
+#+HTML_HEAD: <link rel="alternative" type="application/rss+xml" href="index.xml" title="Control Y - Feed" />
 
 # #+HTML_HEAD: <script src="libs/jquery.min.js"></script> 
 # #+HTML_HEAD: <script src="libs/bootstrap.min.js"></script>
@@ -3559,6 +3955,7 @@ El código fuente se encuentra disponible en la siguiente URL: [[https://github.
 #+html_head: <link rel="stylesheet" href="https://latex.now.sh/lang/es.css" />
 #+html_head: <link rel="stylesheet" href="css/index.css" />
 
+#+RSS_FEED_URL: https://controlz.fi.uncoma.edu.ar/control-y/index.xml
 
 # -- LaTeX Export
 # #+LATEX_CLASS: article
@@ -3593,6 +3990,10 @@ El código fuente se encuentra disponible en la siguiente URL: [[https://github.
 
 
 * Footnotes
+:PROPERTIES:
+:ID:       f17e59cd-256e-4a77-8627-908e470e945a
+:PUBDATE:  2025-01-17 vie 19:22
+:END:
 
 
 # Local Variables:
