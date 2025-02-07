@@ -74,6 +74,7 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
     - Porque hay una prohibición de EEUU de vender tecnología de avanzada a China.
   - Utiliza una estrategia de *uso de memoria más efectivo*. Esto hace que requiera menos memoria RAM.
   - Es posible descargarse el modelo y el software y utilizarlo localmente, off-line. ChatGPT y otros no.
+    - Incluso puede funcionar en Android! (ver [[*Recursos][Sección Recursos]]).
 - ¿Cómo afecta DeepSeek R1?
   - Al utilizar menos recursos y decrementar tanto los costos hace que otras empresas deban justificar mejor sus inversiones.
   - Pone en duda si es cierto que  la única forma de mejorar la IA producida es con más coston y más cantidad de chips.
@@ -96,13 +97,25 @@ Vieron que EEUU impuso restricciones a la venta de tecnología a China: ¿qué p
 :ID:       f7eac792-65b6-4c80-bdd4-62756931dbdb
 :END:
 
-- "DeepSeek: The Chinese AI app that has the world talking" por Kelly Ng, Brandon Drenon, Tom Gerken y Marc Cieslak. BBC News. 4 de febrero del 2025.
+- El chatbot se encuentra disponible en su sitio oficial: https://chat.deepseek.com/
 
-  https://www.bbc.com/news/articles/c5yv5976z9po
+  Requiere registrarse con correo electrónico.
 
-- "DeepSeek: cómo los "héroes de la IA" de China superaron las restricciones de EE.UU. y desafiaron a Silicon Valley" por Fan Wang y João da Silva. BBC News. 1 de febrero del 2025.
+- [[https://api-docs.deepseek.com/news/news250120]["DeepSeek-R1 Release]] por DeepSeek.
 
-  https://www.bbc.com/mundo/articles/cqx93d7e1weo
+  Noticia que revela la versión R1 de la página oficial.
+
+- [[https://github.com/deepseek-ai/DeepSeek-R1][Repositorio con la documentación, links y detalles del DeepSeek R1]] por DeepSink.
+
+  Se encuentra un link para descargar los distintos modelos, material de referencia científica, resultados de evaluación, etc.
+
+- [[https://www.bbc.com/news/articles/c5yv5976z9po]["DeepSeek: The Chinese AI app that has the world talking"]] por Kelly Ng, Brandon Drenon, Tom Gerken y Marc Cieslak. BBC News. 4 de febrero del 2025.
+
+- [[https://www.bbc.com/mundo/articles/cqx93d7e1weo]["DeepSeek: cómo los "héroes de la IA" de China superaron las restricciones de EE.UU. y desafiaron a Silicon Valley"]] por Fan Wang y João da Silva. BBC News. 1 de febrero del 2025.
+
+- [[https://www.xatakandroid.com/tutoriales/pense-que-no-podria-instalar-deepseek-local-mi-android-realidad-que-funciona-perfectamente]["Instalar DeepSeek en local en Android no es fácil, pero funciona perfectamente"]]. Ivan de Linares. Xataca Android. 4 de febrero del 2025.
+
+  Muestra cómo instalar DeepSeek en Android usando Termux, una terminal para estos sistemas.
 
 * Columna 33: Pac-Man
 :PROPERTIES:
