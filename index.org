@@ -19,7 +19,18 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
 
 \warning{} Las columnas están ordenadas de manera inversa: la más reciente primero.
 
-#+html: <a href="http://validator.w3.org/feed/check.cgi?url="><img src="valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
+Está página se encuentra disponible en los siguientes formatos:
+- HTML:
+  - https://controlz.fi.uncoma.edu.ar/control-y/
+  - https://controlz-fai.github.io/control-y/
+- Org-mode:
+  - https://controlz.fi.uncoma.edu.ar/control-y/index.org
+  - https://controlz-fai.github.io/control-y/index.org
+- RSS para agregadores (p. ej.: la App [[https://f-droid.org/es/packages/com.capyreader.app/][CapyReader]]):
+  - https://controlz.fi.uncoma.edu.ar/control-y/index.xml
+  - https://controlz-fai.github.io/control-y/index.xml
+   
+#+html: <a href="http://validator.w3.org/feed/check.cgi?url=controlz-fai.github.io/control-y/index.xml"><img src="valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
 
 * Datos de la Columna {{{norsstag}}}
 :PROPERTIES:
@@ -197,8 +208,9 @@ Preguntas:
 - "Wikimedia España, asociación de editores de Wikipedia, responde a los ataques de Elon Musk: “Demuestra ser un total ignorante sobre cómo funcionamos" por Jordi Sabaté. Eldiario.es. 31 de diciembre del 2024 y actualizado el 2 de enero del 2025.
   https://www.eldiario.es/cultura/wikipedia-espana-responde-ataques-elon-musk-demuestra-total-ignorante-funcionamos_1_11933755.html
 
-#+attr_html: :width 25%
+#+attr_html: :width 25% :alt Arcade de Guildford :align left 
 [[https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Guildford%2C_UK%2C_Aug-2016_%2828811832961%29.jpg/800px-Guildford%2C_UK%2C_Aug-2016_%2828811832961%29.jpg]]
+
 Foto de Mitch Altman obtenido desde Wikimedia Commons bajo licencia Creative Commons Genérica de Atribución/Compartir-Igual 2.0. [[https://commons.wikimedia.org/wiki/File:Guildford,_UK,_Aug-2016_(28811832961).jpg][Ir a la página original.]]
 
 * Columna 32: Tetris (2da parte)
@@ -4005,6 +4017,7 @@ El código fuente se encuentra disponible en la siguiente URL: [[https://github.
 #+export_file_name: index
 
 # -- HTML Export
+#+HTML_DOCTYPE: html5
 # #+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
 # #+HTML_LINK_UP: https://controlz.fi.uncoma.edu.ar
 # #+HTML_LINK_HOME: https://controlz.fi.uncoma.edu.ar
