@@ -1,7 +1,7 @@
 #+macro: maintag (eval (if (equal org-export-current-backend 'html) "#+HTML: <main>" ""))
 #+macro: mainendtag (eval (if (equal org-export-current-backend 'html) "#+HTML: </main>" ""))
 #+macro: toc (eval (if (equal org-export-current-backend 'rss) "#+options: toc:nil" "#+options: toc:t"))
-#+macro: tag (eval (if (equal org-export-current-backend 'rss) "" "#+html: <a id=\"$1\"></a>"))
+#+macro: tag (eval (if (equal org-export-current-backend 'rss) "" (format "#+html: <a id=\"%s\"></a>" $1)))
 #+macro: norss (eval (if (equal org-export-current-backend 'rss) "* NO RSS :noexport:" ""))
 #+macro: norsstag (eval (if (equal org-export-current-backend 'rss) ":noexport:" ""))
 
