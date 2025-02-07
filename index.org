@@ -4017,7 +4017,7 @@ El código fuente se encuentra disponible en la siguiente URL: [[https://github.
 #+export_file_name: index
 
 # -- HTML Export
-#+HTML_DOCTYPE: html5
+#+HTML_DOCTYPE: html4-transitional
 # #+INFOJS_OPT: view:info toc:t ftoc:t ltoc:t mouse:underline buttons:t path:libs/org-info.js
 # #+HTML_LINK_UP: https://controlz.fi.uncoma.edu.ar
 # #+HTML_LINK_HOME: https://controlz.fi.uncoma.edu.ar
