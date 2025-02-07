@@ -14,9 +14,9 @@
 <link>https://controlz.fi.uncoma.edu.ar/control-y</link>
 <description><![CDATA[]]></description>
 <language>es</language>
-<pubDate>Sat, 18 Jan 2025 23:06:04 -0300</pubDate>
-<lastBuildDate>Sat, 18 Jan 2025 23:06:04 -0300</lastBuildDate>
-<generator>Emacs 31.0 Org-mode 9.7.17</generator>
+<pubDate>Fri, 07 Feb 2025 14:51:20 -0300</pubDate>
+<lastBuildDate>Fri, 07 Feb 2025 14:51:20 -0300</lastBuildDate>
+<generator>Emacs 31.0 Org-mode 9.7.19</generator>
 <webMaster>christian.gimenez@fi.uncoma.edu.ar (Christian Gimenez)</webMaster>
 <image>
 <url>https://orgmode.org/img/org-mode-unicorn-logo.png</url>
@@ -24,6 +24,95 @@
 <link>https://controlz.fi.uncoma.edu.ar/control-y</link>
 </image>
 
+<item>
+<title>Columna 34: Deepseek</title>
+<link>https://controlz.fi.uncoma.edu.ar/control-y/index.html#orgfc41790</link>
+<author>christian.gimenez@fi.uncoma.edu.ar (Christian Gimenez)</author>
+<guid isPermaLink="false">https://controlz.fi.uncoma.edu.ar/control-y/index.html#orgfc41790</guid>
+<pubDate>Fri, 07 Feb 2025 14:42:00 -0300</pubDate>
+
+<description><![CDATA[<p>
+&#128251; Emisión al aire: 
+</p>
+
+<ul class="org-ul">
+<li>¿Qué es DeepSeek?
+<ul class="org-ul">
+<li><b>Es una empresa</b> situada Hangzhou en China. Se encarga del desarrolo de software IA, particularmente Large Language Models (LLM).</li>
+<li>Liang Wenfeng fundador de la empresa.
+<ul class="org-ul">
+<li>Es graduado de la Universidad de Zhejiang, una universidad nacional.</li>
+</ul></li>
+<li>El <b>DeepSeek R1</b> es el chatbot (modelo + software) creado por esta empresa.
+<ul class="org-ul">
+<li>Básicamente, es un programa y un conjunto de datos llamado modelo. El modelo es lo que "aprendió", se entrena con muchos datos para que se modifique y se adapte a ellos.</li>
+</ul></li>
+<li>Es lo similar al ChatGPT, un chatbot con IA del tipo que simula un ser humano.</li>
+<li>Se dice que es comparativamente igual en potencia a los existentes y a la última versión ChatGPT o1.
+<ul class="org-ul">
+<li>Aunque no hay una una comparación concreta aún.</li>
+</ul></li>
+</ul></li>
+<li>¿Qué tiene de interesante?
+<ul class="org-ul">
+<li>La empresa dice que <b>el software es Open Source</b>, y el modelo se creo con un costo de $6 millones contra $100 millones que supuestamente costó GPT-4.</li>
+<li>Utilizó menos recursos: la empresa indica que <b>utilizó 2.000 chips Nvidia A100 y miles de menor calidad</b> adquiridos antes de la prohibición.
+<ul class="org-ul">
+<li>Porque hay una prohibición de EEUU de vender tecnología de avanzada a China.</li>
+</ul></li>
+<li>Utiliza una estrategia de <b>uso de memoria más efectivo</b>. Esto hace que requiera menos memoria RAM.</li>
+<li>Es posible descargarse el modelo y el software y utilizarlo localmente, off-line. ChatGPT y otros no.</li>
+</ul></li>
+<li>¿Cómo afecta DeepSeek R1?
+<ul class="org-ul">
+<li>Al utilizar menos recursos y decrementar tanto los costos hace que otras empresas deban justificar mejor sus inversiones.</li>
+<li>Pone en duda si es cierto que  la única forma de mejorar la IA producida es con más coston y más cantidad de chips.</li>
+<li>Nvidia cayó su mercado un 17% antes de recuperarse al día siguiente. De ser la más valuada cayó a ser la tercera.</li>
+<li>La industria y el gobierno chino se "fortalece" puesto que se independiza aún más en desarrollo de IA: comprende que puede innovar en IA.</li>
+<li>El gobierno chino fomentó el desarrollo e investigación de la IA con becas, ayudas a la investigación y la interrelación entre universidades y la industria.</li>
+<li>Recordemos el contexto en que Tik Tok está en conflicto en EEUU, y hay tensión por aranceles económicos entre estos los países. Además, de la restricción de la venta de tecnología avanzada de EEUU.</li>
+</ul></li>
+</ul>
+
+<p>
+Como mencioné que el gobierno chino fomentó con becas y ayudas, etc. ¿Cómo se relaciona el gobierno o el estado con la innovación y la investigación?
+</p>
+
+<p>
+¿Cómo les parece que la educación y la inversión del gobierno/estado ayuda a las empresas?
+</p>
+
+<p>
+¿Qué opinan acerca del rol de las universidades en la competencia tecnológica?
+</p>
+
+<p>
+Vieron que EEUU impuso restricciones a la venta de tecnología a China: ¿qué piensan de la dependencia o independencia tecnológia y su importancia en un país? ¿por qué les parece que ambos países buscan el primer puesto o la mayor indenpendencia posible en estos avances?
+</p>
+<div id="outline-container-org2de0074" class="outline-3">
+<h3 id="org2de0074"><span class="section-number-3">1.1.</span> Recursos</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li><p>
+&laquo;DeepSeek: The Chinese AI app that has the world talking&raquo; por Kelly Ng, Brandon Drenon, Tom Gerken y Marc Cieslak. BBC News. 4 de febrero del 2025.
+</p>
+
+<p>
+<a href="https://www.bbc.com/news/articles/c5yv5976z9po">https://www.bbc.com/news/articles/c5yv5976z9po</a>
+</p></li>
+
+<li><p>
+&laquo;DeepSeek: cómo los &raquo;héroes de la IA&laquo; de China superaron las restricciones de EE.UU. y desafiaron a Silicon Valley&raquo; por Fan Wang y João da Silva. BBC News. 1 de febrero del 2025.
+</p>
+
+<p>
+<a href="https://www.bbc.com/mundo/articles/cqx93d7e1weo">https://www.bbc.com/mundo/articles/cqx93d7e1weo</a>
+</p></li>
+</ul>
+</div>
+</div>
+]]></description>
+</item>
 <item>
 <title>Columna 33: Pac-Man</title>
 <link>https://controlz.fi.uncoma.edu.ar/control-y/#columna-33</link>
@@ -59,7 +148,7 @@ Pac-man:
 </p>
 
 
-<div id="orgded1bee" class="figure">
+<div id="orgb9c31a7" class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Guildford%2C_UK%2C_Aug-2016_%2828811832961%29.jpg/800px-Guildford%2C_UK%2C_Aug-2016_%2828811832961%29.jpg" alt="800px-Guildford%2C_UK%2C_Aug-2016_%2828811832961%29.jpg" />
 </p>
 <p><span class="figure-number">Figura 1: </span>Arcade en Guildford, Reino Unido (2016).</p>
@@ -101,9 +190,9 @@ Preguntas:
 <p>
 ¿El mercado de los video juegos y la computación sigue buscando la inclusión familiar? 
 </p>
-<div id="outline-container-org992b908" class="outline-3">
-<h3 id="org992b908"><span class="section-number-3">1.1.</span> Recursos</h3>
-<div class="outline-text-3" id="text-1-1">
+<div id="outline-container-org3b26926" class="outline-3">
+<h3 id="org3b26926"><span class="section-number-3">2.1.</span> Recursos</h3>
+<div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
 <li><p>
 &laquo;This Is What Pac-Man‘s Creator Thinks 35 Years Later&raquo;. Por Matt Peckham. Times. 2015.
@@ -296,14 +385,14 @@ Con esto entra en debate:
 </p>
 
 
-<div id="org84a2523" class="figure">
+<div id="orge1388e3" class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/en/7/7c/Tetris-VeryFirstVersion.png" alt="Tetris-VeryFirstVersion.png" />
 </p>
 <p><span class="figure-number">Figura 2: </span>Primera versión del Tetris (1985).</p>
 </div>
 
 
-<div id="orgcf3511b" class="figure">
+<div id="org54afd02" class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/en/e/e4/Tetris_DOS_1986.png" alt="Tetris_DOS_1986.png" />
 </p>
 <p><span class="figure-number">Figura 3: </span>Versión DOS del Tetris (1986).</p>
@@ -326,7 +415,7 @@ Se dice que lo escribió en el lenguaje Pascal en la computadora Eletronika 60, 
 </p>
 
 
-<div id="org7a48a2a" class="figure">
+<div id="orgba07856" class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/0/00/E60M.JPG" alt="E60M.JPG" />
 </p>
 <p><span class="figure-number">Figura 4: </span>Elektronika 60M</p>
@@ -350,7 +439,7 @@ Luego, se adaptó el juego a Turbo Pascal para IBM PC por un chico de 16 años V
 </p>
 
 
-<div id="org6fb1d62" class="figure">
+<div id="org7f66c27" class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/IBM_PC-IMG_7271_%28transparent%29.png/640px-IBM_PC-IMG_7271_%28transparent%29.png" alt="640px-IBM_PC-IMG_7271_%28transparent%29.png" />
 </p>
 <p><span class="figure-number">Figura 5: </span>La IBM PC.</p>
@@ -366,9 +455,9 @@ Un empresario húngaro, Robert Stein descubrió el juego y quiso obtener los der
 Desgraciadamente, utilizaron Fax, el cual se podía considerarse como un acuerdo legal en occidente, con lo que Stein entendió aceptado y comenzó a buscar companías para producir.
 </p></li>
 </ol>
-<div id="outline-container-orgc7c4cd9" class="outline-3">
-<h3 id="orgc7c4cd9"><span class="section-number-3">3.1.</span> Referencias</h3>
-<div class="outline-text-3" id="text-3-1">
+<div id="outline-container-orge6904c2" class="outline-3">
+<h3 id="orge6904c2"><span class="section-number-3">4.1.</span> Referencias</h3>
+<div class="outline-text-3" id="text-4-1">
 <ul class="org-ul">
 <li>[BBC] <a href="https://www.bbc.com/mundo/noticias-65126692">&laquo;Tetris: la dramática historia de cómo se creó y salió de la Unión Soviética &raquo;el mejor videojuego de la historia" - BBC.com 22/04/2023.</a></li>
 <li>[NPR] <a href="https://www.npr.org/2019/06/06/730408514/happy-birthday-tetris-35-years-later-youre-as-addictive-and-tetromino-y-as-ever">&laquo;Happy Birthday, Tetris. 35 Years Later You&rsquo;re As Addictive And Tetromino-y As Ever&raquo; por Vanessa Romo, 6/6/2019. NPR.org.</a></li>
@@ -470,9 +559,9 @@ Preguntas:
 <li>En cada tarea que puedan pensar: ¿Se imaginan si se reemplaza al ser humanos por una IA en esa tarea? ¿sería mejor o peor? ¿y si dejamos un ser humano que chequée el resultado? ¿y si no? ¿cuál es el riesgo de que falle o no responda como queremos?</li>
 <li>¿No les pasó hasta el momento que un robotito o una IA no les responde como hubieran querido?</li>
 </ul>
-<div id="outline-container-orgc52e3c3" class="outline-3">
-<h3 id="orgc52e3c3"><span class="section-number-3">4.1.</span> Recursos</h3>
-<div class="outline-text-3" id="text-4-1">
+<div id="outline-container-orgdfcf77c" class="outline-3">
+<h3 id="orgdfcf77c"><span class="section-number-3">5.1.</span> Recursos</h3>
+<div class="outline-text-3" id="text-5-1">
 <ul class="org-ul">
 <li><a href="https://youtu.be/M6PeGvNRGiA?si=eIv27zHfo_75GK1W">Primera charla de Dra. Verónica Dahl en la FaI</a> (YouTube)</li>
 <li><a href="https://www.youtube.com/live/C5m67z-6FvM?si=4x_dRwcBNenw4Say">Segunda charla de Dra. Verónica Dahl en la FaI</a> (YouTube)</li>
@@ -1346,9 +1435,9 @@ Que permitan legal y técnicamente reparar los dispositivos que compramos.
 </p></li>
 </ol></li>
 </ol>
-<div id="outline-container-org8a05a84" class="outline-3">
-<h3 id="org8a05a84"><span class="section-number-3">10.1.</span> Recursos</h3>
-<div class="outline-text-3" id="text-10-1">
+<div id="outline-container-orgcbaabf9" class="outline-3">
+<h3 id="orgcbaabf9"><span class="section-number-3">11.1.</span> Recursos</h3>
+<div class="outline-text-3" id="text-11-1">
 <ul class="org-ul">
 <li><a href="https://www.defectivebydesign.org/what_is_drm">https://www.defectivebydesign.org/what_is_drm</a></li>
 <li><a href="https://www.fsf.org/campaigns/fight-to-repair">https://www.fsf.org/campaigns/fight-to-repair</a></li>
@@ -1378,7 +1467,7 @@ Algunos artículos que hablan de obsolescencia programada.
 </p>
 
 
-<div id="org00ee638" class="figure">
+<div id="org458e2a7" class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Eigenfaces.png" alt="Eigenfaces.png" />
 </p>
 <p><span class="figure-number">Figura 6: </span>Eigenfaces utilizadas para reconocimiento facial. De AT&amp;T Laboratories Cambridge.</p>
@@ -1391,9 +1480,9 @@ Las Eigenfaces son "características que resaltan" de la foto de un rostro. Se o
 <p>
 <a href="https://commons.wikimedia.org/wiki/File:Eigenfaces.png">Foto obtenida desde WikiMedia</a>
 </p>
-<div id="outline-container-orgb714270" class="outline-3">
-<h3 id="orgb714270"><span class="section-number-3">11.1.</span> Guion</h3>
-<div class="outline-text-3" id="text-11-1">
+<div id="outline-container-org1945349" class="outline-3">
+<h3 id="org1945349"><span class="section-number-3">12.1.</span> Guion</h3>
+<div class="outline-text-3" id="text-12-1">
 <p>
 ¡Empecemos!
 </p>
@@ -1524,9 +1613,9 @@ Algo más general: Con toda la digitalización, en ocasiones centralizada y úni
 </ul>
 </div>
 </div>
-<div id="outline-container-org93457e0" class="outline-3">
-<h3 id="org93457e0"><span class="section-number-3">11.2.</span> Más recursos</h3>
-<div class="outline-text-3" id="text-11-2">
+<div id="outline-container-org952f174" class="outline-3">
+<h3 id="org952f174"><span class="section-number-3">12.2.</span> Más recursos</h3>
+<div class="outline-text-3" id="text-12-2">
 <ul class="org-ul">
 <li><p>
 <a href="https://www.lanacion.com.ar/tecnologia/nueva-filtracion-de-renaper-que-paso-esta-vez-con-la-publicacion-de-datos-de-ciudadanos-argentinos-y-nid09042024/">&laquo;Nueva filtración de Renaper: qué pasó esta vez con la publicación de datos de ciudadanos argentinos, y qué hay que hacer&raquo;</a> por Julieta Schulkin, publicado en La Nación. 9 de abril del 2024.
@@ -1558,9 +1647,9 @@ Describe identificación, verificación de la identidad y autenticación y sus f
 <description><![CDATA[<p>
 &#128251; Emisión al aire: 
 </p>
-<div id="outline-container-org98c8f89" class="outline-3">
-<h3 id="org98c8f89"><span class="section-number-3">12.1.</span> Repaso</h3>
-<div class="outline-text-3" id="text-12-1">
+<div id="outline-container-org8980a00" class="outline-3">
+<h3 id="org8980a00"><span class="section-number-3">13.1.</span> Repaso</h3>
+<div class="outline-text-3" id="text-13-1">
 <ol class="org-ol">
 <li>¿Qué es la nube?
 <ol class="org-ol">
@@ -1607,9 +1696,9 @@ Vamos con algo más gráfico&#x2026;
 </p>
 </div>
 </div>
-<div id="outline-container-orgc50d06b" class="outline-3">
-<h3 id="orgc50d06b"><span class="section-number-3">12.2.</span> Mi servidor de archivos: DIY</h3>
-<div class="outline-text-3" id="text-12-2">
+<div id="outline-container-org2748a06" class="outline-3">
+<h3 id="org2748a06"><span class="section-number-3">13.2.</span> Mi servidor de archivos: DIY</h3>
+<div class="outline-text-3" id="text-13-2">
 <p>
 (DIY significa <i>Do it yourself</i>, &laquo;hazlo tú mismo&raquo;).
 </p>
@@ -1637,9 +1726,9 @@ Si bien, parece mucho, pero es posible. Aunque debemos aceptar:
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf01f9e7" class="outline-3">
-<h3 id="orgf01f9e7"><span class="section-number-3">12.3.</span> Vamos más allá: ¡quiero hacer mi nube!</h3>
-<div class="outline-text-3" id="text-12-3">
+<div id="outline-container-orgfb40223" class="outline-3">
+<h3 id="orgfb40223"><span class="section-number-3">13.3.</span> Vamos más allá: ¡quiero hacer mi nube!</h3>
+<div class="outline-text-3" id="text-13-3">
 <p>
 Ahora, seamos un poquito más exigentes&#x2026;
 </p>
@@ -1663,9 +1752,9 @@ Bueno, ¡es lo único que podemos ahorrar! ¡Hay muchos que son Open Source/Soft
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd57bb5e" class="outline-3">
-<h3 id="orgd57bb5e"><span class="section-number-3">12.4.</span> Mi nube vs Esa Nube</h3>
-<div class="outline-text-3" id="text-12-4">
+<div id="outline-container-org7b128aa" class="outline-3">
+<h3 id="org7b128aa"><span class="section-number-3">13.4.</span> Mi nube vs Esa Nube</h3>
+<div class="outline-text-3" id="text-13-4">
 <p>
 Pro y contras de mi nube DIY:
 </p>
@@ -1691,9 +1780,9 @@ Perooooo&#x2026;
 </ul>
 </div>
 </div>
-<div id="outline-container-org0c0776f" class="outline-3">
-<h3 id="org0c0776f"><span class="section-number-3">12.5.</span> Entonces&#x2026;</h3>
-<div class="outline-text-3" id="text-12-5">
+<div id="outline-container-orgf3fd4d9" class="outline-3">
+<h3 id="orgf3fd4d9"><span class="section-number-3">13.5.</span> Entonces&#x2026;</h3>
+<div class="outline-text-3" id="text-13-5">
 <ul class="org-ul">
 <li>¿Qué les parece que es la nube?</li>
 <li>¿Escucharon la frase: &laquo;la nube es la computadora de otro&raquo;? ¿qué les parece?</li>
@@ -1701,9 +1790,9 @@ Perooooo&#x2026;
 </ul>
 </div>
 </div>
-<div id="outline-container-org6f05e20" class="outline-3">
-<h3 id="org6f05e20"><span class="section-number-3">12.6.</span> Algunos tips</h3>
-<div class="outline-text-3" id="text-12-6">
+<div id="outline-container-org40798a1" class="outline-3">
+<h3 id="org40798a1"><span class="section-number-3">13.6.</span> Algunos tips</h3>
+<div class="outline-text-3" id="text-13-6">
 <ul class="org-ul">
 <li>Las nubes usualmente usan un software para sincronizar.
 <ul class="org-ul">
@@ -1730,13 +1819,13 @@ Perooooo&#x2026;
 <description><![CDATA[<p>
 &#128251; Emisión al aire: 
 </p>
-<div id="outline-container-orgc0cccae" class="outline-3">
-<h3 id="orgc0cccae"><span class="section-number-3">13.1.</span> Guion</h3>
-<div class="outline-text-3" id="text-13-1">
+<div id="outline-container-org58a4c72" class="outline-3">
+<h3 id="org58a4c72"><span class="section-number-3">14.1.</span> Guion</h3>
+<div class="outline-text-3" id="text-14-1">
 </div>
-<div id="outline-container-orgce737e9" class="outline-4">
-<h4 id="orgce737e9"><span class="section-number-4">13.1.1.</span> Repaso</h4>
-<div class="outline-text-4" id="text-13-1-1">
+<div id="outline-container-orgaa054dc" class="outline-4">
+<h4 id="orgaa054dc"><span class="section-number-4">14.1.1.</span> Repaso</h4>
+<div class="outline-text-4" id="text-14-1-1">
 <ul class="org-ul">
 <li>¿Se acuerdan de lo que charlamos de Internet?</li>
 <li>¿Usan correos habitualmente?</li>
@@ -1744,9 +1833,9 @@ Perooooo&#x2026;
 </ul>
 </div>
 </div>
-<div id="outline-container-org10939ae" class="outline-4">
-<h4 id="org10939ae"><span class="section-number-4">13.1.2.</span> ¿Qué es la nube?</h4>
-<div class="outline-text-4" id="text-13-1-2">
+<div id="outline-container-orgc655219" class="outline-4">
+<h4 id="orgc655219"><span class="section-number-4">14.1.2.</span> ¿Qué es la nube?</h4>
+<div class="outline-text-4" id="text-14-1-2">
 <p>
 Pensemos en el correo electrónico, en los documentos que usan en la nube&#x2026; ¿qué tiene?
 </p>
@@ -1778,9 +1867,9 @@ En otras palabras:
 </ol>
 </div>
 </div>
-<div id="outline-container-org20bceb5" class="outline-4">
-<h4 id="org20bceb5"><span class="section-number-4">13.1.3.</span> ¿Qué servicios ofrece?</h4>
-<div class="outline-text-4" id="text-13-1-3">
+<div id="outline-container-orgb3a5432" class="outline-4">
+<h4 id="orgb3a5432"><span class="section-number-4">14.1.3.</span> ¿Qué servicios ofrece?</h4>
+<div class="outline-text-4" id="text-14-1-3">
 <p>
 Mientras vemos cada uno, ¡piensen en ejemplos!
 </p>
@@ -1824,9 +1913,9 @@ Solo necesito un blog! Hacer una llamada virtual! No quiero instalar ni solicita
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb1b7251" class="outline-4">
-<h4 id="orgb1b7251"><span class="section-number-4">13.1.4.</span> ¿Pros y cons?</h4>
-<div class="outline-text-4" id="text-13-1-4">
+<div id="outline-container-orgac5067d" class="outline-4">
+<h4 id="orgac5067d"><span class="section-number-4">14.1.4.</span> ¿Pros y cons?</h4>
+<div class="outline-text-4" id="text-14-1-4">
 <p>
 ¿Se acuerdan del CIA (Confidencialidad, Integridad, Disponibilidad)?
 </p>
@@ -1852,9 +1941,9 @@ Solo necesito un blog! Hacer una llamada virtual! No quiero instalar ni solicita
 </ul>
 </div>
 </div>
-<div id="outline-container-orge02dee4" class="outline-4">
-<h4 id="orge02dee4"><span class="section-number-4">13.1.5.</span> ¿Y con mis archivos?</h4>
-<div class="outline-text-4" id="text-13-1-5">
+<div id="outline-container-org5fe7abb" class="outline-4">
+<h4 id="org5fe7abb"><span class="section-number-4">14.1.5.</span> ¿Y con mis archivos?</h4>
+<div class="outline-text-4" id="text-14-1-5">
 <ul class="org-ul">
 <li>Accedemos manualmente y los subimos nosotros:
 <ul class="org-ul">
@@ -1885,9 +1974,9 @@ Solo necesito un blog! Hacer una llamada virtual! No quiero instalar ni solicita
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc935110" class="outline-4">
-<h4 id="orgc935110"><span class="section-number-4">13.1.6.</span> ¿Qué cuidados debo tener?</h4>
-<div class="outline-text-4" id="text-13-1-6">
+<div id="outline-container-org6bf58af" class="outline-4">
+<h4 id="org6bf58af"><span class="section-number-4">14.1.6.</span> ¿Qué cuidados debo tener?</h4>
+<div class="outline-text-4" id="text-14-1-6">
 <p>
 Aquí, no tengo la respuesta universal&#x2026; depende de cada persona y cómo usa sus archivos.
 </p>
@@ -1958,9 +2047,9 @@ Normalmente, no&#x2026; pero bueno, hay personas que se preocupan por esto.
 </ol>
 </div>
 </div>
-<div id="outline-container-org525235a" class="outline-4">
-<h4 id="org525235a"><span class="section-number-4">13.1.7.</span> Por último&#x2026;</h4>
-<div class="outline-text-4" id="text-13-1-7">
+<div id="outline-container-org35d2473" class="outline-4">
+<h4 id="org35d2473"><span class="section-number-4">14.1.7.</span> Por último&#x2026;</h4>
+<div class="outline-text-4" id="text-14-1-7">
 <ul class="org-ul">
 <li>¿Está bueno quedarse con una sola tecnología?</li>
 <li>¿Les parece que con la nube se solucionan todos los problemas de archivos?</li>
@@ -1970,9 +2059,9 @@ Normalmente, no&#x2026; pero bueno, hay personas que se preocupan por esto.
 </div>
 </div>
 </div>
-<div id="outline-container-orgda6d3b2" class="outline-3">
-<h3 id="orgda6d3b2"><span class="section-number-3">13.2.</span> Bibliografía y recursos</h3>
-<div class="outline-text-3" id="text-13-2">
+<div id="outline-container-org163b3f7" class="outline-3">
+<h3 id="org163b3f7"><span class="section-number-3">14.2.</span> Bibliografía y recursos</h3>
+<div class="outline-text-3" id="text-14-2">
 <ul class="org-ul">
 <li><a href="https://www.fsf.org/bulletin/2011/spring/spotlight-merlin-cloud">&laquo;Spotlight: Merlin Cloud&raquo; por Matt Lee. Free Software Foundation. 2011.</a></li>
 <li>&laquo;A Taxonomy, Survey, and Issues of Cloud Computing Ecosystems&raquo;. Bhaskar Rimal, Eunmi Choi, Ian Lumb. Cloud Computing. Springer-Verlag. 2010.</li>
@@ -1992,9 +2081,9 @@ Normalmente, no&#x2026; pero bueno, hay personas que se preocupan por esto.
 <description><![CDATA[<p>
 &#128251; Emisión al aire: 
 </p>
-<div id="outline-container-orga132881" class="outline-3">
-<h3 id="orga132881"><span class="section-number-3">14.1.</span> Guion</h3>
-<div class="outline-text-3" id="text-14-1">
+<div id="outline-container-orgaaed150" class="outline-3">
+<h3 id="orgaaed150"><span class="section-number-3">15.1.</span> Guion</h3>
+<div class="outline-text-3" id="text-15-1">
 <ol class="org-ol">
 <li>Repaso:
 <ol class="org-ol">
@@ -2120,9 +2209,9 @@ Entonces&#x2026;
 <description><![CDATA[<p>
 &#128251; Emisión al aire: 
 </p>
-<div id="outline-container-org1651fdc" class="outline-3">
-<h3 id="org1651fdc"><span class="section-number-3">15.1.</span> Guion</h3>
-<div class="outline-text-3" id="text-15-1">
+<div id="outline-container-orgd2c0861" class="outline-3">
+<h3 id="orgd2c0861"><span class="section-number-3">16.1.</span> Guion</h3>
+<div class="outline-text-3" id="text-16-1">
 <ol class="org-ol">
 <li>Algo importante, un modelo de seguridad, la triada: Confidencialidad, Integridad y Disponibilidad (conocida como CIA por sus siglas en inglés).
 <dl class="org-dl">
@@ -2285,9 +2374,9 @@ Retomando la pregunta de la columna previa: entonces, ¿las tecnologías y herra
 </ul>
 </div>
 </div>
-<div id="outline-container-orge24d5ca" class="outline-3">
-<h3 id="orge24d5ca"><span class="section-number-3">15.2.</span> Bibliografía</h3>
-<div class="outline-text-3" id="text-15-2">
+<div id="outline-container-org055cd6e" class="outline-3">
+<h3 id="org055cd6e"><span class="section-number-3">16.2.</span> Bibliografía</h3>
+<div class="outline-text-3" id="text-16-2">
 <ul class="org-ul">
 <li><p>
 &laquo;The Basics of Information Security&raquo;. Jason Andress. Elsevier/Syngress press (Libro).
@@ -2327,9 +2416,9 @@ Explica por qué se distribuye más malware en los sistemas Windows. También, d
 <description><![CDATA[<p>
 &#128251; Emisión al aire: 
 </p>
-<div id="outline-container-orgf73fd60" class="outline-3">
-<h3 id="orgf73fd60"><span class="section-number-3">16.1.</span> Guion</h3>
-<div class="outline-text-3" id="text-16-1">
+<div id="outline-container-org703bde9" class="outline-3">
+<h3 id="org703bde9"><span class="section-number-3">17.1.</span> Guion</h3>
+<div class="outline-text-3" id="text-17-1">
 <p>
 Disclaimer: No se recomienda el uso de ningún software, el acceso a la dark net y dark Web, sin previo comprender claramente lo que se está haciendo. 
 </p>
@@ -2461,9 +2550,9 @@ Preguntas:
 </ul>
 </div>
 </div>
-<div id="outline-container-org1b63bf5" class="outline-3">
-<h3 id="org1b63bf5"><span class="section-number-3">16.2.</span> Bibliografía</h3>
-<div class="outline-text-3" id="text-16-2">
+<div id="outline-container-orgcec0034" class="outline-3">
+<h3 id="orgcec0034"><span class="section-number-3">17.2.</span> Bibliografía</h3>
+<div class="outline-text-3" id="text-17-2">
 <ul class="org-ul">
 <li>&laquo;Hands-On Dark Web Analysis&raquo;. Sion Retzkin. Packt Publishing. 2018. <a href="https://www.google.com.ar/books/edition/Hands_On_Dark_Web_Analysis/352BDwAAQBAJ?hl=en&amp;gbpv=0">Muestra en Google Books.</a></li>
 <li>&laquo;Casting Light on the Dark Web&raquo;. Matthew Beckstrom, Brady Lund. Rowman &amp; Littlefield Publishers. 2019. <a href="https://www.google.com.ar/books/edition/Casting_Light_on_the_Dark_Web/pAacDwAAQBAJ?hl=en&amp;gbpv=0">Muestra en Google Books.</a></li>
@@ -2482,9 +2571,9 @@ Preguntas:
 <description><![CDATA[<p>
 &#128251; Emisión al aire: 
 </p>
-<div id="outline-container-org0c3c449" class="outline-3">
-<h3 id="org0c3c449"><span class="section-number-3">17.1.</span> Guion</h3>
-<div class="outline-text-3" id="text-17-1">
+<div id="outline-container-orge30ecae" class="outline-3">
+<h3 id="orge30ecae"><span class="section-number-3">18.1.</span> Guion</h3>
+<div class="outline-text-3" id="text-18-1">
 <ol class="org-ol">
 <li>Hacking. Palabra muy usada para referirse a: ciberdelincuentes&#x2026; pero&#x2026; <b>¿se usa correctamente?</b></li>
 
@@ -2546,13 +2635,13 @@ En la informática, sería hacer o cambiar los programas, o utilizar programas, 
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbf08339" class="outline-3">
-<h3 id="orgbf08339"><span class="section-number-3">17.2.</span> Definiciones de Hacker</h3>
-<div class="outline-text-3" id="text-17-2">
+<div id="outline-container-orgdd60e8c" class="outline-3">
+<h3 id="orgdd60e8c"><span class="section-number-3">18.2.</span> Definiciones de Hacker</h3>
+<div class="outline-text-3" id="text-18-2">
 </div>
-<div id="outline-container-orgbf97478" class="outline-4">
-<h4 id="orgbf97478"><span class="section-number-4">17.2.1.</span> Real Academia Española</h4>
-<div class="outline-text-4" id="text-17-2-1">
+<div id="outline-container-orgafb1670" class="outline-4">
+<h4 id="orgafb1670"><span class="section-number-4">18.2.1.</span> Real Academia Española</h4>
+<div class="outline-text-4" id="text-18-2-1">
 <blockquote>
 <p>
 <b>hacker</b>
@@ -2614,9 +2703,9 @@ Sin.: hacker, cracker.
 </blockquote>
 </div>
 </div>
-<div id="outline-container-org06f8de1" class="outline-4">
-<h4 id="org06f8de1"><span class="section-number-4">17.2.2.</span> Diccionarios de Inglés</h4>
-<div class="outline-text-4" id="text-17-2-2">
+<div id="outline-container-org450c620" class="outline-4">
+<h4 id="org450c620"><span class="section-number-4">18.2.2.</span> Diccionarios de Inglés</h4>
+<div class="outline-text-4" id="text-18-2-2">
 <blockquote>
 <p>
 <b>hack</b>
@@ -2676,9 +2765,9 @@ Obtenido desde <a href="https://www.ldoceonline.com/dictionary/hack">Longman Dic
 </p>
 </div>
 </div>
-<div id="outline-container-org2949241" class="outline-4">
-<h4 id="org2949241"><span class="section-number-4">17.2.3.</span> Urbano - Informales</h4>
-<div class="outline-text-4" id="text-17-2-3">
+<div id="outline-container-orgf184175" class="outline-4">
+<h4 id="orgf184175"><span class="section-number-4">18.2.3.</span> Urbano - Informales</h4>
+<div class="outline-text-4" id="text-18-2-3">
 <p>
 The Urban Dictionary:
 </p>
@@ -2791,7 +2880,7 @@ Obtenido desde <a href="http://www.catb.org/jargon/html/H/hacker.html">Jargon Fi
 </p>
 
 
-<div id="orgf1f8511" class="figure">
+<div id="orgcac508e" class="figure">
 <p><img src="data/0b/e8ff50-f91b-4714-a5a5-8c126c6aa466/Spring.jpg" alt="Spring corto animado libre" align="center" />
 </p>
 <p><span class="figure-number">Figura 7: </span>Captura de "Spring", un corto animado libre.</p>
@@ -2812,9 +2901,9 @@ La película y su descripción se encuentra en:
 <p>
 <a href="https://cloud.blender.org/films/spring/pages/about">https://cloud.blender.org/films/spring/pages/about</a>
 </p>
-<div id="outline-container-orga57923a" class="outline-3">
-<h3 id="orga57923a"><span class="section-number-3">18.1.</span> Guion</h3>
-<div class="outline-text-3" id="text-18-1">
+<div id="outline-container-orgea0e0ab" class="outline-3">
+<h3 id="orgea0e0ab"><span class="section-number-3">19.1.</span> Guion</h3>
+<div class="outline-text-3" id="text-19-1">
 <ol class="org-ol">
 <li><p>
 Objetivo principal: <b>Respeto al usuario y sus libertades</b>.
@@ -3019,9 +3108,9 @@ Por ejemplo: Un documento que siempre tienen que hacer a fin de mes, calcular lo
 <p>
 &#127911; <a href="https://radiocut.fm/radiostation/uncocalf/listen/2024/03/08/15/20/00/">Escuchar en RadioCut</a>
 </p>
-<div id="outline-container-orga714bd9" class="outline-3">
-<h3 id="orga714bd9"><span class="section-number-3">19.1.</span> Primero algo para el 8M</h3>
-<div class="outline-text-3" id="text-19-1">
+<div id="outline-container-org3127fd2" class="outline-3">
+<h3 id="org3127fd2"><span class="section-number-3">20.1.</span> Primero algo para el 8M</h3>
+<div class="outline-text-3" id="text-20-1">
 <p>
 Es importante destacar a las mujeres en la computación. Visibilizarlas ayuda a que sean vistas como rol y ejemplos a seguir, además de dar confianza a más mujeres para estudiar esta disciplina, y contrarrestar la visión de que la computación es para un género específico.
 </p>
@@ -3102,9 +3191,9 @@ Más:
 </p>
 </div>
 </div>
-<div id="outline-container-orga4667d6" class="outline-3">
-<h3 id="orga4667d6"><span class="section-number-3">19.2.</span> Guion&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h3>
-<div class="outline-text-3" id="text-19-2">
+<div id="outline-container-orgbba9f2e" class="outline-3">
+<h3 id="orgbba9f2e"><span class="section-number-3">20.2.</span> Guion&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h3>
+<div class="outline-text-3" id="text-20-2">
 <ol class="org-ol">
 <li>Introducción.
 
@@ -3164,7 +3253,7 @@ Hay una clasificación informal de los tipos de redes, según cómo los sistemas
 </p>
 
 
-<div id="orgbca3884" class="figure">
+<div id="org4f04b2e" class="figure">
 <p><img src="data/ba/e196a9-0723-4c41-abf0-256ef276df5e/Topologías_de_red.gif" alt="Topologías de red" align="center" />
 </p>
 <p><span class="figure-number">Figura 8: </span>Topologías de red en general, también aplicable a redes sociales.</p>
@@ -3270,9 +3359,9 @@ Ahora que conocen más o menos cómo funcionan&#x2026;
 </ul>
 </div>
 </div>
-<div id="outline-container-orgabec739" class="outline-3">
-<h3 id="orgabec739"><span class="section-number-3">19.3.</span> Bibliografía</h3>
-<div class="outline-text-3" id="text-19-3">
+<div id="outline-container-orgb9974ce" class="outline-3">
+<h3 id="orgb9974ce"><span class="section-number-3">20.3.</span> Bibliografía</h3>
+<div class="outline-text-3" id="text-20-3">
 <ul class="org-ul">
 <li><a href="https://www.ambito.com/tecnologia/se-cayeron-instagram-y-facebook-cuales-son-las-fallas-n5960068">Artículo &laquo;Se cayeron Instagram y Facebook: cuáles son las fallas&raquo;. Ámbito. 5 de marzo del 2024.</a>
 <ul class="org-ul">
@@ -3305,9 +3394,9 @@ Describe las tres topologías de red.
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb9f2a94" class="outline-3">
-<h3 id="orgb9f2a94"><span class="section-number-3">19.4.</span> Recursos</h3>
-<div class="outline-text-3" id="text-19-4">
+<div id="outline-container-org67e0d8d" class="outline-3">
+<h3 id="org67e0d8d"><span class="section-number-3">20.4.</span> Recursos</h3>
+<div class="outline-text-3" id="text-20-4">
 <ul class="org-ul">
 <li><p>
 Topologías de la red. Una imágen basada en la que se muestra en &laquo;Where wizards stay up late&raquo;.
@@ -3318,7 +3407,7 @@ Obtenido desde <a href="https://lasindias.net/indianopedia/Archivo:Topolog%C3%AD
 </p>
 
 
-<div id="org6c7ab43" class="figure">
+<div id="orgcb2acf5" class="figure">
 <p><img src="data/ba/e196a9-0723-4c41-abf0-256ef276df5e/Topologías_de_red.gif" alt="Thumbnail topologías de la red" align="center" />
 </p>
 </div></li>
@@ -3337,9 +3426,9 @@ Obtenido desde <a href="https://lasindias.net/indianopedia/Archivo:Topolog%C3%AD
 <description><![CDATA[<p>
 &#128251; Emisión al aire: 
 </p>
-<div id="outline-container-orge9d1e81" class="outline-3">
-<h3 id="orge9d1e81"><span class="section-number-3">20.1.</span> Guion</h3>
-<div class="outline-text-3" id="text-20-1">
+<div id="outline-container-org7fa2f7d" class="outline-3">
+<h3 id="org7fa2f7d"><span class="section-number-3">21.1.</span> Guion</h3>
+<div class="outline-text-3" id="text-21-1">
 <ol class="org-ol">
 <li><p>
 Ayer estuve escuchando la entrevista que realizaron en el programa La Banda Ancha a Fabio Tarasow de FLACSO. Al final menciona justamente que debemos tener más cuidado al ver fotos, videos y audios&#x2026; ¿por qué?  
@@ -3467,9 +3556,9 @@ Dejo algunas: Reconocimiento facial, ChatGPT, mensajes instantáneos (Whatsappp,
 </ol>
 </div>
 </div>
-<div id="outline-container-orga767ed3" class="outline-3">
-<h3 id="orga767ed3"><span class="section-number-3">20.2.</span> Ejemplos de DeepFake&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h3>
-<div class="outline-text-3" id="text-20-2">
+<div id="outline-container-orgc42ca57" class="outline-3">
+<h3 id="orgc42ca57"><span class="section-number-3">21.2.</span> Ejemplos de DeepFake&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h3>
+<div class="outline-text-3" id="text-21-2">
 <p>
 Las siguientes imágenes no son reales. Fueron generadas completamente con programas de computadoras.
 </p>
@@ -3479,14 +3568,14 @@ Fotos generadas completamente con IA de Trump siendo arrestado. <a href="https:/
 </p>
 
 
-<div id="orgb302b43" class="figure">
+<div id="orgbc5150b" class="figure">
 <p><img src="data/b3/59d6e2-72f5-421e-82cb-d99084686ba6/trump_arrested2_by_eliot_higgins.jpg" alt="Imagen 1 generada de Trump" align="center" />
 </p>
 <p><span class="figure-number">Figura 9: </span>Imágen generada por IA de Trump siendo arrestado, evento que no sucedió en la realidad.</p>
 </div>
 
 
-<div id="org1a70594" class="figure">
+<div id="org2a0f507" class="figure">
 <p><img src="data/b3/59d6e2-72f5-421e-82cb-d99084686ba6/trump_arrested_by_eliot_huggins.jpg" alt="Imágen 2 generada de Trump" align="center" />
 </p>
 <p><span class="figure-number">Figura 10: </span>Imágen generada por IA de Trump siendo arrestado, evento que no sucedió en la realidad.</p>
@@ -3497,7 +3586,7 @@ La persona en la imágen no existe. La foto fue generada completamente por una I
 </p>
 
 
-<div id="org8b32a0a" class="figure">
+<div id="org7e0c5bc" class="figure">
 <p><img src="data/b3/59d6e2-72f5-421e-82cb-d99084686ba6/Woman_1.jpg" alt="Imágen generada de una persona inexistente" align="center" />
 </p>
 <p><span class="figure-number">Figura 11: </span>Imágen de una persona que no existe generada con StyleGAN.</p>
@@ -3510,7 +3599,7 @@ Las siguientes imágenes fueron generadas en <a href="https://www.midjourney.com
 </p>
 
 
-<div id="org23dc2d8" class="figure">
+<div id="orgd554563" class="figure">
 <p><img src="data/b3/59d6e2-72f5-421e-82cb-d99084686ba6/midjourney_ejemplo1.webp" alt="Imágen 1 generada por midjourney" align="center" />
 </p>
 <p><span class="figure-number">Figura 12: </span>Imágen generada por Midjourney de una joven con cuernos entre arbustos.</p>
@@ -3521,7 +3610,7 @@ Las siguientes imágenes fueron generadas en <a href="https://www.midjourney.com
 </p>
 
 
-<div id="orgf37d398" class="figure">
+<div id="org81d1384" class="figure">
 <p><img src="data/b3/59d6e2-72f5-421e-82cb-d99084686ba6/midjourney_ejemplo2.webp" alt="Imágen 2 generada por midjourney" align="center" />
 </p>
 <p><span class="figure-number">Figura 13: </span>Imágen generada por Midjourney de un gato vistiendo lentes de sol y ropa.</p>
@@ -3532,9 +3621,9 @@ Las siguientes imágenes fueron generadas en <a href="https://www.midjourney.com
 </p>
 </div>
 </div>
-<div id="outline-container-org60d5cdd" class="outline-3">
-<h3 id="org60d5cdd"><span class="section-number-3">20.3.</span> Bibliografía</h3>
-<div class="outline-text-3" id="text-20-3">
+<div id="outline-container-orgbfeb2fe" class="outline-3">
+<h3 id="orgbfeb2fe"><span class="section-number-3">21.3.</span> Bibliografía</h3>
+<div class="outline-text-3" id="text-21-3">
 <ul class="org-ul">
 <li><p>
 Acerca de la huelga de actores y guionistas.
@@ -3738,9 +3827,9 @@ Preguntas:
 <li>¿Piensan habitualmente en los datos que ingresan en los sistemas? ¿en redes sociales? ¿en correos y chats?</li>
 <li>¿Se imaginan qué se puede hacer con sus datos? ¿qué clase de patrones se podrían encontrar entre sus datos y los demás?</li>
 </ul>
-<div id="outline-container-org206ef49" class="outline-3">
-<h3 id="org206ef49"><span class="section-number-3">21.1.</span> Bibliografía</h3>
-<div class="outline-text-3" id="text-21-1">
+<div id="outline-container-org53abc19" class="outline-3">
+<h3 id="org53abc19"><span class="section-number-3">22.1.</span> Bibliografía</h3>
+<div class="outline-text-3" id="text-22-1">
 <ul class="org-ul">
 <li><i>&laquo;Introduction to Data Mining&raquo;</i>. Tan Steinbach Kumar. Pearson. Primera edición. 2014.</li>
 <li><i>&laquo;Data Mining Concepts and Techniques&raquo;</i>. Jiawei Han, Micheline Kamber y Jian Pei. Morgan Kaufmann/Elsevier. Tercera edición. 2012.</li>
@@ -3761,7 +3850,7 @@ Preguntas:
 </p>
 
 
-<div id="org661ae66" class="figure">
+<div id="orgaade954" class="figure">
 <p><img src="https://www.w3.org/History/1994/WWW/Journals/CACM/screensnap2_24c.gif" alt="Screenshot del primer explorador Web" align="center" />
 </p>
 <p><span class="figure-number">Figura 14: </span>Captura de pantalla del primer explorador Web.</p>
@@ -3879,9 +3968,9 @@ Preguntas:
 Pero... ¿Cuánto del Internet usamos habitualmente? ¿Qué páginas visitás día a día? ¿cuánto contenido accedemos y por dónde?
 ¿cuánto contenido se imaginan que hay en Internet? ¿y en otras redes?
 </p>
-<div id="outline-container-orgb6fb976" class="outline-3">
-<h3 id="orgb6fb976"><span class="section-number-3">22.1.</span> Bibliografía</h3>
-<div class="outline-text-3" id="text-22-1">
+<div id="outline-container-org9ee3dae" class="outline-3">
+<h3 id="org9ee3dae"><span class="section-number-3">23.1.</span> Bibliografía</h3>
+<div class="outline-text-3" id="text-23-1">
 <ul class="org-ul">
 <li><p>
 &laquo;Information Management: A Proposal&raquo;. Tim Berners-Lee, CERN. Marzo 1989.
@@ -3947,14 +4036,14 @@ Pero... ¿Cuánto del Internet usamos habitualmente? ¿Qué páginas visitás d�
 </p>
 
 
-<div id="orgac976ef" class="figure">
+<div id="orgfcdd424" class="figure">
 <p><img src="http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCableHi.jpg" alt="Cables martítimos de fibra óptica" align="center" />
 </p>
 <p><span class="figure-number">Figura 15: </span>Cables marítimos para interconectar redes.</p>
 </div>
-<div id="outline-container-org69bf3b0" class="outline-3">
-<h3 id="org69bf3b0"><span class="section-number-3">23.1.</span> Guion</h3>
-<div class="outline-text-3" id="text-23-1">
+<div id="outline-container-org499aa32" class="outline-3">
+<h3 id="org499aa32"><span class="section-number-3">24.1.</span> Guion</h3>
+<div class="outline-text-3" id="text-24-1">
 <ol class="org-ol">
 <li>¿Es internet o Internet? &#x2026;
 <ol class="org-ol">
@@ -4063,16 +4152,16 @@ Satélites:
 </p>
 </div>
 </div>
-<div id="outline-container-orgefb36f8" class="outline-3">
-<h3 id="orgefb36f8"><span class="section-number-3">23.2.</span> Recursos</h3>
-<div class="outline-text-3" id="text-23-2">
+<div id="outline-container-org0094336" class="outline-3">
+<h3 id="org0094336"><span class="section-number-3">24.2.</span> Recursos</h3>
+<div class="outline-text-3" id="text-24-2">
 <ul class="org-ul">
 <li><p>
 The internet&rsquo;s undersea world. The Guardian.
 </p>
 
 
-<div id="orgbcecfb5" class="figure">
+<div id="org9ca9d7e" class="figure">
 <p><a href="http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCableHi.jpg" alt="Thumbnail cables martítimos de fibra óptica" align="center"><img src="http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCableHi.jpg" alt="Thumbnail cables martítimos de fibra óptica" align="center" /></a>
 </p>
 </div></li>
@@ -4086,7 +4175,7 @@ Mapa de Cobertura de la REFEFO.
 </p>
 
 
-<div id="orgc73347c" class="figure">
+<div id="org460dc5e" class="figure">
 <p><a href="https://www.argentina.gob.ar/sites/default/files/mapa_refefo_dic_2021.png" alt="Mapa REFEFO" align="center"><img src="https://www.argentina.gob.ar/sites/default/files/mapa_refefo_dic_2021.png" alt="Mapa REFEFO" align="center" /></a>
 </p>
 </div></li>
@@ -4113,9 +4202,9 @@ Versión en inglés: &laquo;Computer Networks&raquo;, Andrew S. Tanembaum and Da
 <description><![CDATA[<p>
 &#128251; Emisión al aire: 
 </p>
-<div id="outline-container-orgd6d915e" class="outline-3">
-<h3 id="orgd6d915e"><span class="section-number-3">24.1.</span> Guion</h3>
-<div class="outline-text-3" id="text-24-1">
+<div id="outline-container-org4088898" class="outline-3">
+<h3 id="org4088898"><span class="section-number-3">25.1.</span> Guion</h3>
+<div class="outline-text-3" id="text-25-1">
 <ol class="org-ol">
 <li>Repaso:
 <ol class="org-ol">
@@ -4258,9 +4347,9 @@ Volviendo a las moralejas:
 </ul>
 </div>
 </div>
-<div id="outline-container-orgcb91ad8" class="outline-3">
-<h3 id="orgcb91ad8"><span class="section-number-3">24.2.</span> Programas</h3>
-<div class="outline-text-3" id="text-24-2">
+<div id="outline-container-org056cc6b" class="outline-3">
+<h3 id="org056cc6b"><span class="section-number-3">25.2.</span> Programas</h3>
+<div class="outline-text-3" id="text-25-2">
 <p>
 Para ejecutar los programas en un celular, se requiere de una terminal y un intérprete de PHP. 
 </p>
@@ -4421,9 +4510,9 @@ Para ejecutar los programas en un celular, se requiere de una terminal y un int�
 <description><![CDATA[<p>
 &#128251; Emisión al aire: 
 </p>
-<div id="outline-container-orgd16982e" class="outline-3">
-<h3 id="orgd16982e"><span class="section-number-3">25.1.</span> Guion</h3>
-<div class="outline-text-3" id="text-25-1">
+<div id="outline-container-orgb87b45a" class="outline-3">
+<h3 id="orgb87b45a"><span class="section-number-3">26.1.</span> Guion</h3>
+<div class="outline-text-3" id="text-26-1">
 <p>
 ¿Es fácil un proceso de votación? A ver&#x2026; veamos&#x2026;
 </p>
@@ -4532,9 +4621,9 @@ Especialmente en procesos que nos afectan a la ciudadanía completa (IA, cámara
 </ul>
 </div>
 </div>
-<div id="outline-container-org1243c88" class="outline-3">
-<h3 id="org1243c88"><span class="section-number-3">25.2.</span> Bibliografía</h3>
-<div class="outline-text-3" id="text-25-2">
+<div id="outline-container-org79b937a" class="outline-3">
+<h3 id="org79b937a"><span class="section-number-3">26.2.</span> Bibliografía</h3>
+<div class="outline-text-3" id="text-26-2">
 <ul class="org-ul">
 <li>&laquo;Análisis de factibilidad en la implementación de tecnología en diferentes aspectos y etapas del proceso electoral&raquo;. Consejo Nacional de Investigaciones Científicas y Tecnológicas (CONICET). 2017.
 <a href="https://www.conicet.gov.ar/wp-content/uploads/Analisis_factibilidad_implementacion_tecnologia_proceso_electoral.pdf">https://www.conicet.gov.ar/wp-content/uploads/Analisis_factibilidad_implementacion_tecnologia_proceso_electoral.pdf</a></li>
@@ -4596,7 +4685,7 @@ Descripción de las máquinas del sistema de Boleta Única Electrónica (BUE) ut
 </p>
 
 
-<div id="org8172619" class="figure">
+<div id="orgea71363" class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Cryptocurrency_Mining_Farm.jpg" alt="Granja minera de computadoras" align="center" />
 </p>
 <p><span class="figure-number">Figura 16: </span>Una "granja minera" de computadoras de Islandia.</p>
@@ -4610,9 +4699,9 @@ Por ello, para no hacernos más confusión y comprender todos estos temas, decid
 <p>
 &#128444;&#65039; Imágen: Cryptocurrency mining farm - Bajo licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC-by-SA 4.0). Obtenido desde <a href="https://commons.wikimedia.org/wiki/File:Cryptocurrency_Mining_Farm.jpg">Wikimedia Commons</a>.
 </p>
-<div id="outline-container-org3b302ab" class="outline-3">
-<h3 id="org3b302ab"><span class="section-number-3">26.1.</span> Guion</h3>
-<div class="outline-text-3" id="text-26-1">
+<div id="outline-container-org4c0f60b" class="outline-3">
+<h3 id="org4c0f60b"><span class="section-number-3">27.1.</span> Guion</h3>
+<div class="outline-text-3" id="text-27-1">
 <ol class="org-ol">
 <li>Creación e idea:
 <ol class="org-ol">
@@ -4755,9 +4844,9 @@ Si el forger es deshonesto, se le quita el capital de riesgo.
 </ol>
 </div>
 </div>
-<div id="outline-container-org2df7ea0" class="outline-3">
-<h3 id="org2df7ea0"><span class="section-number-3">26.2.</span> Bibliografía y otros recursos</h3>
-<div class="outline-text-3" id="text-26-2">
+<div id="outline-container-org73160b3" class="outline-3">
+<h3 id="org73160b3"><span class="section-number-3">27.2.</span> Bibliografía y otros recursos</h3>
+<div class="outline-text-3" id="text-27-2">
 <ul class="org-ul">
 <li><p>
 &laquo;Bitcoin: A peer-to-peer electronic cash system&raquo;. Satoshi Nakamoto. 2009.
@@ -4811,7 +4900,7 @@ Curiosidades:
 </p>
 
 
-<div id="org72112a0" class="figure">
+<div id="orgdd51429" class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Estaci%C3%B3n_Terrena_Benav%C3%ADdez_01.jpg/800px-Estaci%C3%B3n_Terrena_Benav%C3%ADdez_01.jpg" alt="ARSAT Estación terrena Benavídez" align="center" />
 </p>
 <p><span class="figure-number">Figura 17: </span>Estación Terrena Benavídez, donde se operan los satélites ARSAT, la Red Federal de Fibra Óptica, entre otros servicios.</p>
@@ -4825,9 +4914,9 @@ En esta columna charlamos un poco del concepto de <b>soberanía tecnológica</b>
 <p>
 &#128444;&#65039; Imágen: Estación Terrena Benavídez por BugWarp - Bajo licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC-by-SA 4.0). Obtenido desde <a href="https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_Terrena_Benav%C3%ADdez_01.jpg?uselang=es">Wikimedia Commons</a>.
 </p>
-<div id="outline-container-org2663e0b" class="outline-3">
-<h3 id="org2663e0b"><span class="section-number-3">27.1.</span> Guion</h3>
-<div class="outline-text-3" id="text-27-1">
+<div id="outline-container-org0a4b86c" class="outline-3">
+<h3 id="org0a4b86c"><span class="section-number-3">28.1.</span> Guion</h3>
+<div class="outline-text-3" id="text-28-1">
 <blockquote>
 <p>
 soberanía
@@ -4988,9 +5077,9 @@ Y de esas tecnologías: ¿Cuáles tenemos a nuestro alcance como argentinos?
 </p>
 </div>
 </div>
-<div id="outline-container-org7c45693" class="outline-3">
-<h3 id="org7c45693"><span class="section-number-3">27.2.</span> Bibliografía</h3>
-<div class="outline-text-3" id="text-27-2">
+<div id="outline-container-orgcb28b63" class="outline-3">
+<h3 id="orgcb28b63"><span class="section-number-3">28.2.</span> Bibliografía</h3>
+<div class="outline-text-3" id="text-28-2">
 <ul class="org-ul">
 <li><p>
 &laquo;NSA Prism program taps in to user data of Apple, Google and others&raquo;, Glenn Greenwald and Ewen MacAskill, 2013.
@@ -5052,7 +5141,7 @@ Explicación del programa PRISM.
 </p>
 
 
-<div id="org1e46bae" class="figure">
+<div id="org058daa3" class="figure">
 <p><img src="data/59/d9d7da-7dce-46ef-8c20-b656db6ec771/clementina.jpg" alt="Foto del personal operando la computadora Clementina" align="center" />
 </p>
 <p><span class="figure-number">Figura 18: </span>Personal operando la computadora Clementina.</p>
@@ -5069,9 +5158,9 @@ A eso venimos hoy, a contarte qué sucedió después. Algunas cosas que valen la
 <p>
 &#128444;&#65039; Imágen proveniente del artículo "Clementina, la primera computadora en la Argentina" de Lucas Delgado. Artículo bajo la licencia CC-by-NC-SA. URL: <a href="https://www.educ.ar/recursos/118069/clementina-la-primera-computadora-en-la-argentina">https://www.educ.ar/recursos/118069/clementina-la-primera-computadora-en-la-argentina</a>.
 </p>
-<div id="outline-container-org4d442a3" class="outline-3">
-<h3 id="org4d442a3"><span class="section-number-3">28.1.</span> Guión</h3>
-<div class="outline-text-3" id="text-28-1">
+<div id="outline-container-org800c421" class="outline-3">
+<h3 id="org800c421"><span class="section-number-3">29.1.</span> Guión</h3>
+<div class="outline-text-3" id="text-29-1">
 <ol class="org-ol">
 <li>Repaso rápido:
 <ul class="org-ul">
@@ -5250,9 +5339,9 @@ Algunos datos de color:
 </ul>
 </div>
 </div>
-<div id="outline-container-orga53bebd" class="outline-3">
-<h3 id="orga53bebd"><span class="section-number-3">28.2.</span> Bibliografía</h3>
-<div class="outline-text-3" id="text-28-2">
+<div id="outline-container-orgc3eb905" class="outline-3">
+<h3 id="orgc3eb905"><span class="section-number-3">29.2.</span> Bibliografía</h3>
+<div class="outline-text-3" id="text-29-2">
 <ul class="org-ul">
 <li><p>
 &laquo;Historia de la Informática en Latinoamérica y el Caribe: investigaciones y testimonios&raquo;. Jorge Aguirre y Raúl Carnota. Universidad Nacional de Río Cuarto, Argentina. 2009.
@@ -5340,7 +5429,7 @@ Nota Preliminar de García Camarero:
 </p>
 
 
-<div id="org8f60965" class="figure">
+<div id="org1a1ddd4" class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Manuel_Sadosky_y_Clementina.jpg" alt="Foto de Manuel Sadosky junto a Clementina" align="center" />
 </p>
 <p><span class="figure-number">Figura 19: </span>Manuel Sadosky de pié al lado de Clementina.</p>
@@ -5354,9 +5443,9 @@ En la columna de hoy, hablaremos del doctor Manuel Sadosky. Pero antes, daremos 
 <p>
 &#128444;&#65039; Imágen: Manuel Sadosky y Clementina. Imágen bajo el dominio público. Obtenido desde <a href="https://commons.wikimedia.org/wiki/File:Manuel_Sadosky_y_Clementina.jpg">Wikimedia Commons</a>.
 </p>
-<div id="outline-container-orgaae8e19" class="outline-3">
-<h3 id="orgaae8e19"><span class="section-number-3">29.1.</span> Guión</h3>
-<div class="outline-text-3" id="text-29-1">
+<div id="outline-container-orga9fe47f" class="outline-3">
+<h3 id="orga9fe47f"><span class="section-number-3">30.1.</span> Guión</h3>
+<div class="outline-text-3" id="text-30-1">
 <ol class="org-ol">
 <li>Contexto: Universidades desde el siglo XIX hasta 1918:
 <ul class="org-ul">
@@ -5490,9 +5579,9 @@ Algunos datos de color:
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc19a801" class="outline-3">
-<h3 id="orgc19a801"><span class="section-number-3">29.2.</span> Bibliografía</h3>
-<div class="outline-text-3" id="text-29-2">
+<div id="outline-container-org9a8ea94" class="outline-3">
+<h3 id="org9a8ea94"><span class="section-number-3">30.2.</span> Bibliografía</h3>
+<div class="outline-text-3" id="text-30-2">
 <ul class="org-ul">
 <li><p>
 &laquo;Sadosky por Sadosky vida y pensamiento del pionero de la computación argentina&raquo;. Raúl Carnota, Carlos Borches. Fundación Sadosky.
@@ -5559,7 +5648,7 @@ Nota Preliminar de García Camarero.
 </p>
 
 
-<div id="org43f9bf5" class="figure">
+<div id="org334aa0b" class="figure">
 <p><img src="data/72/e04deb-8e2b-4d72-9184-d355139b63ff/planet-bubbles-01-scaled.jpg" alt="Imágen de burbujas chocando con mucho zoom. Su superficie tiene diferentes colores." />
 </p>
 </div>
@@ -5575,9 +5664,9 @@ Hablamos de los Filtros Burbujas, la cámara de eco y cómo los buscadores y pá
 &#128444;&#65039; Imágen: Bubbles Closeup - Bajo la licencia Creative Commons 0 (Dominio Público).
 <a href="https://store.kde.org/p/2056567">https://store.kde.org/p/2056567</a>
 </p>
-<div id="outline-container-org4a02939" class="outline-3">
-<h3 id="org4a02939"><span class="section-number-3">30.1.</span> Guion</h3>
-<div class="outline-text-3" id="text-30-1">
+<div id="outline-container-org95a7df1" class="outline-3">
+<h3 id="org95a7df1"><span class="section-number-3">31.1.</span> Guion</h3>
+<div class="outline-text-3" id="text-31-1">
 <ol class="org-ol">
 <li>Nada de Repaso : &laquo;¿Se acuerdan que hablamos de Algoritmos y que la IA es un algoritmo?
 ¿que mencionamos a los algoritmos de sugerencias?&raquo;.</li>
@@ -5647,9 +5736,9 @@ Probemos con siglas: WP, BP&#x2026;
 </p>
 </div>
 </div>
-<div id="outline-container-org320c2dd" class="outline-3">
-<h3 id="org320c2dd"><span class="section-number-3">30.2.</span> Bibliografía</h3>
-<div class="outline-text-3" id="text-30-2">
+<div id="outline-container-org65e6579" class="outline-3">
+<h3 id="org65e6579"><span class="section-number-3">31.2.</span> Bibliografía</h3>
+<div class="outline-text-3" id="text-31-2">
 <ol class="org-ol">
 <li><a href="https://www.theguardian.com/technology/2010/nov/22/tim-berners-lee-facebook">https://www.theguardian.com/technology/2010/nov/22/tim-berners-lee-facebook</a>
 <ol class="org-ol">
@@ -5677,7 +5766,7 @@ Probemos con siglas: WP, BP&#x2026;
 </p>
 
 
-<div id="org7a33a5f" class="figure">
+<div id="org9da4770" class="figure">
 <p><img src="data/d3/66e442-9ea8-463d-81bf-77bf2b1deb08/flowchart.jpg" alt="Foto con mucho zoom de una hoja que tiene dibujada un diagrama de flujo." />
 </p>
 </div>
@@ -5695,9 +5784,9 @@ Revelaremos el significado de esta palabra que siempre usamos. Eso que está det
 <p>
 &#128444;&#65039; Imágen: Flowchart por Gautier Poupeau - Bajo la licencia Creative Commons Atribución (CC-by 2.0). Obtenido desde <a href="https://flic.kr/p/rt5Q1d">https://flic.kr/p/rt5Q1d</a>
 </p>
-<div id="outline-container-orgf227214" class="outline-3">
-<h3 id="orgf227214"><span class="section-number-3">31.1.</span> Guion</h3>
-<div class="outline-text-3" id="text-31-1">
+<div id="outline-container-orgc6d1979" class="outline-3">
+<h3 id="orgc6d1979"><span class="section-number-3">32.1.</span> Guion</h3>
+<div class="outline-text-3" id="text-32-1">
 <blockquote>
 <p>
 <i>Algoritmo</i>
@@ -5816,7 +5905,7 @@ No nos gusta los virus.
 </p>
 
 
-<div id="org58ec43f" class="figure">
+<div id="org2dc35a3" class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Alan_Turing_cropped.jpg" alt="Estatua representando Alan Turin. Atrás se observa su fotografía." />
 </p>
 <p><span class="figure-number">Figura 20: </span>Estatua representando a Alan Turing en Bletchley Park, atrás su fotografía.</p>
@@ -5831,9 +5920,9 @@ En la computación, hubo un antes y un después de que Turing publicara sus art�
 <p>
 &#128444;&#65039; Imágen: Alan Turing por Jon Callas - Bajo licencia Creative Commons Atribución 2.0 Genérica (CC-by 2.0). Obtenido desde <a href="https://commons.wikimedia.org/wiki/File:Alan_Turing_cropped.jpg">Wikimedia Commons</a>.
 </p>
-<div id="outline-container-org7681659" class="outline-3">
-<h3 id="org7681659"><span class="section-number-3">32.1.</span> Guion</h3>
-<div class="outline-text-3" id="text-32-1">
+<div id="outline-container-org8d5db8f" class="outline-3">
+<h3 id="org8d5db8f"><span class="section-number-3">33.1.</span> Guion</h3>
+<div class="outline-text-3" id="text-33-1">
 <ol class="org-ol">
 <li>Repaso:
 <ol class="org-ol">
@@ -5927,9 +6016,9 @@ Por ejemplo: ¿Creen que la computadora puede reemplazar una obra de arte? ¿sig
 </ul>
 </div>
 </div>
-<div id="outline-container-org45115b0" class="outline-3">
-<h3 id="org45115b0"><span class="section-number-3">32.2.</span> Bibliografía</h3>
-<div class="outline-text-3" id="text-32-2">
+<div id="outline-container-org854efe0" class="outline-3">
+<h3 id="org854efe0"><span class="section-number-3">33.2.</span> Bibliografía</h3>
+<div class="outline-text-3" id="text-33-2">
 <ul class="org-ul">
 <li>&laquo;La computación Turing - Pensando en máquinas que piensan&raquo;. Rafael Lahoz-Beltra. RBA Colleccionables. 2012.</li>
 <li>&laquo;Computing Machinery and Intelligence&raquo;. Alan M. Turing. Mind LIX N<sup>&circ; </sup>236. 1950. 
@@ -5951,7 +6040,7 @@ Por ejemplo: ¿Creen que la computadora puede reemplazar una obra de arte? ¿sig
 </p>
 
 
-<div id="orga46043c" class="figure">
+<div id="org41f9510" class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg" alt="Una pintura en acuarela retratando a Ada Lovelace con un vestido violáceo." />
 </p>
 <p><span class="figure-number">Figura 21: </span>Retrato en acuarela de Ada Lovelace.</p>
@@ -5969,9 +6058,9 @@ En esta grabación te contamos quién fue Ada Lovelace, qué hizo y por qué se 
 <p>
 &#128444;&#65039; Imágen: Ada Lovelace Portrait, fotografiado por la Science Museum Group. Bajo el dominio público. Obtenido desde <a href="https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg">Wikimedia Commons</a>.
 </p>
-<div id="outline-container-org1140aa4" class="outline-3">
-<h3 id="org1140aa4"><span class="section-number-3">33.1.</span> Guion&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h3>
-<div class="outline-text-3" id="text-33-1">
+<div id="outline-container-org17c0fa3" class="outline-3">
+<h3 id="org17c0fa3"><span class="section-number-3">34.1.</span> Guion&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h3>
+<div class="outline-text-3" id="text-34-1">
 <p>
 Mini-guion de prueba:
 </p>
@@ -5983,7 +6072,7 @@ Mini-guion de prueba:
 <li>Algoritmo, programa, instrucciones, cálculos, máquinas.</li>
 <li><i>A partir de ahora, cuando digo &laquo;computación&raquo; significa calcular o una persona que hace cálculos.</i></li>
 </ul></li>
-<li>En 1766 se precalculaban muchos resultados en tablas: logaritmos, trigonométricos, etc. También, tablas para distintos oficios: <i>Nautical Almanac</i> (ver Figura <a href="#org88ac048">22</a>).
+<li>En 1766 se precalculaban muchos resultados en tablas: logaritmos, trigonométricos, etc. También, tablas para distintos oficios: <i>Nautical Almanac</i> (ver Figura <a href="#orgff9cbc8">22</a>).
 <ul class="org-ul">
 <li>Computadores eran personas (¡eran freelancers! ¡vaya si es nueva la idea!) que calculaban: había muchos errores.</li>
 </ul></li>
@@ -6058,16 +6147,16 @@ Aproximadamente, se tarda 2&rsquo; a 3&rsquo; por ítem. Total: 20&rsquo;30&rsqu
 </p>
 
 
-<div id="org88ac048" class="figure">
+<div id="orgff9cbc8" class="figure">
 <p><img src="./data/6f/2b0c10-f143-4af7-a523-b4bcb302dd79/Nautical_almanac_01.png" alt="Un almanaque náutico de ejemplo." />
 </p>
 <p><span class="figure-number">Figura 22: </span>Almanaque náutico (fuente Wikimedia Commons).</p>
 </div>
 </div>
 </div>
-<div id="outline-container-org03de0a4" class="outline-3">
-<h3 id="org03de0a4"><span class="section-number-3">33.2.</span> Bibliografía</h3>
-<div class="outline-text-3" id="text-33-2">
+<div id="outline-container-org0ff3357" class="outline-3">
+<h3 id="org0ff3357"><span class="section-number-3">34.2.</span> Bibliografía</h3>
+<div class="outline-text-3" id="text-34-2">
 <ul class="org-ul">
 <li>&laquo;Computer a history of the information machine&raquo;. Martin Campbell-Kelly y William Aspray. Westview Press. 2004.
 <a href="https://archive.org/embed/computerhistoryo02edcamp">https://archive.org/embed/computerhistoryo02edcamp</a></li>
@@ -6088,13 +6177,13 @@ Aproximadamente, se tarda 2&rsquo; a 3&rsquo; por ítem. Total: 20&rsquo;30&rsqu
 <description><![CDATA[<p>
 Para el desarrollo de este documento se utiliza <a href="https://www.gnu.org/software/emacs/">Emacs</a> con <a href="https://orgmode.org/">Org-mode</a>. Aquí se presentan algunos tips y snippets (retazos de código fuente)  necesarios para utilizar y generar los documentos LaTeX, PDF y HTML adecuadamente.
 </p>
-<div id="outline-container-org8a947ff" class="outline-3">
-<h3 id="org8a947ff"><span class="section-number-3">34.1.</span> Cambios para la accesibilidad</h3>
-<div class="outline-text-3" id="text-34-1">
+<div id="outline-container-org0117f4a" class="outline-3">
+<h3 id="org0117f4a"><span class="section-number-3">35.1.</span> Cambios para la accesibilidad</h3>
+<div class="outline-text-3" id="text-35-1">
 </div>
-<div id="outline-container-org2c8f60d" class="outline-4">
-<h4 id="org2c8f60d"><span class="section-number-4">34.1.1.</span> Corrigiendo contraste de colores</h4>
-<div class="outline-text-4" id="text-34-1-1">
+<div id="outline-container-orgdd91aa8" class="outline-4">
+<h4 id="orgdd91aa8"><span class="section-number-4">35.1.1.</span> Corrigiendo contraste de colores</h4>
+<div class="outline-text-4" id="text-35-1-1">
 <p>
 El timestamp original tiene color gris, corregir al negro para dar mayor contraste.
 </p>
@@ -6107,9 +6196,9 @@ El timestamp original tiene color gris, corregir al negro para dar mayor contras
 </div>
 </div>
 </div>
-<div id="outline-container-orgbc6b820" class="outline-4">
-<h4 id="orgbc6b820"><span class="section-number-4">34.1.2.</span> Quitar justificado</h4>
-<div class="outline-text-4" id="text-34-1-2">
+<div id="outline-container-org6ff06ea" class="outline-4">
+<h4 id="org6ff06ea"><span class="section-number-4">35.1.2.</span> Quitar justificado</h4>
+<div class="outline-text-4" id="text-35-1-2">
 <p>
 El justificado completo suele dejar espacios en blanco. Esto es contraproducente para personas con problemas para leer e interpretar el contenido.
 </p>
@@ -6123,9 +6212,9 @@ El justificado completo suele dejar espacios en blanco. Esto es contraproducente
 </div>
 </div>
 </div>
-<div id="outline-container-org7bbf487" class="outline-3">
-<h3 id="org7bbf487"><span class="section-number-3">34.2.</span> Exportar fecha en español</h3>
-<div class="outline-text-3" id="text-34-2">
+<div id="outline-container-orgcd55880" class="outline-3">
+<h3 id="orgcd55880"><span class="section-number-3">35.2.</span> Exportar fecha en español</h3>
+<div class="outline-text-3" id="text-35-2">
 <p>
 Es necesario utilizar un comando de Emacs específico para exportar las fechas en el formato correcto. En este caso, se utilpreconfigurar el formato de la fecha.
 </p>
@@ -6149,9 +6238,9 @@ Es necesario utilizar un comando de Emacs específico para exportar las fechas e
 </div>
 </div>
 </div>
-<div id="outline-container-orga399d85" class="outline-3">
-<h3 id="orga399d85"><span class="section-number-3">34.3.</span> Org-entities</h3>
-<div class="outline-text-3" id="text-34-3">
+<div id="outline-container-org5fd8f24" class="outline-3">
+<h3 id="org5fd8f24"><span class="section-number-3">35.3.</span> Org-entities</h3>
+<div class="outline-text-3" id="text-35-3">
 <p>
 Para generar los emojis en HTML y LaTeX, se incorporan más entidades de Org-mode. Estas entidades se encuentran en mi configuración personal de Emacs, bajo la siguiente URL: <a href="https://gitlab.com/cnngimenez/emacs-stuff">https://gitlab.com/cnngimenez/emacs-stuff</a>
 </p>
@@ -6171,7 +6260,7 @@ Actualmente, se utiliza la siguiente configuración en particular: <a href="http
 <pubDate>Wed, 17 Jan 2024 19:22:00 -0300</pubDate>
 
 <description><![CDATA[
-<div id="orgc9b0d05" class="figure">
+<div id="orge3ef38f" class="figure">
 <p><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Logo de la licencia CC-by-SA." />
 </p>
 </div>

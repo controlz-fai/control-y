@@ -50,6 +50,60 @@ En esta página se encuentran los guiones y la bibliografía utilizada en la col
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
+* Columna 34: Deepseek
+:PROPERTIES:
+:ID:       278c8f85-48ee-4e10-8d02-ad428d0ed0ba
+:PUBDATE:  2025-02-07 vie 14:42
+:END:
+{{{tag(columna-34)}}}
+
+\radio{} Emisión al aire: <2025-02-07 vie 15:30>
+
+- ¿Qué es DeepSeek?
+  - *Es una empresa* situada Hangzhou en China. Se encarga del desarrolo de software IA, particularmente Large Language Models (LLM).
+  - Liang Wenfeng fundador de la empresa.
+    - Es graduado de la Universidad de Zhejiang, una universidad nacional.
+  - El *DeepSeek R1* es el chatbot (modelo + software) creado por esta empresa.
+    - Básicamente, es un programa y un conjunto de datos llamado modelo. El modelo es lo que "aprendió", se entrena con muchos datos para que se modifique y se adapte a ellos.
+  - Es lo similar al ChatGPT, un chatbot con IA del tipo que simula un ser humano.
+  - Se dice que es comparativamente igual en potencia a los existentes y a la última versión ChatGPT o1.
+    - Aunque no hay una una comparación concreta aún.
+- ¿Qué tiene de interesante?
+  - La empresa dice que *el software es Open Source*, y el modelo se creo con un costo de $6 millones contra $100 millones que supuestamente costó GPT-4.
+  - Utilizó menos recursos: la empresa indica que *utilizó 2.000 chips Nvidia A100 y miles de menor calidad* adquiridos antes de la prohibición.
+    - Porque hay una prohibición de EEUU de vender tecnología de avanzada a China.
+  - Utiliza una estrategia de *uso de memoria más efectivo*. Esto hace que requiera menos memoria RAM.
+  - Es posible descargarse el modelo y el software y utilizarlo localmente, off-line. ChatGPT y otros no.
+- ¿Cómo afecta DeepSeek R1?
+  - Al utilizar menos recursos y decrementar tanto los costos hace que otras empresas deban justificar mejor sus inversiones.
+  - Pone en duda si es cierto que  la única forma de mejorar la IA producida es con más coston y más cantidad de chips.
+  - Nvidia cayó su mercado un 17% antes de recuperarse al día siguiente. De ser la más valuada cayó a ser la tercera.
+  - La industria y el gobierno chino se "fortalece" puesto que se independiza aún más en desarrollo de IA: comprende que puede innovar en IA.
+  - El gobierno chino fomentó el desarrollo e investigación de la IA con becas, ayudas a la investigación y la interrelación entre universidades y la industria.
+  - Recordemos el contexto en que Tik Tok está en conflicto en EEUU, y hay tensión por aranceles económicos entre estos los países. Además, de la restricción de la venta de tecnología avanzada de EEUU.
+
+Como mencioné que el gobierno chino fomentó con becas y ayudas, etc. ¿Cómo se relaciona el gobierno o el estado con la innovación y la investigación?
+
+¿Cómo les parece que la educación y la inversión del gobierno/estado ayuda a las empresas?
+
+¿Qué opinan acerca del rol de las universidades en la competencia tecnológica?
+
+Vieron que EEUU impuso restricciones a la venta de tecnología a China: ¿qué piensan de la dependencia o independencia tecnológia y su importancia en un país? ¿por qué les parece que ambos países buscan el primer puesto o la mayor indenpendencia posible en estos avances?
+
+
+** Recursos
+:PROPERTIES:
+:ID:       f7eac792-65b6-4c80-bdd4-62756931dbdb
+:END:
+
+- "DeepSeek: The Chinese AI app that has the world talking" por Kelly Ng, Brandon Drenon, Tom Gerken y Marc Cieslak. BBC News. 4 de febrero del 2025.
+
+  https://www.bbc.com/news/articles/c5yv5976z9po
+
+- "DeepSeek: cómo los "héroes de la IA" de China superaron las restricciones de EE.UU. y desafiaron a Silicon Valley" por Fan Wang y João da Silva. BBC News. 1 de febrero del 2025.
+
+  https://www.bbc.com/mundo/articles/cqx93d7e1weo
+
 * Columna 33: Pac-Man
 :PROPERTIES:
 :ID:       c807785d-4a17-4a4c-ac6e-1b2ac597e1e3
