@@ -61,6 +61,91 @@ Está página se encuentra disponible en los siguientes formatos:
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
+* Columna 35: Criptomonedas y algo más
+:PROPERTIES:
+:ID:       8cec4d1b-6724-4f6f-88d4-34dfe6518c22
+:PUBDATE:  2025-02-21 vie 00:35
+:END:
+{{{tag(columna-35)}}}
+
+#+caption: Registro de cotización de la moneda $LIBRA en dexscreener.com
+[[file:dexscreen-inicio-captura-priceusd.png]]
+
+\warning{} Con este tema, me meteré en un terreno pantanoso para mí: el de las finanzas y mercados. Es algo muy poco explorado y que solo pude leer conceptos (para mí avanzados) en pocos días.
+Recomiendo encarecidamente que quien le interese saber más, consulte con un especialista en finanzas y economía. En esta columna, solo exploraremos el impacto de introducirse en el mundo de las criptomonedas con escaso conocimiento.
+
+- "Querés ser millonario sin esfuerzo y con poco estudio, probá nuestros curros... digo cursos..." (⸮)
+
+  ¿Se han encontrado con videos donde prometen que ganás mucha plata con poco esfuerzo?
+
+  Muchos de estos videos apuntan a jóvenes y adolescentes.
+
+  En muchos casos, usan las criptomonedas como base. Si bien, invertir en criptomonedas puede ser sencillo, es importante conocer bien este mundo y los conceptos y teorías que lo rodean antes de invertir plata.
+
+- ¿Recuerdan el consejo que les dí cuando hablamos de blockchain y criptomonedas?
+
+  La criptomoneda es una moneda descentralizada: sin bancos, ni entidades en el medio entre los usuarios.
+
+  Blockchain es un libro contable distribuído. Piensen que una transacción ya dentro de la blockchain, no se puede cambiar. Es público.
+
+  *¡No inviertan si no conocen bien de qué se trata!*
+
+  Veamos por qué se los decía...
+
+  ¿Qué deberíamos conocer antes de invertir?
+
+  \warning{} Ojo, no quiero decir que si saben todo esto, serán expertos inversores/brokers. Considero que es bueno consultar y educarse con alguien especialista en el tema de finanzas y economía. 
+
+- Algunos conceptos financieros: market maker, bonos, acciones (stock), mercado, bolsa, agentes (brokers o stockbroker), liquidez, renta fija, renta variable, capitalización del mercado/valor en bolsa (market cap).
+
+  Market Maker: entidad que ofrece liquidez y fluidez siempre manteniendo disponible. Ofrecen un precio de venta y compra para activos y obtiene beneficio con la diferencia de estos precios. 
+
+- Algunos conceptos del mundo de las criptomonedas: blockchain, Proof of work, proof of stake, stablecoin, smart contract, decentralized finance, decentralized exchange (DEX), centralized exchange (CEX), automated market maker, pool de liquidez, DApp.
+
+  Está bueno conocer cómo funcionan las tecnologías computacionalmente... pero ¿por qué funcionan así? ¿cómo se usan correctamente? ¿qué intenciones y objetivos tienen? ¿qué impactos éticos y sociales tienen?
+    
+- ¿Cómo sería un AMM?
+
+  Es un market maker pero con Smart contract + Liquidity pool. Como es un programa hay varias formas/técnicas de implementarlos.
+
+  Ejemplo: criptomoneda DAI, cuya idea es sostener su precio a 1 dólar (1 DAI = 1 Dólar). Funciona bajo Ethereum.
+
+  La idea es hacer transacciones entre pares, sin utilizar un libro de órdenes. Se utiliza un algoritmo (por ejemplo, una fórmula matemática) para calcular los
+  valores de compra y venta.
+
+- ¿Qué sería un Token DEX?
+
+  Hay criptomonedas que no poseen su propia blockchain, sino que utilizan otra ya existente. 
+
+- Caso Ethereum DAO: 2016 una vulnerabilidad fue aprovechada por un hacker el cual robó DAO tokens. Se creó una copia de los blockchains.
+
+- Peculiaridad de Solana: no se pueden leer ni estudiar el código fuente de los smart contracts.
+
+  En Ethereum sí es posible.
+
+** Recursos
+:PROPERTIES:
+:ID:       84a4db05-0a60-4ed1-b817-bb8cb0a0a560
+:END:
+- "¿Qué es un Automated Market Maker (AMM)?". 7 de octubre del 2020 y actualizado el 9 de junio del 2023. Binance Academy.
+
+  https://academy.binance.com/es/articles/what-is-an-automated-market-maker-amm
+
+- "¿Qué es un Exchange Descentralizado (DEX)?". 27 de septiembre del 2020 y actualizado el 25 de octubre del 2024. Binance Academy.
+
+  https://academy.binance.com/es/articles/what-is-a-decentralized-exchange-dex
+
+- 
+
+   https://academy.binance.com/es/articles/what-s-the-difference-between-a-cex-and-a-dex
+
+-
+
+  https://academy.binance.com/es/articles/what-is-an-ido-initial-dex-offering
+- https://www.dexlab.space/mintinglab/spl-token
+
+- Conceptos: Smart Contract, Decentralized Finance (DeFi), Decentralized Exchange (DEX), Market maker, Automated Market Maker (AMM), Stablecoin, 
+
 * Columna 34: Deepseek
 :PROPERTIES:
 :ID:       278c8f85-48ee-4e10-8d02-ad428d0ed0ba
