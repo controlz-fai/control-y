@@ -68,8 +68,11 @@ Está página se encuentra disponible en los siguientes formatos:
 :END:
 {{{tag(columna-35)}}}
 
-#+caption: Registro de cotización de la moneda $LIBRA en dexscreener.com
+#+caption: Primeros registros de cotización de la moneda $LIBRA en dexscreener.com
 [[file:dexscreen-inicio-captura-priceusd.png]]
+
+#+caption: Primeros registros de market cap de la moneda $LIBRA en dexscreener.com
+[[file:dexscreen-inicio-captura-mcapusd.png]]
 
 \warning{} Con este tema, me meteré en un terreno pantanoso para mí: el de las finanzas y mercados. Es algo muy poco explorado y que solo pude leer conceptos (para mí avanzados) en pocos días.
 Recomiendo encarecidamente que quien le interese saber más, consulte con un especialista en finanzas y economía. En esta columna, solo exploraremos el impacto de introducirse en el mundo de las criptomonedas con escaso conocimiento.
@@ -127,24 +130,46 @@ Recomiendo encarecidamente que quien le interese saber más, consulte con un esp
 :PROPERTIES:
 :ID:       84a4db05-0a60-4ed1-b817-bb8cb0a0a560
 :END:
-- "¿Qué es un Automated Market Maker (AMM)?". 7 de octubre del 2020 y actualizado el 9 de junio del 2023. Binance Academy.
+- "¿Qué es un Automated Market Maker (AMM)?". Binance Academy. 7 de octubre del 2020 y actualizado el 9 de junio del 2023.
 
   https://academy.binance.com/es/articles/what-is-an-automated-market-maker-amm
 
-- "¿Qué es un Exchange Descentralizado (DEX)?". 27 de septiembre del 2020 y actualizado el 25 de octubre del 2024. Binance Academy.
+- "¿Qué es un Exchange Descentralizado (DEX)?". Binance Academy. 27 de septiembre del 2020 y actualizado el 25 de octubre del 2024.
 
   https://academy.binance.com/es/articles/what-is-a-decentralized-exchange-dex
 
-- 
+- "¿Cuáles son las diferencias entre un CEX y un DEX?". Binance Academy. 15 de diciembre del 2022, actualizado el 15 de junio del 2023.
 
    https://academy.binance.com/es/articles/what-s-the-difference-between-a-cex-and-a-dex
 
--
+- "¿Qué es una IDO (Oferta Inicial de DEX)?". Binance Academy. 24 de enero del 2022, actualizado el 9 de febrero del 2023. 
 
-  https://academy.binance.com/es/articles/what-is-an-ido-initial-dex-offering
-- https://www.dexlab.space/mintinglab/spl-token
+   https://academy.binance.com/es/articles/what-is-an-ido-initial-dex-offering
+   
+- Dexlab es una de las páginas para crear Token DEX sin necesidad de saber programar.
 
-- Conceptos: Smart Contract, Decentralized Finance (DeFi), Decentralized Exchange (DEX), Market maker, Automated Market Maker (AMM), Stablecoin, 
+  https://www.dexlab.space/
+
+- "Qué es una memecoin, cómo funciona y cuáles son los riesgos". Por Infobae. 18 de febrero del 2025.
+
+  https://www.infobae.com/economia/2025/02/18/que-es-una-memecoin-como-funciona-y-cuales-son-los-riesgos/
+
+- "Online star Hawk Tuah girl faces crypto coin criticism". Por Liv McMahon. BBC. 6 de diciembre del 2024.
+
+  https://www.bbc.com/news/articles/c89xvjkzzyvo
+
+  $HAWK es otra memecoin con controversias.
+
+#+attr_html: :width 25% :alt Arcade de Guildford :align left
+[[file:dexscreen-inicio-captura-priceusd.png]]
+
+#+attr_html: :width 25% :alt Arcade de Guildford :align left
+[[file:dexscreen-inicio-captura-mcapusd.png]]
+
+Gráficos obtenidos desde dexscreener.com:
+
+https://dexscreener.com/solana/Bo9jh3wsmcC2AjakLWzNmKJ3SgtZmXEcSaW7L2FAvUsU
+  
 
 * Columna 34: Deepseek
 :PROPERTIES:
