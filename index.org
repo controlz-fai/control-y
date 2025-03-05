@@ -110,7 +110,7 @@ Está página se encuentra disponible en los siguientes formatos:
 
       La moderación de cada servidor depende del administrador. Muchos servidores pautan sus términos de uso para sus usuarios.
 
-      Sin embargo, el administrador suele ser muy activo y entra en contacto frecuentemente con muchos usuarios de la red social. Esto es así porque crea el servidor por gusto y por el deseo de comunicarse. Por lo que siempre responden.
+      El administrador suele ser muy activo y entra en contacto frecuentemente con muchos usuarios de la red social. Esto es así porque crea el servidor por gusto y por el deseo de comunicarse. Por lo que siempre responden.
 
       En su época, los servidores de Diáspora* no tenían la habilidad de moderar contenidos que provienen de otros servidores. Mastodon sí puede hacer esto (por ejemplo, moderar contenido proveniente de un servidor con contenido que no aplican a sus términos de uso).
 
@@ -119,31 +119,54 @@ Está página se encuentra disponible en los siguientes formatos:
    5. ¿Y la privacidad?
 
       1. Depende del software/red social. Hay redes que pueden restringir una publicación a ciertos contactos, grupos o al público.
-      2. No suelen solicitar infomación personal para crear una cuenta: podemos crear una cuenta con un pseudónimo (mientras cumplamos los términos de uso del servidor).
+      2. No suelen solicitar infomación personal para crear una cuenta: podemos crear una cuenta con un pseudónimo (mientras se cumplan los términos de uso del servidor).
       3. Es posible crear un servidor personal, aunque requiere de conocimientos técnicos. Sino, se debe confiar en el administrador del servidor.
-      4. Los administradores frecuentemente recomiendan no publicar información sensible.
+      4. Se recomienda no publicar información sensible (contraseñas, fotos de documentos, etc.).
       5. Debemos considerar que si buscamos integrarnos a una red social, a cierto punto tendremos que revelar información propia. Lo importante es entender qué podemos publicar y qué no: qué información es sensible y no debemos publicar nunca.
-      6. En la mayor parte del fediverso sigue las ideas del software libre, el respeto al usuario: la autoría de los contenidos se respeta (no es del administrador/"dueño", sino de quien publica).
+      6. En la mayor parte del fediverso se sigue las ideas del software libre, el respeto al usuario: la autoría de los contenidos se respeta (no se transfiere la autoría al administrador/"dueño" del servidor).
 
    6. ¿Y la disponibilidad? ¿puede ser censurado o caerse el servicio?
 
       Si hay multiples servidores, en distintos países, es más difícil:
       
-      1. siempre podés hacer una cuenta en otro servidor.
-      2. siemper podés crearte varias cuentas en distintos servidores.
+      1. Siempre podés hacer una cuenta en otro servidor.
+      2. Siempre podés crearte varias cuentas en distintos servidores.
    
 4. ¿Cómo es la experiencia de usarla?
    1. Se nos puede complicar inicialmente con los servidores/comunidades.
       Hasta que comprendemos que todos los servidores son parte de la misma red social.
    2. Inicialmente parece aburrida porque no hay algoritmo de sugerencia y no seguimos a nadie.
       1. Debemos seguir otros perfiles y etiquetas.
-   3. Curiosamente, hay muchos post en múltiples idiomas. Pues no se filtran los posts.
-   4. Hay convenciones que nos van a pedir seguir.
+      2. La paciencia es una virtud... y en este caso una oportunidad para la desintoxicación digital: no, no es el mismo movimiento ni la misma rapidez que en las redes centralizadas.
+   3. Curiosamente, hay muchos post en otros idiomas. Pues no se filtran los posts por gustos, región, etc.
+
+      Mastodon posee un traductor. Siempre se puede usar aplicaciones.
+
+      Inglés es el más frecuente, aunque podemos encontrar Árabe, Chino, Coreano, Japonés, Griego, etc.
+
+   4. Encontraremos más características interesantes.
+
+      En el fediverso, se busca crear una herramienta para compartir contenido. Muchas de sus características no buscan preservar al público en al red, y la interfaz no está creada en base a este criterio.
+
+      Son proyectos comunitarios: hay muchas personas ayudan al proyecto, traduciendo, aportando imágenes y dibujos, comentando, desarrollando software, etc. Por ello, se crean características que no suelen encontrarse en otras redes sociales: texto alternativo en imágenes, content warnings, 
+
+      
+      
+   5. Hay convenciones que nos van a sugerir seguir.
 
       Por ejemplo, en Mastodon:
+      
       1. Tratar de agregar explicaciones de las imágenes para personas con problemas de visión.
-      2. Usar los Content Warnings (CW) para ocultar temas sensibles.
+      2. Usar los Content Warnings (CW). Es una característica que se puede habilitar en un post para que se oculte su contenido previamente, hasta que el lector haga clic para verlo.
+         
+         Es para ocultar temas sensibles o que "no se puedan ver en el trabajo" (Not Suitable For Work, NSFW).
+         
       3. Los robots y las cuentas automatizadas deben tener, en las opciones, habilitada la opción correspondiente.
+
+         Hay cuentas cuyo contenido es generado automáticamente. Estas cuentas deben estar marcadas como tal para evitar problemas con la comunidad.
+
+         Ejemplo: LWN news https://mastodon.social/@LWN@fosstodon.org
+
 5. ¿Cómo usar Mastodon?
 
    1. Registrarse en cualquier servidor. Probar https://joinmastodon.org que nos eligirá un servidor.
