@@ -61,6 +61,167 @@ Está página se encuentra disponible en los siguientes formatos:
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
+* Columna 36: Redes sociales libres
+:PROPERTIES:
+:ID:       8721d6cf-4215-460c-9b3e-5db67a3c2ffe
+:PUBDATE:  2025-03-05 mié 13:20
+:END:
+{{{tag(columna-36)}}}
+
+1. ¿Qué es una red social?
+   1. Medio social: Web 2.0 o usuarios son productores y consumidores.
+   2. Establecer contacto entre personas.
+   3. Intercambio de información (fotos, videos, textos, etc.)
+      
+2. Topología: redes centralizadas, descentralizadas y distribuidas.
+
+   #+caption: Topologías de red en general, también aplicable a redes sociales.
+   #+attr_html: :alt Topologías de red  :align center
+   [[file:data/ba/e196a9-0723-4c41-abf0-256ef276df5e/Topologías_de_red.gif]]
+
+   1. Preguntas para detectar la topología: ¿Dónde creamos nuestra cuenta e iniciamos sesión? ¿cómo es nuestro identificador (es simplemente "@algo" o es "algo@otracosa")? ¿
+
+      1. Pensemos: ICQ, MSN, Whatsapp, Facebook, Twitter, Instagram, etc. Todos son centralizados.
+         
+         ¿Y los blogs (Wordpress y otros)?
+
+      2. Ahora: E-mail, Mastodon. Son descentralizadas.
+
+3. El Fediverso (federación + universo)
+
+   Una *collección de redes sociales* que se intercomunican entre ellas. Sus usuarios pueden interactuar, a pesar que estén en diferentes redes sociales (un usuario de Mastodon puede publicar una foto y enviar un mensaje a otro de Misskey). Mayormente utilizan *software libre o open source*, y su intercomunicación genera redes *descentralizadas* o *distribuidas*.
+
+   1. ¿Es difícil hacerse una cuenta?
+
+      Si comprendemos qué es descentralizada, se hace muy fácil:
+
+      1. Elegimos un servidor
+      2. Creamos una cuenta en ese servidor.
+
+   2. ¿¡Por qué hay tantos sitios!?
+
+      El fediverso es una comunidad con ideales y en movimiento. Hay muchos desarrolladores en esta comunidad.
+
+   3. ¿Y el algoritmo?
+
+      El algoritmo de sugerencia es muy simple o nulo: solo te muestra los posts de los usuarios o etiquetas que te has registrado para seguir.
+
+   4. ¿Y la moderación y la seguridad del usuario?
+
+      La moderación de cada servidor depende del administrador. Muchos servidores pautan sus términos de uso para sus usuarios.
+
+      Sin embargo, el administrador suele ser muy activo y entra en contacto frecuentemente con muchos usuarios de la red social. Esto es así porque crea el servidor por gusto y por el deseo de comunicarse. Por lo que siempre responden.
+
+      En su época, los servidores de Diáspora* no tenían la habilidad de moderar contenidos que provienen de otros servidores. Mastodon sí puede hacer esto (por ejemplo, moderar contenido proveniente de un servidor con contenido que no aplican a sus términos de uso).
+
+      Siempre se tiene la posibilidad de crearse el servidor propio. Sin embargo, requiere de conocimentos técnicos.
+
+   5. ¿Y la privacidad?
+
+      1. Depende del software/red social. Hay redes que pueden restringir una publicación a ciertos contactos, grupos o al público.
+      2. No suelen solicitar infomación personal para crear una cuenta: podemos crear una cuenta con un pseudónimo (mientras cumplamos los términos de uso del servidor).
+      3. Es posible crear un servidor personal, aunque requiere de conocimientos técnicos. Sino, se debe confiar en el administrador del servidor.
+      4. Los administradores frecuentemente recomiendan no publicar información sensible.
+      5. Debemos considerar que si buscamos integrarnos a una red social, a cierto punto tendremos que revelar información propia. Lo importante es entender qué podemos publicar y qué no: qué información es sensible y no debemos publicar nunca.
+      6. En la mayor parte del fediverso sigue las ideas del software libre, el respeto al usuario: la autoría de los contenidos se respeta (no es del administrador/"dueño", sino de quien publica).
+
+   6. ¿Y la disponibilidad? ¿puede ser censurado o caerse el servicio?
+
+      Si hay multiples servidores, en distintos países, es más difícil:
+      
+      1. siempre podés hacer una cuenta en otro servidor.
+      2. siemper podés crearte varias cuentas en distintos servidores.
+   
+4. ¿Cómo es la experiencia de usarla?
+   1. Se nos puede complicar inicialmente con los servidores/comunidades.
+      Hasta que comprendemos que todos los servidores son parte de la misma red social.
+   2. Inicialmente parece aburrida porque no hay algoritmo de sugerencia y no seguimos a nadie.
+      1. Debemos seguir otros perfiles y etiquetas.
+   3. Curiosamente, hay muchos post en múltiples idiomas. Pues no se filtran los posts.
+   4. Hay convenciones que nos van a pedir seguir.
+
+      Por ejemplo, en Mastodon:
+      1. Tratar de agregar explicaciones de las imágenes para personas con problemas de visión.
+      2. Usar los Content Warnings (CW) para ocultar temas sensibles.
+      3. Los robots y las cuentas automatizadas deben tener, en las opciones, habilitada la opción correspondiente.
+5. ¿Cómo usar Mastodon?
+
+   1. Registrarse en cualquier servidor. Probar https://joinmastodon.org que nos eligirá un servidor.
+   2. Al principio paciencia. Seguir etiquetas que nos interesa.
+   3. Recordar bloquear o dejar de seguir usuarios que nos molestan.
+   4. Al escribir, usar etiquetas para que encuentren nuestro post.
+   5. Se puede mirar el "Live feed"/"Linea temporales en vivo" o buscar etiquetas y usuarios.
+
+
+
+
+** Fediverso
+:PROPERTIES:
+:ID:       b6ff23d4-909b-4d25-af9d-e3945c5e27a4
+:END:
+
+Explorar el fediverso: https://jointhefediverse.net
+
+Observador del fediverso: https://fediverse.observer
+
+Para texto:
+   
+   - Diaspora* http://diasporafoundation.org
+   - Wordpress https://wordpress.org y https://wordpress.com
+   - Ghost https://ghost.org
+   - Friendica https://friendi.ca
+
+Para microblogging:
+   
+   - Misskey https://misskey-hub.net
+   - Mastodon https://joinmastodon.org
+
+     Documentación: https://docs.joinmastodon.org
+   - Pleroma https://pleroma.social
+   - GoToSocial https://gotosocial.org
+   - Hubzilla https://hubzilla.org
+
+Para links:
+
+  - Lemmy https://join-lemmy.org
+  - PieFed https://join.piefed.social
+
+Para eventos:
+  - Mobilizon https://joinmobilizon.org/
+   
+Para libros y escritos:
+
+  - BookWyrm https://joinbookwyrm.com
+  - WriteFreely https://writefreely.org
+  - Wordpress https://wordpress.org
+
+    Requiere instalar un plugin desde el panel de administración.
+   
+Para imágenes:
+
+   - Pixelfed https://pixelfed.org
+
+Para videos y música:
+
+   - PeerTube https://joinpeertube.org
+   - Owncast https://owncast.online
+   - Funkwhale https://www.funkwhale.audio
+
+** Historia de las redes sociales
+:PROPERTIES:
+:ID:       4b0796f4-2edb-4547-902c-387d1646fd5e
+:END:
+
+Usenet, Bulletin Board System (BBS), E-mail (previo a 1980), IRC (1988-actualidad), ICQ (1996), AOL (1997), Yahoo messenger (1999), MSN (1999), XMPP (1999), Wordpress (2003), Linked-in (2003), Hi5 (2003), 4chan (2003), Myspace (2003), Skype (2003), Facebook (2004), Flickr (2004), Orkut (2004), Google Talk (2005), YouTube (2005), Reddit (2005), Twitter (2006), VK (2006), Tumblr (2007), identi.ca (con StatusNet, 2008),  Weibo (2009), Diaspora* (2010), Friendica (2010), Pinterest (2010), Instagram (2010), Quora (2010), Snapchat (2011), Google+ (2011), Twitch (2011), identi.ca (con pump.io, 2012), Tinder (2012), Slack (2013), Patreon (2013), Telegram (2013), Misskey (2014), Discord (2015), Mastodon (2016), Tik Tok (2017) Bluesky (2023), Threads (2023).
+
+** Recuross
+:PROPERTIES:
+:ID:       af73aa99-bbb0-4e9c-ade5-5709e18cc047
+:END:
+- [[https://www.xataka.com/basics/que-mastodon-como-funciona-como-te-puedes-registrar]["Qué es Mastodon, cómo funciona y cómo te puedes registrar"]]. Yúbal Fernández. Xataka. 14 de noviembre 2024.
+
+  Cuenta cómo funciona Mastodon y la diferencia con las otras redes sociales.  
+
 * Columna 35: Criptomonedas y algo más
 :PROPERTIES:
 :ID:       8cec4d1b-6724-4f6f-88d4-34dfe6518c22
