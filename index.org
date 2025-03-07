@@ -68,8 +68,12 @@ Está página se encuentra disponible en los siguientes formatos:
 :END:
 {{{tag(columna-36)}}}
 
-1. ¿Qué es una red social?
-   1. Medio social: Web 2.0 o usuarios son productores y consumidores.
+Ante la aclaración de la oyentada, se me ha comentado algo que es pertinente decir: el término "red social" es un concepto de las ciencias sociales, el cual su significado puede ser más amplio y más profundo que el mero intercambio digital entre personas (hay estudios y libros dedicados a su análisis, por ejemplo "Social Network Analysis: Methods and Applications" de Stanley Wasserman y Katherine Faust, entre otros). La persona que comentó, comparte que es conveniente utilizar otro término, el cual es más acertado: "*redes digitales*". 
+
+Pero, por una cuestión de (mala) costumbre y para mantener consistencia con el audio de la columna ya grabada, dejaré el término "red social" en este guion. Pido disculpas por ello.
+
+1. ¿Qué es una red social (o mejor dicho, red digital)?
+   1. También se encuentra como medio social: Web 2.0 o usuarios son productores y consumidores.
    2. Objetivo: establecer contacto entre personas.
    3. Intercambio de información (fotos, videos, textos, etc.)
       
@@ -110,7 +114,7 @@ Está página se encuentra disponible en los siguientes formatos:
 
       La moderación de cada servidor depende del administrador. Muchos servidores pautan sus términos de uso para sus usuarios.
 
-      El administrador suele ser muy activo y entra en contacto frecuentemente con muchos usuarios de la red social. Esto es así porque crea el servidor por gusto y por el deseo de comunicarse. Por lo que siempre responden.
+      El administrador suele ser muy activo y entra en contacto frecuentemente con muchos usuarios de la red social digital. Esto es así porque crea el servidor por gusto y por el deseo de comunicarse. Por lo que siempre responden.
 
       En su época, los servidores de Diáspora* no tenían la habilidad de moderar contenidos que provienen de otros servidores. Mastodon sí puede hacer esto (por ejemplo, moderar contenido proveniente de un servidor con contenido que no aplican a sus términos de uso).
 
@@ -118,13 +122,13 @@ Está página se encuentra disponible en los siguientes formatos:
 
    5. ¿Y la privacidad?
 
-      1. Depende del software/red social. Hay redes que pueden restringir la visibilidad de una publicación a ciertos contactos, grupos o al público.
+      1. Depende del software/red. Hay redes que pueden restringir la visibilidad de una publicación a ciertos contactos, grupos o al público.
       2. No suelen solicitar infomación personal para crear una cuenta: podemos crear una cuenta con un pseudónimo (mientras se cumplan los términos de uso del servidor).
       3. Si deseamos la máxima privacidad y control: es posible crear un servidor personal, aunque requiere de conocimientos técnicos.
 
          Sino, se debe confiar en el administrador del servidor.
-      4. En cualquier red social (sea cual fuere): *se recomienda no publicar información sensible* (contraseñas, fotos de documentos, etc.).
-      5. Debemos considerar que si buscamos integrarnos a una red social, a cierto punto tendremos que revelar información propia. Lo importante es entender qué podemos publicar y qué no: qué información es sensible y no debemos publicar nunca.
+      4. En cualquier red (sea cual fuere): *se recomienda no publicar información sensible* (contraseñas, fotos de documentos, etc.).
+      5. Debemos considerar que si buscamos integrarnos a una red, a cierto punto tendremos que revelar información propia. Lo importante es entender qué podemos publicar y qué no: qué información es sensible y no debemos publicar nunca.
       6. En la mayor parte del fediverso se sigue las ideas del software libre, el respeto al usuario: la autoría de los contenidos se respeta (no se transfiere la autoría al administrador/"dueño" del servidor).
 
    6. ¿Y la disponibilidad? ¿puede ser censurado o caerse el servicio?
@@ -136,7 +140,7 @@ Está página se encuentra disponible en los siguientes formatos:
 
 4. ¿Cómo es la experiencia de usarla?
    1. Se nos puede complicar inicialmente con los servidores/comunidades.
-      Hasta que comprendemos que todos los servidores son parte de la misma red social.
+      Hasta que comprendemos que todos los servidores son parte de la misma red.
    2. Inicialmente parece aburrida porque no hay algoritmo de sugerencia y no seguimos a nadie.
       1. Debemos seguir otros perfiles y etiquetas.
       2. La paciencia es una virtud... y en este caso una oportunidad para la desintoxicación digital: no, no es el mismo movimiento ni la misma rapidez que en las redes centralizadas.
@@ -206,7 +210,7 @@ Está página se encuentra disponible en los siguientes formatos:
 
 Preguntas:
 
-- ¿Cuánto tiempo pasás en las redes sociales? ¿y en cada red social?
+- ¿Cuánto tiempo pasás en las redes sociales (redes digitales)? ¿y en cada red social (red digital)?
 - ¿Has tenido que aceptar algún término de uso? ¿qué dice al respecto de la autoría del contenido que subís a la red?
 - ¿Por qué en ciertas redes ampliamente usadas se encuentra mayormente cierto tema o contenido y en otras redes no?
 - ¿Te has preguntado por qué la interfaz tiene tal botón, o por qué te permite hacer una u otra cosa?
@@ -955,7 +959,7 @@ Hoy hacemos un repaso de la columna, y también de algunas noticias que se me vi
    2. ¿Pudieron determinar responsabilidades?
 
       - Vieron que tuvieron que bloquear Telegram y X en Brasil, "culpa de las redes sociales"... ¿o no?
-      - La red social X funciona gracias a programas. Esos programas fueron construidos por personas... Entonces, ¿los programas son neutrales?
+      - La red X funciona gracias a programas. Esos programas fueron construidos por personas... Entonces, ¿los programas son neutrales?
       - Palabras claves: *"neutralidad" tecnológica*.
         
    3. ¿Es necesario gente especializada para tomar esas decisiones o llevar a cabo los hechos que indican en las noticias? ¿es necesario personas especializadas para evitar y contrarrestar los riesgos y problemas?
