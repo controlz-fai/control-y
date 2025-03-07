@@ -208,17 +208,19 @@ Preguntas:
 
 - ¿Cuánto tiempo pasás en las redes sociales? ¿y en cada red social?
 - ¿Has tenido que aceptar algún término de uso? ¿qué dice al respecto de la autoría del contenido que subís a la red?
+- ¿Por qué en ciertas redes ampliamente usadas se encuentra mayormente cierto tema o contenido y en otras redes no?
 - ¿Te has preguntado por qué la interfaz tiene tal botón, o por qué te permite hacer una u otra cosa?
   Por ejemplo:
 
   - ¿Te permite elegir quién puede ver una publicación? ¿podés seleccionar que un post lo pueda ver cierto grupo de gente?
   - ¿Qué pasa con la accesibilidad? ¿podés escribir una descripción en la foto?
   - ¿Y los comentarios? ¿podés filtrar o impedir que cierta gente comente?
-  - ¿Puedo publicar videos largos, audios sin imágen, mis trabajos en PDF u otros formatos? ¿por qué no me deja hacerlo?
-  - ¿Por qué no me permite publicar un cuento que acabo de escribir?
+  - ¿Podés publicar videos largos, audios sin imágen, tus trabajos en PDF u otros formatos? ¿por qué no te deja hacerlo?
+  - ¿Por qué no te permite publicar un cuento o un texto largo que escribiste?
 
 - ¿Has experimentado otras redes sociales? ¿has podido comparar cómo se usan y qué características tienen? ¿por qué ciertas redes permiten ciertas características?
 - La red que usás, ¿te permite compartir una publicación con otra red fácilmente? ¿y copiar o bajar el video/foto/texto?
+- Las fakes news y el contenido, ¿es chequeado? ¿quién y cómo se chequea?
 
 ** Fediverso
 :PROPERTIES:
