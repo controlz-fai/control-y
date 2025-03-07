@@ -70,7 +70,7 @@ Está página se encuentra disponible en los siguientes formatos:
 
 1. ¿Qué es una red social?
    1. Medio social: Web 2.0 o usuarios son productores y consumidores.
-   2. Establecer contacto entre personas.
+   2. Objetivo: establecer contacto entre personas.
    3. Intercambio de información (fotos, videos, textos, etc.)
       
 2. Topología: redes centralizadas, descentralizadas y distribuidas.
@@ -118,10 +118,12 @@ Está página se encuentra disponible en los siguientes formatos:
 
    5. ¿Y la privacidad?
 
-      1. Depende del software/red social. Hay redes que pueden restringir una publicación a ciertos contactos, grupos o al público.
+      1. Depende del software/red social. Hay redes que pueden restringir la visibilidad de una publicación a ciertos contactos, grupos o al público.
       2. No suelen solicitar infomación personal para crear una cuenta: podemos crear una cuenta con un pseudónimo (mientras se cumplan los términos de uso del servidor).
-      3. Es posible crear un servidor personal, aunque requiere de conocimientos técnicos. Sino, se debe confiar en el administrador del servidor.
-      4. Se recomienda no publicar información sensible (contraseñas, fotos de documentos, etc.).
+      3. Si deseamos la máxima privacidad y control: es posible crear un servidor personal, aunque requiere de conocimientos técnicos.
+
+         Sino, se debe confiar en el administrador del servidor.
+      4. En cualquier red social (sea cual fuere): *se recomienda no publicar información sensible* (contraseñas, fotos de documentos, etc.).
       5. Debemos considerar que si buscamos integrarnos a una red social, a cierto punto tendremos que revelar información propia. Lo importante es entender qué podemos publicar y qué no: qué información es sensible y no debemos publicar nunca.
       6. En la mayor parte del fediverso se sigue las ideas del software libre, el respeto al usuario: la autoría de los contenidos se respeta (no se transfiere la autoría al administrador/"dueño" del servidor).
 
@@ -131,7 +133,7 @@ Está página se encuentra disponible en los siguientes formatos:
       
       1. Siempre podés hacer una cuenta en otro servidor.
       2. Siempre podés crearte varias cuentas en distintos servidores.
-   
+
 4. ¿Cómo es la experiencia de usarla?
    1. Se nos puede complicar inicialmente con los servidores/comunidades.
       Hasta que comprendemos que todos los servidores son parte de la misma red social.
@@ -148,26 +150,24 @@ Está página se encuentra disponible en los siguientes formatos:
 
       En el fediverso, se busca crear una herramienta para compartir contenido. Muchas de sus características no buscan preservar al público en al red, y la interfaz no está creada en base a este criterio.
 
-      Son proyectos comunitarios: hay muchas personas ayudan al proyecto, traduciendo, aportando imágenes y dibujos, comentando, desarrollando software, etc. Por ello, se crean características que no suelen encontrarse en otras redes sociales: texto alternativo en imágenes, content warnings, 
+      Son proyectos comunitarios: hay muchas personas ayudan al proyecto, traduciendo, aportando imágenes y dibujos, comentando, desarrollando software, etc. Por ello, se crean características que no suelen encontrarse en otras redes sociales: texto alternativo en imágenes, content warnings,
 
-      
-      
-   5. Hay convenciones que nos van a sugerir seguir.
+5. Hay convenciones que nos van a sugerir seguir.
 
-      Por ejemplo, en Mastodon:
+     Por ejemplo, en Mastodon:
       
-      1. Tratar de agregar explicaciones de las imágenes para personas con problemas de visión.
-      2. Usar los Content Warnings (CW). Es una característica que se puede habilitar en un post para que se oculte su contenido previamente, hasta que el lector haga clic para verlo.
+   1. Tratar de agregar explicaciones de las imágenes para personas con problemas de visión.
+   2. Usar los Content Warnings (CW). Es una característica que se puede habilitar en un post para que se oculte su contenido previamente, hasta que el lector haga clic para verlo.
          
-         Es para ocultar temas sensibles o que "no se puedan ver en el trabajo" (Not Suitable For Work, NSFW).
+      Es para ocultar temas sensibles o que "no se puedan ver en el trabajo" (Not Suitable For Work, NSFW).
          
-      3. Los robots y las cuentas automatizadas deben tener, en las opciones, habilitada la opción correspondiente.
+   3. Los robots y las cuentas automatizadas deben tener, en las opciones, habilitada la opción correspondiente.
 
-         Hay cuentas cuyo contenido es generado automáticamente. Estas cuentas deben estar marcadas como tal para evitar problemas con la comunidad.
+      Hay cuentas cuyo contenido es generado automáticamente. Estas cuentas deben estar marcadas como tal para evitar problemas con la comunidad.
 
-         Ejemplo: LWN news https://mastodon.social/@LWN@fosstodon.org
+      Ejemplo: LWN news https://mastodon.social/@LWN@fosstodon.org
 
-5. ¿Cómo usar Mastodon?
+6. ¿Cómo usar Mastodon?
 
    1. Registrarse en cualquier servidor. Probar https://joinmastodon.org que nos eligirá un servidor.
    2. Al principio paciencia. Seguir etiquetas que nos interesa.
@@ -175,8 +175,50 @@ Está página se encuentra disponible en los siguientes formatos:
    4. Al escribir, usar etiquetas para que encuentren nuestro post.
    5. Se puede mirar el "Live feed"/"Linea temporales en vivo" o buscar etiquetas y usuarios.
 
+7. No todo es color de rosa
+
+   1. Las redes sociales libres se sostienen gracias a los administradores: donaciones, mantenimiento propio.
+
+      El sustento económico y técnico a veces suele ser muy complejo de sobrellevar.
+      
+   2. Es una experiencia distinta, ya que conocemos y tenemos costumbre de usar las privativas.
+
+      Difieren en: objetivos, tipos de comunidad que atraen, diseño de la red y la interfaz (experiencia del usuario), rapidez en la actividad de la red (¿qué tan rápido reaccionan a mis publicaciones?), algoritmo de sugerencia (¿por qué me sugiere seguir tal persona?), algoritmo de filtrado o de propagación (¿por qué me aparece la publicación de tal persona?), etc.
+
+      También, nos encontramos con otras ideas y costumbres que pueden enriquecer lo que ya conocemos.
+
+   3. El alcance puede no ser el esperado (¿mis amigas y amigos verán mi publicación? ¿se encontrará tal persona en Mastodon?).
+
+      Aunque, recalco que he conocido gente muy agradable en el fediverso.
+
+   4. Utilizar las herramientas de forma completa puede requerir de cierto tiempo.
+
+      Al utilizar software libre, evolucionan rápidamente, por lo que se disponen de muchas utilidades y herramientas...
+         
+      Por ejemplo: se puede realizar publicaciones automáticamente, es posible que una aplicación para el celular permita crear borradores y programarlos para que se publiquen a cierto día y hora.
+
+   5. Convivir con mucha gente, de todo tipo, nacionalidad y costumbre. No siempre es bueno, ¡aunque no siempre es malo!
+
+      A veces, es necesario enmudecer o dejar de seguir a alguien porque nos deja de gustar el contenido. Otras veces, ¡descubrimos una cuenta que justo muestra lo que nos gusta ver!
+
+      Pero la mejor parte es que el stream/muro/hilo principal lo gestionamos completamente, y solo veremos las personas y etiquetas que seguimos.
 
 
+Preguntas:
+
+- ¿Cuánto tiempo pasás en las redes sociales? ¿y en cada red social?
+- ¿Has tenido que aceptar algún término de uso? ¿qué dice al respecto de la autoría del contenido que subís a la red?
+- ¿Te has preguntado por qué la interfaz tiene tal botón, o por qué te permite hacer una u otra cosa?
+  Por ejemplo:
+
+  - ¿Te permite elegir quién puede ver una publicación? ¿podés seleccionar que un post lo pueda ver cierto grupo de gente?
+  - ¿Qué pasa con la accesibilidad? ¿podés escribir una descripción en la foto?
+  - ¿Y los comentarios? ¿podés filtrar o impedir que cierta gente comente?
+  - ¿Puedo publicar videos largos, audios sin imágen, mis trabajos en PDF u otros formatos? ¿por qué no me deja hacerlo?
+  - ¿Por qué no me permite publicar un cuento que acabo de escribir?
+
+- ¿Has experimentado otras redes sociales? ¿has podido comparar cómo se usan y qué características tienen? ¿por qué ciertas redes permiten ciertas características?
+- La red que usás, ¿te permite compartir una publicación con otra red fácilmente? ¿y copiar o bajar el video/foto/texto?
 
 ** Fediverso
 :PROPERTIES:
