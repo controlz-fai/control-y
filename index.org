@@ -61,6 +61,74 @@ Está página se encuentra disponible en los siguientes formatos:
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
+* Columna 37: Seguridad Informática
+:PROPERTIES:
+:ID:       bae0e0f6-b452-427e-9fb8-db27adf459bc
+:PUBDATE:  2025-03-20 jue 15:32
+:END:
+
+1. ¿Qué es seguridad?
+   1. Básicamente proteger tus cosas, tus recursos.
+   2. ¿De qué? \to{} atacantes, desastres naturales (incluye tsunamis y roturas de caños de agua), vandalismo, pérdida, mal uso.
+      1. ¿Alguna vez les pasó que perdieron llaves?
+      2. ¿Alguna vez les borraron un archivo sin querer? ¿y alguna vez fue intencional?
+2. ¿Conviene proteger solo la información digital?
+   1. Supongamos que vos usás tu homebanking, pero la clave está anotada en un papel...
+   2. Pensemos, ¿qué pasa si tenemos escaneos de papeles en la compu? ¿y los originales?
+   3. Sería bueno pensar cómo proteger lo físico también: candados, puertas, guardias, escáneres biométricos, etc.
+   4. Y las computadoras, ¿no deberíamos proteger el acceso (físico) a ellos?
+   5. ¿Y si se inunda la habitación porque se rompió un caño?
+3. Entonces, ¿qué es seguridad informática?
+   1. A lo mejor sería correcto decir "seguridad de la información".
+   2. Una definición que se puede usar es la que usan en Estados Unidos: proteger la información y los sistemas de información de accesos, usos, exposiciones, interrumpiciones, modificaciones o destrucciones no autorizadas.
+4. ¿Cuándo logramos esa seguridad?
+   1. Imaginemos la computadora más segura: apagada, encerrada en una caja fuerte, en el fondo del mar.
+
+      ¿Será segura?
+      
+      Pero, ¿podemos usarla?
+      
+   3. ¿Y si nos preocupa asegurar la receta de tarta de Virgi?
+
+      ¿Vale la pena comprar una caja fuerte, un candado electrónico, contratar un guardia y usar biometría para resguardarla?
+      
+      1. ¿Y si la tarta de Virgi tiene ventas a valores de millones de dólares? ¿ahí sí vale la pena?
+         
+   4. A veces, es más fácil decir cuándo estás en situación insegura y propensa a un ataque, de cuándo estás en una situación segura.
+
+      Por ejemplo, si te levantás del escritorio sin bloquear la pantalla, estás vulnerable a que usen tu computadora. Si tu contraseña es 1234, tu cuenta es vulnerable a que entre otras personas.
+
+5. Ataques, amenazas, vulnerabilidades, riesgos.
+
+   Estos conceptos nos ayudarán a pensar la seguridad de nuestra información.
+
+   1. Amenaza: algo/alguien que potencialmente puede causar daño.
+
+      La amenaza de un nuevo virus.
+
+   2. Vulnerabilidad: una debilidad o un "hueco" que las amenazas pueden explotar.
+
+      Tener un sistema Windows, y justo el virus funciona para Windows.
+
+      También es una vulnerabilidad, no cerrar la puerta de tu casa con llave y tu computadora está adentro.
+
+   3. Riesgo: es la posibilidad de que algo malo suceda.
+
+      El virus no sería un riesgo si tenemos un antivirus actualizado (o no usamos Windows, el cual ese virus funciona).
+
+      Si la puerta de casa se cierra automáticamente y necesitás la llave para abrirla, no sería un riesgo tan grande. Sí sería un riesgo (sería otra vulnerabilidad) si nos olvidamos la llave...
+
+   4. Ataque: se puede definir como una amenaza concretada.
+
+      El virus efectivamente está en nuestra computadora y se ejecuta.
+      
+6. ¿Entonces la idea de la seguridad informática es actuar cuando ya sucedió el ataque?
+
+   Entonces diría que no, sino mas bien prevenirlos: si el virus ya atacó, ¿se puede hacer algo? ¿o es mejor prevenir el ataque?
+
+Más cosas de seguridad informática: Modelo CIA (Confidentiality, Integrity, and Availability) para discutir de seguridad, gestión de riesgos, respuesta a incidentes, identificación y autenticación, autorización y acceso, políticas de seguridad, etc.
+
+
 * Columna 36: Redes sociales libres
 :PROPERTIES:
 :ID:       8721d6cf-4215-460c-9b3e-5db67a3c2ffe
