@@ -67,6 +67,8 @@ Está página se encuentra disponible en los siguientes formatos:
 :PUBDATE:  2025-03-20 jue 15:32
 :END:
 
+{{{tag(columna-37)}}}
+
 1. ¿Qué es seguridad?
    1. Básicamente proteger tus cosas, tus recursos.
    2. ¿De qué? \to{} atacantes, desastres naturales (incluye tsunamis y roturas de caños de agua), vandalismo, pérdida, mal uso.
