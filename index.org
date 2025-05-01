@@ -61,6 +61,111 @@ Está página se encuentra disponible en los siguientes formatos:
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
+* Columna 38: Backups
+:PROPERTIES:
+:ID:       ff3f6de4-8492-456c-b357-b377ac80ea36
+:PUBDATE:  2025-05-01 jue 19:56
+:END:
+{{{tag(columna-39)}}}
+
+1. ¿Qué es backup?
+   - Copia de seguridad, copia de respaldo, copia de reserva.
+   - Proceso para realizar copias de información sensible.
+   - Reestablecer información perdida: eliminada o alterada.
+
+     Por: roturas físicas, fallos lógicos (programa que falla al guardar), virus, borrado (accidental o no), desastre natural (inundaciones, cañerías rotas, etc.)
+2. *CIA*: Confidencialidad, Integridad, Disponibilidad (Availability).
+   - El backup reduce riesgos contra la disponibilidad.
+    
+3. Políticas de backup: ¿Qué debemos decidir para hacer backups?
+  
+   1. *Frecuencia o periodicidad*.
+
+      Diarios, semanales, mensuales. Pueden ser diario y semanal con distinto criterios y distintos elementos.
+
+   2. *Tipo de copia*: total, diferencial, incremental.
+
+   3. *Dónde guardamos los backups*.
+
+      Se tiene en cuenta el costo de ese dispositivo, la confiabilidad, el uso periódico y su disponibilidad, el nivel de seguridad que debe tener.
+
+      Ejemplo, no es lo mismo:
+      1. un disco externo conectado a la computadora 24 horas,
+      2. un disco externo en otro edificio cercano, que se conecta para backup una vez a la semana,
+      3. una copia en la nube realizada diariamente y manualmente
+      4. una copia en la nube utilizando un software específico para backup (disponibilidad del software y su configuración)
+
+      *¿Se deben cifrar los backups? ¿cómo se deben proteger?*
+
+   4. Cada cuanto *testear lo backups*.
+
+      ¡Debemos asegurarnos que están disponibles y funcionan!
+
+4. ¿Qué debemos tener en cuenta?
+   - Volumen de la información
+   - Necesidad del resguardo, prioridad y relevancia del dato a resguardar.
+   - Frecuencia que se pierden datos
+   - Tiempo de recuperación
+   - ¿Se debe destruir los viejos backups? ¿cuántos backups o cuanto incremento dejar?
+     
+5. Pero, ¿cómo se llega a la idea de hacer backups?
+   El backup es una herramientas diseñada para la disponibilidad, pero pueden existir muchas otras en sistemas informáticos.
+   
+   - *Políticas de seguridad*: decisiones y lineamientos para sostener la seguridad.
+   - *Análisis y gestión de riesgos*: cuantificar pérdidas potenciales cuando ocurren eventos y fallas de seguridad.
+
+     - Se analiza las posibles causas de fallas de seguridad/ataques.
+     - Se analiza posibles costos por pérdida cuando se efectivizan esas fallas.
+
+     - Se analiza formas de reducir el costo de mitigar o solucionar un fallo: una de ellas es utilizando backups: ¿cuánto se pierde si un sistema de ventas deja de funcionar porque se rompieron los datos vs. a restituir el último backup de hace una semana?
+
+     - También se analiza: ¿cuánto cuesta sostener el proceso de backup semanal? ¿vale la pena?
+
+       Porque el personal, el armado de la automatización, y comprar el espacio para guardar los backups (discos rígidos o nube) también tiene un costo.
+
+6. Si usás backups es porque: ¡no encontraste una solución al problema!
+
+   - El backups es un recurso para mitigar, no para solucionar.
+     - Brinda disponibilidad casi inmediata, ¡pero de datos posiblemente viejos! (depende del último backup y la freciencia).
+   - Confiar en el backup implica que no te es importante sacrificar un día/semana/mes de trabajo y datos.
+     - *No confiar que se está realizando backup*
+     - *Si se usa un backup, ¡es porque el fallo/ataque ya sucedió y tuvo éxito!*
+
+       ¡También debe estudiarse las causas del fallo y cómo prevenirlo a futuro!
+   - Hacer backups puede consumir tiempo: hacer el backup, chequear que funcionan, revisar políticas de backups y actualizar listado de datos relevantes.     
+
+
+¿Y en casa? Deben decidir:
+   
+   - *Qué cosas deben hacer backup*: ¿qué es importante? ¿qué pérdidas podrían detener su trabajo?
+     - Pérdida del celu: ¿contactos y agenda en la nube?
+     - Pérdida de la compu: sus documentos importantese en un disco portátil
+       - ¿serviría en la nube? ¿si se comparten y alguien borra el documento accidentalmente?
+     - Si usan gestores de contraseñas, ¡guarden copias de sus baúles en lugares seguros!
+       - Exploradores Webs: ¡exportenlas en un lugar seguro!
+   - Con copiar archivos en carpetas fechadas alcanza... ¡aunque se podría mejorar con un software (ver más abajo)!
+   - ¿Dónde copiarlas? \to{} disco portátil, nube...
+     - Disponibilidad para hacer backups y recuperar
+     - Seguridad de la copia: ¡muy importante si son datos importantes!
+     - Se podría cifrar el disco portatil, ¿verdad? (usar BitLocker u otra herramienta).
+   - Frecuencia: ¿cuánto tiempo de uso en datos podés perder? ¿si perdés una semana de datos es mucho?
+     - Al terminar el día, la semana, el mes...
+
+Preguntas:
+
+- ¿Piensan en qué sucede si es borra o pasa algo con sus datos? ¿con cuáles?
+  - ¿y en cómo mitigar ante X evento?
+- ¿Se preocupan por sus datos? ¿han pensado si son importantes y si dependen de ellos para hacer su trabajo y su vida cotidiana?
+  - Por ejemplo: ¿qué sucedería si se olvidan el celular en casa? ¿y si lo pierden?
+     
+** Recursos
+:PROPERTIES:
+:ID:       6cedd0af-c82d-442d-b160-ee069b1db90a
+:END:
+
+- [[https://en.wikipedia.org/wiki/List_of_backup_software][Wikipedia mantiene un listado de software para hacer backups.]]
+
+
 * Columna 37: Seguridad Informática
 :PROPERTIES:
 :ID:       bae0e0f6-b452-427e-9fb8-db27adf459bc
