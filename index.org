@@ -139,7 +139,8 @@ Está página se encuentra disponible en los siguientes formatos:
    
    - *Qué cosas deben hacer backup*: ¿qué es importante? ¿qué pérdidas podrían detener su trabajo?
      - Pérdida del celu: ¿contactos y agenda en la nube?
-     - Pérdida de la compu: sus documentos importantese en un disco portátil
+       - ¿Podés recuperar algo si perdés el teléfono?
+     - Pérdida de la compu: qué documentos son importantes para un disco portátil
        - ¿serviría en la nube? ¿si se comparten y alguien borra el documento accidentalmente?
      - Si usan gestores de contraseñas, ¡guarden copias de sus baúles en lugares seguros!
        - Exploradores Webs: ¡exportenlas en un lugar seguro!
@@ -150,9 +151,11 @@ Está página se encuentra disponible en los siguientes formatos:
      - Se podría cifrar el disco portatil, ¿verdad? (usar BitLocker u otra herramienta).
    - Frecuencia: ¿cuánto tiempo de uso en datos podés perder? ¿si perdés una semana de datos es mucho?
      - Al terminar el día, la semana, el mes...
-
+   - ¿Probaste restaurar o chequear acceder al backup para ver si está bien?
+     
 Preguntas:
 
+- ¿Tenés copias de tus datos importantes? ¿y de tus contraseñas? ...en lugares seguros, ¿verdad?
 - ¿Piensan en qué sucede si es borra o pasa algo con sus datos? ¿con cuáles?
   - ¿y en cómo mitigar ante X evento?
 - ¿Se preocupan por sus datos? ¿han pensado si son importantes y si dependen de ellos para hacer su trabajo y su vida cotidiana?
