@@ -141,9 +141,9 @@ Está página se encuentra disponible en los siguientes formatos:
      - Pérdida del celu: ¿contactos y agenda en la nube?
        - ¿Podés recuperar algo si perdés el teléfono?
      - Pérdida de la compu: qué documentos son importantes para un disco portátil
-       - ¿serviría en la nube? ¿si se comparten y alguien borra el documento accidentalmente?
+       - ¿Serviría en la nube? ¿si se comparten y alguien borra el documento accidentalmente?
      - Si usan gestores de contraseñas, ¡guarden copias de sus baúles en lugares seguros!
-       - Exploradores Webs: ¡exportenlas en un lugar seguro!
+       - Exploradores Web: ¡exportenlas en un lugar seguro!
    - Con copiar archivos en carpetas fechadas alcanza... ¡aunque se podría mejorar con un software (ver más abajo)!
    - ¿Dónde copiarlas? \to{} disco portátil, nube...
      - Disponibilidad para hacer backups y recuperar
@@ -4476,11 +4476,17 @@ Para generar los emojis en HTML y LaTeX, se incorporan más entidades de Org-mod
 Actualmente, se utiliza la siguiente configuración en particular: [[https://gitlab.com/cnngimenez/emacs-stuff/-/blob/fc0ae63677b37c178be44b1f45abb0510dfa76b4/init.org?plain=1#L2058][Ver configuración]].
 
 ** ox-rss para generar RSS
+:PROPERTIES:
+:ID:       f0b1f359-6cac-4fa4-880d-98c831ea55ca
+:END:
 Se utiliza ox-rss para exportar el RSS para notificaciones con Feeds. Al exportar con =M-x my-org-export-dispatch r r= se obtienen el archivo index.xml que puede ser registrado por aplicaciones para notificar desde el celular y copmutadoras por nuevas publicaciones. El paquete ox-rss puede descargarse desde MELPA o desde la siguiente página Web: https://github.com/benedicthw/ox-rss.git
 
 Una aplicación para celulares que pueden registrar estos Feeds (y otros de portales de noticias), que notifica de nuevas publicaciones y permite leer un resumen es [[https://f-droid.org/es/packages/com.capyreader.app/][CapyReader]]. Es Software Libre y disponible para descargar desde F-Droid.
 
 *** Para agilizar la exportación
+:PROPERTIES:
+:ID:       6934dbce-bc85-4d57-b878-2518c9768b6f
+:END:
 Es posible evitar la indentación del código XML resultante modificando la línea de la función help:org-rss-final-function siguiente:
 
 : (indent-region (point-min) (point-max))
