@@ -4475,6 +4475,37 @@ Para generar los emojis en HTML y LaTeX, se incorporan más entidades de Org-mod
 
 Actualmente, se utiliza la siguiente configuración en particular: [[https://gitlab.com/cnngimenez/emacs-stuff/-/blob/fc0ae63677b37c178be44b1f45abb0510dfa76b4/init.org?plain=1#L2058][Ver configuración]].
 
+** ox-rss para generar RSS
+Se utiliza ox-rss para exportar el RSS para notificaciones con Feeds. Al exportar con =M-x my-org-export-dispatch r r= se obtienen el archivo index.xml que puede ser registrado por aplicaciones para notificar desde el celular y copmutadoras por nuevas publicaciones. El paquete ox-rss puede descargarse desde MELPA o desde la siguiente página Web: https://github.com/benedicthw/ox-rss.git
+
+Una aplicación para celulares que pueden registrar estos Feeds (y otros de portales de noticias), que notifica de nuevas publicaciones y permite leer un resumen es [[https://f-droid.org/es/packages/com.capyreader.app/][CapyReader]]. Es Software Libre y disponible para descargar desde F-Droid.
+
+*** Para agilizar la exportación
+Es posible evitar la indentación del código XML resultante modificando la línea de la función help:org-rss-final-function siguiente:
+
+: (indent-region (point-min) (point-max))
+
+Y comentándola como sigue:
+
+: ;; (indent-region (point-min) (point-max))
+
+Con el siguiente código se puede encontrar dicha línea de ox-rss.el.
+
+#+caption: Código para localizar la línea a comentar.
+#+begin_src elisp :eval no :exports code
+  (with-current-buffer (find-library "ox-rss")
+    (goto-char (point-min))
+    (search-forward "(indent-region (point-min) (point-max))"))
+#+end_src
+
+También es posible utilizar lo siguiente para localizar la función que contiene dicha línea:
+
+#+begin_src elisp :eval no :exports code
+  (require 'ox-rss)
+  (find-function-other-window #'org-rss-final-function)
+#+end_src
+
+
 * Licencia de esta obra
 :PROPERTIES:
 :ID:       46124cc5-f462-42bf-af04-2487d733eb34
