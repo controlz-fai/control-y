@@ -62,7 +62,7 @@ Está página se encuentra disponible en los siguientes formatos:
   
 
 
-* Columna 39: Meshtastic y proyectos afines
+* Columna 39: Meshtastic
 :PROPERTIES:
 :ID:       241d6ae5-0eaa-4415-a6b3-054657b8c7e0
 :PUBDATE:  2025-05-16 vie 11:52
@@ -71,14 +71,14 @@ Está página se encuentra disponible en los siguientes formatos:
 
 1. ¿Se acuerdan que hablamos de cómo se hizo el Internet?
    1. ¿Cómo se conforman? ¿los routes, cables troncales, el ARSAT y la Red Federal de Fibra Óptica?
-   2. Muchas personas buscan alternativas: porque el Internet no es accesible, por factores climáticos o geográficos o por aprender. 
+   2. Muchas personas buscan alternativas: porque el Internet no es accesible, por factores climáticos o geográficos o por aprender.
 2. Meshtastic, ¿qué es?
    1. Es un proyecto con una comunidad detrás.
    2. Busca interconectar de forma económicamente accesible, de bajo consumo energético, 
    3. Utiliza ondas de Radio para intercomunicar dispositivos.
       1. Usa frecuencias que son legalmente libres o de uso sin licencia.
 
-         [[https://www.enacom.gob.ar/bandas-de-uso-compartido-sin-autorizacion_p680][En argentina son varias frecuencias.]]
+         [[https://www.enacom.gob.ar/bandas-de-uso-compartido-sin-autorizacion_p680][En Argentina son varias frecuencias.]]
    4. Se forma una red mesh, interconectada.
       
 3. ¿Red Mesh?
@@ -108,6 +108,8 @@ Está página se encuentra disponible en los siguientes formatos:
       4. La idea es poder hacer tus propias cosas, experimentar y jugar: hardware y software open source/libre,
    2. Buscar formas de comunicarse en lugares de gran afluencia.
    3. Buscar formas de comunicarse lejos de señales de Wifi y celular.
+
+Preguntas:
 
 - ¿Alguna vez te interesó probar algo o hacer algo?
 - ¿No te ha sucedido que un dispositivo no hace lo que te gustaría y te quedaste con las ganas de modificarlo?
