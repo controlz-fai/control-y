@@ -61,12 +61,94 @@ Está página se encuentra disponible en los siguientes formatos:
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
+
+* Columna 39: Meshtastic y proyectos afines
+:PROPERTIES:
+:ID:       241d6ae5-0eaa-4415-a6b3-054657b8c7e0
+:PUBDATE:  2025-05-16 vie 11:52
+:END:
+{{{tag(columna-39)}}}
+
+1. ¿Se acuerdan que hablamos de cómo se hizo el Internet?
+   1. ¿Cómo se conforman? ¿los routes, cables troncales, el ARSAT y la Red Federal de Fibra Óptica?
+   2. Muchas personas buscan alternativas: porque el Internet no es accesible, por factores climáticos o geográficos o por aprender. 
+2. Meshtastic, ¿qué es?
+   1. Es un proyecto con una comunidad detrás.
+   2. Busca interconectar de forma económicamente accesible, de bajo consumo energético, 
+   3. Utiliza ondas de Radio para intercomunicar dispositivos.
+      1. Usa frecuencias que son legalmente libres o de uso sin licencia.
+
+         [[https://www.enacom.gob.ar/bandas-de-uso-compartido-sin-autorizacion_p680][En argentina son varias frecuencias.]]
+   4. Se forma una red mesh, interconectada.
+      
+3. ¿Red Mesh?
+   1. Cada aparato actua como repetidor interconectando los nodos.
+   2. No hay un nodo central designado y todos se intentan conectar entre los que pueden.
+      1. Contrario a las antenas de celulares.
+4. ¿Qué se necesita?
+   1. Utiliza la tecnología LoRa (Long Range) de radiofrecuencias: un módulo/plaqueta electrónica.
+   2. Posiblemente una antena (solo si se quiere ampliar el rango).
+   3. Software... que se encuentra en la página.
+   4. El hardware se puede comprar medianamente terminado en tiendas digitales.
+   5. Igualmente se requiere de un poco de configuración e instalación manual.
+   6. ¡Conocimiento o ganas de aprender! (Un poco de cultura Maker)
+5. ¿Cuál es el rango?
+   1. [[https://meshtastic.org/docs/overview/range-tests/][Hay registros récord de 331 Km]], pero normalmente se considera hasta 5 km o 15 km en áreas rurales.
+   2. Alcanza anchos de banda de 0,3 kbit/s a 27 kbit/s: o sea, excelente para texto, ¡pero no es conveniente para videos!
+   3. En caso de querer conectar con nodos muy muy lejanos, también se puede usar Internet.
+6. ¿Para qué se puede usar?
+   1. Comunicarse cuando no hay Internet ni celular: senderismo, acampar, parques nacionales, etc.
+   2. Seguimiento, conectar un dispositivo con otro.
+   3. Comunicación ante emergencias.
+7. ¿Existen otros proyectos?
+   1. Siempre han existido proyectos para intercomunicar usando o no Internet.
+      1. Radioaficionados.
+      2. Con Access Points y routers (y alguna antena casera).
+      3. Chat por medio de Bluetooth (aunque el alcance...).
+      4. La idea es poder hacer tus propias cosas, experimentar y jugar: hardware y software open source/libre,
+   2. Buscar formas de comunicarse en lugares de gran afluencia.
+   3. Buscar formas de comunicarse lejos de señales de Wifi y celular.
+
+- ¿Alguna vez te interesó probar algo o hacer algo?
+- ¿No te ha sucedido que un dispositivo no hace lo que te gustaría y te quedaste con las ganas de modificarlo?
+- ¿Alguna vez te preguntaste cómo funciona algún aparato?
+
+** Recurso
+:PROPERTIES:
+:ID:       170e7bbd-3194-4a8e-acb6-04066a78a1e5
+:END:
+- Grupo de Telegram de Meshtastic Argentina:
+
+  https://t.me/meshtastic_argentina
+
+- Frecuencias de uso Libre en Argentina.
+
+  https://www.enacom.gob.ar/bandas-de-uso-compartido-sin-autorizacion_p680
+  
+- Poder Alien. Entrevista a Teno que cuenta qué es el Meshtastic.
+
+  https://www.instagram.com/reel/DICckkfz39v/ y https://www.twitch.tv/videos/2391669069
+
+- Proyecto Meshtastic
+
+  https://meshtastic.org
+
+  - Distancia récord de Meshtastic.
+
+    https://meshtastic.org/docs/overview/range-tests/
+
+  - Distintas configuraciones de radio. Hay tablas con las frecuencias y su capacidad de transimisión de datos.
+
+    https://meshtastic.org/docs/overview/radio-settings/
+
+
+
 * Columna 38: Backups
 :PROPERTIES:
 :ID:       ff3f6de4-8492-456c-b357-b377ac80ea36
 :PUBDATE:  2025-05-01 jue 19:56
 :END:
-{{{tag(columna-39)}}}
+{{{tag(columna-38)}}}
 
 1. ¿Qué es backup?
    - Copia de seguridad, copia de respaldo, copia de reserva.
