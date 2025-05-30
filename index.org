@@ -87,7 +87,7 @@ Está página se encuentra disponible en los siguientes formatos:
 3. Computadoras: Z3, Colossus, Mark I y ENIAC
 
    #+caption: Réplica de la Z3, la original fue inventada por Zuse.
-   [[https://upload.wikimedia.org/wikipedia/commons/b/b7/IBM402plugboard.Shrigley.wireside.jpg]]
+   https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Z3_Deutsches_Museum.JPG/960px-Z3_Deutsches_Museum.JPG
 
    #+caption: Colossus operada por la Woman's Royal Naval Service en 1943 (Segunda Guerra Mundial).
    [[https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Colossus.jpg/960px-Colossus.jpg]]
