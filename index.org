@@ -163,47 +163,54 @@ Entonces... ¿se podría decir que un programa puede reemplazar un humano? ¿o s
 #+attr_html: :width 25% :align left
 https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Z3_Deutsches_Museum.JPG/960px-Z3_Deutsches_Museum.JPG
 Foto realizada por Venusianer, bajo licencia Creative Commons Genérica de Atribución/Compartir-Igual 3.0.
-https://commons.wikimedia.org/wiki/File:Z3_Deutsches_Museum.JPG
+[[https://commons.wikimedia.org/wiki/File:Z3_Deutsches_Museum.JPG][Ver en Wikimedia.]]
 
+#+html: <br/>
 
 #+attr_html: :width 25% :align left
 https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Colossus.jpg/960px-Colossus.jpg
-Foto del Gobierno del Reino Unido bajo el dominio público. https://en.wikipedia.org/wiki/File:Colossus.jpg
+Foto del Gobierno del Reino Unido bajo el dominio público. [[https://en.wikipedia.org/wiki/File:Colossus.jpg][Ver en Wikipedia.]]
 
+#+html: <br/>
 
 #+attr_html: :width 25% :align left
 https://upload.wikimedia.org/wikipedia/commons/7/7e/Eniac_Aberdeen.jpg
-Foto bajo dominio público. https://en.wikipedia.org/wiki/File:Eniac_Aberdeen.jpg
+Foto bajo dominio público. [[https://en.wikipedia.org/wiki/File:Eniac_Aberdeen.jpg][Ver en Wikipedia.]]
 
+#+html: <br/>
 
 #+attr_html: :width 25% :align left
 https://upload.wikimedia.org/wikipedia/commons/b/b7/IBM402plugboard.Shrigley.wireside.jpg
 Foto por Chris Shrigley bajo la licencia Creative Commons Attribution 2.5 Generic.
-https://en.wikipedia.org/wiki/File:IBM402plugboard.Shrigley.wireside.jpg
+[[https://en.wikipedia.org/wiki/File:IBM402plugboard.Shrigley.wireside.jpg][Ver en Wikipedia.]]
 
+#+html: <br/>
 
 #+attr_html: :width 25% :align left
 https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Punched_card_program_deck.agr.jpg/960px-Punched_card_program_deck.agr.jpg
 Foto por ArnoldReinhold bajo la licencia Creative Commons Genérica de Atribución/Compartir-Igual 3.0.
-https://commons.wikimedia.org/wiki/File:Punched_card_program_deck.agr.jpg
+[[https://commons.wikimedia.org/wiki/File:Punched_card_program_deck.agr.jpg][Ver en Wikimedia.]]
 
+#+html: <br/>
 
 #+attr_html: :width 25% :align left
 https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/This_is_a_card_puncher%2C_an_integral_part_of_the_tabulation_system_used_by_the_United_States_Census_Bureau_to_compile..._-_NARA_-_513295.jpg/960px-This_is_a_card_puncher%2C_an_integral_part_of_the_tabulation_system_used_by_the_United_States_Census_Bureau_to_compile..._-_NARA_-_513295.jpg
 Foto desde la U.S. National Archives and Records Administration, bajo el dominio público.
-https://en.wikipedia.org/wiki/File:This_is_a_card_puncher,_an_integral_part_of_the_tabulation_system_used_by_the_United_States_Census_Bureau_to_compile..._-_NARA_-_513295.jpg
+[[https://en.wikipedia.org/wiki/File:This_is_a_card_puncher,_an_integral_part_of_the_tabulation_system_used_by_the_United_States_Census_Bureau_to_compile..._-_NARA_-_513295.jpg][Ver en Wikipedia.]]
 
+#+html: <br/>
 
 #+attr_html: :width 25% :align left
 https://upload.wikimedia.org/wikipedia/commons/3/39/Keypunch_operator_1950_census_IBM_016.jpg
 Foto desde la U.S. Census Bureau employees, bajo el dominio público.
-https://commons.wikimedia.org/wiki/File:Keypunch_operator_1950_census_IBM_016.jpg
+[[https://commons.wikimedia.org/wiki/File:Keypunch_operator_1950_census_IBM_016.jpg][Ver en Wikimedia.]]
 
+#+html: <br/>
 
 #+attr_html: :width 25% :align left
 https://upload.wikimedia.org/wikipedia/commons/7/78/CitypersonnelIBMroom.jpg
 Foto por [[https://www.flickr.com/photos/30194653@N06][The Library of Virginia]]. Rights Info: No known restrictions on publication.
-https://en.wikipedia.org/wiki/File:CitypersonnelIBMroom.jpg
+[[https://en.wikipedia.org/wiki/File:CitypersonnelIBMroom.jpg][Ver en Wikipedia.]]
 
 * Columna 39: Meshtastic
 :PROPERTIES:
