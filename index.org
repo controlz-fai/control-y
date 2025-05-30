@@ -62,6 +62,136 @@ Está página se encuentra disponible en los siguientes formatos:
   
 
 
+* Columna 40: ¿Qué es un Sistema Operativo?
+:PROPERTIES:
+:ID:       5ee2224a-a31e-47f5-badd-38b9ce069d5c
+:PUBDATE:  2025-05-30 vie 00:27
+:END:
+{{{tag(columna-40)}}}
+
+1. ¿Qué es? Simple: software que se ejecuta en modo kernel... (y no siempre es así pero bueno...)
+
+   \explodinghead{} ¿Qué quéeeee?
+
+   1. Podemos decir dos cosas:
+
+      1. Proveen aplicaciones para programadores (y personas que usan la computadora).
+      2. Recursos más simples de entender en vez de manipular directamente el hardware.
+
+      Pero se entiende mejor si vemos con un poco de historia.
+
+2. El comienzo del principio: Máquina de Babbage.
+
+   1. Mecánica. Recibía instrucciones a mano directamente al hardware.
+
+3. Computadoras: Z3, Colossus, Mark I y ENIAC
+
+   #+caption: Réplica de la Z3, la original fue inventada por Zuse.
+   [[https://upload.wikimedia.org/wikipedia/commons/b/b7/IBM402plugboard.Shrigley.wireside.jpg]]
+
+   #+caption: Colossus operada por la Woman's Royal Naval Service en 1943 (Segunda Guerra Mundial).
+   [[https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Colossus.jpg/960px-Colossus.jpg]]
+
+   #+caption: Foto de la ENIAC siendo operada. Circa 1950.
+   [[https://upload.wikimedia.org/wikipedia/commons/7/7e/Eniac_Aberdeen.jpg]]
+
+   #+caption: Plugboard o panel de control.
+   https://upload.wikimedia.org/wikipedia/commons/b/b7/IBM402plugboard.Shrigley.wireside.jpg
+
+   1. Se programaba en binario con teclas e interruptores, o directamente conectando cables en una plugboard. 
+   2. Con instrucciones directamente del CPU: sumar, restar, saltar a la instrucción 25, etc.
+   3. Resultados en binario en lamparas... (pantalla, ¿qué es eso?)
+   4. La idea era que un programador:
+      1. Se reservaba un tiempo en un cuaderno (p. ej.: Juana usa la compu de las 14:00 a las 15:00).
+      2. Utilizaba la computadora por ese tiempo. Cruzaba los dedos que no se quemaran los tubos de vacío.
+      3. Uso muy casero.
+   5. En 1950, la rutina era la misma, pero con tarjetas perforadas:
+
+      #+caption: Un mazo de tarjetas perforadas.
+      https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Punched_card_program_deck.agr.jpg/960px-Punched_card_program_deck.agr.jpg
+
+      #+caption: Una operadora de la máquina perforadora o "card puncher" del United States Census Bureau.
+      https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/This_is_a_card_puncher%2C_an_integral_part_of_the_tabulation_system_used_by_the_United_States_Census_Bureau_to_compile..._-_NARA_-_513295.jpg/960px-This_is_a_card_puncher%2C_an_integral_part_of_the_tabulation_system_used_by_the_United_States_Census_Bureau_to_compile..._-_NARA_-_513295.jpg
+
+      #+caption: Secretaria creando una tarjeta perforada del censo en Estados Unidos del 1950.
+      https://upload.wikimedia.org/wikipedia/commons/3/39/Keypunch_operator_1950_census_IBM_016.jpg
+
+      1. Aquí se podían enviar las tarjetas por correo y esperar por sus resultados... por correo.
+      2. Hacer software era tedioso y mucho cruzar los dedos para pedir suerte: si tenía un error, te enterabas muy tarde.
+   6. Mayormente, solo los ingenieros la manipulaban y tenían varios *roles*: constructores de la computadora, reparadores y quienes hacen mantenimiento del aparato (reemplazo de tubos, reseteo de la computadora, etc.), diseñadores y operadores, programadores, etc.
+4. Los transistores cambiaron todo:
+
+   #+caption: Operadora insertando un panel de control en una IBM 407.   
+   [[https://upload.wikimedia.org/wikipedia/commons/7/78/CitypersonnelIBMroom.jpg]]
+
+   1. Aparecen los *mainframes*, enormes computadoras que necesitaban electricidad y aire acondicionado para refrijerarlos.
+   2. La idea era que un programador:
+      1. Diseña y escribe el programa en FORTRAN o assembler.
+      2. Perfora tarjetas y se las lleva a la oficina del operador. Espera a que esté terminada su ejecución.
+      3. El operador se encarga de cargar todo lo que sea necesario: el compilador de FORTRAN, programas de terceros. El operador tardaba mucho porque organizaba y cargaba muchas tarjetas aparte de las del programador.
+      4. El operador obtiene la salida de la impresora y las lleva a la oficina de salida.
+   3. *Roles más separados*: constructores de mainframes, operadores, y el diseñador y programadores.
+5. ¿Y si juntamos todos los programas? El *batch system*.
+
+   Modelos de mainframes: IBM 1041 + IBM 7094 + IBM 1041
+         
+   1. Para ahorrar tiempos perdidos y costos.
+   2. Se juntaban varios trabajos de entrada en una bandeja, se copiaban esas tarjetas en un rollo de cinta magnética. Este rollo se ejecutaba completo, y todas las salidas eran guardadas en otro rollo de cinta. Luego, el rollo de salida se leía por otra computadora que imprimía en papel los resultados de cada trabajo.
+   3. Un trabajo entonces tenía los datos, el programa e instrucciones de carga de compiladores u otros programas \to{} precedente de los comandos de las terminales modernas.
+   4. Roles: había uno o varios operadores para cargar las cintas y trasladarlas.
+6. ¿Y luego?
+   1. En las máquinas actuales el operador se hace automáticamente: cargar el programa, cargar los datos...
+   2. ¿Quién hace todo este trabajo? Un programa (o varios) aparte, que funciona con los máximos privilegios: el Sistema Operativo.
+
+¿Lo interesante qué es? ¿El operador fue reemplazado por un programa? \shrug{}
+
+Diría que casi, porque los programas se fueron adaptando para esto. También, hoy hay administradores que ponen en línea una página Web, habilitan sistemas, gestionan usuarios y contraseñas, ponen en marcha las redes...
+
+Entonces... ¿se podría decir que un programa puede reemplazar un humano? ¿o solo algunas tareas repetitivas?
+
+** Recursos
+:PROPERTIES:
+:ID:       7cb753da-0509-4c8c-bb05-9b6d51fa9ded
+:END:
+
+#+attr_html: :width 25% :align left
+https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Z3_Deutsches_Museum.JPG/960px-Z3_Deutsches_Museum.JPG
+Foto realizada por Venusianer, bajo licencia Creative Commons Genérica de Atribución/Compartir-Igual 3.0.
+https://commons.wikimedia.org/wiki/File:Z3_Deutsches_Museum.JPG
+
+#+attr_html: :width 25% :align left
+https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Colossus.jpg/960px-Colossus.jpg
+Foto del Gobierno del Reino Unido bajo el dominio público. https://en.wikipedia.org/wiki/File:Colossus.jpg
+
+#+attr_html: :width 25% :align left
+https://upload.wikimedia.org/wikipedia/commons/7/7e/Eniac_Aberdeen.jpg
+Foto bajo dominio público. https://en.wikipedia.org/wiki/File:Eniac_Aberdeen.jpg
+
+#+attr_html: :width 25% :align left
+https://upload.wikimedia.org/wikipedia/commons/b/b7/IBM402plugboard.Shrigley.wireside.jpg
+Foto por Chris Shrigley bajo la licencia Creative Commons Attribution 2.5 Generic.
+https://en.wikipedia.org/wiki/File:IBM402plugboard.Shrigley.wireside.jpg
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Punched_card_program_deck.agr.jpg/960px-Punched_card_program_deck.agr.jpg
+Foto por ArnoldReinhold bajo la licencia Creative Commons Genérica de Atribución/Compartir-Igual 3.0.
+https://commons.wikimedia.org/wiki/File:Punched_card_program_deck.agr.jpg
+
+#+attr_html: :width 25% :align left
+https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/This_is_a_card_puncher%2C_an_integral_part_of_the_tabulation_system_used_by_the_United_States_Census_Bureau_to_compile..._-_NARA_-_513295.jpg/960px-This_is_a_card_puncher%2C_an_integral_part_of_the_tabulation_system_used_by_the_United_States_Census_Bureau_to_compile..._-_NARA_-_513295.jpg
+Foto desde la U.S. National Archives and Records Administration, bajo el dominio público.
+https://en.wikipedia.org/wiki/File:This_is_a_card_puncher,_an_integral_part_of_the_tabulation_system_used_by_the_United_States_Census_Bureau_to_compile..._-_NARA_-_513295.jpg
+
+#+attr_html: :width 25% :align left
+https://upload.wikimedia.org/wikipedia/commons/3/39/Keypunch_operator_1950_census_IBM_016.jpg
+Foto desde la U.S. Census Bureau employees, bajo el dominio público.
+https://commons.wikimedia.org/wiki/File:Keypunch_operator_1950_census_IBM_016.jpg
+
+
+#+attr_html: :width 25% :align left
+https://upload.wikimedia.org/wikipedia/commons/7/78/CitypersonnelIBMroom.jpg
+Foto por [[https://www.flickr.com/photos/30194653@N06][The Library of Virginia]]. Rights Info: No known restrictions on publication.
+https://en.wikipedia.org/wiki/File:CitypersonnelIBMroom.jpg
+
 * Columna 39: Meshtastic
 :PROPERTIES:
 :ID:       241d6ae5-0eaa-4415-a6b3-054657b8c7e0
