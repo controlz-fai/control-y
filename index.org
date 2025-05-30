@@ -105,7 +105,7 @@ Está página se encuentra disponible en los siguientes formatos:
       1. Se reservaba un tiempo en un cuaderno (p. ej.: Juana usa la compu de las 14:00 a las 15:00).
       2. Utilizaba la computadora por ese tiempo. Cruzaba los dedos que no se quemaran los tubos de vacío.
       3. Uso muy casero.
-   5. En 1950, la rutina era la misma, pero con tarjetas perforadas:
+   5. En 1950, la rutina era la misma, pero con *tarjetas perforadas*:
 
       #+caption: Un mazo de tarjetas perforadas.
       https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Punched_card_program_deck.agr.jpg/960px-Punched_card_program_deck.agr.jpg
@@ -119,7 +119,7 @@ Está página se encuentra disponible en los siguientes formatos:
       1. Aquí se podían enviar las tarjetas por correo y esperar por sus resultados... por correo.
       2. Hacer software era tedioso y mucho cruzar los dedos para pedir suerte: si tenía un error, te enterabas muy tarde.
    6. Mayormente, solo los ingenieros la manipulaban y tenían varios *roles*: constructores de la computadora, reparadores y quienes hacen mantenimiento del aparato (reemplazo de tubos, reseteo de la computadora, etc.), diseñadores y operadores, programadores, etc.
-4. Los transistores cambiaron todo:
+4. Los *transistores* cambiaron todo:
 
    #+caption: Operadora insertando un panel de control en una IBM 407.   
    [[https://upload.wikimedia.org/wikipedia/commons/7/78/CitypersonnelIBMroom.jpg]]
@@ -149,6 +149,12 @@ Diría que casi, porque los programas se fueron adaptando para esto. También, h
 
 Entonces... ¿se podría decir que un programa puede reemplazar un humano? ¿o solo algunas tareas repetitivas?
 
+** Bibliografía
+:PROPERTIES:
+:ID:       60666eac-f609-4689-94b0-501565a76ed4
+:END:
+- "Modern Operating Systems". Andrew S. Tanenbaum y Herbert Bos. Pearson Education Limited. 2015.
+
 ** Recursos
 :PROPERTIES:
 :ID:       7cb753da-0509-4c8c-bb05-9b6d51fa9ded
@@ -159,27 +165,34 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Z3_Deutsches_Museum.JP
 Foto realizada por Venusianer, bajo licencia Creative Commons Genérica de Atribución/Compartir-Igual 3.0.
 https://commons.wikimedia.org/wiki/File:Z3_Deutsches_Museum.JPG
 
+
 #+attr_html: :width 25% :align left
 https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Colossus.jpg/960px-Colossus.jpg
 Foto del Gobierno del Reino Unido bajo el dominio público. https://en.wikipedia.org/wiki/File:Colossus.jpg
 
+
 #+attr_html: :width 25% :align left
 https://upload.wikimedia.org/wikipedia/commons/7/7e/Eniac_Aberdeen.jpg
 Foto bajo dominio público. https://en.wikipedia.org/wiki/File:Eniac_Aberdeen.jpg
+
 
 #+attr_html: :width 25% :align left
 https://upload.wikimedia.org/wikipedia/commons/b/b7/IBM402plugboard.Shrigley.wireside.jpg
 Foto por Chris Shrigley bajo la licencia Creative Commons Attribution 2.5 Generic.
 https://en.wikipedia.org/wiki/File:IBM402plugboard.Shrigley.wireside.jpg
 
+
+#+attr_html: :width 25% :align left
 https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Punched_card_program_deck.agr.jpg/960px-Punched_card_program_deck.agr.jpg
 Foto por ArnoldReinhold bajo la licencia Creative Commons Genérica de Atribución/Compartir-Igual 3.0.
 https://commons.wikimedia.org/wiki/File:Punched_card_program_deck.agr.jpg
+
 
 #+attr_html: :width 25% :align left
 https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/This_is_a_card_puncher%2C_an_integral_part_of_the_tabulation_system_used_by_the_United_States_Census_Bureau_to_compile..._-_NARA_-_513295.jpg/960px-This_is_a_card_puncher%2C_an_integral_part_of_the_tabulation_system_used_by_the_United_States_Census_Bureau_to_compile..._-_NARA_-_513295.jpg
 Foto desde la U.S. National Archives and Records Administration, bajo el dominio público.
 https://en.wikipedia.org/wiki/File:This_is_a_card_puncher,_an_integral_part_of_the_tabulation_system_used_by_the_United_States_Census_Bureau_to_compile..._-_NARA_-_513295.jpg
+
 
 #+attr_html: :width 25% :align left
 https://upload.wikimedia.org/wikipedia/commons/3/39/Keypunch_operator_1950_census_IBM_016.jpg
