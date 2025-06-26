@@ -62,6 +62,62 @@ Está página se encuentra disponible en los siguientes formatos:
   
 
 
+* Columna 41: Linux y Windows
+:PROPERTIES:
+:ID:       bfa6f6f5-10e5-4b98-bff4-5300900ab2c6
+:PUBDATE:  2025-06-26 jue 16:10
+:END:
+{{{tag(columna-41)}}}
+1. Repaso: sistema operativo
+   1. Se acuerdan que hablamos de la historia
+   2. Computadoras grandes, que ejecutaban cálculos e instrucciones
+   3. El/la operador/a recibía las cintas o tarjetas del programador
+   4. Cuando un programa necesitaba algo, buscaba cintas o tarjetas de otros programas y los cargaba
+   5. Tomaba la salida y se las entregaba en mano al programador
+2. ¿Y hoy en día? ¿cómo funcionan?
+   1. El rol operador se distribuye: software y personas.
+   2. Las tarjetas están en la compu misma: programas y datos ya instalados.
+   3. Quién carga esos programas: un programa del sistema operativo
+   4. Y si necesita otros datos/programas: el sistema operativo lo carga.
+3. ¿Y qué hace el sistema operativo? ...
+4. ¿Pero no cambiaron los aparatos?
+   1. El hardware sí cambió: la estanterías y mesa de entrada es un disco rígido.
+   2. Pantallas en vez de impresoras.
+   3. Conexión en red.
+   4. Memoria RAM y CPU más rápidos y más capacidad para almacenar información.
+   5. ¿Nosotros usamos 1 y 0 para configurar cada aparto? \to{} Nooooo, ¡lo hace el sistema operativo!
+5. Pero ¿qué pasa si un programa quiere acceder a los datos de otro en funcionamiento?
+   1. Si el dueño del otro programa no lo permite, ¿quién se lo prohíbe?
+   2. Y si quiere acceder a la cámara o al micrófono sin alertar al usuario, ¿cómo se limita y controla?
+   3. ¿Quién controla todo esto? \to{} ¡El sistema operativo!
+6. Entonces, ¿qué hace el sistema operativo?      
+   1. Configura y controla el hardware: memoria RAM, disco rígido, CPU, conexión y placa de red, mouse, teclado, etc.
+   2. Carga los programas y les brinda recursos para funcionar.
+   3. Implementa seguridad al controlar el uso del hardware y de cada programa.
+7. Entonces si controla toda la compu, ¿sabemos cómo funciona?
+   1. Sabemos generalidades: técnicas de gestión de memoria, conceptos como virtualización, etc.
+   2. Pero ¿cómo se implementó? ¿cómo se llevó a cabo? \to{} Depende del sistema
+   3. GNU/Linux son dos proyectos de software libre y open source:
+
+      Autores nos permiten leer y estudiar cómo funciona cada programa. ¿Podemos estudiar cómo lleva a cabo el control de la cámara? ¿y de cómo se puede deshabilitar? ¿podemos deshabilitar algo cambiando el programa? ¡Sí se puede todo!
+      
+   4. Windows y Mac *no* son software libre y open source:
+
+      Autores no nos permiten leer y estudiar (/a priori/) a fondo cómo funciona cada programa. Tenemos que pedir permiso para cambiar algo.
+
+
+Preguntas:
+
+- ¿Por qué se utilizará mayormente GNU/Linux en servidores y en routers?
+
+  Recordar que los routers están encendidos 24 horas, y los servidores a veces deben ser sumamente flexibles para configurarse de distintas formas.
+
+  - Para adaptar el sistema para que entre en un aparato chiquito como un router, ¿será necesario saber cómo funciona y tener control completo del software y hardware?
+
+- ¿Por qué importa tanto que un programa no acceda a toda la computadora por completo?
+
+  Y en el trabajo: ¿por qué les parece importante que un usuario (sea invitado o no) no acceda a toda la computadora? ¿y todas las computadoras de la organización?
+
 * Columna 40: ¿Qué es un Sistema Operativo?
 :PROPERTIES:
 :ID:       5ee2224a-a31e-47f5-badd-38b9ce069d5c
