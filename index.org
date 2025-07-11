@@ -62,6 +62,105 @@ Está página se encuentra disponible en los siguientes formatos:
   
 
 
+* Columna 42: Windows
+:PROPERTIES:
+:ID:       f632a2c8-3252-46cf-9df7-0b9df3c749d7
+:PUBDATE:  2025-07-11 vie 14:28
+:END:
+{{{tag(columna-42)}}}
+1. Repaso: sistema operativo
+   1. Se acuerdan que hablamos de la historia
+   2. Computadoras grandes, que ejecutaban cálculos e instrucciones
+   3. El/la operador/a recibía las cintas o tarjetas del programador
+   4. Cuando un programa necesitaba algo, buscaba cintas o tarjetas de otros programas y los cargaba
+   5. Tomaba la salida y se las entregaba en mano al programador
+2. Un poco de historia en Windows
+   1. En los 80', existió MS-DOS.
+   2. Apareció Windows 1.0, 2.0, 2.1, 3.0, 3.1 y 3.2. Básicamente se ejecutaba dentro de MS-DOS.
+   3. Windows 95, 98, 98 SE, ME, también se ejecutaban dentro del MS-DOS.
+   4. En paralelo se desarrollaba Windows NT con otras características (multiusuario, por ejemplo). Sin embargo, adquirió notoriedad con Windows 2000 y Windows XP.
+   5. Existen otros Windows: Windows CE para embebidos, Windows Phone, Windows Server.
+3. ¿Cómo funcionan?
+   1. Mayormente sabemos cómo usarlos por cursos, manuales y experiencias.
+
+      - Normalmente, no se está permitido desarmar el binario para ver cómo fue hecho: desensamblar el código o hacer ingeniería inversa.
+      - Tampoco hay acceso al código fuente.
+      - Podemos comprender un poco cómo funciona por el comportamiento al usarlo.
+      - Algunos manuales explican conceptos avanzados, pero generales a todos los sistemas. Pero no sabemos lo específico.
+
+   2. Entonces, ¿qué se hace cuando se encuentra errores en un programa?
+
+      - Aún si supiéramos cómo corregirlos, tenemos que llamar a la empresa.
+      - No podemos corregirlo ni siquiera para nuestras computadoras.
+
+   3. Una persona tiene problemas, un botón no le responde bien o no puede leer bien el texto ¿Podemos adaptar el programa?
+      - No. No se puede sin permiso de la empresa.
+
+   4. ¿Qué calidades poseen el software?
+
+      No sabríamos decirte, porque la calidad de un software se mide mejor en el proceso de desarrollo.
+
+      - ¿Habrán corroborado el diseño del software?
+      - ¿Qué pasa si un programador no terminó o programó rápidamente sin pensar?
+      - ¿Pasó etapas de testeo? Suponemos que sí, pero \shrug{}...
+      - ¿Hicieron auditorías y pruebas de seguridad?
+      - ¿Habrán corroborado que la interfaz sea amigable?
+        - Por ejemplo, un botón que dice "Si", al hacer clic cambia or "No" no es un diseño amigable: ¿"Si"/"No" será el estado actual del botón o el siguiente al hacer clic?
+
+4. Debido a que es un software cerrado, el desarrollo se estanca... a veces mucho.
+
+   1. MS-DOS era vulnerable: podías pisar espacios de memoria de otros programas. Ya en Windows 3.0 y 95 existió un modo de separar los espacios de trabajo de cada aplicación.
+
+   2. *Escritorios virtuales* y entornos de ventanas diferentes
+
+      Linux incluye escritorios virtuales desde hace muchos años (desde los 90' posiblemente). Recientemente, Windows 10 y 11 incorpora esta característica.
+
+      Desde hace mucho tiempo se han probado *distintos paradigmas de ventanas*, que algunas personas consideran que son más productivos: tiled window managers, GNOME 3 Shell vs. metáfora del escritorio, manejadores que evitan el uso del mouse (mouseless), etc.
+
+   3. *Automatizar tareas*
+      - Ejemplo: con un acceso de teclado, que se cierren ciertas ventanas, se minimicen otras y se maximicen algunas.
+
+      - Automatizar tareas requiere de que un administrador programe un poco.
+
+        Necestamos una terminal con muchos comandos y muy flexible.
+        
+      - CMD no posee comandos o no hay forma sencillas para ciertas tareas específicas: ¿cómo minimizar una aplicación desde CMD?
+
+        Powershell fue creado para brindar mayores características.
+
+5. Seguridad y privacidad
+
+   1. Requiere de un antivirus: Windows 10 y 11 poseen uno integrado.
+
+   2. El control de la computadora puede no ser total:
+
+      1. Incluyen software que no se puede desinstalar (bloatware).
+
+      2. Con Powershell se amplia el control, pero hay que conocer los comandos.
+
+6. Obsolescencia programada
+
+   1. Siempre, una nueva versión requiere de mayor memoria y un equipo con más recursos.
+
+
+Preguntas:
+
+- ¿Cómo piensan a la computadora? ¿la consideran como una herramienta que les facilita el trabajo o como una carga? ¿por qué?
+- ¿Alguna vez han hecho una capacitación de Windows o para usar la PC? ¿Se las facilitó la empresa u otra persona con certificación de la empresa?
+  - ¿y capacitación para su celular? ¿por qué les parece/no les parece relevante realizar capacitaciones para su uso?
+- ¿Qué piensan del estancamiento del software por mucho tiempo? ¿les parece que un software se puede mejorar?
+- ¿Qué hacen cuando el software no les responde como quieren? ¿Llaman a la empresa que lo desarrolló o a otra persona? ¿por qué?
+- Cuando escuchan de una nueva característica, ¿piensan que les puede servir en su día a día? ¿lo ven como  un "jugete" más o una molestia? ¿piensan en formas de trabajo donde alguna característica les pueda ayudar?
+
+      
+
+
+
+      
+
+
+
+
 * Columna 41: Linux y Windows
 :PROPERTIES:
 :ID:       bfa6f6f5-10e5-4b98-bff4-5300900ab2c6
