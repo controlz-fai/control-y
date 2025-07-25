@@ -62,6 +62,74 @@ Está página se encuentra disponible en los siguientes formatos:
   
 
 
+* Columna 43: Mac
+:PROPERTIES:
+:ID:       652bd109-f573-401a-adf3-785046823c96
+:PUBDATE:  2025-07-25 vie 11:51
+:END:
+{{{tag(columna-43)}}}
+
+** Obsolescencia Programada
+:PROPERTIES:
+:ID:       756a5144-1366-42a8-9a3f-cf0e95d94be0
+:END:
+Capo de Windows \to{} ni ahí jaja
+
+¿Qué hacer con la computadora viejita que no se banca el Windows nuevo?
+- Se puede añadir más hardware \to{} disco sólidos, más memoria RAM.
+  - Cada PC tiene un límite de cuanto se puede expandir y depende de la placa madre.
+- Dejar con Windows viejo (problemas con otros programas instalados, virus...).
+- Cambiar sistema operativo \to{} GNU/Linux.
+
+¿Es tecnología descartable?
+- Y depende de lo que compremos.
+- En mi experiencia, una PC puede durar dos a cinco años más o menos. Luego puede pasar:
+  - Se torna "más lenta" (en realidad, es más lenta comparada con software y hardware moderno).
+  - El software se actualiza y en algunos casos requieren cada vez más recursos.
+  - Le exigimos más a una computadora, pero la compu viejita no alcanza: navegar, jugar juegos, documentos, mirar pelis, etc.
+    - Posiblemente para el momento, no se le exigía todo eso.
+    - Las páginas Webs hacen cada vez más cosas y son cada vez más complejas.
+  - No se pueden instalar Software actualizado.
+    - ¡El antivirus! el lector de PDF, el editor de documentos, el explorador Web, etc.
+  
+¿Se puede utilizar un Windows compatible para la época que se creó esa computadora?
+
+- Sí, pero esa computadora debe estar aislada de Internet y del entorno: no instalar nada, no bajar archivos raros, no utilizar pendrives.
+- Se va a sentir más lenta porque comparamos con las modernas.
+- Los programas nuevos van a dejar de funcionar \to{} el software también pueden construirse para que haya más obsolescencia.
+
+¿Puede ser que se crean computadoras pensando que en X cantidad de años van a ser inservibles?
+- No se puede determinar objetivamente.
+- Para eso requerimos de testeos de calidad y organismos que controlen.
+
+Hay movimientos para el "derecho a reparar" que mitiga la obsolescencia programada:
+
+- Mayormente apunta a autos y maquinaria agrícola
+  - caso más habitual son los tractores y anexos que se le adjuntan para el trabajo.
+- https://es.ifixit.com/Right-to-Repair
+
+** Apple y Mac OS
+:PROPERTIES:
+:ID:       49677be6-5813-4fad-aded-de4ccf51f813
+:END:
+
+- Primeras computadoras: Apple fundada por Steve Jobs y Steve Wozniak. 1976 Apple I. 1977 Apple II. 
+- Kernel: XNU ("X is not Unix", qué raro que GNU se llame "GNU is not Unix").
+  - Software libre y Open Source.
+  - Basado en FreeBSD.
+- Sistemas operativos: iOS (celulares), macOS (PC).
+  - macOS está basado en UNIX (GNU/Linux también).
+  - Para preservar la garantía y el soporte debe utilizarse acorde a lo que indica la licencia.
+- Hardware: armado por la empresa.
+  - [[https://www.apple.com/es/mac-pro/specs/][Especificaciones]]
+  - Si se presta atención cuesta conseguir las últimas versiones o los modelos más avanzados.
+  - Acceso a hardware nuevo y de últimos modelos es complicado en Argentina.
+- ¿Qué idea tenemos de Mac OS?
+  - ¿Les parece que es estable y robusto?
+  - ¿Pueden hacer lo mismo que Windows? ¿con los mismos programas o tienen que usar otros?
+    - ¿Pueden compartir sus archivos y producciones con otros sistemas?
+  - ¿La considera más rápida?
+
 * Columna 42: Windows
 :PROPERTIES:
 :ID:       f632a2c8-3252-46cf-9df7-0b9df3c749d7
@@ -74,13 +142,15 @@ Está página se encuentra disponible en los siguientes formatos:
    3. El/la operador/a recibía las cintas o tarjetas del programador
    4. Cuando un programa necesitaba algo, buscaba cintas o tarjetas de otros programas y los cargaba
    5. Tomaba la salida y se las entregaba en mano al programador
-2. Un poco de historia en Windows
+      
+2. Un poco de historia
    1. En los 80', existió MS-DOS.
    2. Apareció Windows 1.0, 2.0, 2.1, 3.0, 3.1 y 3.2. Básicamente se ejecutaba dentro de MS-DOS.
    3. Windows 95, 98, 98 SE, ME, también se ejecutaban dentro del MS-DOS.
    4. En paralelo se desarrollaba Windows NT con otras características (multiusuario, por ejemplo). Sin embargo, adquirió notoriedad con Windows 2000 y Windows XP.
    5. Existen otros Windows: Windows CE para embebidos, Windows Phone, Windows Server.
-3. ¿Cómo funcionan?
+      
+3. ¿Cómo funcionan Windows?
    1. Mayormente sabemos cómo usarlos por cursos, manuales y experiencias.
 
       - Normalmente, no se está permitido desarmar el binario para ver cómo fue hecho: desensamblar el código o hacer ingeniería inversa.
