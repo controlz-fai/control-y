@@ -61,7 +61,69 @@ Está página se encuentra disponible en los siguientes formatos:
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
+* Columna 44: Identidad Digital
+1. Identidad digital: ¿qué es?
+  
+   A veces se le dice Identidad 2.0.
+   
+   En Internet encontramos varias cosas bajo este nombre:
 
+   - Protocolos de identificación y autenticación. P. ej.: OpenID.
+   - Todas las actividades, actuaciones o formas que nos perciben en la red.
+    
+2. Identificación y autenticación.
+
+   Es importante diferenciar estos dos conceptos:
+  
+   - Identificación: Es simplemente la afirmación de quién es alguien o qué es algo en particular.
+   - Autenticación: Establece que esta afirmación es verdadera.
+     - Biometría, factores (algo que soy, algo tengo, algo que sé, algo que hago, a dónde estoy), etc.
+
+3. Todo lo que manifestamos en el ciberespacio.
+   - Una persona puede tener:
+     - Una identidad digital similar o distinta a la analógica.
+      
+       (No sé si decir "real", porque en cierto modo ambas pueden considerarse reales).
+      
+     - Varias identidades digitales diferentes.
+
+       No necesariamente pueden ser identidades "falsas". También pueden ser identidades de una misma persona que cambian a lo largo del tiempo o que se adaptan a distintas facetas, p. ej.: la identidad de una persona en una red social orientada a lo laboral puede tener diferencias a la de otra red social orientada a la diversión.
+      
+   - Gestionar la identidad digital:
+     - Implica gestionar muchos datos e interacciones.
+     - Participar de las redes de forma conciente.
+   - ¿Cómo nos identifica lo que publicamos?
+     - Veamos la [[https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm][Ley 25.326 de Protección de Los Datos]] en el Artículo 6 menciona de "su tratamiento".
+
+       Importa mucho el tratamiento porque: los datos individuales pueden no ser suficiente para identificar a alguien, pero si se unen...
+      
+       Cuando se olvidan un nombre, ¿no usan comportamientos o datos de la persona para identificarlo?
+
+       "Es el conductor de radio que siempre está a la tarde... que el operador es uno que le gusta jazz y está con una conductora que dá noticias."
+
+       En el mundo digital, ¡la ditribución de datos puede ser más rápida que en el mundo analógico!
+      
+     - P. ej.: sin tener contacto físico directo con una persona, ¿puedo saber algo de su pasado? ¿puedo conocer el lugar exacto donde se encuentra una persona? ¿puedo conocer su religión, orientación política, sexual, con quien convive, etc.?
+
+       Una mejor pregunta sería: ¿puedo saber estas cosas con el consentimiento de la persona?
+       
+4. ¿Y por qué es útil todo esto?
+   - Identificación y autenticación: de alguna manera, los sistemas informáticos necesitan asociar datos a una persona, una cuenta o una identidad. 
+
+     Y a veces en la realidad también: una foto sola no significa mucho, son solo ceros y unos. Pero si sabemos que en ella me encuentro yo con alguien fomoso como Meteoro tiene otro significado.
+    
+   - *¿Qué usos se pueden hacer de nuestra identidad?*
+     - Nuestros datos pueden ayudar a hacernos conocer con otras personas: ¿quiénes somos?
+     - Pero... pueden usarse para otras cosas: Incidente Facebook-Cambridge Analytica
+5. Incidente Facebook-Cambridge Analytica
+   - Se utilizaron datos de usuarios de facebook para campañas políticas
+   - No se solicitó consentimiento para eso.
+
+Cosas a hacer:
+
+- Gestionar la privacidad: ¿han revisado a quiénes publican su contenido (Facebook, Instagram, Whatsapp)? ¿revisaron la configuración de privacidad?
+- ¿Qué contenido realizan, comparten, replican? en las fotos, ¿las personas que están saben que se comparten?
+    
 * Columna 43: Mac
 :PROPERTIES:
 :ID:       652bd109-f573-401a-adf3-785046823c96
