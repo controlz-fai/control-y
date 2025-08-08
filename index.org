@@ -61,6 +61,11 @@ Está página se encuentra disponible en los siguientes formatos:
   Ante modificaciones, se debe especificar la obra original y sus autores.
   
 
+# * Columna 45:
+# Recordar:
+# 
+# https://repositorio.curriculum.program.ar/repositorio-diseno-curricular/quien-soy-en-internet/
+
 * Columna 44: Identidad Digital
 :PROPERTIES:
 :ID:       9efb8147-9264-4d99-9331-df4f59935209
@@ -74,15 +79,17 @@ Está página se encuentra disponible en los siguientes formatos:
    
    En Internet encontramos varias cosas bajo este nombre:
 
-   - Protocolos de identificación y autenticación. P. ej.: OpenID.
-   - Todas las actividades, actuaciones o formas que nos perciben en la red.
+   - Protocolos de *identificación y autenticación*. P. ej.: OpenID.
+   - *Todas las actividades, actuaciones o formas que nos perciben en la red.*
     
 2. Identificación y autenticación.
 
+   ¿Recuerdan que lo hablamos hace un tiempo? [[*Columna 23: Reconocimiento facial][Columna 23: Reconocimiento facial]]
+
    Es importante diferenciar estos dos conceptos:
   
-   - Identificación: Es simplemente la afirmación de quién es alguien o qué es algo en particular.
-   - Autenticación: Establece que esta afirmación es verdadera.
+   - *Identificación*: Es simplemente la afirmación de quién es alguien o qué es algo en particular.
+   - *Autenticación*: Establece que esta afirmación es verdadera.
      - Biometría, factores (algo que soy, algo tengo, algo que sé, algo que hago, a dónde estoy), etc.
 
 3. Todo lo que manifestamos en el ciberespacio.
@@ -131,8 +138,20 @@ Cosas a hacer:
 - ¿Qué contenido realizan, comparten, replican? en las fotos, ¿las personas que están saben que se comparten?
 
 Próximo episodio: Detalles de Cambridge Analytica.
-
+   
+** Bibliografía
+- "[[https://www.mediterranea-comunicacion.org/article/view/2013-v4-n2-la-cultura-de-la-participacion][La cultura de la participación]]". Roberto Aparici y Sara Osuna Acedo. Revista Mediterránea de Comunicación. ISSN 1989-872X. 2013.
+- "[[https://doi.org/10.20533%2Fijisr.2042.4639.2018.0091][A review of identity, identification and authentication]]". Juanita Blue, Joan Condell y Tom Lunney. International Journal for Information Security Research (IJISR). Vol. 8 - Issue 2. 2018. [[https://doi.org/10.20533%2Fijisr.2042.4639.2018.0091][doi: 10.20533/ijisr.2042.4639.2018.0091]].
+- Facebook-Cambridge Analytica
+  - "[[https://www.businessinsider.com/cambridge-analytica-whistleblower-christopher-wylie-facebook-data-2019-10][The Cambridge Analytica whistleblower explains how the firm used Facebook data to sway elections]]" by Rosalie Chan. Business Insider. Octubre 5, 2019.
+  - Por Redacción BBC Mundo:
+    - "[[https://www.bbc.com/mundo/noticias-49093124][Cambridge Analytica: la multa récord que deberá pagar Facebook por la forma en que manejó los datos de 87 millones de usuarios]]". 24 de julio 24, 2018.
+    - "[[https://www.bbc.com/mundo/noticias-43971491][Cambridge Analytica, la empresa detrás del mayor escándalo de privacidad de Facebook, anuncia su cierre]]". 2 de mayo, 2018.
+    - "[[https://www.bbc.com/mundo/media-43655680][Cómo el algoritmo de Cambridge Analytica analizó la personalidad de millones de usuarios de Facebook]]". 9 de abril, 2018. 
+    - "[[https://www.bbc.com/mundo/noticias-43472797][5 claves para entender el escándalo de Cambridge Analytica que hizo que Facebook perdiera US$37.000 millones en un día]]". 20 de marzo, 2018.
+  - "[[https://www.nytimes.com/es/2018/04/10/espanol/facebook-cambridge-analytica.html][Así funcionaba la recolección de datos de Cambridge Analytica]]" por Matthew Rosenberg y Gabriel J. X. Dance. The New York Times. 10 de abril, 2018.
     
+
 * Columna 43: Mac
 :PROPERTIES:
 :ID:       652bd109-f573-401a-adf3-785046823c96
