@@ -66,6 +66,8 @@ Está página se encuentra disponible en los siguientes formatos:
 :ID:       9efb8147-9264-4d99-9331-df4f59935209
 :PUBDATE:  2025-08-08 vie 12:29
 :END:
+{{{tag(columna-44)}}}
+
 1. Identidad digital: ¿qué es?
   
    A veces se le dice Identidad 2.0.
