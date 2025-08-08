@@ -62,6 +62,10 @@ Está página se encuentra disponible en los siguientes formatos:
   
 
 * Columna 44: Identidad Digital
+:PROPERTIES:
+:ID:       9efb8147-9264-4d99-9331-df4f59935209
+:PUBDATE:  2025-08-08 vie 12:29
+:END:
 1. Identidad digital: ¿qué es?
   
    A veces se le dice Identidad 2.0.
@@ -123,6 +127,9 @@ Cosas a hacer:
 
 - Gestionar la privacidad: ¿han revisado a quiénes publican su contenido (Facebook, Instagram, Whatsapp)? ¿revisaron la configuración de privacidad?
 - ¿Qué contenido realizan, comparten, replican? en las fotos, ¿las personas que están saben que se comparten?
+
+Próximo episodio: Detalles de Cambridge Analytica.
+
     
 * Columna 43: Mac
 :PROPERTIES:
@@ -4971,7 +4978,7 @@ El justificado completo suele dejar espacios en blanco. Esto es contraproducente
 :END:
 Es necesario utilizar un comando de Emacs específico para exportar las fechas en el formato correcto. En este caso, se utilpreconfigurar el formato de la fecha.
 
-#+BEGIN_SRC emacs-lisp :results silent
+#+BEGIN_SRC emacs-lisp :eval never-export :exports code :results silent
 (defun my-org-export-dispatch ()
   "Exportar un archivo Org con la fecha en español.
 Org-mode utiliza timestamps basada en la ISO 8601, y cambiarlo para el
@@ -5019,17 +5026,25 @@ Y comentándola como sigue:
 Con el siguiente código se puede encontrar dicha línea de ox-rss.el.
 
 #+caption: Código para localizar la línea a comentar.
-#+begin_src elisp :eval no :exports code
-  (with-current-buffer (find-library "ox-rss")
-    (goto-char (point-min))
-    (search-forward "(indent-region (point-min) (point-max))"))
+#+begin_src elisp :eval never-export :exports code :results none
+  (defun my-find-ox-rss-problem ()
+    "Find the indent-region words in ox-rss.
+  This function generates an indentation which takes a lot of time in XML buffers."
+    (interactive)
+    (with-current-buffer (find-library "ox-rss")
+      (goto-char (point-min))
+      (search-forward "(indent-region (point-min) (point-max))")))
 #+end_src
 
 También es posible utilizar lo siguiente para localizar la función que contiene dicha línea:
 
-#+begin_src elisp :eval no :exports code
+#+begin_src elisp :eval never-export :exports code :results none
   (require 'ox-rss)
-  (find-function-other-window #'org-rss-final-function)
+  (defun my-find-ox-rss-problem-2 ()
+    "Find the function that calls indent-region in ox-rss.
+  Same as `my-find-ox-rss-problem'."
+    (interactive)
+    (find-function-other-window #'org-rss-final-function))
 #+end_src
 
 
