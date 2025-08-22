@@ -66,6 +66,160 @@ Está página se encuentra disponible en los siguientes formatos:
 # 
 # https://repositorio.curriculum.program.ar/repositorio-diseno-curricular/quien-soy-en-internet/
 
+* Columna 45: Charlemos de la Guía Ema (no terminado)
+:PROPERTIES:
+:ID:       059b622f-06f7-45ef-bd76-11f1374c6f42
+:PUBDATE:  2025-08-22 vie 12:26
+:END:
+{{{tag(columna-45)}}}
+
+Advertencia: en este caso, traigo contenido de la Guía Ema para debatir y charlar durante la columna. *Siempre es una buena idea contactar con personal profesional ante cualquier duda o inquietud*, sea de psicología, docencia, legales (abogacía), etc.
+
+1. Identidad Digital:
+
+   *Todas las actividades, actuaciones o formas que nos perciben en la red*
+
+   Puede ser similar o distinta a la analógica... ¿podemos decir "a la real"?
+
+   - Palabras claves: *interacciones + contenido*, cómo *nos perciben*.
+   - Gestionar nuestra identidad digital es gestionar también cómo nos perciben: esas interacciones y contenidos.
+
+     ¿Qué pasa cuando perdemos el control de esa gestión? (sea porque nos quitan contenido, nos limitan interacciones, porque lo perdemos accidentalmente, etc.).
+
+2. Si bien, aparecen nuevos nombres, todas son violencias de algún tipo (en muchos casos conocidas de otra forma en español). Darles un nombre indica varias cosas:
+   1. Las tecnologías no necesariamente remueven violencias que ya se producían.
+
+      En algunos casos, las personas las modifican o adaptan al ámbito tecnológico.
+      
+   2. Pueden pasar más desapercibido y darles un nombre las vuelve más visibles.
+
+      Se suele minimizar o descartar la importancia, porque sucede en lo virtual. Pero aún así afecta: no deja de ser real.
+
+      1. El darle un nombre *les brinda mayor relevancia y atención.*
+
+   3. El darle un nombre permite identificarlas y especificarlas.
+
+3. Aclaraciones de la guía:
+
+   - Hackeo :: aclara que se conoce como "vulgarmente" al acceso no autorizado a un sistemas informático o software. Hackeo no es eso, eso es crackeo. También podemos decirle ciberdelincuencia, ciberdelito.
+
+     Esta aclaración es importante, porque: hacking significa otra cosa; y además se utiliza como una palabra "paragüas" para referenciar muchas actividades (delictivas y no), cuyo siginificado no queda del todo establecido y que, a veces, puede dar la impresión de ser técnica cuando no lo es.
+
+   - Phishing :: Es engañar a la persona para revelar información sensible o privada o a instalar malware en su sistema. No necesariamente las credenciales de acceso, puede ser cualquier información sensible.
+
+   - Malwares :: Los virus es una categoría de malware, y no todos dañan sistemas. Pero sí pueden brindar acceso no autorizado (backdoors, troyanos, etc.). 
+4. Violencias que la Guía menciona:
+
+   1. Grooming
+
+   2. Sextorsión
+
+   3. Deep Fake
+
+      1. Porn Deep Fake
+
+   4. Acoso virtual
+
+   5. Ciberflashing
+
+   6. Ciberbulling
+
+   7. Cibercontrol
+
+      Vigilancia de la actividad virtual de una persona o de su geolocalización.
+
+   8. Doxing
+
+      Difundir datos personales, privados o íntimos de una persona con intención dañina. P. ej.: ubicación, domicilio, costumbres, celulares, instituciones a las que acude, etc.
+
+      La finalidad es el acoso, persecución o agresión a la persona que se difunde sus datos.
+
+   9. Sharenting
+
+      Share + Parenting. Práctica de que familiares comparten o exponen públicamente a infancias y adolescencias por medios digitales.
+
+      Pensar que a futuro, las infancias y adolescencias que pueden no sentirse identificadas o aceptar lo ya publicado.
+
+5. Recordar que la Facultad de Informática realiza actividades de extensión en escuelas para brindar talleres acerca del uso ético de la informática.
+
+6. Entonces, ¿prohibimos el celular?
+
+   1. Lo mejor es enseñar a usar las redes y el celular de a poco.
+
+      *Se debe enseñar que es preciso aprender algunas medidas de seguridad y cuidado para utilizar un dispositivo digital.*
+
+      - La seguridad informática funciona muy bien al momento previo a un ataque (la prevención). Luego de sucedido el ataque, busca mitigar. Por eso es mejor aprender y mantenerse informado para cuidarse.
+
+        La seguridad informática no es estática, es muy cambiante. Todo el tiempo hay que mantenerse al día.
+
+      Sería bueno explicar:
+
+      1. ¿Qué tan importante y confiable es la información que recibimos desde las redes?
+
+      2. ¿Qué no se debería decir o compartir por el celular?
+
+      3. ¿Qué es adecuado hacer con un celular y qué es mejor no hacer?
+         - Evitar compartir ubicaciones al público.
+         - Evitar que nos incluyan o entrar en grupos que no conozcamos. Evitar compartir datos en grupos grandes.
+
+      4. ¿Cómo usar nuestros dispositivos y celulares?
+
+         1. Usar contraseña o huella dactilar en el celular.
+
+         2. Nunca permitir a otras personas usar nuestro celular.
+
+         3. Si nos quitan el celular, avisar a nuestro familiares y personas cercanas de inmediato por medio de un/a conocido/a. Bloquear el celular y la línea.
+
+         4. Evitar usar Whatsapp Web o acceder a nuestras redes y home banking desde otra computadora o celular. Si tenemos que hacerlo, siempre desconectarlo (podemos usar nuestro celular para ello).
+
+         5. Jamás compartir contraseñas. Si la tuvimos que compartir o sospechamos que alguien la conoce, cambiarla inmediatamente.
+
+            Si pueden utilizar segundo factor (2FA) ¡mejor!
+
+   2. La mejor política es: *si dudás no lo publiqués*
+
+      Siempre se tiene tiempo para charlar, debatir, pensar...
+
+      - En especial en los estados de Whatsapp: pueden verlo mucha gente (más de la que te dice Whatsapp).
+      - En Instagram, X y otras redes los post pueden tener alcance global.
+
+   3. Pensemos, ¿qué es más adecuado para compartir una información?
+
+      La confianza con las personas vs. la mejor configuración de privacidad de un software...
+
+      No confiemos plenamente en la herramienta.
+      
+      Compartamos información sensible con personas de suma confianza.
+
+    Igual, nunca viene mal mirar las configuraciones de privacidad. Lo mejor es, seguir el principio de "revelar la información justa y necesaria para hacer nuestras actividades", en otras palabras, lo suficiente para darnos a conocer con quienes querramos compartir.
+
+      - Whatsapp :: Menú (tres puntos) > Ajustes > Privacidad.
+
+        ¿Queremos que todas y todos vean nuestra foto de perfil? ¿nuestros estados?
+
+        - Por favor, desactiven que cualquier persona nos agregue a grupos.
+
+      - Instagram :: Perfil (abajo, tocamos en nuestra/foto de perfil) > Menú de barras (arriba, derecha del todo, hay un error en la aplicación que a veces no aparece el menú)
+
+        Ver las *todas* las opciones, especialmente "Privacidad de la cuenta" y "Cómo otros interactúan conmigo".
+        
+
+7. ¿Si sospechamos de una situación violenta?
+
+   1. *Cuidar*, escuchar, brindar confianza, contención, comprensión y *empatía*.
+
+   2. La búsqueda de culpas y responsabilidades no debe enfocarse en la víctima: no se debe preguntar por qué envió esa foto, cuestionar la actitud o la persona en sí misma ("te pasa por confiar mucho", "¿por qué te sacás esas fotos?", "sos inconsiente").
+
+8. ¿Qué hacer ante una situación violenta?
+
+   1. Si nos comparten o recibimos material que sospechamos inadecuado, cortar la cadena y notificar a autoridades, tutores, etc.
+
+   2. Recordar que siempre hay alguien que puede escucharnos: psicólogas y psicólogos, docentes, personas de confianza (amigas, amigos, familiares, etc.).
+
+      Siempre podemos acudir a un profesional en psicología, medicina, abogacía, docencia, etc. para sacar nuestras dudas e inquietudes.
+
+   3. 
+
 * Columna 44: Identidad Digital
 :PROPERTIES:
 :ID:       9efb8147-9264-4d99-9331-df4f59935209
@@ -140,6 +294,9 @@ Cosas a hacer:
 Próximo episodio: Detalles de Cambridge Analytica.
    
 ** Bibliografía
+:PROPERTIES:
+:ID:       e9c88f57-bc33-4135-b123-5f8676a9811a
+:END:
 - "[[https://www.mediterranea-comunicacion.org/article/view/2013-v4-n2-la-cultura-de-la-participacion][La cultura de la participación]]". Roberto Aparici y Sara Osuna Acedo. Revista Mediterránea de Comunicación. ISSN 1989-872X. 2013.
 - "[[https://doi.org/10.20533%2Fijisr.2042.4639.2018.0091][A review of identity, identification and authentication]]". Juanita Blue, Joan Condell y Tom Lunney. International Journal for Information Security Research (IJISR). Vol. 8 - Issue 2. 2018. [[https://doi.org/10.20533%2Fijisr.2042.4639.2018.0091][doi: 10.20533/ijisr.2042.4639.2018.0091]].
 - Facebook-Cambridge Analytica
