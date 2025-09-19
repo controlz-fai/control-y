@@ -66,6 +66,61 @@ Está página se encuentra disponible en los siguientes formatos:
 # 
 # https://repositorio.curriculum.program.ar/repositorio-diseno-curricular/quien-soy-en-internet/
 
+* Columna 46: IA Generativas o LLM
+:PROPERTIES:
+:ID:       19e66a6b-52d6-4691-94d2-039990fc19a8
+:PUBDATE:  2025-09-18 jue 22:58
+:END:
+{{{tag(columna-46)}}}
+1. La IA: en realidad es un tipo de IA
+   - LLM: Large Language Models.
+   - ¿Son inteligentes? \to{} Busca patrones, no razona...
+   - ¿Es creativo? \to{} Nope, generan en base a patrones de otras personas.
+   - ¿Es empático? ¿Nos entiende? \to{} No.
+2. ¿Cómo funcionan?
+   - Software base
+   - Modelos
+     - contienen la información básica
+     - entrenarlos es costoso
+3. ¿Cómo aprenden?
+   - Entrenamiento inicial (solo al crear el modelo)
+   - De lo que le decimos (en-contexto)
+   - Otros agregado por el desarrollador.
+4. IA que existen hoy:
+   - DeepSeek: DeepSeek-v3 ([[https://api-docs.deepseek.com/quick_start/pricing][ver modelos]]), OpenAI: GPT 5 ([[https://platform.openai.com/docs/models][ver modelos]]), Meta: Llama 4, Google: Gimini 2.5 Flash/Pro
+   - Imágenes: Midjourney, Flux
+5. ¿Cómo es mejor usarlos?
+   1. Hacer un prompt exacto y directo. Indicar qué detalles estás buscando. Si se puede ser muy específico, mejor.
+
+      "Explicame Emacs"... mejor: "Explicame para qué se usa Emacs"
+
+      Para trabajos que se basan en patrones, son muy útiles. Por ej.: "Dame ejemplos para comenzar una carta formal destinada a alguien de Argentina. La carta debe solicitar un permiso para utilizar un equipo."
+
+   2. Si no satisface la respuesta o se quiere focalizar en un detalle, repreguntar con ese detalle.
+
+   3. Siempre corroborar la información. Pedir fuentes si es necesario para poder chequear.
+
+      El chatbot puede equivocarse ya que se basa en patrones y en entrenamientos con información posiblemente errónea.
+  
+6. ¿Para qué lo podés usar?
+   - Crear imágenes, describir imágenes, modificar imágenes, Optical Character Recognition (reconocer textos), prompts por audio, resumir PDF y otros documentos, resumir textos, sugerir textos o formas de escribir, buscar algo específico en Internet, explicar un texto, buscar conceptos e información, solicitar sugerencias y recomendaciones.
+
+7. ¿Debería usarlo?
+
+   - Sí, es importante aprender a usarlo.
+   - No, no es obligatorio que lo usés.
+   - Es una herramienta más...
+   - Es creada por un ser humano: tiene sesgos, limitaciones, defectos, etc.
+   - No es un ser humano: no entiende, no razona, no siente, no interpreta.
+
+
+Preguntas:
+
+- ¿Qué sucede si se utiliza un LLM para diagnosticar un paciente? ¿y qué se hace si se equivoca?
+- Una persona que hace arte (música, escultura, pintura, poesía, etc.), ¿hace su obra con un prompt? ¿cómo hace su obra? ¿el proceso de creación también es parte de su obra? ¿estudia cada detalle de la obra? ¿qué experiencia y conocimientos necesita para eso?
+
+
+
 * Columna 45: Charlemos de la Guía Ema (no terminado)
 :PROPERTIES:
 :ID:       059b622f-06f7-45ef-bd76-11f1374c6f42
