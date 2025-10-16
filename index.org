@@ -66,6 +66,73 @@ Está página se encuentra disponible en los siguientes formatos:
 # 
 # https://repositorio.curriculum.program.ar/repositorio-diseno-curricular/quien-soy-en-internet/
 
+* Columna 47: ¿Qué es Phishing?
+:PROPERTIES:
+:ID:       ffb87b67-de55-484e-bd81-39a299fc43cc
+:PUBDATE:  2025-10-16 jue 15:43
+:END:
+
+{{{tag(columna-47)}}}
+
+1. Definición: básicamente proviene de /fishing/ que significa "pescar" en inglés.
+
+   En informática y ciberseguridad es...
+   
+   1. "Suplantación de identidad".
+   2. Engañar a una persona para:
+   
+      1. Revelar información privada o sensible
+      2. Instalar malware
+   3. Técnicas para engañan una víctima para ganar su confianza con el fin de manipularla y hacer que realice acciones.
+      
+2. Medios para hacer phishing:
+   - Correos electrónicos: se envían a miles personas un correo que puede tener un enlace, puede solicitar información o puede solicitar realizar alguna acción.
+
+   - Quishing / Qrishing: utilizan códigos QR alterados de alguna manera para dirigir a las víctimas a otras páginas o aplicaciones maliciosas.
+
+   - URL Phishing: utilizando una dirección Web que parezca a otra oficial. P. ej.: gogle.com o googlee.com en vez de la oficial google.com.
+
+   - SMS o mensajes de texto: envian mensajes de texto a teléfonos con mensajes solicitando acciones o información. Similar al correo electrónico.
+
+   - Por WhatsApp, Facebook, Instagram, y redes sociales: usan redes sociales y mensajería instantánea. Perfiles que parecen entidades de confianza usando incluso sus logos y slogans.
+
+   - Voice Phishing / Vishing: utilizan llamadas telefónicas o VoIP (por Internet).
+
+3. Suplantación de identidad:
+
+   Muchas técnicas de phishing suplantan la identidad de alguna entidad oficial.
+
+4. Ejemplos:
+
+   - Correos muy similares a los de un banco o una entidad financiera.
+   - Correos que nos dicen que ganamos un premio o que somos beneficiaros de dinero.
+   - Correos que nos indican que debemos cambiar nuestra contraseña, que se venció o que nos solicitan la contraseña.
+   - Direcciones Web similares a otras de entidades conocidas.
+   - Caso de las multas de estacionamiento con QR.
+   - Llamadas al número fijo o a nuestro celular de parte de compañías o entidades conocidas, cuyo producto o servicio no solicitamos.
+   - Mensajes de texto (SMS) con promociones o notificaciones.
+     - Mensajes con Token, si no son solicitados, ignorarlos.
+   - Cuentas de Facebook de bancos, financieras, supermercados u otras con promociones o descuentos cuyos nombres no son los oficiales.
+
+5. ¿Cómo evitar?
+
+   - Prestar atención y tener tranquilidad.
+   - La mayoría de los phishing son de carácter urgente, y que afectan la sensibilidad.
+     - Leer con calma.
+     - Corroborar la información llamando al teléfono oficial (no retornando la llamada/mensaje).
+   - Desconfiar de mensajes de desconocidos que nos llegan sin solicitarlos.
+     - Contestar cuando corroboremos su identidad con otra persona de confianza.
+   - Desconfiar cuando nos añaden a un grupo de WhatsApp de repente y sin solicitarlo.
+     - Cambiar la configuración de privacidad de WhatsApp: Ajustes > Privacidad > Grupos > Quién puede añadirme a los grupos, seleccionar "Mis contactos".
+   - Evitar escanear códigos QR de la calle o de lugares públicos.
+   - No confiar en todo lo que se lee y se vé en las redes sociales. Corroborar la información leída con especialistas, profesionales o con el teléfono oficial de la entidad en cuestión (obtenido por otros medios convencionales).
+
+Más info:
+
+- [[https://chequeado.com/el-explicador/falsas-multas-de-estacionamiento-advierten-por-posibles-estafas-a-traves-de-codigos-qr-en-infracciones-de-transito/][Falsas multas de estacionamiento con códigos QR]]
+- "Computer Security Art and Science". Matt Bishop. Addison-Wesley. 2019.
+- "Foundations of Information Security a Straight Forward Introduction". Jason Andres. No Starch Press. 2019.
+
 * Columna 46: IA Generativas o LLM
 :PROPERTIES:
 :ID:       19e66a6b-52d6-4691-94d2-039990fc19a8
