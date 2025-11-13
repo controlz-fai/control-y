@@ -66,6 +66,158 @@ Está página se encuentra disponible en los siguientes formatos:
 # 
 # https://repositorio.curriculum.program.ar/repositorio-diseno-curricular/quien-soy-en-internet/
 
+* Columna 49: Contraseñas y autenticación
+:PROPERTIES:
+:ID:       d2f13ffd-5e0d-4519-be2d-fa3d4f172755
+:PUBDATE:  2025-11-13 jue 17:34
+:END:
+
+{{{tag(columna-49)}}}
+
+1. Repaso
+   1. *Identificación*: Es simplemente la afirmación de quién es alguien o qué es algo en particular.
+   2. *Autenticación*: Establece que esta afirmación es verdadera.
+   3. *Factores de autenticación*: algo que sabés, algo que eres, algo que tenés, algo que hacés, dónde estás.
+2. Algo que yo sé: contraseñas...
+
+   ¿Alcanza? A veces no, y es mejor tener un segundo factor, por ejemplo: algo que yo tengo (un celular, un correo, etc.).
+     
+3. Caducidad de las contraseñas:
+   - Lo ideal es cambiar las contraseñas cada cierto tiempo... supongamos... 2 meses.
+   - El tiempo depende de la robusteza de la contraseña: cuanto más robusta, se puede extender más el tiempo.
+
+     ... pero ¿por qué? Por los ataques que se puede hacer:
+4. Ataques a contraseñas:
+   - Ataques:
+     1. Fuerza bruta: se prueba de a una contraseña cambiando un caracter a la vez.
+     2. Diccionarios: se utiliza un diccionario de contraseñas y se prueba con cada frase del diccionario.
+        1. Los diccionarios pueden contener palabras del idioma, contraseñas típicas, mezclas de palabras habituales, nombres y apellidos, DNI y fechas conocidas, frases habituales, etc.
+
+   - Pensemos:
+     
+     Si la contraseña es una palabra conocida de cinco caracteres (p. ej.: "12345" o "qwerty"):
+     - ¿cuánto se tarda en generarse por fuerza bruta? ¿cuánto se tarda en buscarla en el diccionario? 
+
+5. Contraseñas robustas:
+   - Que tenga mayúsculas y minúsculas.
+   - Solo números no es bueno: mezclarlos con letras es mejor.
+   - No usemos nuestros datos personales: evitemos nuestra fecha de nacimiento, nuestro DNI, nombre y apellido, etc.
+   - Palabras o frases conocidas y muy usadas.
+   - Símbolos (p. ej.: "#$%&/()=") aumenta mucho la robusteza, pero: ¿y si el teclado está configurado con un idioma diferente (Español de España, Español Latinoamericano, Inglés...)?
+     
+6. Estrategias para crear contraseñas:
+
+   #+caption: Historieta de XKCD 936 mostrando la robusteza de una contraseña.
+   https://imgs.xkcd.com/comics/password_strength.png
+
+   [[https://xkcd.com/936/][XKCD Número 936]] ([[https://www.explainxkcd.com/wiki/index.php/936:_Password_Strength][XKCD Número 936 explicado]])
+   1. Generada con una estrategia/algoritmo y frases:
+      1. Podemos pensar en una frase que nos gusta: "Mete toma 5 litros de mates"
+      2. Podemos tomar las iniciales de cada palabra: "mt5ldm".
+      
+         También podemos tomar la segunda letra de cada palabra: "eo5iea"
+
+         O las dos primeras letras de cada palabra: "Meto5lidema", o las dos últimas letras de cada palabra: "tema5osdees"...
+      3. La estrategia de creación es nuestra y la podemos repetir. Pero la frase es importante y no debemos darla a conocer.
+         
+      Un ejemplo similar son las tarjetas de contraseñas (ver [[https://f-droid.org/es/packages/com.passcard/][App para Android]]):
+
+      #+caption: Una tarjeta de contraseñas de ejemplo.
+      https://raw.githubusercontent.com/cryptofuture/PassCard/master/passcard.png
+
+   2. Completamente generada aleatoriamente:
+
+      El problema es que debemos usar un baúl para guardarla: ¡no nos vamos a acordar nunca!
+
+   3. Generado por hashes:
+
+      ¡Otro día les cuento!
+   
+7. Baúles o almacenes de contraseñas.
+
+   - Firefox y Chrome poseen su vaúles y pueden generar contraseñas aleatorias robustas.
+   - [[https://www.keepassdx.com/][KeePassDX]] ([[https://f-droid.org/es/packages/com.kunzisoft.keepass.libre/][App KeePassDX para Android]], también está en Google Play).
+   - ¿Un papel o libreta? mmm... si se puede evitar mejor...
+   
+8. OpenID o el login con Google (y otros proveedores).
+
+* Columna 48: Realidad Amentada, Realidad Virtual y Metaverso
+:PROPERTIES:
+:ID:       1f5fc196-f27e-4f86-a26f-b5a975dd792d
+:PUBDATE:  2025-11-13 jue 17:34
+:END:
+
+{{{tag(columna-48)}}}
+1. Realidad Aumentada
+   
+   Ver el mundo real con un dispositivo con información digital adicional.
+   
+   Mundo real + Digital = Realidad Aumentada
+
+   1. Los lentes, la cámara o un video que muestra algo de la realidad
+   2. Se amplía esa imágen de la realidad con información digital: texto, imágenes, videos, modelos 3D.
+   3. La ideas es ampliar los sentidos y la interacción con el mundo real.
+      1. P. ej.: aumentando la percepción sonora de una persona con deficiencia auditiva, mostrando pistas visuales en un visor. 
+
+
+1. Realidad Virtual
+
+   Dispositivos que simulan un entorno de apariencia real. La idea es dar una sensación de inmerción.
+
+   1. Se utilizan cascos de realidad virtual, guantes, sensores de posición (giroscopio, orientación, etc.).
+   2. Dan sensación de inmerción.
+   3. Pueden ser interactivos:
+      1. los guantes tienen sensores que detectan nuestras manos y cómo se mueven
+      2. si giramos nuestra cabeza o nuestro cuerpo, también gira en el mundo virtual
+
+   4. Se puede pensar como un continuo que va desde el entorno real, realidad aumentada y entorno virtual.
+
+2. Metaverso
+
+   Es un entorno o mundo virtual.
+
+   1. Pueden simular entornos reales o no:
+      - Pueden simular edificios y entornos reales.
+      - Pueden crearse edificios y entornos ficticios.
+   2. Pueden tener o no conexión a la realidad:
+      - El tiempo, clima y otros aspectos pueden simularse como en la realidad.
+      - Se pueden realizar reuniones cual si fuesen "llamadas" virtuales o 3D.
+      - El ávatar puede ser un fiel reflejo nuestro (o puede ser diferente según nuestros gustos).
+      - Se puede comprar y vender en el metaverso y el producto se recibe en el mundo real.
+      - Se pueden activar características de dispositivos utilizando Internet of Things. P. ej.: prender y apagar la luz en el metaverso puede prender y apagar la luz en la casa realmente.,
+   3. Pueden tener las mismas limitaciones que la realidad o no:
+      - Se puede caminar en el metaverso, pero también volar o teletransportarse.
+      - Se puede manipular objetos en el mundo virtual de forma similar a la realidad o alterarlos de formas no realistas (levantar objetos pesados, modificarlos, etc.).
+
+   Ejemplos: Second Life.
+   
+3. ¿Para qué sirve?
+   - No se corre riesgo ante piezas peligrosas.
+   - No se pierde o se desgastan las piezas.
+   - No es necesario tener la pieza real en la mano para manipularla.
+   - Disponibilidad en cantidad y tiempo de la pieza virtual.
+   - La interacción puede incluir más información.
+   - La interacción puede tener efectos en la realidad.
+   - Es posible reproducir contextos o ambientes de riesgo o de emergencia sin estar en riesgo físico.
+   - Es posible utilizar RA o RV para interactura con piezas o contextos costosos de reproducir físicamente.
+
+   Esto permite:
+
+   - Estudiar piezas que pueden no estar disponibles físicamente y sin riesgos para la obra o la persona..
+   - Practicar en simulaciones de RV en contextos que físicamente son complejos, de alto riesgo, poco habituales o inapropiados realizarlos físicamente: incendios, emergencias u operaciones médicas, etc.
+   - Visitar y conocer lugares, contextos y obras con posibilidad de observar en gran detalle.
+   
+4. ¿Para qué se pueden usar? Ejemplos:
+   
+   1. Entrenamiento y educación:
+      - modelos 3D de obras de artes (esculturas)
+      - piezas de museos que no pueden ser manipuladas físicamente pero sí virtualmente
+      - órganos y tejidos biológicos para medicina, veterinaria y campos de la biología
+      - https://rocasymineralesra.com/
+   2. Entretenimiento: Pokémon Go
+   3. Deportes: fútbol se utiliza en televisión para marcar el orsay
+
+
 * Columna 47: ¿Qué es Phishing?
 :PROPERTIES:
 :ID:       ffb87b67-de55-484e-bd81-39a299fc43cc
@@ -79,11 +231,12 @@ Está página se encuentra disponible en los siguientes formatos:
    En informática y ciberseguridad es...
    
    1. "Suplantación de identidad".
+      
    2. Engañar a una persona para:
-   
       1. Revelar información privada o sensible
       2. Instalar malware
-   3. Técnicas para engañan una víctima para ganar su confianza con el fin de manipularla y hacer que realice acciones.
+         
+   3. Técnicas para engañar a una víctima para ganar su confianza con el fin de manipularla y hacer que realice acciones.
       
 2. Medios para hacer phishing:
    - Correos electrónicos: se envían a miles personas un correo que puede tener un enlace, puede solicitar información o puede solicitar realizar alguna acción.
