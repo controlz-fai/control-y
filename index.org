@@ -66,6 +66,102 @@ Está página se encuentra disponible en los siguientes formatos:
 # 
 # https://repositorio.curriculum.program.ar/repositorio-diseno-curricular/quien-soy-en-internet/
 
+* Columna 50: Segundo factor - One-time Passwords
+:PROPERTIES:
+:ID:       88e6b7c3-acec-4498-90e2-0a7fbd213b1a
+:PUBDATE:  2025-11-27 jue 20:54
+:END:
+{{{tag(columna-50)}}}
+
+# Gestores de contraseñas
+
+# Baúles, gestores de contraseñas, almacenes de contraseñas.
+
+# 1. Generan contraseñas.
+# 2. Mantienen un historial de cambios.
+# 3. Cifran el almacén.
+# 4.
+
+1. Los factores de autenticación son: algo que sabés, algo que eres, algo que tenés, algo que hacés, dónde estás. El segundo factor (2FA) implica uno más aparte de algo que sabés (la contraseña).
+2. Normalmente se utilizan /one-time passwords/ (OTP) para implementar un segundo factor.
+   
+   Los OTP son contraseñas de un solo uso. 
+   
+   1. Usualmente son PIN o "token" (numéricos) de 6 o más dígitos.
+   2. Cambian al pasar el tiempo:
+      1. Depende de la hora actual.
+      2. Se vencen a 1, 5 o más minutos.
+   3. Usualmente el PIN lo genera o se debe leer desde un dispositivo extra: un celular, un token hardware, una computadora, etc.
+3. ¿Cómo se usa?
+
+   Necesitamos:
+   - Un celular
+   - Una aplicación de celular: Google Authenticator, KeePass, otra.
+   - El servicio tenga soporte para 2FA.
+
+   Para configurarlo:
+
+   1. Le indicamos al sitio (p. ej. nuestro correo electrónico) que queremos utilizar segundo factor (2FA).
+   2. Nos brinda una secuencia de letras y números que debemos pegar en la aplicación del celular.
+   3. En el celular, abrimos la aplicación, registramos la secuencia de letras y números bajo un nombre (p. ej. "Mi correo"). La aplicación comienza a generar tokens o PIN
+   4. Luego, el sitio Web nos pide que ingresemos los tokens para validar que todo funciona correctamente.
+   5. Si todo es correcto, el sitio nos brinda unos tokens de backup para resguardar. Debemos tomar nota de estos números y guardarlos en un lugar seguro.
+
+   Uso habitual:
+
+   1. Iniciamos sesión al sitio (p. ej. nuestro correo). Nos pedirá nombre de usuario y contraseña. Ingresamos eso datos y si todo es correcto, el sitio nos permite continuar.
+   2. Luego, el sitio nos pide el token OTP (el segundo factor).
+   3. Abrimos la aplicación en nuestro celular, y buscamos el nombre del sitio que registramos (p. ej. "Mi correo"). Copiamos el número que figura (token) al sitio antes de que pase el tiempo.
+
+4. ¿Y si pierdo la aplicación?
+
+   Debemos utilizar uno de los tokens de backup que nos brinda el sitio al momento de configurar el segundo factor. Al ingresar uno o varios de esos tokens, le sitio nos provee de un portal para resetar y volver a configurar el segundo factor.
+
+5. Otros usos:
+
+   1. Algunos servicios registran el número de celular del dueño o dueña de una cuenta para enviar el token por SMS o WhatsApp. Esto evita la instalación de otra aplicación.
+
+   2. Uso:
+
+      1. Cuando se realiza una operación de riesgo, y el servicio necesita validar la autenticación envía un token por un medio alternativo al del mismo servicio. Puede ser SMS, WhatsApp, Correo Electrónico u otro.
+
+         Este token se espera que llegue a un celular o un dispositivo en posesión del usuario a validar.
+
+      2. El usuario recibe el token y lo copia al sitio o aplicación del servicio.
+
+   3. Ejemplos:
+
+      1. WhatsApp utiliza este método al momento de cambiar el celular: determina si el celular viejo aún está en posesión del dueño enviando un token a ese celular para que sea ingresado en el nuevo.
+
+         \warning{} Muchas ciberdelincuentes utilizan este método para tomar control del WhatsApp: engañan a las víctimas para que les envíen los tokens OTP que llega por SMS a sus celulares.
+
+      2. GMail utiliza este método para validar que el usuario que está iniciando sesión es quién dice ser.
+
+      3. Para validar recetas de obras sociales, usualmente piden el "token": es un OTP como el explicado primeramente.
+
+6. Problemas:
+   - Si el celular o el sitio tiene la fecha y hora desconfigurada, los token que se generan serán vencidos o invádiso, y el servicio no validará correctamente.
+
+   - Se debe reconfigurar si se pierde el celular, token hardware o el dispositivo que muestra los token OTP.
+
+   - Para los tokens que se envía por SMS, Correo o WhatsApp, se debe poseer señal o Internet en el dispositivo. Desde ya, también se debe tener acceso a un dispositivo personal y propio (un celular propio).
+
+   - Instalación y configuración de una aplicación extra si el servicio no utiliza el token por SMS, Correo o WhatsApp.
+
+7. ¿Hay otros segundos factores?
+
+   - Las huellas dactilares en el celular para validar alguna operación.
+
+   - El rostro (p. ej.: al instalar una aplicación de Home-Banking en el celular, coteja nuestro rostro con los datos del RENAPER).
+
+   - La tarjeta al apoyarla en el PosNet (aunque puede ser considerado como un primer factor, ya que a veces no se solicita el DNI).
+
+   - El escaneo del QR para pagar (aunque puede ser considerado como un primer factor, ya que a veces no se solicita otro dato, excepto "algo que hacés" al aceptación por medio de tocar un botón en la aplicación).
+
+
+
+
+   
 * Columna 49: Contraseñas y autenticación
 :PROPERTIES:
 :ID:       d2f13ffd-5e0d-4519-be2d-fa3d4f172755
@@ -75,8 +171,8 @@ Está página se encuentra disponible en los siguientes formatos:
 {{{tag(columna-49)}}}
 
 1. Repaso
-   1. *Identificación*: Es simplemente la afirmación de quién es alguien o qué es algo en particular.
-   2. *Autenticación*: Establece que esta afirmación es verdadera.
+   1. *Identificación*: es simplemente la afirmación de quién es alguien o qué es algo en particular.
+   2. *Autenticación*: métodos que establece que esta afirmación es verdadera. Pero no indica qué tiene permitido hacer.
    3. *Factores de autenticación*: algo que sabés, algo que eres, algo que tenés, algo que hacés, dónde estás.
 2. Algo que yo sé: contraseñas...
 
@@ -84,9 +180,9 @@ Está página se encuentra disponible en los siguientes formatos:
      
 3. Caducidad de las contraseñas:
    - Lo ideal es cambiar las contraseñas cada cierto tiempo... supongamos... 2 meses.
-   - El tiempo depende de la robusteza de la contraseña: cuanto más robusta, se puede extender más el tiempo.
+   - El tiempo depende de la robusteza/complejidad de la contraseña: cuanto más robusta/compleja, más se puede extender en el tiempo.
 
-     ... pero ¿por qué? Por los ataques que se puede hacer:
+     ... pero ¿por qué? \to{} Por los ataques que se pueden hacer para adivinar contraseñas.
 4. Ataques a contraseñas:
    - Ataques:
      1. Fuerza bruta: se prueba de a una contraseña cambiando un caracter a la vez.
@@ -98,14 +194,15 @@ Está página se encuentra disponible en los siguientes formatos:
      Si la contraseña es una palabra conocida de cinco caracteres (p. ej.: "12345" o "qwerty"):
      - ¿cuánto se tarda en generarse por fuerza bruta? ¿cuánto se tarda en buscarla en el diccionario? 
 
-5. Contraseñas robustas:
+5. Contraseñas robustas/complejas:
    - Que tenga mayúsculas y minúsculas.
    - Solo números no es bueno: mezclarlos con letras es mejor.
    - No usemos nuestros datos personales: evitemos nuestra fecha de nacimiento, nuestro DNI, nombre y apellido, etc.
+   - Evitemos usar la misma clave para todo (si un sitio es atacado y las contraseñas expuestas, pueden acceder a otros servicios nuestros).
    - Palabras o frases conocidas y muy usadas.
    - Símbolos (p. ej.: "#$%&/()=") aumenta mucho la robusteza, pero: ¿y si el teclado está configurado con un idioma diferente (Español de España, Español Latinoamericano, Inglés...)?
      
-6. Estrategias para crear contraseñas:
+6. Higiene de contraseña: estrategias para crear contraseñas fáciles de recordar:
 
    #+caption: Historieta de XKCD 936 mostrando la robusteza de una contraseña.
    https://imgs.xkcd.com/comics/password_strength.png
