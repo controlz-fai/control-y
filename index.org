@@ -66,12 +66,15 @@ Está página se encuentra disponible en los siguientes formatos:
 # 
 # https://repositorio.curriculum.program.ar/repositorio-diseno-curricular/quien-soy-en-internet/
 
-* Columna 51: OpenID
+* Columna 51: OpenID :ATTACH:
 :PROPERTIES:
 :ID:       5837576c-5882-46d3-99e7-0b0fab01726a
 :PUBDATE:  2025-12-12 vie 10:12
 :END:
 {{{tag(columna-51)}}}
+
+#+caption: Captura de pantalla del inicio de Sesión de Spotify.com. Se observa los botones para iniciar sesión utilizando Google, Facebook u otros servicios.
+[[file:data/58/37576c-5882-46d3-99e7-0b0fab01726a/Login-Spotify.png]]
 
 1. Hemos visto varias formas de autenticarse:
    1. Los factores de autenticación.
@@ -87,6 +90,10 @@ Está página se encuentra disponible en los siguientes formatos:
    5. Luego, nos muestra Spotify con la sesión nuestra abierta.
 
 4. Pero internamente, ¿cómo funciona?
+
+
+#+caption: Funcionamiento interno de OpenID.
+[[https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OpenIDvs.Pseudo-AuthenticationusingOAuth.svg/960px-OpenIDvs.Pseudo-AuthenticationusingOAuth.svg.png]]
       
    1. Internamente, usa al exprolador Web como intermediario para intercambiar credenciales y tokens entre un tercero (Google) y el servicio (Spotify).
 
@@ -132,7 +139,7 @@ Está página se encuentra disponible en los siguientes formatos:
 
       Los pasos anteriores son necesarios para la autorización.
 
-Recursos:
+** Recursos
 
 - https://www.google.com/intl/es/account/about/sign-in-with-google/
   - [[https://developers.google.com/identity][Documentación de Google para desarrolladores]]
@@ -141,6 +148,17 @@ Recursos:
 
 - "The Basics of Information Security". Jason Andress. 2011. Editorial Elsevier.
 
+Las imágenes fueron obtenidas desde:
+
+#+attr_html: :width 25% :align left
+[[file:data/58/37576c-5882-46d3-99e7-0b0fab01726a/Login-Spotify.png]]
+Captura de pantalla realizada sobre la página https://spotify.com. La página se encuentra bajo los derechos de spotify.com.
+
+#+html: <br/>
+
+#+attr_html: :width 25% :align left
+[[https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OpenIDvs.Pseudo-AuthenticationusingOAuth.svg/960px-OpenIDvs.Pseudo-AuthenticationusingOAuth.svg.png]]
+"OpenIDvs.Pseudo-AuthenticationusingOAuth.svg" por Saqibali, bajo la licencia Dedicación de Dominio Público CC0 1.0 Dedicación a Dominio Público Universal de Creative Commons. Obtenido desde Wikimedia Commons. [[https://commons.wikimedia.org/wiki/File:OpenIDvs.Pseudo-AuthenticationusingOAuth.svg][Ver imágen en Wikimedia.]]
 * Columna 50: Segundo factor - One-time Passwords
 :PROPERTIES:
 :ID:       88e6b7c3-acec-4498-90e2-0a7fbd213b1a
