@@ -66,6 +66,81 @@ Está página se encuentra disponible en los siguientes formatos:
 # 
 # https://repositorio.curriculum.program.ar/repositorio-diseno-curricular/quien-soy-en-internet/
 
+* Columna 51: OpenID
+:PROPERTIES:
+:ID:       5837576c-5882-46d3-99e7-0b0fab01726a
+:PUBDATE:  2025-12-12 vie 10:12
+:END:
+{{{tag(columna-51)}}}
+
+1. Hemos visto varias formas de autenticarse:
+   1. Los factores de autenticación.
+   2. El segundo factor y One-Time Passwords (OTP).
+   3. Recordar: *¡nunca compartir contraseñas ni tokens!*
+2. Hay una forma de autenticarse más que es utilizando OpenID.
+   1. Normalmente, no lo vemos como "OpenID", sino como "Conectarse usando Google", "Conectarse con Facebook" o similar.
+3. ¿Cómo funciona?
+   1. Cuando queremos iniciar sesión en algún servicio, supongamos spotify.com, vemos que dice "Iniciar sesión" y nos pide usuario y contraseña, y más abajo hay botones: "Continuar con Google", "Iniciar sesión con Facebook", etc.
+   2. Hacemos clic en "Continuar con Google".
+   3. Si la sesión de Google no está abierta, nos pide que la iniciemos con usuario y contraseña de Google. Si la sesión está abierta continúa.
+   4. Por única vez, Google nos pide que autoricemos a Spotify, y nos indica qué datos Spotify va a utilizar de nuestra cuenta de Google. Si autorizamos, no nos pregunta más en los próximos inicio de sesión de Spotify con Google.
+   5. Luego, nos muestra Spotify con la sesión nuestra abierta.
+
+4. Pero internamente, ¿cómo funciona?
+      
+   1. Internamente, usa al exprolador Web como intermediario para intercambiar credenciales y tokens entre un tercero (Google) y el servicio (Spotify).
+
+   2. Spotify solicita al explorador que a le pida a Google credenciales (tokens).
+
+   3. El explorador envía los datos de Spotify y de sesión de Google a Google. Google confirma la sesión propia y chequea si Spotify está autorizado.
+
+      1. Si no está, responde con una página para que el usuario autorice o rechace.
+
+      2. Si está autorizado, responde con un token largo de autorización para Spotify.
+
+   4. El explorador recibe el token de autorización desde Google y se lo envía a Spotify para que inicie la sesión.
+
+   5. Spotify recibe, chequea el token si es correcto e inicia sesión.
+
+5. ¡Está buenísimo!
+
+   1. ¡Solo nos tenemos que acordar de un usuario y clave! (El de Google)
+
+   2. Hay cada vez más servicios que permiten iniciar sesión con OpenID.
+
+6. Pero...
+
+   1. ¡Ojalá nunca entren a tu cuenta de Google o GMail! Perdés el acceso a Google y perdés el acceso a los otros servicios (y a no pensar en resetear la clave).
+
+   2. Si el explorador Web tiene la sesión de Google iniciada y alguien usa tu compu: ¡acceso total a todos los otros servicios!
+
+      ¿Cuántas veces iniciaste sesión en tu trabajo u otro lugar? ¿y cuántas veces se te olvida cerrarla?
+
+   3. Justamente, no todos los servicios que usamos soportan iniciar sesión con OpenID (menos los home-bankings).
+
+   4. En algunos sitios, hay que crear una cuenta con usuario y contraseña y después se configura el OpenID.
+
+7. Hasta ahora vimos autenticación, no vimos autorización.
+
+   1. La identificación es preguntar quién es la persona: es el nombre de usuario al iniciar sesión.
+
+   2. La autenticación es para determinar si quien dice ser es real: para eso se usa uno o más factores de autenticación: algo que sabés, algo que eres, algo que tenés, algo que hacés, dónde estás.
+
+      Puede ser la contarseña al iniciar sesión, la tarjeta para el cajero, la huella dactilar para el celular, etc.
+
+   3. La autorización es para determinar qué puede hacer dentro de un sistema.
+
+      Los pasos anteriores son necesarios para la autorización.
+
+Recursos:
+
+- https://www.google.com/intl/es/account/about/sign-in-with-google/
+  - [[https://developers.google.com/identity][Documentación de Google para desarrolladores]]
+    
+- https://openid.net/developers/how-connect-works/
+
+- "The Basics of Information Security". Jason Andress. 2011. Editorial Elsevier.
+
 * Columna 50: Segundo factor - One-time Passwords
 :PROPERTIES:
 :ID:       88e6b7c3-acec-4498-90e2-0a7fbd213b1a
