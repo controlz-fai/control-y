@@ -140,6 +140,9 @@ Está página se encuentra disponible en los siguientes formatos:
       Los pasos anteriores son necesarios para la autorización.
 
 ** Recursos
+:PROPERTIES:
+:ID:       90f1eadf-41f0-4614-a5ab-e812be56c307
+:END:
 
 - https://www.google.com/intl/es/account/about/sign-in-with-google/
   - [[https://developers.google.com/identity][Documentación de Google para desarrolladores]]
