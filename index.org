@@ -66,6 +66,12 @@ Está página se encuentra disponible en los siguientes formatos:
 # 
 # https://repositorio.curriculum.program.ar/repositorio-diseno-curricular/quien-soy-en-internet/
 
+* Columna 52: Personas: OpenAI
+:PROPERTIES:
+:ID:       3bc6a72a-e5b4-4cfc-93a8-ab068be884cf
+:PUBDATE:  2026-01-09 vie 11:31
+:END:
+Solo una columna más relajada porque estamos en vacaciones...
 * Columna 51: OpenID :ATTACH:
 :PROPERTIES:
 :ID:       5837576c-5882-46d3-99e7-0b0fab01726a
