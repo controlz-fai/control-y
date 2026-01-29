@@ -66,6 +66,99 @@ Está página se encuentra disponible en los siguientes formatos:
 # 
 # https://repositorio.curriculum.program.ar/repositorio-diseno-curricular/quien-soy-en-internet/
 
+* Columna 55: Personas: Aaron Swartz
+:PROPERTIES:
+:ID:       402625d9-1798-4c42-b705-d3b8dbf4b42a
+:PUBDATE:  2026-01-29 jue 18:01
+:END:
+{{{tag(columna-55)}}}
+
+#+caption: Aaron Swartz en Occupy Wall Street, 18 de enero del 2012
+[[https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/AaronSwartzPIPA.jpg/960px-AaronSwartzPIPA.jpg]]
+
+- Nació en 1986.
+- Sus padre fundó una compañía de software, y Aaron desde chico se interesó por la computación, la programación y el Internet.
+- Participó del Working Group que definió el *RSS 1.0* (/RDF Site Summary/ o  /Really Simple Syndication/).
+  
+  https://web.resource.org/rss/1.0/
+  
+  https://web.resource.org/rss/1.0/spec
+
+  - Es un protocolo que permite acceder a las noticias o actualizaciones de una página o sistema.
+- Participó de la creación de *la fundación Creative Commons*.
+  - Creative Commons es una organización para el acceso a obras de conocimiento y cultura. Elaboró un conjunto de licencias para obras artísticas que aboga y permite compartir las obras.
+  
+- En 2004, estudió en Standford University. Dejó la universidad después de un año.
+  - En el 2010 se trabajó de investigadot invitado (/research fellow/) en la Universidad de Harvard.
+- Ayudó en *el diseño de Markdown* junto a John Gruber.
+  - Es un lenguaje de marcado para poner negrita, cursiva, subrayado. Se utiliza en las redes sociales y varios sistemas.
+
+- Solicitó a Y Combinator (¿les suena?) fondos para crear un proyecto que consistía en manejador de contenidos de tipo Wiki, llamado Infogami.
+- Luego trabajó en otro proyecto de Y Combinator llamado Reddit.
+- El software de Infogami fue utilizado para [[https://openlibrary.org/][Open Library]] (de archive.org). Incluso, Aaron Swartz ayudó a coordinar un equipo para descargésta empresa imponía.
+
+  https://openlibrary.org/about/team
+    
+- Más tarde, Infogami y Reddit se unieron creando una nueva empresa. Por lo que Aaron Swartz se lo considera co-fundador de la plataforma Reddit.
+  
+- En 2008, Aaron Swartz descarga 2.7 millones de documentos almacenados en PACER (/Public Access to Court Electronic Records/). Estos documentos, requerían de una paga para accederlos, y los descargados por Aaron se donaron a Public.Resource.Org para ser accedidos gratuitamente. Llamó la atención del FBI, pero no se levantaron cargos ya que los documentos que descargó son en verdad públicos.
+  
+- Participó en los comienzos de Wikipedia en el 2003. Colaboró en varios de sus artículos.
+
+  https://en.wikipedia.org/wiki/User:AaronSw
+  
+- Se opuso al /Stop Online Piracy Act/ (SOPA), un proyecto de ley que brinda al capacidades al estado para comabtir el tráfico de contenido con derechos de autor. Las críticas en contra de SOPA fueron que generaba incertidumbre en cuanto a su formulación y alcance. Por ejemplo, artistas que realizan covers o bibliotecas podrían ser acusadas, incluso todo un sitio Web podría bloquearse por la justicia solo por una única violación (un video o una obra).
+
+  [[https://web.archive.org/web/20111116234719/http://www.librarycopyrightalliance.org/bm~doc/lca-sopa-8nov11.pdf][Carta de la Library Copyright Alliance acerca de SOPA.]]
+
+  https://www.eff.org/issues/coica-internet-censorship-and-copyright-bill
+  
+- En el 2011 fue arrestado por descargar una gran cantidad de artículos científicos desde el [[https://www.jstor.org/][JSTOR]] (una biblioteca digital) usando una computadora conectada a la red del MIT. JSTOR contenía artículos que no eran de acceso público o abierto. Este incidente pudo haber sido el causante de apurar la apertura de una gran cantidad de artículos.
+  
+- Inicialmente fue acusado con cargos que fueron desestimados por considerarse una persecución federal. Luego de la acusación se amplió con posibles condenas de prisión y multas de 1 millón de dólares.
+
+  En ese momento (11 de enero del 2013), Aaron Swartz se suicidó con 26 años de edad.
+  
+- Tim Berners-Lee (inventor de la WWW, HTML, URL y HTTP, la tecnología Web que utilizamos hoy en día) escribió:
+  
+   #+begin_quote
+  Aaron is dead.
+
+  Wanderers in this crazy world,
+  we have lost a mentor, a wise elder.
+
+  Hackers for right, we are one down,
+  we have lost one of our own.
+
+  Nurtures, careers, listeners, feeders,
+  parents all,
+  we have lost a child.
+
+  Let us all weep.
+   #+end_quote
+
+  Aaron ha muerto. Nómadas de este loco mundo, hemos perdido a un mentor, un viejo sabio. Hackers en busca de lo correcto, hemos perdido a uno de los nuestros. Cuidadores, escuchadores, padres todos, hemos perdido un hijo. Lloremos todos
+
+  https://lists.w3.org/Archives/Public/www-tag/2013Jan/0017.html
+  
+- Alexandra Elbakyan, creadora de Sci-Hub, es la referente hoy en día en cuanto al acceso abierto del material científico.
+  
+- Hay un documental que habla de él: "/The Internet's own boy: the story of Aaron Swartz/".
+
+  [[https://www.imdb.com/es/title/tt3268458/?ref_=ext_shr_lnk][Enlace a la descripción del documental en IMDB]]
+
+  El 8 de noviembre de cada año (desde el 2013) se celebra en algunas partes del mundo el día de Aaron Swartz.
+
+  https://www.aaronswartzday.org/about/
+
+Preguntas:
+
+- ¿Qué opina del acceso abierto a la información científica, documentación pública legal o de cualquier otra obra cultural o educativa?
+- ¿Qué le parece la idea de tener una biblioteca en Internet?
+- ¿Le parece que el Internet ofreció y ofrece un impacto positivo en la sociedad?
+  - ¿Cómo debería utilizarse el Internet para ello?
+  - ¿Qué sucede si no a todas las personas acceden a la misma información y conocimiento (a las mismas páginas Webs)?
+
 * Columna 52: Personas: OpenAI
 :PROPERTIES:
 :ID:       3bc6a72a-e5b4-4cfc-93a8-ab068be884cf
