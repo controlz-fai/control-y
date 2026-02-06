@@ -78,7 +78,8 @@ Está página se encuentra disponible en los siguientes formatos:
 
 1. Nació en 1955.
 2. Familia
-   1. Sus padres trabajaron en la Ferranti Mark 1. Clementina (1961-1971), nuestra primer computadora, es una Ferranti Mercury, sucesora de esta.
+   1. Sus padres trabajaron en la Ferranti Mark 1.
+      Clementina (1961-1971), nuestra primer computadora, es una Ferranti Mercury, sucesora de esta.
    2. Su hermano Mike Berners-Lee es un investigador y escritor acerca de la huella de carbono. Escribió varios libros "No hay planeta B", "un clima de verdad", etc.
       1. Participó en el libro "El libro del clima" editado por Greta Thunberg. ¿Tienen ese libro?
 3. Estudios
@@ -119,9 +120,13 @@ Está página se encuentra disponible en los siguientes formatos:
 :ID:       06fb9259-fd4a-4bf9-bd3d-9fd54929037c
 :END:
 
-#+attr_html: :width 25% :align left
+#+html: <div style="display: inline-block">
+
+#+attr_html: :width 25% :align left 
 [[https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Sir_Tim_Berners-Lee_and_Jude_Kelly.jpg/960px-Sir_Tim_Berners-Lee_and_Jude_Kelly.jpg]]
 Obtenida desde Wikimedia commons bajo la licencia Creative Commons Atribución 2.0 Genérica.  [[https://commons.wikimedia.org/wiki/File:Sir_Tim_Berners-Lee_and_Jude_Kelly.jpg][Ver en Wikimedia Commons.]]
+
+#+html: </div>
 
 * Columna 55: Personas: Aaron Swartz
 :PROPERTIES:
@@ -220,7 +225,7 @@ Preguntas:
 :ID:       cdb7d848-1d16-4a56-b851-58faacb29246
 :END:
 
-#+attr_html: :width 25% :align left
+#+attr_html: :width 25% :align left :style display: inline-block
 [[https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/AaronSwartzPIPA.jpg/960px-AaronSwartzPIPA.jpg]]
 bajo la licencia Atribución-CompartirIgual 2.0 Genérica de Creative Commons.
 [[https://commons.wikimedia.org/wiki/File:AaronSwartzPIPA.jpg][Ver en Wikimedia Commons.]]
@@ -318,13 +323,13 @@ Solo una columna más relajada porque estamos en vacaciones...
 
 Las imágenes fueron obtenidas desde:
 
-#+attr_html: :width 25% :align left
+#+attr_html: :width 25% :align left :style display: inline-block
 [[file:data/58/37576c-5882-46d3-99e7-0b0fab01726a/Login-Spotify.png]]
 Captura de pantalla realizada sobre la página https://spotify.com. La página se encuentra bajo los derechos de spotify.com.
 
 #+html: <br/>
 
-#+attr_html: :width 25% :align left
+#+attr_html: :width 25% :align left :style display: inline-block
 [[https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OpenIDvs.Pseudo-AuthenticationusingOAuth.svg/960px-OpenIDvs.Pseudo-AuthenticationusingOAuth.svg.png]]
 "OpenIDvs.Pseudo-AuthenticationusingOAuth.svg" por Saqibali, bajo la licencia Dedicación de Dominio Público CC0 1.0 Dedicación a Dominio Público Universal de Creative Commons. Obtenido desde Wikimedia Commons. [[https://commons.wikimedia.org/wiki/File:OpenIDvs.Pseudo-AuthenticationusingOAuth.svg][Ver imágen en Wikimedia.]]
 * Columna 50: Segundo factor - One-time Passwords
@@ -1224,10 +1229,12 @@ Preguntas:
       https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Punched_card_program_deck.agr.jpg/960px-Punched_card_program_deck.agr.jpg
 
       #+caption: Una operadora de la máquina perforadora o "card puncher" del United States Census Bureau.
+      #+attr_html: :width 100%
       https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/This_is_a_card_puncher%2C_an_integral_part_of_the_tabulation_system_used_by_the_United_States_Census_Bureau_to_compile..._-_NARA_-_513295.jpg/960px-This_is_a_card_puncher%2C_an_integral_part_of_the_tabulation_system_used_by_the_United_States_Census_Bureau_to_compile..._-_NARA_-_513295.jpg
 
       #+caption: Secretaria creando una tarjeta perforada del censo en Estados Unidos del 1950.
-      https://upload.wikimedia.org/wikipedia/commons/3/39/Keypunch_operator_1950_census_IBM_016.jpg
+      #+attr_html: :width 100%
+       https://upload.wikimedia.org/wikipedia/commons/3/39/Keypunch_operator_1950_census_IBM_016.jpg
 
       1. Aquí se podían enviar las tarjetas por correo y esperar por sus resultados... por correo.
       2. Hacer software era tedioso y mucho cruzar los dedos para pedir suerte: si tenía un error, te enterabas muy tarde.
@@ -1273,54 +1280,54 @@ Entonces... ¿se podría decir que un programa puede reemplazar un humano? ¿o s
 :ID:       7cb753da-0509-4c8c-bb05-9b6d51fa9ded
 :END:
 
-#+attr_html: :width 25% :align left
+#+attr_html: :width 25% :align left :style display: inline-block
 https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Z3_Deutsches_Museum.JPG/960px-Z3_Deutsches_Museum.JPG
 Foto realizada por Venusianer, bajo licencia Creative Commons Genérica de Atribución/Compartir-Igual 3.0.
 [[https://commons.wikimedia.org/wiki/File:Z3_Deutsches_Museum.JPG][Ver en Wikimedia.]]
 
 #+html: <br/>
 
-#+attr_html: :width 25% :align left
+#+attr_html: :width 25% :align left :style display: inline-block
 https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Colossus.jpg/960px-Colossus.jpg
 Foto del Gobierno del Reino Unido bajo el dominio público. [[https://en.wikipedia.org/wiki/File:Colossus.jpg][Ver en Wikipedia.]]
 
 #+html: <br/>
 
-#+attr_html: :width 25% :align left
+#+attr_html: :width 25% :align left :style display: inline-block
 https://upload.wikimedia.org/wikipedia/commons/7/7e/Eniac_Aberdeen.jpg
 Foto bajo dominio público. [[https://en.wikipedia.org/wiki/File:Eniac_Aberdeen.jpg][Ver en Wikipedia.]]
 
 #+html: <br/>
 
-#+attr_html: :width 25% :align left
+#+attr_html: :width 25% :align left :style display: inline-block
 https://upload.wikimedia.org/wikipedia/commons/b/b7/IBM402plugboard.Shrigley.wireside.jpg
 Foto por Chris Shrigley bajo la licencia Creative Commons Attribution 2.5 Generic.
 [[https://en.wikipedia.org/wiki/File:IBM402plugboard.Shrigley.wireside.jpg][Ver en Wikipedia.]]
 
 #+html: <br/>
 
-#+attr_html: :width 25% :align left
+#+attr_html: :width 25% :align left :style display: inline-block
 https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Punched_card_program_deck.agr.jpg/960px-Punched_card_program_deck.agr.jpg
 Foto por ArnoldReinhold bajo la licencia Creative Commons Genérica de Atribución/Compartir-Igual 3.0.
 [[https://commons.wikimedia.org/wiki/File:Punched_card_program_deck.agr.jpg][Ver en Wikimedia.]]
 
 #+html: <br/>
 
-#+attr_html: :width 25% :align left
+#+attr_html: :width 25% :align left :style display: inline-block
 https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/This_is_a_card_puncher%2C_an_integral_part_of_the_tabulation_system_used_by_the_United_States_Census_Bureau_to_compile..._-_NARA_-_513295.jpg/960px-This_is_a_card_puncher%2C_an_integral_part_of_the_tabulation_system_used_by_the_United_States_Census_Bureau_to_compile..._-_NARA_-_513295.jpg
 Foto desde la U.S. National Archives and Records Administration, bajo el dominio público.
 [[https://en.wikipedia.org/wiki/File:This_is_a_card_puncher,_an_integral_part_of_the_tabulation_system_used_by_the_United_States_Census_Bureau_to_compile..._-_NARA_-_513295.jpg][Ver en Wikipedia.]]
 
 #+html: <br/>
 
-#+attr_html: :width 25% :align left
+#+attr_html: :width 25% :align left :style display: inline-block
 https://upload.wikimedia.org/wikipedia/commons/3/39/Keypunch_operator_1950_census_IBM_016.jpg
 Foto desde la U.S. Census Bureau employees, bajo el dominio público.
 [[https://commons.wikimedia.org/wiki/File:Keypunch_operator_1950_census_IBM_016.jpg][Ver en Wikimedia.]]
 
 #+html: <br/>
 
-#+attr_html: :width 25% :align left
+#+attr_html: :width 25% :align left :style display: inline-block
 https://upload.wikimedia.org/wikipedia/commons/7/78/CitypersonnelIBMroom.jpg
 Foto por [[https://www.flickr.com/photos/30194653@N06][The Library of Virginia]]. Rights Info: No known restrictions on publication.
 [[https://en.wikipedia.org/wiki/File:CitypersonnelIBMroom.jpg][Ver en Wikipedia.]]
@@ -1917,12 +1924,10 @@ Recomiendo encarecidamente que quien le interese saber más, consulte con un esp
 
   $HAWK es otra memecoin con controversias.
 
-#+attr_html: :width 25% :alt Arcade de Guildford :align left
+#+attr_html: :width 25% :alt Cotización de $LIBRA
 [[file:dexscreen-inicio-captura-priceusd.png]]
-
-#+attr_html: :width 25% :alt Arcade de Guildford :align left
+#+attr_html: :width 25% :alt Marcet cap de $LIBRA 
 [[file:dexscreen-inicio-captura-mcapusd.png]]
-
 Gráficos obtenidos desde dexscreener.com:
 
 https://dexscreener.com/solana/Bo9jh3wsmcC2AjakLWzNmKJ3SgtZmXEcSaW7L2FAvUsU
@@ -4136,17 +4141,17 @@ Las siguientes imágenes no son reales. Fueron generadas completamente con progr
 Fotos generadas completamente con IA de Trump siendo arrestado. [[https://twitter.com/EliotHiggins/status/1637927681734987777/photo/2][Publicados por Eliot Higgins en Twitter junto a otras.]] Abajo dos ejemplos de las más viralizadas en esta red:
 
 #+caption: Imágen generada por IA de Trump siendo arrestado, evento que no sucedió en la realidad.
-#+attr_html: :alt Imagen 1 generada de Trump  :align center
+#+attr_html: :alt Imagen 1 generada de Trump  :align center :style display: inline-block :width 100%
 [[file:data/b3/59d6e2-72f5-421e-82cb-d99084686ba6/trump_arrested2_by_eliot_higgins.jpg]]
 
 #+caption: Imágen generada por IA de Trump siendo arrestado, evento que no sucedió en la realidad.
-#+attr_html: :alt  Imágen 2 generada de Trump  :align center
+#+attr_html: :alt  Imágen 2 generada de Trump  :align center :style display: inline-block :width 100%
 [[file:data/b3/59d6e2-72f5-421e-82cb-d99084686ba6/trump_arrested_by_eliot_huggins.jpg]]
 
 La persona en la imágen no existe. La foto fue generada completamente por una IA. Generada con StyleGAN por [[https://commons.wikimedia.org/wiki/User:Owlsmcgee][Owlsmcgee]] y publicada bajo dominio público.
 
 #+caption: Imágen de una persona que no existe generada con StyleGAN.
-#+attr_html: :alt Imágen generada de una persona inexistente :align center
+#+attr_html: :alt Imágen generada de una persona inexistente :align center :style display: inline-block :width 50%
 [[file:data/b3/59d6e2-72f5-421e-82cb-d99084686ba6/Woman_1.jpg]]
 
 
@@ -4154,13 +4159,13 @@ La persona en la imágen no existe. La foto fue generada completamente por una I
 Las siguientes imágenes fueron generadas en [[https://www.midjourney.com][www.midjourney.com]]. Ambas fueron completamente generadas por la IA utilizando una entrada textual específica (/prompt/) , ni el gato ni la joven existen.
 
 #+caption: Imágen generada por Midjourney de una joven con cuernos entre arbustos.
-#+attr_html: :alt Imágen 1 generada por midjourney :align center
+#+attr_html: :alt Imágen 1 generada por midjourney :align center :style display: inline-block :width 100%
 [[file:data/b3/59d6e2-72f5-421e-82cb-d99084686ba6/midjourney_ejemplo1.webp]]
 
 [[https://www.midjourney.com/jobs/83e4c2c5-89f8-4d82-b757-04b657123209?index=0][Por Midjourney bajo la entrada de dendendenver. Ver descripción y la entrada utilizada]].
 
 #+caption: Imágen generada por Midjourney de un gato vistiendo lentes de sol y ropa.
-#+attr_html: :alt  Imágen 2 generada por midjourney :align center
+#+attr_html: :alt  Imágen 2 generada por midjourney :align center :style display: inline-block :width 100%
 [[file:data/b3/59d6e2-72f5-421e-82cb-d99084686ba6/midjourney_ejemplo2.webp]]
 
 [[https://www.midjourney.com/jobs/4434e3b9-3af1-4bf6-ad24-990496d9be56?index=0][Por Midjourney bajo la entrada de rani76. Ver descripción y la entrada utilizada.]]
@@ -4404,7 +4409,7 @@ Pero... ¿Cuánto del Internet usamos habitualmente? ¿Qué páginas visitás d�
 \radio{} Emisión al aire: <2023-11-17 vie 15:00>
 
 #+caption: Cables marítimos para interconectar redes.
-#+attr_html: :alt Cables martítimos de fibra óptica :align center
+#+attr_html: :alt Cables martítimos de fibra óptica :align center :width 100%
 http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCableHi.jpg
 
 ** Guion
@@ -4472,7 +4477,7 @@ http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCab
 
 - The internet's undersea world. The Guardian.
   
-  #+attr_html: :alt Thumbnail cables martítimos de fibra óptica :align center 
+  #+attr_html: :alt Thumbnail cables martítimos de fibra óptica :align center :width 25% :style display: inline-block
   [[http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCableHi.jpg][http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCableHi.jpg]]
 
 - The world's undersea internet cables - interactive. The Guardian.
@@ -4481,7 +4486,7 @@ http://image.guardian.co.uk/sys-images/Technology/Pix/pictures/2008/02/01/SeaCab
 - Mapa de Cobertura de la REFEFO.
   https://www.argentina.gob.ar/jefatura/innovacion-publica/telecomunicaciones-y-conectividad/conectar/que-es-la-red-federal-de
 
-  #+attr_html: :alt Mapa REFEFO :align center
+  #+attr_html: :alt Mapa REFEFO :align center :style display: inline-block :width 25%
   [[https://www.argentina.gob.ar/sites/default/files/mapa_refefo_dic_2021.png][https://www.argentina.gob.ar/sites/default/files/mapa_refefo_dic_2021.png]]
 
 - Internet vs. internet (o interred). Se explica en el Capítulo 1 de "Redes de Computadoras" de Andrew S. Tanembaum  y David J. Wetherall. Pearson. 2012. Quinta Edición.
@@ -4844,7 +4849,7 @@ Más material interesante para leer:
 \radio{} Emisión al aire: <2023-10-06 vie 15:00>
 
 #+caption: Una "granja minera" de computadoras de Islandia.
-#+attr_html: :alt Granja minera de computadoras :align center
+#+attr_html: :alt Granja minera de computadoras :align center :width 100%
 [[https://upload.wikimedia.org/wikipedia/commons/3/37/Cryptocurrency_Mining_Farm.jpg]]
 
 En estas semanas escuchamos acerca de "peso digital", "criptomonedas", "blockchain"... pero ¿qué significa? ¿cómo funciona?
@@ -5107,7 +5112,7 @@ Y de esas tecnologías: ¿Cuáles tenemos a nuestro alcance como argentinos?
 
   https://doi.org/10.22187/rfd2016211
 
-* Columna 6: Manuel Sadosky, "IBM go home" y más - 2da parte         :ATTACH:
+* Columna 6: Manuel Sadosky, "IBM go home" y más - 2da parte :ATTACH:
 :PROPERTIES:
 :ID:       59d9d7da-7dce-46ef-8c20-b656db6ec771
 :PUBDATE:  2023-09-08 vie 15:00
@@ -5289,8 +5294,8 @@ Algunos datos de color:
 
 \headphone{} [[https://ar.radiocut.fm/audiocut/columna-cristian-gimenez-quien-fue-manuel-sadosky-yo-no-fui-25-08-2023/][Escuchar recorte en RadioCut]].
 
-#+caption: Manuel Sadosky de pié al lado de Clementina.
 #+attr_html: :alt Foto de Manuel Sadosky junto a Clementina :align center
+#+caption: Manuel Sadosky de pié al lado de Clementina.
 [[https://upload.wikimedia.org/wikipedia/commons/1/12/Manuel_Sadosky_y_Clementina.jpg]]
 
 En la columna de hoy, hablaremos del doctor Manuel Sadosky. Pero antes, daremos un poco de contexto, la reforma universitaria de 1918, y cómo afectó después a las universidades. Sadosky junto con otros científicos trajeron y utilizaron la primer computadora a argentina, que por la música que emitía, la llamaron Clementina. ¿Quieren saber un poco de esta historia y quiénes fueron las primeras personas que programaron en Argentina? ¡Prepárense unos mates y escuchen este audio!
@@ -5411,7 +5416,7 @@ Algunos datos de color:
 - Nota Preliminar de García Camarero.
 
   "Autocode un sistema simplificado de codificación para la computadora Mercury" Instituto del Cálculo UBA. 1961.
-* Columna 4: ¿Qué es el filtro burbuja?                              :ATTACH:
+* Columna 4: ¿Qué es el filtro burbuja? :ATTACH:
 :PROPERTIES:
 :ID:       72e04deb-8e2b-4d72-9184-d355139b63ff
 :PUBDATE:  2023-08-11 vie 15:00
@@ -5420,7 +5425,7 @@ Algunos datos de color:
 {{{tag(columna-4)}}}
 \radio{}  Emisión al aire: <2023-08-11 vie 15:00>
 
-#+attr_html: :alt Imágen de burbujas chocando con mucho zoom. Su superficie tiene diferentes colores.
+#+attr_html: :alt Imágen de burbujas chocando con mucho zoom. Su superficie tiene diferentes colores. :align center
 [[file:data/72/e04deb-8e2b-4d72-9184-d355139b63ff/planet-bubbles-01-scaled.jpg]]
 
 Cuando buscamos algo en Internet, ¿por qué los resultados son diferentes a los de otras personas? ¿cómo se filtran y ordenan esos resultados? ¿cómo sabe el buscador que deseo esos resultados? ¿esto puede producir algún efecto social?
@@ -5488,7 +5493,7 @@ Hablamos de los Filtros Burbujas, la cámara de eco y cómo los buscadores y pá
 5. https://misq.umn.edu/understanding-echo-chambers-and-filter-bubbles-the-impact-of-social-media-on-diversificationi-and-partisan-shifts-in-news-consumption.html
 6. Pariser, Eli. "The Filter Bubble: What the Internet is Hiding from You". Penguin Press. 2011.
 
-* Columna 3: ¿Qué es un algoritmo?                                   :ATTACH:
+* Columna 3: ¿Qué es un algoritmo?  :ATTACH:
 :PROPERTIES:
 :ID:       d366e442-9ea8-463d-81bf-77bf2b1deb08
 :PUBDATE:  2023-07-28 vie 15:00
@@ -5583,7 +5588,7 @@ Revelaremos el significado de esta palabra que siempre usamos. Eso que está det
 \radio{} Emisión al aire: <2023-07-14 vie 15:00>
 
 #+caption: Estatua representando a Alan Turing en Bletchley Park, atrás su fotografía.
-#+attr_html: :alt Estatua representando Alan Turin. Atrás se observa su fotografía.
+#+attr_html: :alt Estatua representando Alan Turin. Atrás se observa su fotografía. :width 100%
 [[https://upload.wikimedia.org/wikipedia/commons/2/22/Alan_Turing_cropped.jpg]]
 
 En la computación, hubo un antes y un después de que Turing publicara sus artículos. Por eso te contamos quién fue y un poquito de sus aportes. ¿Qué hizo? ¿Qué visión tenía? ¿Por qué se lo considera tan relevante en esta área? 
@@ -5673,7 +5678,7 @@ En la computación, hubo un antes y un después de que Turing publicara sus art�
 \radio{} Emisión al aire: <2023-06-30 vie 15:00>
 
 #+caption: Retrato en acuarela de Ada Lovelace.
-#+attr_html: :alt Una pintura en acuarela retratando a Ada Lovelace con un vestido violáceo.
+#+attr_html: :alt Una pintura en acuarela retratando a Ada Lovelace con un vestido violáceo. :width 100%
 [[https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg]]
 
 Augusta Byron, mejor conocida como Ada Lovelace, estudió matemática y se interesó mucho por el diseño de la máquina analítica de Charles Babbage. Se interesó a tal punto que publicó una traducción de un escrito que explicaba cómo funcionaba, junto con un montón de notas de su propia elaboración. Entre estas notas, se encuentra una joya: el primer programa.
@@ -5684,7 +5689,7 @@ En esta grabación te contamos quién fue Ada Lovelace, qué hizo y por qué se 
 \framedpicture{} Imágen: Ada Lovelace Portrait, fotografiado por la Science Museum Group. Bajo el dominio público. Obtenido desde [[https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg][Wikimedia Commons]].
 
 
-** Guion                                                            :ATTACH:
+** Guion :ATTACH:
 :PROPERTIES:
 :ID:       6f2b0c10-f143-4af7-a523-b4bcb302dd79
 :END:
