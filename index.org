@@ -66,6 +66,51 @@ Está página se encuentra disponible en los siguientes formatos:
 # 
 # https://repositorio.curriculum.program.ar/repositorio-diseno-curricular/quien-soy-en-internet/
 
+* Columna 56: Personas: Tim Berners-Lee
+:PROPERTIES:
+:ID:       debce225-9ec5-4960-9bab-b7e7218d95fd
+:PUBDATE:  2026-02-06 vie 11:08
+:END:
+{{{tag(columna-56)}}}
+
+1. Nació en 1955.
+2. Familia
+   1. Sus padres trabajaron en la Ferranti Mark 1. Clementina (1961-1971), nuestra primer computadora, es una Ferranti Mercury, sucesora de esta.
+   2. Su hermano Mike Berners-Lee es un investigador y escritor acerca de la huella de carbono. Escribió varios libros "No hay planeta B", "un clima de verdad", etc.
+      1. Participó en el libro "El libro del clima" editado por Greta Thunberg. ¿Tienen ese libro?
+3. Estudios
+   1. Estudió Queen's College Oxford
+   2. Aprendió electrónica con modelado de trenes. En el 76' comenzo sus estudios en física.
+   3. Es profesor emérito del MIT y investigador en la universidad de Oxford.
+4. Investigación y trabajo / Inicio de la Web
+   1. Trabajó en para el CERN (/Counseil Européen pour la Recherche Nucléaire/, conocido hoy como Organización Europea para la Investigación Nuclear, donde está el acelerador de partículas) en junio de 1980.
+      1. Propuso un proyecto de hipertexto, para comunicar los artículos e informes entre investigadores.
+      2. Hipertexto: básicamente es texto con enlaces que se pueda hacer clic.
+      3. Presentó un prototipo: ENQUIRE.
+   2. En 1989, el nodo más grande de Internet de Europa estaba en el CERN, esto mejoró la posibilidad de unir la idea con Internet. La propuesta fue aceptada por su jefe y Tim desarrolló:
+      - el primer explorador Web: WorldWideWeb era un editor y lector.
+      - el primer servidor Web: CERN httpd.
+      - el primer sitio Web el 20 de diciembre de 1990 ([[https://www.w3.org/blog/2016/25-years-ago-the-world-changed-forever/][ver blog]], donde aún se puede visitar y ver capturas del primer explorador Web).
+5. En 1994 funda la W3C (World Wide Web Consortium) en el MIT. Publicó su idea, sin es patentes ni costos, y similarmente es una política que sigue la W3C: los estándares son libres y sin costos. Esto motiva a la expansión de la WWW.
+
+   Por ejemplo: en su momento, la WWW no poseía videos, por lo que hubo que ampliar el estándar del HTML para incluir videos y audios. Similarmente, para dar soporte a otras características y formatos, se generan grupos que discuten y debaten un estándar para que todas las empresas y exploradores Web estén de acuerdo.
+6. En el 2001 trabaja en la Web Semántica, una "evolución" de la Web actual (y no es la Web 3.0).
+7. Se pronuncia a favor de la neutralidad de la red.
+8. Sin embargo, luego de un tiempo neutral, se pronuncia en contra del movimiento anti-/Digital Right Management/ promovido por la /Electronic Frontier Foundation/, la campaña /Defective by Design/ y la /Free Software Foundation/.
+9. Reconocimientos.
+   1. En el 2004 fue nombrado Knight por la Reina Elizabeth II.
+   2. En el 2007 fue incluido en la Órden de Mérito. Órden que solo se permite a 24 personas con vida.
+   3. En el 2016 recibió el ACM Turings Award por al invención de la WWW.
+
+** Recursos
+:PROPERTIES:
+:ID:       51d3a7fa-49b7-47ba-a685-c8739721808f
+:END:
+- Página personal de Tim Berners-Lee: https://www.w3.org/People/Berners-Lee/
+- Una pequeña historia de la World Wide Web: https://www.w3.org/History.html
+
+  Una línea de tiempo de la historia de la WWW.
+
 * Columna 55: Personas: Aaron Swartz
 :PROPERTIES:
 :ID:       402625d9-1798-4c42-b705-d3b8dbf4b42a
@@ -157,7 +202,7 @@ Preguntas:
 - ¿Qué le parece la idea de tener una biblioteca en Internet?
 - ¿Le parece que el Internet ofreció y ofrece un impacto positivo en la sociedad?
   - ¿Cómo debería utilizarse el Internet para ello?
-  - ¿Qué sucede si no a todas las personas acceden a la misma información y conocimiento (a las mismas páginas Webs)?
+  - ¿Qué sucede si no a todas las personas acceden a la misma información y conocimiento (a las mismas páginas Webs)? 
 
 * Columna 52: Personas: OpenAI
 :PROPERTIES:
