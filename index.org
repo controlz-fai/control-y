@@ -73,6 +73,9 @@ Está página se encuentra disponible en los siguientes formatos:
 :END:
 {{{tag(columna-56)}}}
 
+#+caption: Sir Tim Berners-Lee con Jude Kelly.
+[[https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Sir_Tim_Berners-Lee_and_Jude_Kelly.jpg/960px-Sir_Tim_Berners-Lee_and_Jude_Kelly.jpg]]
+
 1. Nació en 1955.
 2. Familia
    1. Sus padres trabajaron en la Ferranti Mark 1. Clementina (1961-1971), nuestra primer computadora, es una Ferranti Mercury, sucesora de esta.
@@ -102,7 +105,7 @@ Está página se encuentra disponible en los siguientes formatos:
    2. En el 2007 fue incluido en la Órden de Mérito. Órden que solo se permite a 24 personas con vida.
    3. En el 2016 recibió el ACM Turings Award por al invención de la WWW.
 
-** Recursos
+** Más información
 :PROPERTIES:
 :ID:       51d3a7fa-49b7-47ba-a685-c8739721808f
 :END:
@@ -110,6 +113,15 @@ Está página se encuentra disponible en los siguientes formatos:
 - Una pequeña historia de la World Wide Web: https://www.w3.org/History.html
 
   Una línea de tiempo de la historia de la WWW.
+
+** Recursos
+:PROPERTIES:
+:ID:       06fb9259-fd4a-4bf9-bd3d-9fd54929037c
+:END:
+
+#+attr_html: :width 25% :align left
+[[https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Sir_Tim_Berners-Lee_and_Jude_Kelly.jpg/960px-Sir_Tim_Berners-Lee_and_Jude_Kelly.jpg]]
+Obtenida desde Wikimedia commons bajo la licencia Creative Commons Atribución 2.0 Genérica.  [[https://commons.wikimedia.org/wiki/File:Sir_Tim_Berners-Lee_and_Jude_Kelly.jpg][Ver en Wikimedia Commons.]]
 
 * Columna 55: Personas: Aaron Swartz
 :PROPERTIES:
@@ -202,7 +214,16 @@ Preguntas:
 - ¿Qué le parece la idea de tener una biblioteca en Internet?
 - ¿Le parece que el Internet ofreció y ofrece un impacto positivo en la sociedad?
   - ¿Cómo debería utilizarse el Internet para ello?
-  - ¿Qué sucede si no a todas las personas acceden a la misma información y conocimiento (a las mismas páginas Webs)? 
+  - ¿Qué sucede si no a todas las personas acceden a la misma información y conocimiento (a las mismas páginas Webs)?
+** Recursos
+:PROPERTIES:
+:ID:       cdb7d848-1d16-4a56-b851-58faacb29246
+:END:
+
+#+attr_html: :width 25% :align left
+[[https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/AaronSwartzPIPA.jpg/960px-AaronSwartzPIPA.jpg]]
+bajo la licencia Atribución-CompartirIgual 2.0 Genérica de Creative Commons.
+[[https://commons.wikimedia.org/wiki/File:AaronSwartzPIPA.jpg][Ver en Wikimedia Commons.]]
 
 * Columna 52: Personas: OpenAI
 :PROPERTIES:
