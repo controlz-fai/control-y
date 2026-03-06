@@ -66,6 +66,42 @@ Está página se encuentra disponible en los siguientes formatos:
 # 
 # https://repositorio.curriculum.program.ar/repositorio-diseno-curricular/quien-soy-en-internet/
 
+* Columna 57: Personas: Bill Gates
+:PROPERTIES:
+:ID:       4181f7ae-e985-48d7-b924-6d1a8a9de83c
+:PUBDATE:  2026-03-06 vie 10:59
+:END:
+1. Nació en 1955 (70 años).
+2. En la secundaria donde iba, adquirieron una computadora donde Bill Gates tuvo sus primeros acercamientos.
+   1. Aprendió a programarla en BASIC.
+   2. Su interés en las computadoras y programación continúo con sus amigos.
+   3. Armó un club de programadores para ganar dinero.
+3. Luego, Gates fue penalizado de un centro de computo compartido por explotar errores del sistema para obtener más tiempo de uso.
+   1. Eran computadoras de uso compartido: llevabas tu programa, y se ejecutaba en una enorme máquina.
+   2. Al terminar su penalización, le ofrecieron trabajar para el centro de cómputo a cambio de tiempo de uso de la computadora.
+   3. Gates aprovechó para aprender del sistema y los lenguajes que usaba.
+4. Se graduó del secundario con honores y fue a Hardvard.
+5. Bill Gates estudió dos años en Harvard, *luego dejó para comenzar su compañía* "Micro-Soft".
+   1. Su compañero (futuro CEO de Microsoft) Steve Ballmer sí se graduó de Harvard.
+6. Microsoft:
+   1. 1975: Microsoft trabajó con MITS desarrollando Altair BASIC (del cual se filtraron copias de pre-venta).
+   2. 1980: IBM le solicita un intérprete de BASIC y un sistema operativo. Gates le ofrece adaptar 86-DOS desarrollado por la empresa SCP. Contrata a uno de los desarrolladores de SCP para continuar adaptándolo. Este nuevo software se llamó *PC DOS*.
+      1. Gates se enfoca en el prestigio y no en ganar dinero.
+      2. Observa que las máquinas IBM PC podrían ser clonadas, por lo que *no transfiere el copyright*.
+      3. MS-DOS es la versión de PC DOS vendida a otros clientes.
+      4. 1985: Realizan Windows 1.0 (compitiendo con el de Apple). En paralelo, en 1986, crean OS/2 junto a IBM.
+      5. El resto de los sistemas Windows crece a partir de MS-DOS (hasta el Windows XP)
+7. Microsoft y Bill Gates *han realizado donaciones* a distintas fundaciones ( Harvard, Carnegie Mellon, etc. una de las fundaciones es la propia Bill & Melinda Foundation).
+8. Bill Gates dejó de ser chairman en febrero del 2014. 
+9. ¿Es programador? \to{} Sin duda que fue programador de BASIC, Fortran, LISP y algún otro lenguaje. Era desarrollador mientras trabajaba en Microsoft.
+
+   Pero sin duda es un hábil negociante, posiblemente mejor que programador.
+10. En el COVID-19 sugirió a las compañías evitar liberar las patentes de las vacunas. Es crítico de las Criptomonedas. Ha comentado rechazos acerca de regulaciones en la industria del software. No estuvo muy a favor del ban a Trump en Twitter. Considera el cambio climático algo crítico para la sociedad, aunque la comunidad activistas es escéptica con su solucionismo tecnológico (y no incluir las soluciones hacia lo social-cultural).
+
+Preguntas:
+
+- Bill Gates entró en contacto jóven con las computadoras y la programación. ¿Qué les parece el acercamiento de las niñas y niños a la computación? ¿Sucede de la misma manera que como sucedió con Bill Gates? ¿Es importante que se acerquen para explorar y conocer las computadoras y la programación? ¿Podrá ser esto una razón por la que hay menos mujeres ingresantes a carreras STEM?
+
 * Columna 56: Personas: Tim Berners-Lee
 :PROPERTIES:
 :ID:       debce225-9ec5-4960-9bab-b7e7218d95fd
