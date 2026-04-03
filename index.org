@@ -66,6 +66,81 @@ Está página se encuentra disponible en los siguientes formatos:
 # 
 # https://repositorio.curriculum.program.ar/repositorio-diseno-curricular/quien-soy-en-internet/
 
+* Columna 59: Personas: ¡Evaluación! 😱
+Hoy, ¡examen! ¡saquen una hoja!
+
+Ejercicios: respondan las siguientes preguntas:
+
+- ¿De quiénes hablamos?
+  - Linus Torvards, Bill Gates, Richard Stallamn, Aaron Swartz, Tim Berners-Lee, Marissa Mayer, Anat Ashkenazi Ruth Porat, Carol Ann Bartz, Sam Altman, Greg Brockman, Sarah Friar, Paul Graham.
+- ¿Por qué hablamos de estas personas? ¿Qué hicieron de importante?
+  - OpenAI: Sam Altman, Greg Brocman, Sarah Friar
+  - Yahoo o Google: Marissa Mayer, Anat Ashkenazi, Ruth Porat, Carol Ann Bartz
+  - ¿Qué relación tienen con otras empresas o entidades?
+    - ¿Se acuerdan todas las entidades y empresas que mencioné?
+
+      AutoDesk y AutoCad, Nextdoor, AT&T Walmart, Starbucks, Helion Energy Inc., Y Combinator o Hacker News, Loopt, Bill & Mellinda Foundation, Wikipedia y otras Wikis, Infogami, Reddit, Public.Resource.Org, Open Library (archive.org).
+
+    - ¿Qué diferencia encuentran en las distintas entidades de cada persona que hablamos?
+  
+- ¿Qué diferencias encuentran entre las distintas personas?
+  - ¿Y la educación de las mujeres con respecto a la de los hombres en general?
+  - ¿Qué pensamientos y posturas tienen? ¿con cuáles Ustedes se identifican más?
+- ¿Qué relevancia tienen estas personas en la actualidad?
+  ¿Qué decisiones pueden tomar en la tecnología y la investigación?
+  ¿Por qué?
+- ¿Cómo afectó la universidad en sus vidas? ¿Les acercó el conocimiento que requerían? ¿Fue un nexo entre las personas, la academia y la investigación?
+  - ¿Qué impacto tiene la proximidad de la universidad en sus vidas? ¿cuál les parece que fueron las causas que hayan decidido ir a esas universidades y no a otras? 
+- ¿Cómo afectó el contacto con la computación a temprana edad?
+  - ¿Cómo ven el contacto que tuvieron estas personas con respecto al que hoy en día se dá en niñas y niños?
+- ¿Cómo era el acercamiento a la informática que daba la escuela en aquellas épocas? ¿y en la actualidad?
+
+* Columna 58: Personas: Linus Torvards
+
+1. Linus Benedict Torvards, nación en 1969 en Finlandia.
+2. A los *11 años* comenzo a programar en BASIC con una computadora VIC-20 (anterior a la Commodore 64). Más tarde aprendió a introducír el código máquina (no assembler).
+3. Fue a la Universidad de Helsinki en el 88', aunque sus estudios fueron interrumpido al primer año por hacer servicio militar obligatorio, luego continuó hasta recibirse de *Master en Ciencias de la Computación* con su tesis en 1997 "[[https://www.cs.helsinki.fi/u/kutvonen/index_files/linus.pdf][Linux: a Portable Operating System]]".
+4. En la universidad entró en contacto con una computador MicroVAX que tenía instalado el software ULTRIX, y con el libro /Operative Systems: Design and Implementation/ de Andrew Tanenbaum (ese mismo libro es el que usamos en la carrera de la FaI UNCo, pero varias ediciones actualizadas). En el libro describe cómo funciona un sistema operativo llamado MINIX.
+
+   - ULTRIX: un sistema privativo y cerrado por la empresa DEC, basado en UNIX.
+   - MINIX: (mini-unix) un sistema open source (abandonado a la fecha), basado en UNIX. Inicialmente fue pensado para enseñar, pero después sus objetivos migraron a un núcleo que sea confiable y utilizable en hardware con pocos recursos.
+
+   Si notaron los nombres de los sistemas...
+5. En 1991, recibe una copia de MINIX y compra una computadora IBM PC y comienza a trabajar con su núcleo Linux. Publicó varios prototipos desde los servidores de su universidad inicialmente.
+
+6. Debido a la charla que Richard Stallman realizó en la universidad y presiones de colaboradores, Linus libera el código con Licencia GNU GPLv2, haciendo de Linux un Software Libre. 
+   
+7. En 1994 publica Linux 1.0. Entre el 97' y 2003 trabaja en Open Source Development Labs, que luego se une con otra empresa y pasa a crearse la Linux Foundation, que es la entidad que actualmente sostiene el Linux.
+
+8. Recibió muchos reconocimientos, de parte de la IEEE (IEEE Computer Pioneer Award), Internet Hall of Fame, Lovelace Medal, EFF Pioner Award.
+
+   Linux se utiliza en: routers, servidores, celulares Android, muchos embebidos y electrodomésticos "smart" (heladeras, lavarropas, etc.).
+
+9. Personal: se considera agnóstico y le parece irónico que en muchos países europeos haya como una relación legal entre el estado y el estado religioso (citando la fuente: "/it's kind of ironic that in many European countries, there is actually a kind of legal binding between the state and the state religion./" de [[https://www.linuxjournal.com/article/3655][Linux Journal "/Interview: Linus Torvards/", 1999]]).
+
+   Si bien puede votar en Estados Unidos no desea afiliarse a ningún partido.
+
+   Es reconocido por ser una persona difícil de tratar en el ámbito laboral. [[https://arstechnica.com/information-technology/2013/07/linus-torvalds-defends-his-right-to-shame-linux-kernel-developers/][Se conocen casos que se dirije un tanto subido de tono a sus colaboradores.]]
+
+Preguntas:
+
+- De nuevo, ¿qué les parece el acercamiento temprano a las computadoras?
+  En este caso a la programación.
+  - ¿Qué diferencias encuentran en el acercamiento actual con respecto al que tuvo Linus hacia las computadoras?
+
+- Linux está hecho por muchas personas, ¿pudieron ver la importancia de trabajar en grupo y la colaboración?
+
+- Las primeras versiones de Linux se publicaron en el servidor de la Universidad de Helsinki.
+
+  ¡La tesis de Linus fue en el 97' y su proyecto inició en el 91'!
+  
+  ¿Observaron el efecto de la universidad como potenciadora de un proyecto tan grande?
+
+  Linus conoció MINIX y el libro de Tanenbaum en la universidad:
+
+  ¿Y la universidad como ente que aproxima las personas al conocimiento y desarrollo actual?
+  
+
 * Columna 57: Personas: Bill Gates
 :PROPERTIES:
 :ID:       4181f7ae-e985-48d7-b924-6d1a8a9de83c
