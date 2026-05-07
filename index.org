@@ -66,6 +66,45 @@ Está página se encuentra disponible en los siguientes formatos:
 # 
 # https://repositorio.curriculum.program.ar/repositorio-diseno-curricular/quien-soy-en-internet/
 
+* Columna 60: Prompting
+- Estamos frente a una compu con un LLM y queremos preguntarle algo:
+  - ¿Qué puede hacer por nosotros?
+  - ¿Cómo le pido algo?
+  - No me responde como esperaba, ¿cómo lo mejoro?
+- Supongamos que le escribo: /"quiero frases para el programa "Yo no fui""/
+  - Recibimos una lista de frases, posiblemente con toda una explicación y la simpatía del chatbot, y probablemente la lista de frases refieran a cualquier cosa.
+  - Pero nosotros queremos que un listado de frases pegadizas, que digan "Meteoro" y que sea para nuestro programa de radio.
+  - ¿Y si le decimos para qué es la frase?
+    /"Quiero frases que hable del programa de radio "Yo no fui" y es para reproducir en durante la tanda publicitaria. Las frases deben hablar de "Meteoro", el conductor del programa."/
+  - Pero en ninguna aparece Virgi ni Bomba: nunca le informamos al bot de ellos, y el bot no siempre busca información en Internet.
+    /"Quiero frases que hable del programa de radio "Yo no fui" y es para reproducir en durante la tanda publicitaria. Las frases deben hablar de "Meteoro", el conductor del programa. También pueden hablar de Virginia, Bomba o Pablo que siempre participan del programa."/
+  - ¿Qué pasó con mi prompt inicial? Fue *vago e incompleto*.
+
+- ¡Las frases pueden ser muy largas o cortas! 
+  - Le agregamos: "Solo deseo una frase de una o dos oraciones. No quiero explicaciones ni saludos."
+  - El bot no sabe cómo queremos la respuesta y si tiene que seguir algún *formato*.
+
+- Algunas frases son raras, con sentido medio extraño, o que no refieren mucho al programa.
+  - Si le damos ejemplo, sirve más, ¡hasta podemos ahorrarnos explicaciones!
+  - Le agregamos: "Por ejemplo: "Meteoro está arreglando el micrófono que se rompió, pero "Yo no fui"".
+  - Los LLM son excelentes con patrones. Por ello, darles *ejemplos* sirve muchísimo.
+    
+- Otra cosa es que queremos que la frase hable de un desperfecto y que able de Meteoro. Si habla del equipo de la radio mucho mejor.
+  - Le agregamos: "Se prefiere"
+    
+- Principios para un buen prompt
+  1. Dar dirección
+  2. Especificar el formato
+  3. Proveer ejemplos
+  4. Evaluar calidad
+  5. Dividir la labor
+
+Preguntas:
+
+- ¿Usabas los LLM así? ¿te pasó que le preguntaste algo y te respondió con algo que no era lo que buscabas?
+- Con los principios, ¿considerás que te puede ayudar para cualquier tarea? ¿para qué tareas puede no ayudarte?
+- ¿Puede responder cualquier pregunta? ¿cuáles sí y cuáles no? ¿por qué?
+
 * Columna 59: Personas: ¡Evaluación! 😱
 Hoy, ¡examen! ¡saquen una hoja!
 
