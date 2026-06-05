@@ -66,6 +66,51 @@ Está página se encuentra disponible en los siguientes formatos:
 # 
 # https://repositorio.curriculum.program.ar/repositorio-diseno-curricular/quien-soy-en-internet/
 
+* Columna 61: ¿Cómo un LLM genera texto?
+:PROPERTIES:
+:ID:       e16e1ec2-5bb1-4d5c-b1db-ee4d504f534a
+:PUBDATE:  2026-06-05 vie 11:37
+:END:
+{{{tag(columna-60)}}}
+
+1. Primero: tokenización.
+   1. Básicamente, por cada núcleo de palabra genera una secuencia de números.
+   2. "El programa de Mete está todas las tardes."
+   3. ¿Cómo le asigna números? \to{} por repetición en un corpus de entrada.
+      1. "Mete" \to{} 5, 20, 77, ...
+      2. "Yo no fui" \to{} 10, 21, 89, ...
+      3. "Mete", "Frizán", "Virgi" y "Bomba", en el septimogésimo número dice "70" o "71" los cuatro.
+      4. "Programa" en el quintigésimo segundo número debe decir 28, y "radio" puede ser 29.
+      5. Incluso "tardes" y "afternoon" también generarían números cercanos. Los sinónimos seguramente tienen números cercanos.
+      6. Cuanto más cerca, mayor relación de sintaxis o semántica.
+2. Tranformaciones.
+   1. Ahora supongamos un prompt. Le escribimos "¿Cuál es el mejor programa de radio?"
+   2. Lo mismo, cada palabra se convierte en muchos números, incluso los símbolos si tienen relevancia.
+   3. Fórmulas matemáticas buscan la relación entre palabras:
+      1. "Programa" y "radio" determina que están relacionados porque ambos tienen el número 28 y 29.
+      2. "Mejor" está en relación con "programa" porque 70  están en el septimogésimo número y otros números sumados y divididos me dán una cantidad determinada.
+      3. También la sintaxis: una fórmula matemática encuentra que "mejor" debe ir antes que "programa" puesto que tiene un valor de 10 en el nonagésimo primer número, como todos los adjetivos, y "programa" tiene 57, como todos los sustantivos.
+      4. Este análisis matemático complejo permite entender el contexto: cada vez que dice "programa", es de radio y no televisión.
+   4. El resultado, son muchas secuencias de números con todos los detalles codificados ahí.
+3. Generación de texto.
+   1. El proceso es el siguiente:
+      1. dado un prompt, lo tokeniza \to{} lo convierte en muchos números
+      2. esos números los transforma en vectores generando muchos números (que son representaciones de palabras).
+      3. y elije una de esas palabras con mayores probabilidades y esa es la que se queda
+      4. luego vuelve a repetir con todo y las palabras generadas.
+4. ¿De qué sirve saber esto?
+   1. ¿Recuerdan que les dije que al hacer un prompt, una palabra puede cambiar mucho la respuesta?
+   2. ¿Hay un proceso de razonamiento (/modus ponens/ / deducción, inducción, diagnóstico)?
+   3. Si es probabilístico, ¿qué es lo que funciona mejor? ¿qué opinan si utilizo algo que no sea un patrón? ¿podemos concluir que los LLM piensan, sienten o se ven influenciados por los sentimientos?
+   4. ¿Qué sucede si uno imagina un paisaje o una canción y trata de explicarla? ¿podrá repetir este proceso? ¿cómo sería imaginar el paisaje o la canción para el LLM? ¿o debemos dárle la canción para que explique cómo le influencia?
+   5. ¿Las "influencia" o las explicaciones estarían basadas en una experiencia personal o patrones encontrados en Internet?
+   6. ¿Se puede asegurar que un LLM siempre responda información verídica? Como los LLM se suelen entrenar con información de Internet: ¿qué pasa si en Internet se repite la misma información falsa (por ejemplo: se repite que 2 + 2 = 5, o sea, aún si nuestra deducción indicaría que esa información está mal)?
+   7. ¿Qué pasa con la información que no está presente en Internet, pero puede deducirse? Por ejemplo, la hora actual en Japón puede no estar en Internet, pero se sabe que es de 12 horas más: ¿podría el LLM contestar con la hora correcta?
+
+      Los LLM pueden tener procesos extras para estos casos. ¿Cuáles programas extras y cuáles casos extras se resuelven que no sean con el LLM?
+   
+Bibliografía: "Prompt Engineering for Generative AI", James Phoenix y Mike Taylor. O'Reilly. 2024.
+
 * Columna 60: Prompting
 :PROPERTIES:
 :ID:       58a0e00d-c74c-4dfd-af2d-68bfa69482dc
