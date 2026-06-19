@@ -66,12 +66,91 @@ Está página se encuentra disponible en los siguientes formatos:
 # 
 # https://repositorio.curriculum.program.ar/repositorio-diseno-curricular/quien-soy-en-internet/
 
+* Columna 62: ¿Para qué podemos usar el LLM?
+:PROPERTIES:
+:ID:       cee7463a-d388-46f7-bed8-f6b76a67003d
+:PUBDATE:  2026-06-18 jue 22:23
+:END:
+{{{tag(columna-62)}}}
+1. ¿Para qué usar el LLM?
+   - Ahora que comenté cómo hacer un prompt y cómo funciona \to{} ¿cómo la podemos usar?
+   - Cabe aclarar que:
+     - ¿Es posible instalar un LLM en mi compu? \to{} Si tenemos una compu con excelente placa de video, algunas LLM se pueden instalar... aunque para una persona no vale la pena.
+     - ¿Entonces? \to{} Se utilizan servicios de Internet.
+     - En resumen: hay LLM que se pueden instalar en tu institución y hay servicios en Internet para usar las LLM de terceros.
+       - Esto quiere decir que mañana pueden aparecer nuevos servicios LLM...
+2. Generar texto:
+   1. Hacer resúmenes. Consultar algo que diga un texto.
+   2. Búsqueda en grandes textos.
+   3. Sugerencias de escritura: formal, cordial, amistosa, cambiando de intención, mejorando la escritura, ideas para comenzar a escribir.
+   4. Determinar intenciones y posibles sentidos. "La persona que escribió el texto ¿demuestra felicidad?"
+   5. Realizar traducciones. Determinar significados y formas de escritura.
+   6. Explicaciones de conceptos. Búsquedas en Internet.
+   7. Interpretar o explicar fórmulas (hojas de cálculo o matemáticas), códigos de programas, etc.
+   8. Generar fórmulas para hojas de cálculo, códigos de programas, etc.
+3. Procesar imágenes
+   1. Transcribir textos (OCR) \to{} útil para copiar y pegar.
+   2. Describir imágenes y sus situaciones \to{} muy útil para personas con problemas de visión.
+   3. Buscar algo específico en la imágen. Identificación de objetos o personas y sus contornos.
+   4. Describir un modelo o diagrama. Determinar si se puede intrepretar correctamente.
+   5. Describir una fórmula matemática, una receta u otro contenido en una imágen.
+   6. Traducir textos y carteles de una imágen.
+4. Generar imágenes:
+   1. Arreglos y cambios sencilos en las fotografías y dibujos.
+   2. Hay LLM para hacer diagramas: sugerencias de modelado.
+   3. Generación de sugerencias de ávatares, logos, etc.
+   4. Conversión de 2D a 3D.
+5. Procesar sonidos
+   1. Determinar una canción o melodía.
+   2. Determinar qué suena o quién canta (si es una persona pública, también se puede saber identificando la canción y preguntandole a otro chat su cantantes).
+   3. Transcribir a texto (Speach To Text o STT).
+   4. Resumir, describir el sonido o canción.
+   5. Describir intención: "¿está enojado?"
+6. Generar sonidos
+   1. Generar canciones, melodías.
+   2. Generar voces.
+   3. Leer textos con distintas entonaciones o voces.      
+7. ¿Qué tareas conviene usar una IA Generativa?
+   1. Hay cosas que se pueden hacer con programas sencillos... ¿vale la pena usar tanto procesamiento?
+      1. Sumamos números, sacamos porcentajes.
+      2. Supongamos que queremos extraer de un texto desde que empieza "Listado de programas" hasta "esos es todo".
+      3. Buscar una frase explícita en un documento: ¡usar ctrl+f!
+   2. Hay cosas que es difícil de hacer en un programa sencillo:
+      1. Determinar la intención de un texto
+      2. Buscar un patrón o similitud en el texto: "¿se parece un texto de Shakespeare?"
+      3. Resumir y generar un texto con otras palabras.
+   3. Hay cosas que éticamente no deberíamos o que hay enormes riesgos:
+      1. Si supíesemos programar, ¿permitiríamos tomar control de algún artefacto?
+      2. ¿Permitiríamos que sustituya el rostro de una persona en una foto o que detecte las emociones de las personas en una institución pública en cualquier situación o contexto?
+8. Pero... ¿debemos aceptar lo que nos dice?
+   1. Siempre se debe estar chequeando la salida: /human in the loop/.
+   2. No siempre aceptar que lo que nos entrega es correcto.
+   3. Usarlo para sugerencias \to{} es ideal saber acerca de lo que se está preguntando.
+      1. Es muy difícil de determinar si consutamos algo que no sabemos nada: "dame el código fuente en Python que simule peces en una pecera" \to{} ¿sabemos de programación? ¿me dará un código en paradigma imperativo, o orientada a objetos?
+9. Top LLM:
+   1. GPT 5 (OpenAI/ChatGPT), Gemini (Google), Llama (Meta), Grok (xAI), Claude (Anthropic), QWen (Anthropic), DeepSeek.
+   2. Imágenes: Midjourney, Stable Diffusion, DALL-E (ChatGPT), Firefly
+   3. Videos: DeeVid, Kling, Seedance, Gemini Omni, Sora, Grok Imagine
+   4. Música: Suno, Lyria, Eleven Music, Google Flow Music, Stabel Audio,
+   5. Archivos: GPTExcel, ChatPDF, 
+   6. Escritura: NotebookLM, Quillbot
+   7. Otras: hay servicios para logos, diseño 3D, asistentes personales (calendarios y agendas), organización de conceptos, generación de cuentos, búsqueda en Internet y en archivos, generación de presentaciones, edición de video, audios e imágenes, diseño de páginas Webs, procesamiento de correos, agentes, generadores de agentes
+
+Para seguir buscando:
+
+- https://github.com/steven2358/awesome-generative-ai 
+- https://github.com/ai-collection/ai-collection
+- https://llm-stats.com/ (no lo he chequeado completamente)
+- https://aimultiple.com/generative-ai-applications#text-based-applications (no lo he chequeado completamente)
+- https://a16z.com/100-gen-ai-apps-6/
+- https://www.aixploria.com/
+
 * Columna 61: ¿Cómo un LLM genera texto?
 :PROPERTIES:
 :ID:       e16e1ec2-5bb1-4d5c-b1db-ee4d504f534a
 :PUBDATE:  2026-06-05 vie 11:37
 :END:
-{{{tag(columna-60)}}}
+{{{tag(columna-61)}}}
 
 1. Primero: tokenización.
    1. Básicamente, por cada núcleo de palabra genera una secuencia de números.
